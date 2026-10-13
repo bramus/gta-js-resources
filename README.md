@@ -22,7 +22,8 @@ Note: Assets marked with _(*)_ can be found in the `./data` subfolder
   - “CityScape Data Structure” `cds.doc` (Technical details of the GTA1 map format (.cmp) by DMA Design): https://web.archive.org/*/https://gtamp.com/dl/file.php?id=51 _(* also available as Markdown file)_
   - GTA1-mapeditor: https://github.com/VBGAMER45/gta1-mapeditor
   - Extra notes about cds.doc and others things: https://web.archive.org/web/20080820104252/http://www.fifengr.com/gtacars/topic.html _(* saved as `data/notes.html`)_
-  - The Unofficial GTA Reference Handbook: https://web.archive.org/web/20050219185438/http://gta.mendelsohn.de/Reference/ _(* Multipled files, saved in `data/handbook/`)_
+  - The Unofficial GTA Reference Handbook: https://web.archive.org/web/20050219185438/http://gta.mendelsohn.de/Reference/ _(* Multiple files, saved in `data/handbook/`)_
+  - Gourange Missions and Guides: https://web.archive.org/web/20050407123226/http://missions.gouranga.com/index.shtml _(* Multiple files, saved in `data/gouranga-missions`)_
 - Other tools (open source)
   - File format extractors for g24 and fxt in python: https://github.com/VBGAMER45/gta-g24-fxt-extractors
 - Other tools (closed source)
