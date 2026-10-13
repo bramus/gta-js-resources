@@ -1,0 +1,115 @@
+Ben "Cerbera" Millard
+Updated: 5th September 2004
+
+  Paramater list and basic object manipulating commands are demonstrated by me here.
+
+Syntax
+------
+N.B. Coordinates are in PIXELs.  There are 64 pixels to one side of each map cube.
+
+Object:
+200 1 (12345,3456,256) FUTURE 0 512
+
+
+Creation
+--------
+100 MAKEOBJ 200 0 0 0 0
+
+Removal:
+102 KILLOBJ 200 0 0 0 0
+ OR
+Leave out the '1' flag from the FUTURE line and use:
+102 RESET 0 0 -1 -1 0 {clears entire mission environment}
+
+Objects Types
+-------------
+0	Umberalla	Tyre
+1	Tyre		Tyre
+2	Lid		Binlid
+3	Bin		Bin without lid
+4	Cone		Traffic cone
+5	Flowers		Tree
+6	Barrier		Roadblock
+7	Barrier2	Gravestone
+8	Bench		Bench
+9	Gravestone	Bollard (white)
+10	Smoke		NULL?
+11	Skidmark	Road skidmark
+12	Bloodskid	Blood skid
+13	Spark		Bullet hitting object.
+14	Train Doors	Train doors, close.
+15	Blood		ANIMATED Blood smear, start.
+16	TlrBox		Dirt skidmark
+17	Dirtskid		Dirt skidmark
+18	Fire		Flames, extinguishing.
+19	Fire2		NULL?
+21	Interior2	Dirtskid, faded
+22	Bomb		Dirtskid, faded more
+25	Bumper		Crome bumper, like from the Beetle.
+26	Tree1		Shrub tree, solid trunk, Chinatown style
+27	Tree2		Green light
+28	Tree3		Yellow light
+30	Crane		Crane
+31	Missile		Missile (stationary) doesn't blow up
+33	Turret		Tank turret
+34	Turret Gun	Tank muzzle
+38	Z Turret	Screwed tank turret
+39	Z Gun		Screwed tank muzzle
+40	Phone		Phone
+41	Case		Briefcase
+43	Rubble		Red briefcase-size brick
+44	Rubble2	White briefcase-size brick
+45	Rubble1	Small red brick
+46	LFire		Person fire going out
+47	Dropoff		Dropoff point, white circle with suitcase icon.
+48	FW1		Fire truck water, doesn't animate
+49	FW2		Fire truck water hitting object, doesn't animate
+50	Firehose	Fire hose/pump from roof of truck
+51	Big Smoke	ANIMATED smoke, transparency, disperses.
+52	Strecher	Solid oblong of red
+53	Exhaust		Indistiguishable piece of metal, looks like shrapnel!
+54	Splash		ANIMATED Water splash
+55	Arm1		Fire truck hose arm, start
+56	Arm2		Fire truck hose arm, middle
+57	Arm3		Fire truck hose arm, end
+59	Swatgun	Blue fire truck turret
+60	Checkflag	Tyre
+63	First Blood	ANIMATED blood smear
+64	Body		Blood smear finished
+65	Post		1-pixel solid post, for tree trunks etc
+66	Post2		1-pixel solid post, for tree trunks etc
+67	Smk		Very strange, little puff of smoke lasts 1 frame
+68	Post3		1-pixel solid post, for tree trunks etc
+69	Barrel2		Green barrel.  If something explodes near it, it explodes too!
+70	Camera		Camera, bit skanky
+74	Bullet		Bullet, stationary.
+75	Fireball		Dot
+77	Blood Smear	Blood smear from staggering ped
+86	Beachball	Tyre
+87	Bollard		Bollard (grey)
+88	Waving Flag	ANIMATED flag, waves once then disappears
+89	Rubbish		Wooden crate rubbish, as in Sailor's Warf
+94	Helipad		Helipad!
+
+Powerup objects - CANNOT BE PICKED UP:
+78	Pistol		Pistol
+79	Uzi		Uzi
+80	Rocket		Rocket launcher
+81	Flamethrower	Flame Thrower
+95	Haylup		Info point
+96	Shield		Speed up
+97	Light		Armour
+98	Key		Get outta jail free key
+99	Extra Life	Extra life
+100	Multiplier +	Multiplier up
+101	Police Bribe	Police bribe
+Maybe would work if you do POWERUP_ON??
+
+Crate:
+84	Normal crate, will go OVER weapon, DOES NOT GET BROKEN
+85	ANIMATED debris exploding off crate.
+
+92	Rotors		Spin once, then dissapear
+93	Rubbish2	ANIMATED Sailors Warf rubbish, getting thrown apart.
+
+N.B. These have been tested by me for San Andreas tesxtures ONLY.  All the objects have been left in, those that are not created are said to be NULL.  Most objects have not been tested for solidity to vehicles.

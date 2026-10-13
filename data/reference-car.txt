@@ -1,0 +1,194 @@
+Ben "Cerbera" Millard
+Updated: 5th September 2004
+
+  This file contains the vehicle model numbers so that you can (hopefully reliably) use cars in any level.  It also contains the most elemental of FUTURECAR related codeing.  If you feel you know it all take a look anyway you see some intriguing use of a parameter you didn't think did anything.
+
+  The GTA mission code vocabulary is vast, and its usage basically infinite.  As such I intend to provide exhaustive tutorials only to the most basic methods of using the basic objects (cars, peds, doors etc.) and the basic commands (STEAL, REMAP, OPEN etc.) which are requred for the basic code.  What I hope to achieve is to show you all the simpliest intracacies for you to expand upon and create imaginative, professional code - particularly the profesional side, as we create levels and code to provide alternatives to the original game code, and so it should be just as bullet-proof.  Mine is glichable, but not crashable.  I feel that is the least that can be asked of a coder, and as such the tone for these guides will be less than jouvial, but hopefully informative, intuitive and inspiring!
+
+
+Syntax for objects
+------------------
+200 1 (200,200,2) OBJECT 41 512
+CUBE CO-ORDS^      OBJECT^    ^FACING
+                     TYPE      ANGLE
+
+Syntax for commands
+-------------------
+2000 COMMAND  200  2001  2000  -1   1000
+       CONTROL^   TRUE^  ^FALSE ^WAIT  ^POINTS
+       OBJECT     LINE    LINE   TIME   GAINED
+
+ The first thing you need to know is above.  It's fairly simple, but there are variations for the object lines, such as with DOORS and specialist triggers i.e.  CARDESTROY_TRIG, CARSTUCK_TRIG etc used normally for when you have a car to hijack or destroy.  These triggers have their co-ord set as (0,0,0) and will follow the vehicle specified in their syntax.
+
+ The commands are basically the same, but the WAIT TIME value is sometimes used as a second object, such as the LOCATE command.  This command will prove true when the first object encounters the second.
+
+
+Angle
+-----
+   0  South
+ 128 South-East
+ 256 East
+ 384 North-East
+ 512 North
+ 670 North-West
+ 768 West
+ 896 South-West
+1024 South (again)
+
+
+
+Model Guide
+-----------
+
+Liberty City:
+
+00  Viper GTS
+01  VW Beetle
+02  Countash
+03 Harley
+04 Police Car
+05 Ambulance
+06 Land Rover
+07 [not featured]
+09 Bus
+12 Train
+13 Boat
+14 Porsche Roadster
+19 Jeep
+21 Ford Mustang
+22 Taxi
+25 Chevy Impala
+26 Jugular
+27 Ford F-100
+28 Porsche Turbo
+31 Bulldog
+34 Dodge Challenger
+35 Cadillac Limosine
+37 Tank 
+41  Superbike 
+42  Fire Engine 
+43  School Bus 
+44  Tanker 
+45  TV Van 
+46  Transit Van 
+47  [Model Car] 
+50 [not featured] 
+51 [not featured] 
+52 [(blue) 00] 
+54 Mundano 
+55 [not featured] 
+58 Plymouth 
+61 [not featured] 
+62 [see 14] 
+63 [not featured] 
+64 Plymouth Saloon 
+65 [not featured] 
+66 [not featured] 
+70 Buick Regal 
+72 Ford Thunderbird 
+74 [not featured] 
+75 [not featured] 
+76 Corvette Stingray 
+77 [not featured] 
+78 [not featured] 
+79 [not featured] 
+80 Morgan 4 
+81 [not featured] 
+82 [not featured] 
+83 [not featured] 
+86 [not featured] 
+99 [not researched] 
+
+
+San Andreas:
+
+01 VW Beetle
+03 Harley
+04 Police Car
+05 Ambulance
+06 Land Rover
+07 Juggernaut
+09 Bus
+12 Tram
+13 Boat
+19 Jeep
+22 Taxi
+31 Bulldog
+35 Yakuza Limo
+37 Tank
+41 Superbike
+42 Fire Engine
+43 Jesus Bus
+44 Tanker
+45 TV Van
+46 Transit Van
+47 [Model Car]
+50 Roadster
+51 Hippie Combi
+53 Viper GTS
+54 Mundano
+55 Viper RT/10
+58 Plymouth
+61 Speeder
+62 Porsche Roadster
+63 Custom '57
+64 Plymouth Saloon
+65 Chevy Pickup
+66 Ferrari GTO
+70 Buick Regal
+71 Custom Beetle
+73 [not featured] 
+74 Porsche Carrera
+76 Corvette Stingray
+79 Camaro Z28
+86 Cadillac Limosine
+99 A.P.C.
+
+
+Vice City:
+
+(Check VC-One vehicles list.)
+
+
+
+FUTURECAR missions
+------------------
+ This section shows how car code is (VERY) basically used.  The below code assumes you have the below line in the same section as the PLAYER statement.  Type the commands after the -1 after the PLAYER line, once the STARTUP section is initiated by a TRIGGER.
+
+
+2002 (200,200,2) FUTURECAR 41 512
+CUBE CO-ORDS ^        VEHICLE^    ^CAR
+                         TYPE      ANGLE
+
+Cheering on entry
+-----------------
+100 STEAL 2002 0 100 -1 1000 
+ VEHICLE LINE^ WAIT^    ^CARJACKING
+               TIME      BONUS
+
+ This is the line to use when you want hte cheering when the PLAYER steals a specific car.  The 100 is in the 'FALSE' position, meaning that if the car is not yet stolen it should go to line 100, which has the effect of testing again.  The -1 in the 'SPECIAL' position shows to wait forever.  If this is was set to 30, it would keep testing 30 times then skip to the next line.  When th PLAYER enters the car, the 0 in the 'TRUE' position indicates that no special line is to be jumped to, and so the command processor falls through to the next line.
+ By using a 0 in place of the -1 a single test is made.
+
+
+Advanced uses
+-------------
+100 STEAL 2002 200 100 30 1000 
+102 MOBILE_BRIEF 0 0 0 0 1000 
+[FAILED MISSION CODE]
+110 DONOWT 0 -1 -1 0 0 
+
+200 MOBILE_BRIEF 0 0 0 0 1001 
+[ACCEPTED MISSION CODE]
+210 DONOWT 0 -1 -1 0 0 
+
+ Here the PLAYER is required to steal the car within 30 frames which is about one second.  If he does, command jumps to 200 (as 200 is in the 'TRUE' position) where a positive phone call indicates what he is to do with the car.  If the PLAYER fails to steal the car, command falls to 102 where a negative call is shown and mission failed code occurs.
+
+
+Checking for destruction
+------------------------
+100 DESTROY 2002 0 0 -1 0 
+  VEHICLE LINE^   WAIT^ ^REWARD
+                  TIME   BONUS
+
+ If you wish for a car NOT to be destroyed the above line is preffered.  If it is to be destroyed the 100 should be placed in the 'TRUE' section and 0 in the 'FALSE' position.
+ This line is conventionally KICKSTARTED before the 'STEAL' line, and then KILLED at the end of the mission, or is set off by the car being destroyed, as is demonstrated later.  Another way is to use a CARDESTROY_TRIG object, but that is only required in complicated scenarios.  Both are used in my mission code, and once you have become familiar with what actually happens in the mission (GOOD IDEA: Pause the game and WRITE what is happening!!) you can begin learning to 'read' the mission code as I can.

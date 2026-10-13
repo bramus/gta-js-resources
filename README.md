@@ -1,0 +1,41 @@
+# Links and Resources
+
+Note: Assets marked with _(*)_ can be found in the `./data` subfolder
+
+- Video of original GTA gameplay: https://www.youtube.com/watch?v=ahOIJNLLtkI
+- GTA Web GL:
+  - Orignal: https://github.com/niklasvh/WebGL-GTA
+  - Fork that seems to have advanced quite a bit: https://github.com/GiovanniNery/WebGL-GTA
+  - Very advanced edition: https://github.com/VBGAMER45/gta1-webedition
+- C++ GTA Clones:
+  - https://github.com/madebr/OpenGTA
+  - https://github.com/codenamecpp/carnage3d/
+- MISSION.INI
+  - “Mission Template Description” `mtd.doc` (GTA1 mission.ini documentation (must read for GTA1 mission makers): https://web.archive.org/*/https://gtamp.com/dl/file.php?id=52 _(* also available as Markdown file)_
+  - Smallest `MISSION.INI`: https://projectcerbera.com/gta/1/tutorials/smallest _(*)_
+  - `SENDTO` command documentation: https://projectcerbera.com/gta/1/tutorials/sendto _(*)_
+  - Mission cleanup: https://projectcerbera.com/gta/1/tutorials/mission-cleanup _(*)_
+  - Instane stunts: https://projectcerbera.com/gta/1/tutorials/insane-stunts _(*)_
+  - Comments: https://projectcerbera.com/gta/1/tutorials/comments _(*)_
+  - `PARK` command example: https://projectcerbera.com/gta/1/tutorials/park _(*)_
+- Other Technical Documentation and links
+  - “CityScape Data Structure” `cds.doc` (Technical details of the GTA1 map format (.cmp) by DMA Design): https://web.archive.org/*/https://gtamp.com/dl/file.php?id=51 _(* also available as Markdown file)_
+  - GTA1-mapeditor: https://github.com/VBGAMER45/gta1-mapeditor
+- Other tools (open source)
+  - File format extractors for g24 and fxt in python: https://github.com/VBGAMER45/gta-g24-fxt-extractors
+- Other tools (closed source)
+  - FXT2TXT: https://gta.mendelsohn.de/gman/fxt2txt/
+- Other resources
+  - Characters in GTA1 (found in english.fxt): https://projectcerbera.com/gta/1/tutorials/characters _(*)_
+  - Random Pager Messages in GTA 1 Coding: https://projectcerbera.com/gta/1/tutorials/random-pager _(*)_
+  - Set of reference files
+    - `reference-block.txt`: Manipulating map block data _(*)_
+    - `reference-car.txt`: Lists all vehicle indentifiers and some relevant commands _(*)_
+    - `reference-misc.txt`: Two sets of uncommented code examples _(*)_
+    - `reference-misc2.txt`: ??? _(*)_
+    - `reference-object.txt`: Using dynamic objects, such as potted trees and bollards _(*)_
+    - `reference-ped.txt`: Ped remaps, AI types and relevant commands _(*)_
+    - `reference-powerup.txt`: Complete list of all valid powerups _(*)_
+
+- Full GTA Data files
+  - https://archive.org/download/grand-theft-auto-1997-dma-design/Grand%20Theft%20Auto%20%281997%29%28DMA%20Design%29.zip

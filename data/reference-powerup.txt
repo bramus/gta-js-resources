@@ -1,0 +1,23 @@
+Ben "Cerbera" Millard
+Updated: 5th September 2004
+
+  Full tested list of valid powerup types available in GTA1.
+
+Powerup Types
+-------------
+ID	POWERUP		AMOUNT
+1	PISTOL		20
+2	UZI		20
+3	ROCKETS		6
+4	FLAME		10
+5	[EMPTY]		N/A
+6	SPEEDUP		TIMED (1MIN?)
+7	[EMPTY]		N/A
+8	[EMPTY]		N/A		
+9	COP BRIBE	WHATEVER IT TAKES!
+10	BODY AROMOUR	3 HITS
+11	MULTIPLYER +	1
+12	GET OUTTA JAIL	1
+13	EXTRA LIFE	1
+14	HAYLUP		10 = The FXT entry for [help10] is displayed as a message.
+15	EXTRA LIFE	1 & SOUND
