@@ -1,0 +1,363 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>MISSION.INI File</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19971227;22551808">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19971228;4064599">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="Structure of the MISSION.INI file">
+	<META NAME="KEYWORDS" CONTENT="MISSION.INI file">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">MISSION.INI</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="Fil_index.html"><FONT FACE="ProseAntique"><FONT FACE="ProseAntique">Files</FONT></FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">Fil_MISSION.INI.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H3><FONT FACE="ProseAntique">Name</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">MISSION.INI - contains objects
+	and actions for all missions</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Location</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">gtadata\mission.ini</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Availability</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">all GTA Demos, GTA Full Version</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Description</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">This file contains the &quot;logic&quot;
+	of the missions. If GTA was a pinball table, this would be the
+	underside. It defines the works. Contained in this file are objects
+	and actions that set them in motion when the player triggers them. A
+	little programming experience helps when trying to understand the
+	actions.</FONT></P></DD>
+	<DD><P><FONT FACE="Venetian301 BT"><A HREF="#Struc">MISSION.INI
+	Structure</A> - Overall Structure of MISSION.INI</FONT></P></DD>
+	<DD><P><FONT FACE="Venetian301 BT"><A HREF="#ID">Mission ID Number
+	and Config Statement</A> - first part of a mission, contains general
+	information</FONT></P></DD>
+	<DD><P><FONT FACE="Venetian301 BT"><A HREF="#Obj">Object Code
+	Section</A> - second part of a mission, contains objects</FONT></P></DD>
+	<DD><P><FONT FACE="Venetian301 BT"><A HREF="#Prg">Program Statement
+	Section</A> - third part of a mission, contains actions</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Usage</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">MISSION.INI is a text file that
+	can be modified by any editor that can handle large files. A search
+	function comes in handy.</FONT></P></DD>
+	<DD><H4><A NAME="Struc"></A><FONT FACE="ProseAntique"><FONT SIZE=3><I>MISSION.INI
+	Structure</I></FONT></FONT></H4>
+	<DD><P><FONT FACE="Venetian301 BT">This file contains information
+	for several missions in sequence:</FONT></P></DD>
+	<DD><PRE>&lt;Mission&gt;
+&lt;Mission&gt;
+&lt;Mission&gt;
+....</PRE>
+	<DD><P><FONT FACE="Venetian301 BT">Every &lt;Mission&gt; consists of
+	several parts:</FONT></P></DD>
+	<DD><PRE><B>[</B>ID Number<B>]</B>
+&lt;Mission Config Statement&gt;
+&lt;Object Codes&gt;
+<B>-1</B>
+&lt;Program Statements&gt;
+<B>-1</B></PRE>
+	<DD><P><FONT FACE="Venetian301 BT">After the final <B>&#150;1</B>
+	follows the ID Number of the next mission.</FONT></P></DD>
+	<DD><H4><A NAME="ID"></A><FONT FACE="ProseAntique"><FONT SIZE=3><I>Mission
+	ID Number and Config Statement</I></FONT></FONT></H4>
+	<DD><P><FONT FACE="Venetian301 BT">Every Mission has a unique ID
+	number. The first mission, &quot;gangsta bang&quot;, has the ID <B>[1]</B>
+	. The multiplayer missions have four-digit ids such as [1001]. </FONT></P></DD>
+</DL>
+<TABLE WIDTH=100% CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=128*>
+		<COL WIDTH=128*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=50% VALIGN=TOP>
+				<DL>
+					<DD><P><FONT FACE="Venetian301 BT">The Mission Config Statement
+					looks like this:</FONT></P></DD>
+					<DD><PRE>description, p1, map, p2,
+p3 p4 p5 p6 p7 p8</DL></PRE>
+			</TD>
+			<TD WIDTH=50% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">Example:</FONT></P>
+				<PRE>Easy Liberty City NEW,  22, nyc.cmp, 0, 
+100 1 1 1 1 0 </PRE></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DD><P><FONT FACE="Venetian301 BT"><B>description</B> is not used by
+	the game but helps you find your way in MISSION.INI.<BR><B>map</B>
+	is the name of the city map file that this mission uses; I will talk
+	about these files below.<BR><B>p7</B> indicates whether the mission
+	will have police: 1=police, 0=no police<BR>I do not know the meaning
+	of <B>p1-p6</B> and <B>p8</B> yet.</FONT></P></DD>
+	<DD><P><FONT FACE="Venetian301 BT">See also: <A HREF="Ref_ConfigStatements.html#List">List
+	of ID Numbers and Config Statements from the full game</A></FONT></P></DD>
+	<DD><H4><A NAME="Obj"></A><FONT FACE="ProseAntique"><FONT SIZE=3><I>Object
+	Codes</I></FONT></FONT></H4>
+	<DD><P><FONT FACE="Venetian301 BT">This sections contains a list of
+	objects that are used by a mission. Most are placed on the map when
+	a mission starts (e.g. <A HREF="Obj_PARKED.html">PARKED</A>=parked
+	car, <A HREF="Obj_POWERUP.html">POWERUP</A>=crate with goodie). Some
+	objects remain invisible and fulfill some other function (e.g.
+	CARTRIGGER=triggers an action when a car is entered,
+	MISSION_COUNTER=holds the number of completed jobs). These objects
+	can be manipulated by program statements in the next section or
+	start a program routine in that section when the player performs
+	some action.</FONT></P></DD>
+</DL>
+<TABLE WIDTH=100% CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=128*>
+		<COL WIDTH=128*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=50% VALIGN=TOP>
+				<DL>
+					<DD><P><FONT FACE="Venetian301 BT">Object Codes look like this:</FONT></P></DD>
+					<DD><PRE>lineno (x,y,z) keyword p1 p2 ...
+lineno 1 (x,y,z) keyword p1 p2 ...</DL></PRE>
+			</TD>
+			<TD WIDTH=50% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">Example:</FONT></P>
+				<PRE>0 1 (108,108,4) TELEPHONE 0 768 
+262 (207,224,4) TRIGGER 4080 0 </PRE></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DD><P><BR></P></DD>
+</DL>
+<TABLE WIDTH=100% CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=40*>
+		<COL WIDTH=216*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=16% VALIGN=TOP>
+				<DL>
+					<DD><B><FONT FACE="Venetian301 BT">lineno</FONT></B> </DD>
+				</DL>
+			</TD>
+			<TD WIDTH=84% VALIGN=TOP>
+				<DL>
+					<DT><FONT FACE="Venetian301 BT">All Objects are referred to by
+					their unique number (range 0-32767). You may skip some numbers (
+					1 2 4 5). I do not know if you can place them out of order (5 7
+					6).</FONT> </DT>
+				</DL>
+			</TD>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD VALIGN=TOP SDVAL="1" SDNUM="1031;0;Standard">
+				<DL>
+					<DD><P ALIGN=LEFT><B><FONT FACE="Venetian301 BT">1</FONT></B> </DD>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><FONT FACE="Venetian301 BT">Some keywords have it always,
+					some never, and some sometimes (e.g. POWERUP has it 42 times,
+					but appears 2459 times without it). I don't know why it's there.</FONT>
+					</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<DL>
+					<DD><FONT FACE="Venetian301 BT"><B>(x,y,z)</B> </FONT></DD>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><FONT FACE="Venetian301 BT">Coarse 8-bit [(0,0,0) to
+					(255,255,5)] or fine 14-bit [(0,0,0) to (16383,16383,320)]
+					<A HREF="Ref_Coordinates.html">coordinates</A> of the object. </FONT></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<DL>
+					<DD><B><FONT FACE="Venetian301 BT">keyword</FONT></B> </DD>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><FONT FACE="Venetian301 BT">One of 72 <A HREF="Ref_ObjectCodes.html">keywords</A>
+					that define the type of object.</FONT> </DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<DL>
+					<DD><FONT FACE="Venetian301 BT"><B>p1 p2 ...</B> </FONT></DD>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><FONT FACE="Venetian301 BT">Depemding on the keyword, 2-5
+					parameters that define the object more closely.</FONT> </DT>
+				</DL>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><BR>See also: <A HREF="Ref_ObjectCodes.html">Object
+	Codes Overview</A></FONT>, <A HREF="Ref_Coordinates.html">Coordinates</A></P></DD>
+	<DD><H4><A NAME="Prg"></A><FONT FACE="ProseAntique"><FONT SIZE=3><I>Program
+	Statements</I></FONT></FONT></H4>
+	<DD><P><FONT FACE="Venetian301 BT">GTA responds to a players actions
+	with programmed responses. Most often they are triggered by player
+	when he passes the location of TRIGGER objects. Actions may alter
+	the state of game objects and player attributes (e.g.
+	DROP_WANTED_LEVEL ), display messages and advance the missions.</FONT></P></DD>
+</DL>
+<TABLE WIDTH=100% CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=128*>
+		<COL WIDTH=128*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=50% VALIGN=TOP>
+				<DL>
+					<DD><P><FONT FACE="Venetian301 BT">Program Statements look like
+					this:</FONT></P></DD>
+					<DD><PRE>lineno keyword p1 p2 p3 p4 p5</DL></PRE>
+			</TD>
+			<TD WIDTH=50% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">Examples:</FONT></P>
+				<PRE>105 POWERUP_ON 528 0 0 0 0 
+205 P_BRIEF_TIMED 0 0 0 18 1500 
+210 ANSWER 72 0 420 10 2500 </PRE></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DT><BR></DT>
+</DL>
+<TABLE WIDTH=100% CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=40*>
+		<COL WIDTH=216*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=16% VALIGN=TOP>
+				<DL>
+					<DD><B><FONT FACE="Venetian301 BT">lineno</FONT></B> </DD>
+				</DL>
+			</TD>
+			<TD WIDTH=84% VALIGN=TOP>
+				<DL>
+					<DT><FONT FACE="Venetian301 BT">All Statements are referred to
+					by their unique number (range 0-32767). You may skip some
+					numbers ( 1 2 4 5). I do not know if you can place them out of
+					order (5 7 6).</FONT> </DT>
+				</DL>
+			</TD>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD VALIGN=TOP>
+				<DL>
+					<DD><B><FONT FACE="Venetian301 BT">keyword</FONT></B> </DD>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><FONT FACE="Venetian301 BT">One of 150 <A HREF="Ref_ProgramStatements.html">keywords</A>
+					that define the type of action.</FONT> </DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<DL>
+					<DD><FONT FACE="Venetian301 BT"><B>p1 ... p5</B> </FONT></DD>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><FONT FACE="Venetian301 BT">5 parameters that define the
+					action more closely, including object linenumbers, program
+					statement linenumbers to jump to, timer intervals, or numbers of
+					messages to display. Unused parameters are set to 0.</FONT> </DT>
+				</DL>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><BR>See also: <A HREF="Ref_ProgramStatements.html">Program
+	Statements Overview</A></FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Notes </FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><FONT FACE="Venetian301 BT">Information
+	contributed by <A HREF="mailto:mendel@informatik.uni-bremen.de">Michael
+	Mendelsohn</A>.</FONT></FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Bugs</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">It is unknown whether additional
+	missions placed in MISSION.INI are acccessible from the game.</FONT></P></DD>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">MISSION.INI</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 27 Dez
+				1997</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DT><BR></DT>
+</DL>
+</BODY>
+</HTML>

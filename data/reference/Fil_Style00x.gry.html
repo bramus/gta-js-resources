@@ -1,0 +1,446 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>Style00x.gry Files</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="CREATED" CONTENT="19980101;4025156">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19980105;13092928">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="Structure of Style00?.gry files">
+	<META NAME="KEYWORDS" CONTENT="GRY Style00x.gry files">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">STYLE00x.GRY</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="Fil_index.html"><FONT FACE="ProseAntique"><FONT FACE="ProseAntique">Files</FONT></FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">Fil_Style00x.gry.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H3><FONT FACE="ProseAntique">Name</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">STYLE001.GRY, STYLE002.GRY,
+	STYLE003.GRY - contains 8-bit (?) textures for each city map</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Location</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">gtadata\style00?.gry</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Availability</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">all GTA Demos, GTA Full Version</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Description</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">This file contains the graphical
+	information for the game. Textures for sides of cubes (horizontal
+	and vertical surfaces including signs, animations for doors) make up
+	one section, textures for objects, cars, explosions, and people make
+	up another section. More (and more detailed) textures are in the
+	style000x.g24 files.</FONT></P></DD>
+</DL>
+<H4><A NAME="Header"></A>Header</H4>
+<DL>
+	<DD><P>The first 52 bytes in the file contain 13 Integers (32-bit).
+	I call them <B>h0</B> through <B>h12</B>. They set the lengths of
+	different parts of the file (see below).</P></DD>
+</DL>
+<H4><A NAME="Struc"></A>Structure of STYLE00?.GRY </H4>
+<DL>
+	<DD>
+	<TABLE WIDTH=95% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BOX RULES=ALL>
+		<COLGROUP>
+			<COL WIDTH=100*>
+			<COL WIDTH=64*>
+			<COL WIDTH=31*>
+			<COL WIDTH=31*>
+			<COL WIDTH=31*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TH COLSPAN=3 WIDTH=76% VALIGN=TOP>
+					<P ALIGN=LEFT><BR></TH>
+				<TH COLSPAN=2 WIDTH=24% VALIGN=TOP>
+					<P ALIGN=RIGHT>Example: Style001.gry</TH>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR>
+				<TH WIDTH=39% VALIGN=TOP>
+					<P ALIGN=LEFT>Section</TH>
+				<TH WIDTH=25% VALIGN=TOP>
+					<P ALIGN=LEFT>Position</TH>
+				<TH WIDTH=12% VALIGN=TOP>
+					<P ALIGN=CENTER>Length</TH>
+				<TH WIDTH=12% VALIGN=TOP>
+					<P ALIGN=RIGHT>Position</TH>
+				<TH WIDTH=12% VALIGN=TOP>
+					<P ALIGN=RIGHT>Length</TH>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#Header">Header</A></TD>
+				<TD VALIGN=BOTTOM SDVAL="0" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>0</TD>
+				<TD VALIGN=BOTTOM SDVAL="52" SDNUM="1031;0;Standard">
+					<P ALIGN=CENTER>52</TD>
+				<TD VALIGN=BOTTOM SDVAL="0" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>0</TD>
+				<TD VALIGN=BOTTOM SDVAL="52" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>52</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P>Vertical <A HREF="#Tile">tile textures</A></TD>
+				<TD VALIGN=BOTTOM SDVAL="52" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>52</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h1</TD>
+				<TD VALIGN=BOTTOM SDVAL="52" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>52</TD>
+				<TD VALIGN=BOTTOM SDVAL="798720" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>798720</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P>Horizontal <A HREF="#Tile">tile textures</A></TD>
+				<TD VALIGN=TOP>
+					<P>52+h1</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h2</TD>
+				<TD VALIGN=BOTTOM SDVAL="798772" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>798772</TD>
+				<TD VALIGN=BOTTOM SDVAL="630784" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>630784</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P>Animated <A HREF="#Tile">tile textures</A></TD>
+				<TD VALIGN=TOP>
+					<P>52+h1+h2</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h3</TD>
+				<TD VALIGN=BOTTOM SDVAL="1429556" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>1429556</TD>
+				<TD VALIGN=BOTTOM SDVAL="126976" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>126976</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U1">???</A></TD>
+				<TD VALIGN=TOP>
+					<P>52+h1+h2+h3</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h4</TD>
+				<TD VALIGN=BOTTOM SDVAL="1556532" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>1556532</TD>
+				<TD VALIGN=BOTTOM SDVAL="36" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>36</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#RGB">RGB master palette</A> ???</TD>
+				<TD VALIGN=TOP>
+					<P>52+h1+...+h4</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h5</TD>
+				<TD VALIGN=BOTTOM SDVAL="1556568" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>1556568</TD>
+				<TD VALIGN=BOTTOM SDVAL="768" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>768</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#Pal">Remapping palette</A>?</TD>
+				<TD VALIGN=TOP>
+					<P>52+h1+...+h5</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h6</TD>
+				<TD VALIGN=BOTTOM SDVAL="1557336" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>1557336</TD>
+				<TD VALIGN=BOTTOM SDVAL="65536" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>65536</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> unidentified</TD>
+				<TD VALIGN=TOP>
+					<P>52+h1+...+h6</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h7</TD>
+				<TD VALIGN=BOTTOM SDVAL="1212872" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>1212872</TD>
+				<TD VALIGN=BOTTOM SDVAL="1024" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>1024</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> unidentified</TD>
+				<TD VALIGN=TOP>
+					<P>52+h1+...+h7</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h8</TD>
+				<TD VALIGN=BOTTOM SDVAL="1213896" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>1213896</TD>
+				<TD VALIGN=BOTTOM SDVAL="2040" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>2040</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> unidentified</TD>
+				<TD VALIGN=TOP>
+					<P><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h9</TD>
+				<TD VALIGN=BOTTOM>
+					<P ALIGN=RIGHT><BR></TD>
+				<TD VALIGN=BOTTOM SDVAL="6972" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>6972</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> unidentified</TD>
+				<TD VALIGN=TOP>
+					<P><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h10</TD>
+				<TD VALIGN=BOTTOM>
+					<P ALIGN=RIGHT><BR></TD>
+				<TD VALIGN=BOTTOM SDVAL="868" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>868</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> unidentified</TD>
+				<TD VALIGN=TOP>
+					<P><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h0</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=LEFT><BR></TD>
+				<TD VALIGN=BOTTOM SDVAL="325" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>325</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> unidentified (missing bytes)</TD>
+				<TD VALIGN=TOP>
+					<P><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=LEFT><BR></TD>
+				<TD VALIGN=BOTTOM SDVAL="11195" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>11195</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#Obj">Object textures</A></TD>
+				<TD VALIGN=TOP>
+					<P><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=BOTTOM SDVAL="1645296" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>1645296</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=RIGHT>983040</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U3">???</A></TD>
+				<TD VALIGN=TOP>
+					<P>EOF-h12-h11</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h11</TD>
+				<TD VALIGN=BOTTOM SDVAL="2628336" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>2628336</TD>
+				<TD VALIGN=BOTTOM SDVAL="79710" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>79710</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U4">???</A></TD>
+				<TD VALIGN=TOP>
+					<P>EOF-h12</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h12</TD>
+				<TD VALIGN=BOTTOM SDVAL="2708046" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>2708046</TD>
+				<TD VALIGN=BOTTOM SDVAL="42" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>42</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P>File Size</TD>
+				<TD VALIGN=TOP>
+					<P>EOF</TD>
+				<TD VALIGN=BOTTOM SDVAL="0" SDNUM="1031;0;Standard">
+					<P ALIGN=CENTER>0</TD>
+				<TD VALIGN=BOTTOM SDVAL="2708088" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>2708088</TD>
+				<TD VALIGN=BOTTOM SDVAL="0" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>0</TD>
+			</TR>
+		</TBODY>
+	</TABLE></DL>
+<H4><A NAME="Tile"></A>Tile Textures</H4>
+<DL>
+	<DD>
+	<TABLE WIDTH=95% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BOX RULES=COLS>
+		<COLGROUP>
+			<COL WIDTH=175*>
+			<COL WIDTH=81*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=68% VALIGN=TOP>
+					<P>The tile textures form 3 sections: </P>
+					<UL>
+						<LI><P><B>Vertical Tiles:</B> walls of buildings, sides of
+						bridges, street and building signs, fences etc.</P>
+						<LI><P><B>Horizontal tiles:</B> ground, rooftops, streets,
+						railways, water, bridge girders, fire escapes etc.</P>
+						<LI><P><B>Animated tiles</B>: roof fan, rollup door,
+						blinking(?) bar sign</P>
+					</UL>
+					<P>Some of these tiles have a transparent background, e.g.
+					bridge girders or street signs. </P>
+					<DL>
+						<DT>The Tile Textures are 64x64 pixels large. They are
+						interlaced in groups of 4 in the following way (each Bracket
+						stand for 64 bytes, t=tile, r=row, each tile has 64 rows): </DT>
+						<DD><PRE>&lt;t0r0&gt;&lt;t1r0&gt;&lt;t2r0&gt;&lt;t3r0&gt;&lt;t0r1&gt;&lt;t1r1&gt;&lt;t2r1&gt;
+&lt;t3r1&gt;&lt;t0r2&gt;&lt;t1r2&gt;&lt;t2r2&gt;&lt;t3r2&gt;...</PRE></DL>
+					<P>The sections do not usually have multiples of 4 tiles; as a
+					result tiles from two neighboring sections are interlaced as if
+					they belonged to the same section. 
+				</TD>
+				<TD WIDTH=32% VALIGN=TOP>
+					<P><B>Example</B></P>
+					<P>The horizontal tile section in style001.gry has 630784 bytes;
+					that's 630784/(64*64)=154 tiles. All 3 sections have 1556480
+					bytes=380=4*95 tiles.</P>
+					<P>To view style001.gry in PaintShopPro, open it as RAW file
+					[Header=52, width=256, height=6080, grayscale].</P>
+					<P>You can also view GIFs of the <A HREF="Fil_Exa_HTiles.html">Horizontal
+					Tile section</A> of style001.gry (4x40KB).</TD>
+			</TR>
+		</THEAD>
+	</TABLE></DL>
+<H4><A NAME="U1"></A>Unidentified section</H4>
+<DL>
+	<DD><PRE>05 29 01 07 - 06 19 1A 1B - 1C 1D 1E 16 - 01 03 06 13 
+14 15 16 17 - 18 64 00 19 - 01 07 BD 00 - 15 01 08 60
+00 10 01 09 </PRE>
+	<DD><P>Find out what these 36 bytes from style001.gry mean because I
+	don't know!</P></DD>
+</DL>
+<H4><A NAME="RGB"></A>RGB master palette </H4>
+<DL>
+	<DD><P>These 3*256=768 bytes could be the 256-color-palette, or
+	something completely different.</P></DD>
+</DL>
+<H4><A NAME="Pal"></A>Remapping palette</H4>
+<DL>
+	<DD><P>These 256x256=65536 bytes could be the key to remapping the
+	object tile textures palettes to the master palette. What makes this
+	guess more probable is that most of these lines contain the numbers
+	0-256 in ascending order; yet there are 21+14+60=95 256-byte lines
+	that differ from this pattern. It so happens that the texture
+	section has 95 lines of 4 tiles each. Coincidence?</P></DD>
+</DL>
+<H4><A NAME="U2"></A>Unidentified sections</H4>
+<DL>
+	<DD><P>I have no clue what is in these sections and where they are
+	in the file. The &quot;missing bytes&quot; section is just the
+	difference between the file size and the sum of h0-h12 plus the
+	length of the object texture section.</P></DD>
+</DL>
+<H4><A NAME="Obj"></A>Object Textures</H4>
+<DL>
+	<DD>
+	<TABLE WIDTH=95% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BOX RULES=COLS>
+		<COLGROUP>
+			<COL WIDTH=129*>
+			<COL WIDTH=127*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=50% VALIGN=TOP>
+					<P>The object texture tile size is 256x256. However, the
+					individual objects are irregularly embedded in these tiles.
+					Somewhere in the file must be the information that describes the
+					rectangular areas that form these objects. [The precincts of the
+					cities are described by x/y of upper left-hand corner and width
+					and height of the rectangle.]</TD>
+				<TD WIDTH=50% VALIGN=TOP>
+					<P>style001.gry has 15 of these tiles.</P>
+					<P>To view them in PaintShopPro, open it as RAW file
+					[Header=240, width=256, height= 10266, grayscale] and scroll all
+					the way down.</P>
+					<P><B>Y</B>ou can also view GIFs of <A HREF="Fil_Exa_OTiles.html">3
+					object texture tiles</A> of style001.gry (4x25KB).</TD>
+			</TR>
+		</THEAD>
+	</TABLE></DL>
+<H4><A NAME="U3"></A>Unidentified section</H4>
+<DL>
+	<DD><P>I have no clue what is in this section.</P></DD>
+</DL>
+<H4><A NAME="U4"></A>Unidentified Section</H4>
+<DL>
+	<DD><PRE>18 00 00 00 - 01 00 00 00 - 06 00 1B 00 - 32 02 27 01
+00 00 02 00 - 06 00 05 00 - 00 00 1A 00 - 00 00 00 00
+07 00 30 00 - 00 00 00 00 - 00 00</PRE>
+	<DD><P>Find out what these 42 bytes from style001.gry mean because I
+	don't know!</P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Notes </FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Information contributed by <A HREF="mailto:ianh@geocities.com">Ian
+	Howson</A> and <A HREF="mailto:mendel@informatik.uni-bremen.de">Michael
+	Mendelsohn</A>.</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Bugs</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Large parts of this file are
+	still uncharted territory. The *.G24 files should have a similar
+	structure although they have no header.</FONT></P></DD>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">STYLE00x.GRY</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 1 Jan
+				1998</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DT><BR></DT>
+</DL>
+</BODY>
+</HTML>

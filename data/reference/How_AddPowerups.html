@@ -1,0 +1,852 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>How To Add Powerups</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19971217;16222735">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19971231;15000818">
+	<META NAME="DESCRIPTION" CONTENT="How to add Powerups to a Grand Theft Auto Level">
+	<META NAME="KEYWORDS" CONTENT="Powerups">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">How to Add Powerups</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="How_index.html"><FONT FACE="ProseAntique">Howto</FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">How_AddPowerups.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H2><FONT FACE="ProseAntique">How to add Powerups to the map by
+editing the MISSION.INI file</FONT></H2>
+<P><FONT FACE="Venetian301 BT">Brought To You By GOURANGA!</FONT></P>
+<P><FONT FACE="Venetian301 BT">&quot;This calls for a very special
+blend of psychology and extreme violence&quot;</FONT></P>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BOX RULES=ALL>
+	<COLGROUP>
+		<COL WIDTH=128*>
+		<COL WIDTH=128*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=50% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">Last Update:</FONT></TD>
+			<TD WIDTH=50% VALIGN=TOP>
+				<P ALIGN=LEFT><FONT FACE="Venetian301 BT">03 Dec 97</FONT></TD>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">Demented author who wrote all this
+				BS:</FONT></TD>
+			<TD VALIGN=TOP>
+				<P><A HREF="mailto:c674228@cclabs.missouri.edu"><FONT FACE="Venetian301 BT"><FONT FACE="Venetian301 BT">schu</FONT></FONT></A></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">Demented author's e-mail address:</FONT></TD>
+			<TD VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">c674228@cclabs.missouri.edu</FONT></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">Web Site:</FONT></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">GOURANGA!
+				<A HREF="http://www.cclabs.missouri.edu/~c674228">http://www.cclabs.missouri.edu/~c674228<BR></A>OR<BR><A HREF="http://gta.home.ml.org/">http://gta.home.ml.org</A>
+				</FONT>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">HTML translation:</FONT></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=LEFT><A HREF="mailto:mendel@informatik.uni-bremen.de"><FONT FACE="Venetian301 BT">Michael
+				Mendelsohn</FONT></A></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">See also (Reference Guide):</FONT></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=LEFT><FONT FACE="Venetian301 BT"><A HREF="Obj_POWERUP.html"><FONT FACE="Venetian301 BT">POWERUP</FONT></A>
+				and <A HREF="Prg_POWERUP_ON.html"><FONT FACE="Venetian301 BT">POWERUP_ON</FONT></A></FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H3><FONT FACE="ProseAntique">Credit</FONT></H3>
+<P><FONT FACE="Venetian301 BT">Before I get started I want to give
+credit to ZyNTaX because it is ZyNTaX's FAQ that got me started on
+this whole thing. </FONT></P>
+<P><FONT FACE="Venetian301 BT">ZyNTaX's Site can be found at
+<A HREF="http://gudmund.vgs.no/~eirikso/">http://gudmund.vgs.no/~eirikso/</A>
+</FONT></P>
+<H2><FONT FACE="ProseAntique">Instructions</FONT></H2>
+<P><FONT FACE="Venetian301 BT">This isn't hard to do, its just really
+hard to explain.</FONT></P>
+<P><FONT FACE="Venetian301 BT">The grids below this intro are the
+grids of the starting point on the San Andreas 3Dfx Demo. The first
+one is of the orginal unedited mission.ini. The second one shows the
+changes I have made by adding powerups. Just under both grids is the
+section of the mission.ini that I altered. The grids are there to
+show the coordiates of the power ups and other objects. They aren't
+even really necessary, but I thought they might help visualize where
+I got the coordinates from. </FONT></P>
+<P><FONT FACE="Venetian301 BT">There is a small slightly easier to
+understand graphic of the map right above each grid, but unless you
+have the demo and can see it for yourself it might be pretty
+difficult to understand what the hell I'm talking about. The small
+graphic covers a little more area so its easier to visualize.</FONT></P>
+<P><FONT FACE="Venetian301 BT">I altered the mission.ini to place all
+the powerups right by the starting position in the game. The reason I
+did this with the 3Dfx only mission is because it only has 2 power
+ups and it was very easy to find out what the grid locations of the
+adjacent squares were so I could place more. The Liberty City demo
+looks like it might pose more of a challenge but as soon as I have
+time I'll work on it as well.</FONT></P>
+<P><FONT FACE="Venetian301 BT">So far it looks like you can place the
+powerups anywhere except in a building. If placed where a parked car
+exists you will have to drive the car to get to the object, which
+looks like a good way to hide powerups because you only see the car
+and not the crate. If placed on a startup position you will just
+start out right on top of a crate. If placed where a phone is, the
+phone will appear on top of the crate, but you can still get to the
+crate. Trees are offset sitting right on gridlines so you can put
+crates right next to them. Just placing an INFO SIGN will crash the
+game if you try and retrieve it.</FONT></P>
+<P><FONT FACE="Venetian301 BT">If you can't understand the grids just
+skip over them and look at the mission.ini on the bottom, look at the
+coordiantes of the powerups and then look at the second grid again.</FONT></P>
+<P><FONT FACE="Venetian301 BT">If you still don't understand it try
+messing around with the mission.ini. It took me about an hour to
+figure out kinda what was going on, and then another hour to test my
+theories, but whatever you do <B>make a backup of your original
+MISSION.INI</B> before you start messing around with it.</FONT></P>
+<H4><FONT FACE="ProseAntique">Legend: </FONT></H4>
+<P><FONT FACE="Venetian301 BT">R = ROAD OR ROAD/SIDEWALK (WHERE THE
+ROAD CURVES IN BUT DOES NOT TAKE UP THE ENTIRE GRID SQUARE)</FONT></P>
+<P><FONT FACE="Venetian301 BT">C = PARKED CAR</FONT></P>
+<P><FONT FACE="Venetian301 BT">P = POWERUP</FONT></P>
+<P><FONT FACE="Venetian301 BT">S = PLAYER START POSITION</FONT></P>
+<P><FONT FACE="Venetian301 BT">X = PHONE</FONT></P>
+<P><FONT FACE="Venetian301 BT">ANY OPEN SQUARES ON THE GRID ARE
+SIDEWALK OR OTHERWISE OPEN AREA</FONT></P>
+<HR>
+<H4><FONT FACE="ProseAntique">This is before I altered the
+mission.ini</FONT></H4>
+<P><FONT FACE="Venetian301 BT">The roads are not shown in the graphic
+with an R, instead they are just drawn in, but on the grid they are
+represented by an R.</FONT></P>
+<P><FONT FACE="Venetian301 BT">As you can see you start at (S) right
+next to your car (C). Just to your upper right there are 2 power ups
+(P), then a phone (X), all right next to a building (B). Across the
+road there is another building (B) and a side walk that goes around
+it </FONT></P>
+<PRE>__/   | BBBBBBBB
+      | BBBBBBBB
+__    | BBBBBBBB
+  \   | BBBBBBBB
+B |   | BBBBBBBB
+B |   /  PPXBBBB
+B | C|S     BBBB
+B |  |      BBBB
+_ /  \__/-------</PRE>
+<P><BR></P>
+<CENTER>
+	<TABLE ALIGN=CENTER WIDTH=60% CELLSPACING=0 FRAME=VOID RULES=ALL>
+		<COLGROUP>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>90</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>91</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>92</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>93</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>94</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>95</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>96</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>97</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>98</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>126</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>125</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>126</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>126</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>X</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>128</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>C</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>S</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>129</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>130</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>131</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>132</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<H4 ALIGN=CENTER><FONT FACE="ProseAntique">This is after I altered
+the mission.ini</FONT></H4>
+<P><FONT FACE="Venetian301 BT">The roads are not shown in the graphic
+with an R, instead they are just drawn in, but on the grid they are
+represented by an R.</FONT></P>
+<P><FONT FACE="Venetian301 BT">As you can see you start at (S) right
+next to your car (C). Just to your upper right there are 2 power ups
+(P), then a phone (X), all right next to a building (B). Just below
+the phone are 3 more power ups (P) that I added. Across the road
+there is another building (B) and a side walk that goes around it
+with some power ups (P) that I added next to the building (B).</FONT></P>
+<PRE>__/   | BBBBBBBB
+      | BBBBBBBB
+__    | BBBBBBBB
+ P\   | BBBBBBBB
+BP|   | BBBBBBBB
+BP|   /  PPXBBBB
+BP| C|S    PBBBB
+BP|  |    PPBBBB
+_P/  \__/-------</PRE>
+<P><BR></P>
+<CENTER>
+	<TABLE ALIGN=CENTER WIDTH=60% CELLSPACING=0 FRAME=VOID RULES=ALL>
+		<COLGROUP>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+			<COL WIDTH=23*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>90</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>91</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>92</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>93</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>94</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>95</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>96</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>97</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER>98</TD>
+				<TD WIDTH=9% VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>126</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>125</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>126</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>126</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>X</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>128</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>C</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>S</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>129</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>B</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>130</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>P</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>131</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>132</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>R</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P ALIGN=CENTER><BR></P>
+<HR>
+<H4><FONT FACE="ProseAntique">The following is the portion of the
+mission.ini and a key to the different power up numbers</FONT></H4>
+<PRE>   /------------------------------------------------- ENTRY NUMBER
+  /       /------------------------------------------ GRID COORDINATE (X, Y, ?)
+ /       /             /----------------------------- POWERUP NUMBER
+/       /             /       /---------------------- AMMO/KILL FRENZY 
+|       |             |       |                       99 OR LESS = AMMO AMT 
+                                                      100  = UNLIMITED KILL FRENZY
+1000 (95,127,4) POWERUP 1       99                      101+ = KILL FRENZY TIME LIMIT
+1010 (96,127,4) POWERUP 2       99                             EXAMPLES: 5000 = 195 SECS        
+1020 (97,128,4) POWERUP 3       99                                       10000 = 395 SECS       
+1030 (97,129,4) POWERUP 4       99
+1040 (96,129,4) POWERUP 10       0
+1050 (91,125,4) POWERUP 6       0
+1060 (91,126,4) POWERUP 11       0
+1070 (91,127,4) POWERUP 12       0
+1080 (91,128,4) POWERUP 15       0
+1090 (91,129,4) POWERUP 13       0
+2000 (91,130,4) POWERUP 9       0
+
+
+   /------------------------------------------- ENTRY NUMBER
+  /       /------------------------------------ NOT SURE
+ /       /       /----------------------------- ENTRY NUMBER OF POWERUP
+/       /        |  /-------------------------- NOT SURE, BUT IF SET TO  0 0 0 0
+|       |        |  |                           IT WILL GO ON TO THE NEXT LINE 
+|       |        |  |                           AND LOOK AT THE NEXT POWERUP LISTED,
+                                                AND IF SET TO  -1 0 0 0  IT WILL
+-1                                                NOT GO ON TO NEXT LINE AND WON'T                        
+0     DONOWT     0    0 0  0 0                    RECOGNIZE ANY FURTHER POWERUPS.
+100   STARTUP    120  0 -1 0 0                    SO YOU HAVE TO MAKE SURE THAT ALL
+110   POWERUP_ON 1000 0 0 0 0                     THE POWERUP_ON ENTRIES ARE SET TO
+120   POWERUP_ON 1010 0 0 0 0                     0 0 0 0  EXCEPT THE LAST ENTRY WHICH
+130   POWERUP_ON 1020 0 0 0 0                     SHOULD BE SET TO  -1 0 0 0 OTHERWISE
+140   POWERUP_ON 1030 0 0 0 0                     IT WON'T ADD ANY POWER UP ENTRIES
+150   POWERUP_ON 1040 0 0 0 0                     BELOW THE  -1 0 0 0  ENTRY TO THE MAP.
+160   POWERUP_ON 1050 0 0 0 0
+170   POWERUP_ON 1060 0 0 0 0
+180   POWERUP_ON 1070 0 0 0 0
+190   POWERUP_ON 1080 0 0 0 0
+200   POWERUP_ON 1090 0 0 0 0
+210   POWERUP_ON 2000 -1 0 0 0</PRE>
+<P><BR></P>
+<H3><FONT FACE="ProseAntique">Powerup Number Index (used in the first
+set of entries)</FONT></H3>
+<DL>
+	<DD><FONT FACE="Venetian301 BT">1 = Pistol</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">2 = Machine Gun</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">3 = Rocket Launcher</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">4 = Flame Thrower</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">5 = &lt;NOTHING&gt;</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">6 = Car Speed Up</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">7 = &lt;NOTHING&gt;</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">8 = &lt;NOTHING&gt;</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">9 = Police Bribe</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">10 = Armor</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">11 = Multiplier Up</FONT> </DD>
+	<DD><FONT FACE="Venetian301 BT">12 = Get Out Of Jail Free Card</FONT>
+	</DD>
+	<DD><P><FONT FACE="Venetian301 BT">13 = Extra Life</FONT> </P></DD>
+	<DD><P><FONT FACE="Venetian301 BT">14 = Info Sign &lt;DONT USE&gt;</FONT>
+	</P></DD>
+	<DD><P><FONT FACE="Venetian301 BT">15 = Extra Life (With different
+	audio)</FONT></P></DD>
+</DL>
+<P><BR></P>
+<P><BR></P>
+<P><BR></P>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">MISSION.INI</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 31 Dez
+				1997</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DT><BR></DT>
+</DL>
+</BODY>
+</HTML>

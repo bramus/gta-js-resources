@@ -1,0 +1,361 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>POWERUP Object Code</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19971217;13543634">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19971218;6294716">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="Powerup objects can be picked up by the player to aquire bonuses such as weapons or information. &lt;BR&gt;">
+	<META NAME="KEYWORDS" CONTENT="POWERUP">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">POWERUP</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="Obj_index.html"><FONT FACE="ProseAntique">Object
+				Codes</FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">Obj_POWERUP.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H3><FONT FACE="ProseAntique">Name</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">POWERUP - place a powerup object </FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Synopsis</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><B>### (x,y,z) POWERUP t a</B></FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Availability</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">all GTA Demos, GTA Full Version</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Description</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Powerup objects can be picked up
+	by the player to aquire bonuses such as weapons or information. </FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Parameters</FONT></H3>
+<DL>
+	<DL>
+		<DD>
+		<TABLE WIDTH=100% CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+			<COLGROUP>
+				<COL WIDTH=42*>
+				<COL WIDTH=214*>
+			</COLGROUP>
+			<THEAD>
+				<TR>
+					<TD WIDTH=16% VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>### </B></FONT>
+					</TD>
+					<TD WIDTH=84% VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">object index </FONT>
+					</TD>
+				</TR>
+			</THEAD>
+			<TBODY>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>(x,y,z)</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">object coordinates</FONT></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>t</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">Powerup Type:</FONT></P>
+						<DL>
+							<DD><FONT FACE="Venetian301 BT">1 = Pistol<BR>2 = Machine
+							Gun<BR>3 = Rocket Launcher<BR>4 = Flame Thrower<BR>5 =
+							&lt;NOTHING&gt;<BR>6 = Car Speed Up<BR>7 = &lt;NOTHING&gt;<BR>8
+							= &lt;NOTHING&gt;<BR>9 = Police Bribe<BR>10 = Armor<BR>11 =
+							Multiplier Up<BR>12 = Get Out Of Jail Free Card<BR>13 = Extra
+							Life<BR>14 = Info Sign <BR>15 = Extra Life (With different
+							audio)</FONT> </DD>
+						</DL>
+					</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>a</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">With Weapon Powerups: </FONT></P>
+						<DL>
+							<DD><P><FONT FACE="Venetian301 BT">0-99 = ammunition
+							amount<BR>100 = unlimited kill frenzy<BR>101-?= time limited
+							kill frenzy<BR>(5000 = 195 secs, 10000 = 395 secs)</FONT></P></DD>
+						</DL>
+						<P><FONT FACE="Venetian301 BT">With Info Sign (t=14):</FONT></P>
+						<DL>
+							<DD><FONT FACE="Venetian301 BT">1-32 = number of help message</FONT>
+							</DD>
+						</DL>
+					</TD>
+				</TR>
+			</TBODY>
+		</TABLE>
+	</DL>
+	<DD><P><BR></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Usage: </FONT></H3>
+<P><FONT FACE="Venetian301 BT">Placement:</FONT></P>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">So far it looks as if you can
+	place the powerups anywhere except in a building. (Can they be
+	placed in passages?) If placed where a parked car exists you will
+	have to drive the car to get to the object, which looks like a good
+	way to hide powerups because you only see the car and not the crate.
+	If placed on a startup position you will just start out right on top
+	of a crate. If placed where a phone is, the phone will appear on top
+	of the crate, but you can still get to the crate. Trees are offset
+	sitting right on gridlines so you can put crates right next to them.
+	Just placing an INFO SIGN will crash the game if you try and
+	retrieve it. (You might have to provide a message for it?)</FONT></P></DD>
+</DL>
+<P><FONT FACE="Venetian301 BT">Activation:</FONT></P>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">To activate a powerup, use the
+	POWERUP_ON statement with the object index of the POWERUP object.</FONT></P></DD>
+</DL>
+<P><FONT FACE="Venetian301 BT">Info Signs: </FONT></P>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Usage is still sketchy, placing
+	an info sign may crash the game if you try to pick it up. The FXT
+	file contains entries [help1] through [help32], so placing help
+	signs in Liberty City may be safe if no duplicates are used ???</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Examples</FONT></H3>
+<DL>
+	<DD>
+	<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=GROUPS>
+		<COLGROUP>
+			<COL WIDTH=119*>
+			<COL WIDTH=137*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=46% VALIGN=TOP>
+					<H4><FONT FACE="ProseAntique">Object Codes</FONT></H4>
+				</TD>
+				<TD WIDTH=54% VALIGN=TOP>
+					<H4><BR></H4>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>271 (70,85,4) POWERUP 2 500 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Machine Gun, Kill Frenzy 20
+						secs ?</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>272 (141,208,4) POWERUP 2 700 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Machine Gun, Kill frenzy 30
+						secs ?</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>273 1 (70,85,4) TRIGGER 9000 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Triggers messages etc. </FONT></DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>274 1 (141,208,4) TRIGGER 9080 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Triggers messages etc. </FONT></DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>276 (140,25,4) POWERUP 1 99 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Pistol with 99 shots ammunition</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>520 (196,223,4) POWERUP 14 9 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Info Sign with text [help9]</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+		</TBODY>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><BR></DT>
+					</DL>
+				</TD>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><BR></DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<H4><FONT FACE="ProseAntique">Script Statements</FONT></H4>
+				</TD>
+				<TD VALIGN=TOP>
+					<H4><BR></H4>
+				</TD>
+			</TR>
+		</TBODY>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">9000 ff. </FONT></DT>
+					</DL>
+				</TD>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">Code for frenzy message and
+						other stuff</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">9080 ff.</FONT> </DT>
+					</DL>
+				</TD>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">Code for frenzy message and
+						other stuff</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>30470 POWERUP_ON 271 0 0 0 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">activate machine gun powerup</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>30480 POWERUP_ON 272 0 0 0 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">activate machine gun powerup</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>30481 POWERUP_ON 276 0 0 0 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">activate pistol powerup</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>30505 POWERUP_ON 520 0 0 0 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">activate info sign powerup</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><BR></DT>
+					</DL>
+				</TD>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">(example source: full game,
+						section [1])</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+	<DT><BR></DT>
+	<DT><BR></DT>
+</DL>
+<H4><FONT FACE="ProseAntique">See also</FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><A HREF="Ref_ObjectCodes.html">Object
+	Codes Overview</A>, <A HREF="How_AddPowerups.html">Powerup Howto</A>,
+	<A HREF="Prg_POWERUP_ON.html">POWERUP_ON</A>, TRIGGER, FRENZY</FONT></P></DD>
+</DL>
+<H4><FONT FACE="ProseAntique">Notes </FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Information contributed by
+	<A HREF="http://gudmund.vgs.no/~eirikso/">ZyNTaX</A>, <A HREF="mailto:c674228@cclabs.missouri.edu">schu</A>,
+	and <A HREF="mailto:mendel@informatik.uni-bremen.de">Michael
+	Mendelsohn</A>.</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Bugs</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">The powerup types are still
+	incomplete. A formula for frenzy duration in relation to a values
+	would be nice. Nobody has found out yet how to add new info signs or
+	how to use them on maps other than Liberty City.</FONT></P></DD>
+	<DT><BR></DT>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">MISSION.INI</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 17 Dez
+				1997</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DD><P><BR></P></DD>
+</DL>
+</BODY>
+</HTML>

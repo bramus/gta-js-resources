@@ -1,0 +1,1713 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>Object Code Statistics</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19971226;22035819">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19971231;15051851">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="Statistics on the occurences of Object Code keywords in MISSION.INI">
+	<META NAME="KEYWORDS" CONTENT="Object Code Statistics">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">Object Code Statistics</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="Ref_index.html"><FONT FACE="ProseAntique">Reference</FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">Ref_ObjectStats.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H3>Object Code Statistics</H3>
+<P><FONT FACE="Venetian301 BT">This is absolutely every object code
+in GTA. I am sure of that because I pulled this list out of the the
+full version GTADOS\GTA8.EXE. I also have a <A HREF="Ref_ProgramStatementStats.html">program
+statement list</A> I will publish. If you can provide info on what
+these codes mean, please do so. If you want to know what Object codes
+are, look at <A HREF="Fil_MISSION.INI.html">MISSION.INI</A></FONT> ;
+short descriptions and other lists are <A HREF="Ref_ObjectCodes.html">here</A>.</P>
+<P>Also available: 1) a <A HREF="Ref_KeywordStats.txt">text version</A>
+of this table. 2) <A HREF="Ref_KeywordSamples.txt">Text file</A> with
+first occurences for each keyword. Both include information on
+program statements as well. They files have been produced using a
+script for the &quot;awk&quot; tool; I can make both available to you
+if you ask me about them. </P>
+<P><A HREF="mailto:mendel@informatik.uni-bremen.de">Michael
+Mendelsohn</A></P>
+<H4><FONT FACE="ProseAntique"><FONT SIZE=3><I>Legend</I></FONT></FONT></H4>
+<P><FONT FACE="Venetian301 BT"><B>tok</B> token code to be used for
+GTA Editor Project<BR><B>Object Code</B> Keyword<BR><B>Occ.</B>
+number of occurences in full version MISSION.INI<BR><B>no 1/1</B>
+number of times mysterious 1 parameter doesn't appear/appear<BR><B>pars</B>
+number of parameters; ? means unknown<BR><B>coordinates</B>&nbsp;<A HREF="Ref_Coordinates.html">coordinate
+format</A>; zero means (0,0,0) <BR><B>0/8b/14b</B> occurrences of
+(0,0,0)/8-bit/14-bit coordinates</FONT></P>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=HSIDES RULES=ROWS>
+	<COLGROUP>
+		<COL WIDTH=14*>
+		<COL WIDTH=93*>
+		<COL WIDTH=21*>
+		<COL WIDTH=27*>
+		<COL WIDTH=19*>
+		<COL WIDTH=52*>
+		<COL WIDTH=30*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TH WIDTH=5% VALIGN=TOP>
+				<P>tok</TH>
+			<TH WIDTH=36% VALIGN=TOP>
+				<P>Object Code</TH>
+			<TH WIDTH=8% VALIGN=TOP>
+				<P>Occ.</TH>
+			<TH WIDTH=11% VALIGN=TOP>
+				<P>no1/1</TH>
+			<TH WIDTH=7% VALIGN=TOP>
+				<P>pars</TH>
+			<TH WIDTH=20% VALIGN=TOP>
+				<P>coordinates</TH>
+			<TH WIDTH=12% VALIGN=TOP>
+				<P>0/8b/14b</TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>72 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>ALT_DAMAGE_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/1/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>18 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>BARRIER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>24 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/24</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/24/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>71 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>BASIC_BARRIER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>4 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/4/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>52 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>BLOCK_INFO </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>253 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>252/1</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/253/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>21 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>BOMBSHOP </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>56 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/56</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/56/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>39 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>BOMBSHOP_COST </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/1</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>63 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CANNON_START </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>9 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>9/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/9/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>1 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>CAR </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>20 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>CARBOMB </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>56 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CARBOMB_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>9 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>9/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit/zero</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8/1/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>60 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CARDESTROY_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>23 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>22/1</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/23/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>70 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CARSTUCK_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>5 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>5/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>5/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>26 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CARTRIGGER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>71 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>7/64</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit/zero</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>17/54/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>61 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CARWAIT_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>22 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>22/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>22/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>66 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CHOPPER_ENDPOINT </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1/1</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>14-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/0/2</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>15 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>CLOCK </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>46 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>CLOCK_START </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>47 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>CLOCK_STOP </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>45 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CORRECT_CAR_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>55 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>51/4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/55/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>44 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CORRECT_MOD_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/2/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>13 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>COUNTER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>169 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>122/47</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>169/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=BOTTOM SDVAL="14" SDNUM="1031;0;Standard"><DL>
+					<DT>14</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>CRANE </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>24 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/24</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>14-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/0/24</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>57 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>DAMAGE_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/2/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>10 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>DOOR </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>171 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>31/140</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/171/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>5 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>DRIVER </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>29 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>DRIVER_PARK </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>43 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>DUM_MISSION_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>68 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>64/4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/68/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>64 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>DUM_PED_BLOCK_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/3/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>16 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>DUMMY </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>395 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>372/23</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>mixed8/14-bit/zero</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>88/305/2</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=BOTTOM SDVAL="19" SDNUM="1031;0;Standard"><DL>
+					<DT><I>19</I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>ESCORT </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>22 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>ESCORTED </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>50 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>FINAL_MULTI </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>9 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>9/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/9/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>12 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>FUTURE </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>85 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>84/1</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>mixed8/14-bit/zero</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>4/2/79</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>30 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>FUTURECAR </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>227 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>220/7</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit/zero</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2/225/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>27 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>FUTUREDROP </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>25 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>FUTUREPED </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>424 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>341/83</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>14-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/0/424</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>37 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>GTA_DEMAND </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>6 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/6</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>6/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>59 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>GUN_SCREEN_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>23 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>23/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>23/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>58 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>GUN_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>20 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>18/2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/20/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>28 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>HELLS </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>7 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>7/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/7/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>24 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>INIT </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>49 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>MID_MULTI_SETUP </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>9 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>9/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/9/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>48 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>MIDPOINT_MULTI </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>51 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>51/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/51/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>67 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>MISSION_COUNTER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2/6</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>69 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>MISSION_TOTAL </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>7 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2/5</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>7/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>7 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>MODEL </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>32 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>MODEL_BARRIER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/2/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>36 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>MODEL_DOOR </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>33 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>MOVING_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>54 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>MOVING_TRIG_HIRED </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>14 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>14/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/14/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>35 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>MPHONES </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>12 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/12</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/12/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>38 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>MY_MODEL </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>3 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>OBJECT </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>14-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/0/1</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>31 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>ONETRIGGER </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>PARKED </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>142 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>31/111</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/142/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>65 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>PARKED_PIXELS </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>4 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>14-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/0/4</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>2 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>PED </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>39 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/39</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>14-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/0/39</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>62 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>PEDCAR_TRIG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2/0</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>40 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>PHONE_TOGG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>12 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/12</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/12/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>PLAYER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>54 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8/46</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/54/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>51 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>POWERUP </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2501 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2459/42</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/2501/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>68 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>SECRET_MISSION_COUNTER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>6 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2/4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>6/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>55 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>SETUP_SPEED </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>34 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>SPECIFIC_BARR </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>5</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/2/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>41 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>SPECIFIC_DOOR </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>19 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1/18</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>5</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/19/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>53 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>SPECIFIC_DOOR_BOMB </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>17 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>SPRAY </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>110 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/110</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/110/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT><I>23 </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><I>STOPPED </I></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0 </I>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>?</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>unknown</I></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><I>0/0/0</I></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>11 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>TARGET </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>171 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>169/2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>mixed8/14-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/15/156</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>42 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>TARGET_SCORE </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>6 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2/4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>zero/unknown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>6/0/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>TELEPHONE </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1048 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/1048</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/1048/0</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP><DL>
+					<DT>9 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>TRIGGER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1990 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1797/193</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8-bit</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0/1990/0</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H4><FONT FACE="ProseAntique">See also</FONT></H4>
+<DL>
+	<DD><P><A HREF="Fil_MISSION.INI.html#Obj"><FONT FACE="Venetian301 BT">MISSION.INI</FONT></A>,
+	<A HREF="Ref_Coordinates.html">Coordinates</A></P></DD>
+</DL>
+<H4><FONT FACE="ProseAntique">Notes </FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Information contributed by
+	<A HREF="mailto:mendel@informatik.uni-bremen.de">Michael Mendelsohn</A>.</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Bugs</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">There are too many PARKED
+	statements because I had added some to my MISSION.INI when I
+	compiled the statistics.</FONT></P></DD>
+	<DT><BR></DT>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">MISSION.INI</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 27 Dez
+				1997</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DD><P><BR></P></DD>
+</DL>
+</BODY>
+</HTML>

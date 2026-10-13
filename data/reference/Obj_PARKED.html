@@ -1,0 +1,757 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>PARKED Object Code</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19971218;8291790">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19971220;21431264">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="Parked Car/Object">
+	<META NAME="KEYWORDS" CONTENT="PARKED">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">PARKED</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="Obj_index.html"><FONT FACE="ProseAntique">Object
+				Codes</FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">Obj_PARKED.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H3><FONT FACE="ProseAntique">Name</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">PARKED - places parked cars (and
+	other objects?) on the map. </FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Synopsis</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><B>### 1 (x,y,z) <FONT FACE="ProseAntique">PARKED</FONT>
+	t d</B></FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Availability</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">all GTA Demos, GTA Full Version</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Description</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Cars and other objects can be
+	placed on the map. The cars can be entered and used by the player. </FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Parameters</FONT></H3>
+<DL>
+	<DL>
+		<DD>
+		<TABLE WIDTH=100% CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+			<COLGROUP>
+				<COL WIDTH=42*>
+				<COL WIDTH=214*>
+			</COLGROUP>
+			<THEAD>
+				<TR>
+					<TD WIDTH=16% VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>### </B></FONT>
+					</TD>
+					<TD WIDTH=84% VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">object index </FONT>
+					</TD>
+				</TR>
+			</THEAD>
+			<TBODY>
+				<TR>
+					<TD VALIGN=BOTTOM SDVAL="1" SDNUM="1031;0;Standard">
+						<P ALIGN=RIGHT><FONT FACE="Venetian301 BT"><B>1</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">always 1</FONT></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>(x,y,z)</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">object coordinates</FONT></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>t</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">Car/Object Type (0-106?) (see
+						below)</FONT></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>d</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">direction of object:</FONT></P>
+						<DL>
+							<DD><P><FONT FACE="Venetian301 BT">0 = South<BR>256 =
+							East<BR>512= North<BR>768 = West</FONT></P></DD>
+							<DD><P><FONT FACE="Venetian301 BT">Any value in the range
+							0-1023 should be permissible for odd directions.</FONT></P></DD>
+							<DD><FONT FACE="Venetian301 BT">Use this formula for compass
+							heading c:<BR>c=(d-512)*90/256; add 360 if the value is
+							negative.<BR>d=(c-180)*256/90; add 1024 if the value is
+							negative</FONT> </DD>
+						</DL>
+					</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><BR></TD>
+					<TD VALIGN=TOP>
+						<P><BR></TD>
+				</TR>
+			</TBODY>
+		</TABLE></DL>
+</DL>
+<H3>Car/Object Types:</H3>
+<DL>
+	<DD><H5>Legend:</H5>
+	<DL>
+		<DD>
+		<TABLE WIDTH=570 CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+			<COLGROUP>
+				<COL WIDTH=570>
+			</COLGROUP>
+			<THEAD>
+				<TR>
+					<TD WIDTH=570 VALIGN=TOP>
+						<P><B>t</B> = parameter t</TD>
+				</TR>
+			</THEAD>
+			<TBODY>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>Name</B> = Name of vehicle</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>FXT</B> = Car Name Message ID in SPECIAL.FXT (Full game)</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>nyc: </B>x = available, - = not available in Liberty City
+						Demo, <BR>? = game crashes when car is entered, ! = unless FXT
+						entry is added manually</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>sanb:</B> like sanb, but for San Andreas Demo 
+					</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>$$$ </B>= Mint Value at Dock</TD>
+				</TR>
+			</TBODY>
+		</TABLE></DL>
+	<DT><BR></DT>
+	<DD><BR></DD>
+	<DL>
+		<DD><LISTING> t Name            FXT     L S   $$$ 
+ 0 Beast GTS       [car0]  x - 12000 
+ 1 Bug             [car1]  x x  2000 
+ 2 Counthash       [car2]  x - 12000 
+ 3 Bike            [car3]  x x  2000 
+ 4 Squad Car       [car4]  x x     -
+ 5 Ambulance       [car5]  x x     -
+ 6 Repair Van      [car6]  x x  6000 
+ 7 Juggernaut      [car7]  - x     -
+ 8 Juggernaut      [car8]  - -     - 
+ 9 Coach           [car9]  x x     - 
+10 Breakdown Truck [car10] - - 
+11 Train           [car11] x -     -
+12 Tram            [car12] - x     -
+13 Boat            [car13] x x     -
+14 Penetrator      [car14] x -  8000 
+15                         - - 
+16                         - - 
+17 Itali           [car17] x - 8000 
+18 Mundano         [car18] x - 6000 
+19 4 X 4           [car19] x x 4000 
+20                         - - 
+21 Stallion        [car21] x - 6000 
+22 Taxi            [car22] x x 4000 
+23                         - - 
+24                         - - 
+25 Impaler         [car25] x - 8000 
+26 Jugular         [car26] x - 8000 
+27 Pickup          [car27] x - 4000 
+28 Porka Turbo     [car28] x - 8000 
+29 Cossie          [car29] x - 12000 
+30                         - - 
+31 Bulldog         [car31] x x 8000 
+32                         - - 
+33 Juggernaut      [car33] - - - 
+34 Challenger      [car34] x - 4000 
+35 Limousine       [car35] x x  - 
+36 APC             [car36] - - -
+37 Tank            [car37] x x -
+38                         - - 
+39                         - - 
+40                         - - 
+41 Superbike       [car41] x x 
+42 Fire Truck      [car42] x x -
+43 Bus             [car43] x x - 
+44 Tanker          [car44] x x - 
+45 TV Van          [car45] x x 8000 
+46 Transit Van     [car46] x x 
+47 Model Car       [car47] ? ? 
+48                         - - 
+49                         - - 
+50 Roadster        [car50] - x  
+51 Love Wagon      [car51] - x 
+52                         - - 
+53 Beast GTS       [car53] - x 12000 
+54 Mundano         [car54] - x  6000 
+55 Mamba           [car55] - x  
+56                         - - 
+57                         - - 
+58 Portsmouth      [car58] x x  4000 
+59                         - - 
+60                         - - 
+61 Speeder         [car61] - x  
+62 Porka           [car62] - x 
+63 Flamer          [car63] - x  
+64 Vulture         [car64] - x 
+65 Pickup          [car65] - x 4000 
+66 Itali GTO       [car66] - x 
+67                         - - 
+68                         - - 
+69                         - - 
+70 Regal           [car70] x x 4000 
+71 Monster Bug     [car71] - x 
+72 Thunderhead     [car72] x - 8000 
+73 Panther         [car73] - - 
+74 Penetrator      [car74] - x 8000 
+75 LeBonham        [car75] - - 
+76 Stinger         [car76] x x 8000 
+77 F-19            [car77] - - 
+78 Brigham         [car78] - - 
+79 Stinger Z29     [car79] - x 
+80 Classic         [car80] x - 8000 
+81 29 Special      [car81] - - 
+82 Itali GTB       [car82] - - 
+83 Hotrod          [car83] - - 
+84                         - - 
+85                         - - 
+86 Limousine       [car86] - x - 
+87 Impaler         [car87] - - 8000 </LISTING></DL>
+	<DT><BR><DL>
+		<DD>
+		<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=ROWS>
+			<COLGROUP>
+				<COL WIDTH=13*>
+				<COL WIDTH=41*>
+				<COL WIDTH=19*>
+				<COL WIDTH=20*>
+				<COL WIDTH=34*>
+				<COL WIDTH=28*>
+				<COL WIDTH=46*>
+				<COL WIDTH=17*>
+				<COL WIDTH=17*>
+				<COL WIDTH=20*>
+			</COLGROUP>
+			<THEAD>
+				<TR>
+					<TH WIDTH=5% VALIGN=BOTTOM>
+						<P ALIGN=RIGHT>0</TH>
+					<TD WIDTH=16% VALIGN=TOP><DL>
+							<DT><B>Name</B> </DT>
+						</DL>
+					</TD>
+					<TH WIDTH=7% VALIGN=TOP>
+						<P>nyc</TH>
+					<TH WIDTH=8% VALIGN=TOP>
+						<P>sanb</TH>
+					<TD WIDTH=13% VALIGN=TOP><DL>
+							<DT><B>$</B> </DT>
+						</DL>
+					</TD>
+					<TH WIDTH=11% VALIGN=TOP>
+						<P>t</TH>
+					<TD WIDTH=18% VALIGN=TOP><DL>
+							<DT><B>Name</B> </DT>
+						</DL>
+					</TD>
+					<TH WIDTH=7% VALIGN=TOP>
+						<P>nyc</TH>
+					<TH WIDTH=7% VALIGN=TOP>
+						<P>sanb</TH>
+					<TD WIDTH=8% VALIGN=TOP><DL>
+							<DT><B>$$$</B> </DT>
+						</DL>
+					</TD>
+				</TR>
+			</THEAD>
+			<TBODY>
+				<TR>
+					<TD VALIGN=BOTTOM SDVAL="88" SDNUM="1031;">
+						<P ALIGN=CENTER>88</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Helicopter </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?!</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?!</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P>100</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Boat </DT>
+						</DL>
+					</TD>
+					<TH VALIGN=TOP>
+						<P>?</TH>
+					<TH VALIGN=TOP>
+						<P>? 
+					</TH>
+					<TH VALIGN=TOP>
+						<P><BR></TH>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>89</TD>
+					<TD VALIGN=TOP><DL>
+							<DT><BR></DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>101</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Trash Can </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>? 
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>90</TD>
+					<TD VALIGN=TOP><DL>
+							<DT><BR></DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Grey Dot </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>91</TD>
+					<TD VALIGN=TOP><DL>
+							<DT><BR></DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>102</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Trash Can </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>? 
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>92</TD>
+					<TD VALIGN=TOP><DL>
+							<DT><BR></DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Grey Dot </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>93</TD>
+					<TD VALIGN=TOP><DL>
+							<DT><BR></DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>103</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Trash Can </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>? 
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>94</TD>
+					<TD VALIGN=TOP><DL>
+							<DT><BR></DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>103-...</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Beast GTS </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>95</TD>
+					<TD VALIGN=TOP><DL>
+							<DT><BR></DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>104</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Mundano </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>96</TD>
+					<TD VALIGN=TOP><DL>
+							<DT><BR></DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>105</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Bug </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>97</TD>
+					<TD VALIGN=TOP><DL>
+							<DT><BR></DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>-</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>106-...</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Mundano </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>98</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Coach (Bus) </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>99</TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Juggernaut </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP><DL>
+							<DT>Grey Dot </DT>
+						</DL>
+					</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER>?</TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+					<TD VALIGN=TOP>
+						<P ALIGN=CENTER><BR></TD>
+				</TR>
+			</TBODY>
+		</TABLE></DL>
+</DL>
+<H3>Usage: </H3>
+<P><FONT FACE="Venetian301 BT">Placement:</FONT></P>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">No limitations reported. It seems
+	that the game crashes when it can't find the name of the car in the
+	active FXT file at the time the car is entered.</FONT></P></DD>
+</DL>
+<P><FONT FACE="Venetian301 BT">Activation:</FONT></P>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Parked cars can be entered and
+	driven by the player. Can a parked car be activated by a program
+	statement? PARKED Cars often hace CARTRIGGER objects with them to
+	start missions (or the car alarm?).</FONT></P></DD>
+</DL>
+<H3>Examples</H3>
+<DL>
+	<DD>
+	<TABLE WIDTH=100% CELLPADDING=3 CELLSPACING=0 FRAME=VOID RULES=NONE>
+		<COLGROUP>
+			<COL WIDTH=119*>
+			<COL WIDTH=137*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=46% VALIGN=TOP>
+					<LISTING>293 1 (106,119,4) PARKED 31 0 </LISTING></TD>
+				<TD WIDTH=54% VALIGN=TOP><DL>
+						<DT>Bulldog, parked facing south in front of the... </DT>
+					</DL>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>294 1 (105,119,4) PLAYER 293 256 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT>... player's starting position in &quot;Gangsta Bang&quot; </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>238 1 (127,92,4) PARKED 22 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Taxi, parked facing south in
+						front of a strip joint in North Park</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>239 1 (127,92,4) CARTRIGGER 2000 238</LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT>Triggers Taxi mission program at 2000 when the car is
+						entered </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>511 1 (248,78,4) PARKED 41 512 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT>Superbike, parked facing north on Law Island </DT>
+					</DL>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+	<DL>
+		<DT>The examples were taken from section [1] of MISSION.INI. </DT>
+	</DL>
+</DL>
+<H4><FONT FACE="ProseAntique">See also</FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><A HREF="Ref_ObjectCodes.html">Object
+	Codes Overview</A>, <A HREF="http://Dat_Cars.html/">Car Data</A>,
+	CARTRIGGER, FXT Files</FONT></P></DD>
+</DL>
+<H4><FONT FACE="ProseAntique">Notes </FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Information contributed by
+	<A HREF="http://gudmund.vgs.no/~eirikso/">ZyNTaX</A>, <A HREF="mailto:c674228@cclabs.missouri.edu">schu</A>,
+	<A HREF="mailto:mjweiler@wctc.net">Nathan Weiler</A></FONT>(real
+	name info)<FONT FACE="Venetian301 BT"> and <A HREF="mailto:mendel@informatik.uni-bremen.de">Michael
+	Mendelsohn</A>.</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Bugs</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Not all car types have been
+	tested. Nobody has found out yet how to use the helicopter.
+	Availability info for different versions of the game is also
+	missing. Can the car alarm be turned off and on?</FONT></P></DD>
+	<DT><BR></DT>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">MISSION.INI</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 20 Dez
+				1997</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DD><P><BR></P></DD>
+</DL>
+</BODY>
+</HTML>

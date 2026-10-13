@@ -1,0 +1,400 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>*.CMP Files</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19980105;13145477">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19980105;16162188">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="Structure of *.cmp GTA Map files">
+	<META NAME="KEYWORDS" CONTENT="CMP Map files">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">*.CMP</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="Fil_index.html"><FONT FACE="ProseAntique"><FONT FACE="ProseAntique">Files</FONT></FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">Fil_CMP.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H3><FONT FACE="ProseAntique">Name</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">nyc.cmp, sanb.cmp, miami.cmp -
+	contains city map layout</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Location</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">gtadata\*.cmp</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Description</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">This file contains the layout of
+	the city map. Since GTA is a 3D-game, the map consists of 256x256x6
+	cubes (see <A HREF="Ref_Coordinates.html">Coordinates</A>). The
+	cubes have textures from the <A HREF="Fil_Style00x.gry.html">style*.*</A>
+	files pasted on the sides and contain some game logic, too. Up to 6
+	cubes make up a stack. Stacks are then placed on the 256x256 map
+	grid. </FONT></P></DD>
+</DL>
+<H4><A NAME="Header"></A>Header</H4>
+<DL>
+	<DD><P>The first 28 bytes in the file contain 7 Integers (32-bit). I
+	call them <B>h0</B> through <B>h6</B>. They set the lengths of
+	different parts of the file  (see below) or something comletely
+	different.</P></DD>
+	<DD><P>Example (nyc.cmp): 331, 1, 2423, 42210, 117694, 42544, 980.</P></DD>
+</DL>
+<H4><A NAME="Struc"></A>Structure of *.CMP</H4>
+<DL>
+	<DD>
+	<TABLE WIDTH=95% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BOX RULES=ALL>
+		<COLGROUP>
+			<COL WIDTH=100*>
+			<COL WIDTH=64*>
+			<COL WIDTH=31*>
+			<COL WIDTH=31*>
+			<COL WIDTH=31*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TH COLSPAN=3 WIDTH=76% VALIGN=TOP>
+					<P ALIGN=LEFT><BR></TH>
+				<TH COLSPAN=2 WIDTH=24% VALIGN=TOP>
+					<P ALIGN=RIGHT>Example: nyc.cmp</TH>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR>
+				<TH WIDTH=39% VALIGN=TOP>
+					<P ALIGN=LEFT>Section</TH>
+				<TH WIDTH=25% VALIGN=TOP>
+					<P ALIGN=LEFT>Position</TH>
+				<TH WIDTH=12% VALIGN=TOP>
+					<P ALIGN=CENTER>Length</TH>
+				<TH WIDTH=12% VALIGN=TOP>
+					<P ALIGN=RIGHT>Position</TH>
+				<TH WIDTH=12% VALIGN=TOP>
+					<P ALIGN=RIGHT>Length</TH>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#Header">Header</A></TD>
+				<TD VALIGN=BOTTOM SDVAL="0" SDNUM="1031;0;Standard">
+					<P ALIGN=LEFT>0</TD>
+				<TD VALIGN=BOTTOM SDVAL="28" SDNUM="1031;0;Standard">
+					<P ALIGN=CENTER>28</TD>
+				<TD VALIGN=BOTTOM SDVAL="0" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>0</TD>
+				<TD VALIGN=BOTTOM SDVAL="28" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>28</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#Grid">Map Grid</A></TD>
+				<TD VALIGN=BOTTOM SDVAL="28" SDNUM="1031;0;Standard">
+					<P ALIGN=LEFT>28</TD>
+				<TD VALIGN=BOTTOM SDVAL="262144" SDNUM="1031;0;">
+					<P ALIGN=CENTER>262144</TD>
+				<TD VALIGN=BOTTOM SDVAL="28" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>28</TD>
+				<TD VALIGN=BOTTOM SDVAL="262144" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>262144</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#Stacks">Cube Stack Table</A></TD>
+				<TD VALIGN=BOTTOM SDVAL="262172" SDNUM="1031;0;">
+					<P ALIGN=LEFT>262172</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h4</TD>
+				<TD VALIGN=BOTTOM SDVAL="262172" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>262172</TD>
+				<TD VALIGN=BOTTOM SDVAL="117694" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>117694</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> 5318 8-byte(?) records</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=LEFT>262172+h4</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h5</TD>
+				<TD VALIGN=BOTTOM SDVAL="379866" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>379866</TD>
+				<TD VALIGN=BOTTOM SDVAL="42544" SDNUM="1031;0;">
+					<P ALIGN=RIGHT>42544</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> 3015 14-byte records</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=LEFT>262172+h4+h5</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h3</TD>
+				<TD VALIGN=BOTTOM SDVAL="422410" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>422410</TD>
+				<TD VALIGN=BOTTOM SDVAL="42210" SDNUM="1031;0;">
+					<P ALIGN=RIGHT>42210</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=LEFT><A NAME="Grid"></A>262172+h3+h4+h5</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER><BR></TD>
+				<TD VALIGN=BOTTOM SDVAL="464620" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>464620</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=LEFT><BR></TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> unidentified</TD>
+				<TD VALIGN=TOP>
+					<P><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h0</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=LEFT><BR></TD>
+				<TD VALIGN=BOTTOM SDVAL="331" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>331</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> unidentified</TD>
+				<TD VALIGN=TOP>
+					<P><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h1</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=LEFT><BR></TD>
+				<TD VALIGN=BOTTOM SDVAL="1" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>1</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#U2">???</A> unidentified</TD>
+				<TD VALIGN=TOP>
+					<P><BR></TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h2</TD>
+				<TD VALIGN=BOTTOM>
+					<P ALIGN=RIGHT><BR></TD>
+				<TD VALIGN=BOTTOM SDVAL="2423" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>2423</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P><A HREF="#District">District information</A></TD>
+				<TD VALIGN=TOP>
+					<P>EOF-h6</TD>
+				<TD VALIGN=TOP>
+					<P ALIGN=CENTER>h6</TD>
+				<TD VALIGN=BOTTOM SDVAL="467151" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>467151</TD>
+				<TD VALIGN=BOTTOM SDVAL="980" SDNUM="1031;0;">
+					<P ALIGN=RIGHT>980</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<P>File Size</TD>
+				<TD VALIGN=TOP>
+					<P>EOF</TD>
+				<TD VALIGN=BOTTOM SDVAL="0" SDNUM="1031;0;Standard">
+					<P ALIGN=CENTER>0</TD>
+				<TD VALIGN=BOTTOM SDVAL="468131" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>468131</TD>
+				<TD VALIGN=BOTTOM SDVAL="0" SDNUM="1031;0;Standard">
+					<P ALIGN=RIGHT>0</TD>
+			</TR>
+		</TBODY>
+	</TABLE></DL>
+<H4>Map Grid</H4>
+<DL>
+	<DD>
+	<TABLE WIDTH=95% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BOX RULES=COLS>
+		<COLGROUP>
+			<COL WIDTH=175*>
+			<COL WIDTH=81*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=68% VALIGN=TOP>
+					<P>The Map Grid section contains 256x256 32-bit integers
+					corresponding to map (x,y) locations.</P>
+					<DL>
+						<DT>The order is simple:</DL>
+					<PRE>(0,0)(1,0)(2,0)...(255,0)(0,1)(1,1)(2,1)...
+...(253,255)(254,255)(255,255) 
+</PRE>
+					<P>The integers point to the Cube Stack Table. </P>
+					<P><B>Usage</B>:</P>
+					<P>You can edit the map by copying entries from one spot to
+					another; e.g. if you know the (x,y) coordinates of a building,
+					you can copy its Map Grid entries to another location and find a
+					copy of that building there. You should not change the Map Grid
+					values randomly because then you may not be pointing to a valid
+					Cube Stack Table Entry.  
+				</TD>
+				<TD WIDTH=32% VALIGN=TOP>
+					<P><B>Example</B></P>
+					<P>2154 is the most common entry in nyc.cmp; it appears in 7357
+					locations and stands for light water. 2148 and 2142 stand for
+					medium and  dark shaded water. Common sidewalk values are 2386,
+					2982 and 2370.</P>
+					<P>More than half of the 10062 different values in nyc.cmp  are
+					used only once.</P>
+					<P><BR></TD>
+			</TR>
+		</THEAD>
+	</TABLE></DL>
+<H4><A NAME="Stacks"></A>Cube Stack Table</H4>
+<DL>
+	<DD>
+	<TABLE WIDTH=95% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BOX RULES=COLS>
+		<COLGROUP>
+			<COL WIDTH=129*>
+			<COL WIDTH=127*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=50% VALIGN=TOP>
+					<P>A cube stack is a stack of up to 6 cubes that can be placed
+					on the map by pointing to its entry from the map grid.</P>
+					<P>A stack entry has 4 to 7 16-bit integers. The first one
+					stands for a number of  &quot;nothing&quot; cubes on the top of
+					the stack, the others stand for the remaining cubes.
+					Illustration:</P>
+					<PRE>0 z0 z1 z2 z3 z4 z5
+1 z1 z2 z3 z4 z5
+2 z2 z3 z4 z5
+3 z3 z4 z5
+4 z4 z5
+5 z5
+</PRE>
+					<P>z0-z5 stand for cube integers; the cubes are placed in the
+					stack at the corresponding z values (see<FONT FACE="Venetian301 BT">
+					<A HREF="Ref_Coordinates.html">Coordinates</A></FONT>). A
+					totally empty stack (single 6) has not been observed yet. </P>
+					<P>Where the cube data is located is currently unknown; tell me
+					if you find out!</TD>
+				<TD WIDTH=50% VALIGN=TOP><DL>
+						<DT>In nyc.cmp at byte 262172+2142=264314 (that is byte 2142 in
+						this section) you find these 16-bit integers:</DL>
+					<PRE>
+4 183 182 4 183 184 4 183 185
+</PRE>
+					<P>This means that the water stacks for dark(2142),medium (2148)
+					and light(2152) water each consist of two cubes topped with 4
+					cubes of nothing. The top cube in each is 183; it can be
+					surmised that this cube contains the logic for drowning while
+					182, 183 and 185 contain the water textures.<BR>There is only
+					one stack that starts with 5, and that is entry 26246: 5 182.
+					This stack is used only 8 times in nyc.cmp (e.g. at (43,136)).
+					It has a dark water texture, and you can safely step on it
+					because the 183 drowning logic cube is absent. </P>
+					<P>You can view GIFs of the three cities' <A HREF="Fil_Exa_CMPHeight.html">stack
+					heights</A> (3x10KB). 
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</DL>
+<H4><A NAME="U2"></A>Unidentified section</H4>
+<DL>
+	<DD><P>I have no clue what is in this section, or if it even exists.
+	Some must not exist, because when you add 28+262144+h0+...h6, (for
+	nyc.cmp) you get  468355, yet the file is only 468131 bytes long.</P></DD>
+</DL>
+<H4><A NAME="District"></A>District Information Table</H4>
+<DL>
+	<DD>
+	<TABLE WIDTH=95% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BOX RULES=COLS>
+		<COLGROUP>
+			<COL WIDTH=157*>
+			<COL WIDTH=99*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=61% VALIGN=TOP>
+					<P>This section contains the names and locations of the
+					districts on the map. Each district has a 35-byte-record:</P>
+					<P>byte 0 and 1: x and y coordinate of top left corner<BR>byte 2
+					and 3: width and height of district area<BR>byte 4: index of
+					district<BR>bytes 5-34: name of district as 0-terminated string</P>
+					<P>Unused records are all 0 and reside at the front of this
+					section. The last record in this section (the last 35 bytes in
+					the file!) holds information on the city area.</TD>
+				<TD WIDTH=39% VALIGN=TOP>
+					<P>Examples from nyc.cmp:</P>
+					<DL>
+						<DT>1 2 126 47 2 Hackenslash
+						<DT>165 154 89 101 13 Kings
+						<DT>1 1 253 255 1 Liberty City
+						<DT><BR></DL>
+					<P>Kings is District number 13 and extends from (165,154) to
+					(154,255).</P>
+					<DL>
+						<DT><BR></DL>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</DL>
+<H3><FONT FACE="ProseAntique">See also: </FONT></H3>
+<DL>
+	<DD><P><FONT FACE="ProseAntique"><FONT FACE="Venetian301 BT">
+	<A HREF="Ref_Coordinates.html">Coordinates</A>, <A HREF="Fil_Style00x.gry.html">Style00x.gry</A></FONT>
+	 </FONT></P>
+</DL>
+<H3><A NAME="U21"></A><FONT FACE="ProseAntique">Notes </FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Information contributed by <A HREF="mailto:ianh@geocities.com">Ian
+	Howson</A> and <A HREF="mailto:mendel@informatik.uni-bremen.de">Michael
+	Mendelsohn</A>.</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Bugs</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Large parts of this file are
+	still uncharted territory. The connection to style00x.gry is still
+	missing.</FONT></P></DD>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">*.CMP</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 5 Jan
+				1998</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DT><BR></DT>
+</DL>
+</BODY>
+</HTML>

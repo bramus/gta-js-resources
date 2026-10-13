@@ -1,0 +1,186 @@
+How to add a kill frenzy
+
+31 Dec 97 Michael Mendelsohn mendel@informatik.uni-bremen.de
+Editor of The Unofficial GTA Reference Handbook
+http://www.informatik.uni-bremen.de/~mendel/gta/
+The handbook also contains the HTML version of this file.
+
+---------------------------------------------------------------------
+
+Before you can add a kill frenzy of your own, you should
+know how one works.
+
+A kill frenzy in GTA usually starts when you pick up 
+a special powerup crate.
+
+From the object code section of MISSION.INI:
+492 (6,1,4) POWERUP 2 500 
+493 (47,214,4) POWERUP 2 500 
+494 (224,103,4) POWERUP 2 500 
+495 (224,231,4) POWERUP 2 700 
+496 (158,77,4) POWERUP 2 700 
+
+The powerup at 493 will be our example. This is a machine gun powerup
+with a time limit. A few lines later, we find a TRIGGER in the
+same location:
+
+497 1 (6,1,4) TRIGGER 9160 0 
+498 1 (47,214,4) TRIGGER 9240 0 
+499 1 (224,103,4) TRIGGER 9320 0 
+500 1 (224,231,4) TRIGGER 9400 0 
+501 1 (158,77,4) TRIGGER 10000 0 
+
+This trigger will activate when we take the powerup since
+it has the same (x,y,z) coordinates. It starts program code at 9240.
+
+You notice that each trigger starts different code!
+Now here is the program code for this one:
+
+9240 DISABLE 498 0 0 0 0 		
+turn off trigger that started the code so it won't be started again
+
+9242 KF_PROCESS 0 0 -1 -1 0 		
+???
+
+9245 DECCOUNT 553 0 0 0 0 		
+decrement secret mission counter
+see 553 1 (0,0,0) SECRET_MISSION_COUNTER 7 0 
+change 7 to a higher number if you add new frenzies!
+
+9246 IS_POWERUP_DONE 493 0 9260 200 0 
+wait for the POWERUP process to finish to make sure 
+the player has the weapon. Start 9260 if after 200 time units
+the powerup has not been taken.
+Note: the mission counter will be decremented regardless,
+so this probably never happens.
+
+9247 MESSAGE_BRIEF 0 0 0 0 2503 
+Display FXT file message [2503]KILL FRENZY!
+
+9250 FRENZY_BRIEF 0 0 0 24 1426 
+After 24 time units, display FXT file message [1426]Move! Get 1,000 points in time for a whale of a bonus!
+
+9252 FRENZY_SET 9270 0 -1 -1 0 
+???
+9254 KICKSTART 9270 0 -1 -1 0 
+start code at line 9270 as a new process
+
+9256 KICKSTART 9280 0 -1 -1 0 
+start code at line 9280 as a new process
+
+9258 KICKSTART 9290 -1 -1 -1 0 
+start code at line 9290 as a new process and stop 
+(first -1 means stop)
+Now this process is done, but 3 new processes are running 
+at the same time.
+
+9260 ENABLE 498 -1 -1 0 0 
+This gets called if the player stepped on
+the tile where the powerup is but didn't take it.
+The TRIGGER gets turned on again in case the player
+later takes the powerup. The program stops (first -1).
+
+9270 FRENZY_CHECK 1000 0 9270 0 30000 
+Go to 9270 until player has reached 1000 points
+???? 30000
+
+9272 MESSAGE_BRIEF 0 0 0 0 4000 
+Display FXT file message [4000]YOU GOT IT!
+
+9274 STOP_FRENZY 493 0 0 0 0 
+Turn weapon that resulted from 493 POWERUP off
+
+
+9276 RESET_KF 0 0 0 0 0 
+??? some relation to KF_PROCESS earlier 
+
+9278 DROP_WANTED_LEVEL 0 -1 -1 0 0 
+drops wanted level; should also stop, but no first -1 ????
+
+9280 SURVIVE 0 0 0 400 0 
+wait 400 time units; exact meaning of SURVIVE still unclear
+
+9282 MESSAGE_BRIEF 0 0 0 0 2504 
+Display FXT file message [2504]FRENZY FAILED!
+
+9284 STOP_FRENZY 493 0 0 0 0 
+Turn weapon that resulted from 493 POWERUP off
+
+9286 RESET_KF 0 -1 -1 0 0 
+??? some relation to KF_PROCESS earlier 
+??? should also stop, but no first -1 ????
+
+9290 DEAD_ARRESTED 294 0 9290 0 0 
+go to 9290 until the player is dead or arrested
+see 294 1 (105,119,4) PLAYER 293 256 
+
+9292 MESSAGE_BRIEF 0 0 0 0 2504 
+dosplay FXT fiel message [2504]FRENZY FAILED!
+ 
+9294 STOP_FRENZY 493 0 0 0 0 
+Turn weapon that resulted from 493 POWERUP off
+
+9296 RESET_KF 0 -1 -1 0 0 
+??? some relation to KF_PROCESS earlier 
+??? should also stop, but no first -1 ????
+
+
+Concermimg the KF statements, my guess is that 
+KF_PROCESS sets up a process group that contains 
+the process that calls it and all subsequent
+processes KICKSTARTed from it; RESET_KF 0 -1 -1 0 0 then
+terminates all processes in the group, and 
+RESET_KF 0 0 0 0 0 terminates all other processes in the 
+group but keeps the one that executed RESET_KF running.
+
+-------------------------------------------------------------------
+
+It should by now have become clear what the "right" way to add
+a frenzy is:
+
+1) Add a POWERUP with the second parameter > 100.
+You do not need to use a DUMMY line, just use any unused 
+object line number. You can place the new line anywhere
+in the object section regardless of line number (a good choice
+would be to place it where the other frenzies are),
+although it helps finding your way around the file if 
+you keep them in order.
+
+2) Add a TRIGGER at the same (x,y,z) as the POWERUP.
+Have it trigger an unused linenumber.
+
+3) Copy the code from an existing frenzy. Change the line numbers
+ so they start at the unused line number the TRIGGER points to.
+ Be sure to adjust parameters that refernce these line numbers!
+
+4) Decide whether you want your frenzy to be a secret mission;
+if you do, increase the SECRET_MISSION_COUNTER object; if you
+don't, remove the DECCOUNT statement.
+
+5) You can write comments in the MISSION.INI; use any 
+blank line (or make yourself one). It might be wise not to
+start your comment with a number! Place a comment where
+you made your additions so you can find them later.
+
+-------------------------------------------------------------------
+
+That's it! If you notice any errors or have any additional
+comments, contact me at mendel@informatik.uni-bremen.de
+It would be groovy if you could send in a formula for
+the frenzy time!
+
+In the near future, the GTA editor project will make
+a tool available that allows you to distribute "just the changes"
+versions of missions; this helps you avoid copyright infringements
+you probably incur when distributing MISSION.INIs that contain
+DMA code. It also keeps file sizes small which is a decidied advantage for 
+downloading! Look on http://www.informatik.uni-bremen.de/~mendel/gta/
+for this.
+
+Have frenzied fun!
+Michael
+
+
+
+
+ 

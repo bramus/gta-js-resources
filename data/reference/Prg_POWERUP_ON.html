@@ -1,0 +1,327 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>POWERUP_ON Program Statement</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19971217;15551530">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19971218;7145587">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="This statement (re)activates a powerup object that has been placed on the map with a POWERUP object code.&lt;BR&gt;">
+	<META NAME="KEYWORDS" CONTENT="POWERUP_ON">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=LEFT><FONT FACE="ProseAntique">POWERUP_ON</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><FONT FACE="ProseAntique"><A HREF="Prg_index.html">Program
+				Statements</A></FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">Prg_POWERUP_ON.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H3><FONT FACE="ProseAntique">Name</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">POWERUP_ON - activate a powerup
+	object </FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Synopsis</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><B>### POWERUP_ON i e 0 0 0</B></FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Availability</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">all GTA Demos, GTA Full Version</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Description</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">This statement (re)activates a
+	powerup object that has been placed on the map with a POWERUP object
+	code.</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Parameters</FONT></H3>
+<DL>
+	<DL>
+		<DD>
+		<TABLE WIDTH=100% CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+			<COLGROUP>
+				<COL WIDTH=42*>
+				<COL WIDTH=214*>
+			</COLGROUP>
+			<THEAD>
+				<TR>
+					<TD WIDTH=16% VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>### </B></FONT>
+					</TD>
+					<TD WIDTH=84% VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">line number </FONT>
+					</TD>
+				</TR>
+			</THEAD>
+			<TBODY>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>i</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">POWERUP object index</FONT></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>e</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">End flag:</FONT></P>
+						<DL>
+							<DD><FONT FACE="Venetian301 BT">0 = continue execution with
+							the next line<BR>-1 = end of this routine</FONT> </DD>
+						</DL>
+					</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT"><B>0 0 0</B></FONT></TD>
+					<TD VALIGN=TOP>
+						<P><FONT FACE="Venetian301 BT">usually =0</FONT></TD>
+				</TR>
+			</TBODY>
+		</TABLE></DL>
+	<DD><P><BR></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Usage: </FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">For every POWERUP in part 1 of
+	MISSION.INI there should be at least one POWERUP_ON in part 2 that
+	refers to it. Powerups that have been taken by the player can be
+	restituted with this statement.</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Examples</FONT></H3>
+<DL>
+	<DD>
+	<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=GROUPS>
+		<COLGROUP>
+			<COL WIDTH=119*>
+			<COL WIDTH=137*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=47% VALIGN=TOP>
+					<H4><FONT FACE="ProseAntique">Object Codes</FONT></H4>
+				</TD>
+				<TD WIDTH=53% VALIGN=TOP>
+					<H4><BR></H4>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>271 (70,85,4) POWERUP 2 500 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Machine Gun, Kill Frenzy 20
+						secs ?</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>272 (141,208,4) POWERUP 2 700 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Machine Gun, Kill frenzy 30
+						secs ?</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>273 1 (70,85,4) TRIGGER 9000 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Triggers messages etc. </FONT></DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>274 1 (141,208,4) TRIGGER 9080 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Triggers messages etc. </FONT></DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>276 (140,25,4) POWERUP 1 99 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Pistol with 99 shots ammunition</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>520 (196,223,4) POWERUP 14 9 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Info Sign with text [help9]</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+		</TBODY>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><BR></DT>
+					</DL>
+				</TD>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><BR></DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<H4><FONT FACE="ProseAntique">Script Statements</FONT></H4>
+				</TD>
+				<TD VALIGN=TOP>
+					<H4><BR></H4>
+				</TD>
+			</TR>
+		</TBODY>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">9000 ff. </FONT></DT>
+					</DL>
+				</TD>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">Code for frenzy message and
+						other stuff</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">9080 ff.</FONT> </DT>
+					</DL>
+				</TD>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">Code for frenzy message and
+						other stuff</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>30470 POWERUP_ON 271 0 0 0 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">activate machine gun powerup</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>30480 POWERUP_ON 272 0 0 0 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">activate machine gun powerup</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>30481 POWERUP_ON 276 0 0 0 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">activate pistol powerup</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>30505 POWERUP_ON 520 0 0 0 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">activate info sign powerup</FONT>
+						</DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><BR></DT>
+					</DL>
+				</TD>
+				<TD VALIGN=TOP>
+					<DL>
+						<DT><FONT FACE="Venetian301 BT">(example source: full game,
+						section [1])</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+	<DT><BR></DT>
+</DL>
+<H4><FONT FACE="ProseAntique">See also</FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><FONT FACE="Venetian301 BT"><A HREF="Ref_ProgramStatements.html">Program
+	Statements Overview</A>, <A HREF="http://How_AddPowerup.html/">Powerup
+	Howto</A>, IS_POWERUP_DONE, <A HREF="Obj_POWERUP.html">POWERUP</A></FONT></FONT></P></DD>
+</DL>
+<H4><FONT FACE="ProseAntique">Notes </FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><FONT FACE="Venetian301 BT">Information
+	contributed by <A HREF="http://gudmund.vgs.no/~eirikso/">ZyNTaX</A>,
+	<A HREF="mailto:c674228@cclabs.missouri.edu">schu</A>, and <A HREF="mailto:mendel@informatik.uni-bremen.de">Michael
+	Mendelsohn</A>.</FONT></FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Bugs</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">The meaning of the last four
+	parameters is still unclear. schu claimed that e=-1 for the last
+	powerup statement, but in section [1] of MISSION.INI in the full
+	version there is no POWERUP_ON with e=-1. </FONT></P></DD>
+	<DD><P><BR></P></DD>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">MISSION.INI</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 17 Dez
+				1997</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DD><P><BR></P></DD>
+</DL>
+<P><BR></P>
+<P><BR></P>
+</BODY>
+</HTML>

@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>Program Statements Reference</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19971217;16382564">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19971228;3025625">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="Overview of Program Statements that occur in the second part of a MISSION.INI section">
+	<META NAME="KEYWORDS" CONTENT="Program Script Statements">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">Coordinates</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="Ref_index.html"><FONT FACE="ProseAntique">Reference</FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">Ref_Coordinates.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H3><FONT FACE="ProseAntique">Name</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Coordinates - Cordinates used in
+	the Game, especially Object Codes </FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Synopsis</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="ProseAntique"><B>(x,y,z)</B></FONT></P>
+</DL>
+<H3><FONT FACE="ProseAntique">Availability</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">all GTA Demos, GTA Full Version</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Description</FONT></H3>
+<DL>
+	<DD>Objects are placed on the map using coordinates. These can be
+	given in 8-bit, 14-bit or Zero format. Which format to use depends
+	probably on the object code.</DD>
+	<DD><H4>8-bit Coordinates</H4>
+	<DD>Imagine the map composed of 256x256 square tiles. Now imagine
+	the GTA world composed of 256x256x6 cubes. Cube (0,0,0) is in the
+	top upper lefthand corner, while cube (255,255,5) is in the bottom
+	lower righthand corner.</DD>
+	<DD><H4>Height (z) levels:</H4>
+	<DD>Cubes in level 5 are below sea level. </DD>
+	<DD>Cubes in level 4 are below street level, but above sea level.</DD>
+	<DD>Cubes in level 3 are below most trains and bridges, but above
+	street level.</DD>
+	<DD>Cubes in level 2 are below some bridges and most rooftops, but
+	above the train tracks.</DD>
+	<DD>Cubes in level 1 are even higher.</DD>
+	<DD>Cubes in level 0 are highest.</DD>
+	<DD><BR></DD>
+	<DD>When the player is in level 5, he's dead (usually).</DD>
+	<DD>When the player is in level 4, he's falling (usually).</DD>
+	<DD>When the player is in level 3, he's walking or driving
+	(usually).</DD>
+	<DD>When the player is in level 2, he's on a station or in a train
+	(usually). The stairs up is still in level 3.</DD>
+	<DD>When the player is in level 1, he's driving on a high bridge
+	(for example).</DD>
+	<DD>When the player is in level 0, he has jumped off Schelchberg
+	bridge in Liberty City (for example).</DD>
+	<DD><BR></DD>
+	<DD>Objects (Cars, Phones, ...) are usually placed in level 4 so the
+	player (who moves in level 3) does not bump against them but moves
+	over them.</DD>
+	<DD><BR></DD>
+	<DD><H4>14-bit Coordinates</H4>
+	<DD><P>Some Coordinates are given as 14-bit-Coordinates. You can now
+	imagine the game world made up of 16384x16384x384 small cubes, but
+	you can just as well imagine each of the 256x256x6 big cubes made up
+	of 64x64x64 small cubes.</P>
+	<DD><P>Divide a 14-bit-coordinate by 64 to get the 8-bit-coordinate;
+	the remainder tells you where in that big cube the small cube is.</P>
+	<DD><P>Example: <BR>(864,14114,192) CRANE: This Crane is located in
+	big cube (864/64,14114/64,192/64) = (13,220,3). Within this cube,
+	the crane is located (864-13*64,14114-220*64,192-3*64) = (32,34,0)
+	small cubes from the top upper left-hand corner.</P>
+	<DD><H4>Zero Coordinates</H4>
+	<DD><P>For some keywords, it is unknown whether they have 8-bit or
+	14-bit coordinates. This is because the coordinates are always set
+	to (0,0,0). This probably means that for these objects the location
+	is irrelevant and can always be set to (0,0,0).</P>
+</DL>
+<H4><FONT FACE="ProseAntique">See also</FONT></H4>
+<DL>
+	<DD><P><A HREF="Fil_MISSION.INI.html#Obj"><FONT FACE="Venetian301 BT">MISSION.INI</FONT></A>,
+	<A HREF="Ref_ObjectStats.html">Object Statistics</A></P></DD>
+</DL>
+<H4><FONT FACE="ProseAntique">Notes </FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Information contributed by
+	<A HREF="mailto:mendel@informatik.uni-bremen.de">Michael Mendelsohn</A>.</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Bugs</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">It is currently unclear whether
+	8-bit and 14-bit coordinates can be used with any object code.</FONT></P></DD>
+	<DT><BR></DT>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">MISSION.INI</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 27 Dez
+				1997</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DD><P><BR></P></DD>
+</DL>
+</BODY>
+</HTML>

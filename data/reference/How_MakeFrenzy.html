@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>How To Make A Kill Frenzy</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19971231;10041692">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19971231;10245878">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="How to add Kill Frenzies to a Grand Theft Auto Level">
+	<META NAME="KEYWORDS" CONTENT="Kill Frenzy">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">How to Make Kill Frenzies</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="How_index.html"><FONT FACE="ProseAntique">Howto</FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">How_MakeFrenzy.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H2><FONT FACE="ProseAntique">How to make new Kill Frenzies by
+editing the MISSION.INI file</FONT></H2>
+<P><FONT FACE="Venetian301 BT">By <A HREF="mailto:mendel@informatik.uni-bremen.de">Michael
+Mendelsohn</A> </FONT></P>
+<P><FONT FACE="Venetian301 BT">There is a <A HREF="How_MakeFrenzy.txt" TARGET="_text">text
+version</A> available. It may be put up on other web sites as long as
+it remains unchanged.</FONT></P>
+<HR>
+<H4>Before you can add a kill frenzy of your own, you should know how
+one works.</H4>
+<P><FONT FACE="Venetian301 BT">A kill frenzy in GTA usually starts
+when you pick up a special powerup crate.</FONT></P>
+<P><FONT FACE="Venetian301 BT">From the <A HREF="Fil_MISSION.INI.html#Obj">object
+code section</A> of <A HREF="Fil_MISSION.INI.html">MISSION.INI</A>
+(mission [1] Easy Liberty City):</FONT></P>
+<PRE>492 (6,1,4) POWERUP 2 500 
+493 (47,214,4) POWERUP 2 500 
+494 (224,103,4) POWERUP 2 500 
+495 (224,231,4) POWERUP 2 700 
+496 (158,77,4) POWERUP 2 700 </PRE>
+<P><FONT FACE="Venetian301 BT">The powerup at 493 will be our
+example. This is a machine gun powerup with a time limit. A few lines
+later, we find a TRIGGER in the same location:</FONT></P>
+<PRE>497 1 (6,1,4) TRIGGER 9160 0 
+498 1 (47,214,4) TRIGGER 9240 0 
+499 1 (224,103,4) TRIGGER 9320 0 
+500 1 (224,231,4) TRIGGER 9400 0 
+501 1 (158,77,4) TRIGGER 10000 0 </PRE>
+<P><FONT FACE="Venetian301 BT">This trigger will activate when we
+take the powerup since it has the same (x,y,z) coordinates. It starts
+program code at 9240.<BR>Notice that each trigger starts different
+code!</FONT></P>
+<P><FONT FACE="Venetian301 BT">Now here is the <A HREF="Fil_MISSION.INI.html#Prg">program
+code</A> for this one:</FONT></P>
+<PRE>9240 DISABLE 498 0 0 0 0                </PRE>
+<P><FONT FACE="Venetian301 BT">turn off trigger that started the code
+so it won't be started again</FONT></P>
+<PRE>9242 KF_PROCESS 0 0 -1 -1 0             </PRE>
+<P><FONT FACE="Venetian301 BT">???</FONT></P>
+<PRE>9245 DECCOUNT 553 0 0 0 0               </PRE>
+<P><FONT FACE="Venetian301 BT">decrement secret mission counter, <BR>see
+553 1 (0,0,0) SECRET_MISSION_COUNTER 7 0 <BR>change 7 to a higher
+number if you add new frenzies!</FONT></P>
+<PRE>9246 IS_POWERUP_DONE 493 0 9260 200 0 </PRE>
+<P><FONT FACE="Venetian301 BT">wait for the POWERUP process to finish
+to make sure the player has the weapon. Start 9260 if after 200 time
+units the powerup has not been taken.<BR>Note: the mission counter
+will be decremented regardless, so this probably never happens.</FONT></P>
+<PRE>9247 MESSAGE_BRIEF 0 0 0 0 2503 </PRE>
+<P><FONT FACE="Venetian301 BT">Display FXT file message [2503]KILL
+FRENZY!</FONT></P>
+<PRE>9250 FRENZY_BRIEF 0 0 0 24 1426 </PRE>
+<P><FONT FACE="Venetian301 BT">After 24 time units, display FXT file
+message [1426]Move! Get 1,000 points in time for a whale of a bonus!</FONT></P>
+<PRE>9252 FRENZY_SET 9270 0 -1 -1 0 </PRE>
+<P><FONT FACE="Venetian301 BT">???</FONT></P>
+<PRE>9254 KICKSTART 9270 0 -1 -1 0 </PRE>
+<P><FONT FACE="Venetian301 BT">start code at line 9270 as a new
+process</FONT></P>
+<PRE>9256 KICKSTART 9280 0 -1 -1 0 </PRE>
+<P><FONT FACE="Venetian301 BT">start code at line 9280 as a new
+process</FONT></P>
+<PRE>9258 KICKSTART 9290 -1 -1 -1 0 </PRE>
+<P><FONT FACE="Venetian301 BT">start code at line 9290 as a new
+process and stop (first -1 means stop)</FONT></P>
+<P><FONT FACE="Venetian301 BT">Now this process is done, but 3 new
+processes are running at the same time.</FONT></P>
+<PRE>9260 ENABLE 498 -1 -1 0 0 </PRE>
+<P><FONT FACE="Venetian301 BT">This gets called if the player stepped
+on the tile where the powerup is but didn't take it.<BR>The TRIGGER
+gets turned on again in case the player takes the powerup later. The
+program stops (first -1).</FONT></P>
+<PRE>9270 FRENZY_CHECK 1000 0 9270 0 30000 </PRE>
+<P><FONT FACE="Venetian301 BT">Go to 9270 until player has reached
+1000 points<BR>???? 30000</FONT></P>
+<PRE>9272 MESSAGE_BRIEF 0 0 0 0 4000 </PRE>
+<P><FONT FACE="Venetian301 BT">Display FXT file message [4000]YOU GOT
+IT!</FONT></P>
+<PRE>9274 STOP_FRENZY 493 0 0 0 0 </PRE>
+<P><FONT FACE="Venetian301 BT">Turn weapon that resulted from 493
+POWERUP off</FONT></P>
+<PRE>9276 RESET_KF 0 0 0 0 0 </PRE>
+<P><FONT FACE="Venetian301 BT">??? some relation to KF_PROCESS
+earlier </FONT></P>
+<PRE>9278 DROP_WANTED_LEVEL 0 -1 -1 0 0 </PRE>
+<P><FONT FACE="Venetian301 BT">drops wanted level; should also stop,
+but no first -1 ????</FONT></P>
+<PRE>9280 SURVIVE 0 0 0 400 0 </PRE>
+<P><FONT FACE="Venetian301 BT">wait 400 time units; exact meaning of
+SURVIVE still unclear</FONT></P>
+<PRE>9282 MESSAGE_BRIEF 0 0 0 0 2504 </PRE>
+<P><FONT FACE="Venetian301 BT">Display FXT file message [2504]FRENZY
+FAILED!</FONT></P>
+<PRE>9284 STOP_FRENZY 493 0 0 0 0 </PRE>
+<P><FONT FACE="Venetian301 BT">Turn weapon that resulted from 493
+POWERUP off</FONT></P>
+<PRE>9286 RESET_KF 0 -1 -1 0 0 </PRE>
+<P><FONT FACE="Venetian301 BT">??? some relation to KF_PROCESS
+earlier <BR>??? should also stop, but no first -1 ????</FONT></P>
+<PRE>9290 DEAD_ARRESTED 294 0 9290 0 0 </PRE>
+<P><FONT FACE="Venetian301 BT">go to 9290 until the player is dead or
+arrested<BR>see 294 1 (105,119,4) PLAYER 293 256 </FONT></P>
+<PRE>9292 MESSAGE_BRIEF 0 0 0 0 2504 </PRE>
+<P><FONT FACE="Venetian301 BT">display FXT file message [2504]FRENZY
+FAILED! </FONT></P>
+<PRE>9294 STOP_FRENZY 493 0 0 0 0 </PRE>
+<P><FONT FACE="Venetian301 BT">Turn weapon that resulted from 493
+POWERUP off</FONT></P>
+<PRE>9296 RESET_KF 0 -1 -1 0 0 </PRE>
+<P><FONT FACE="Venetian301 BT">??? some relation to KF_PROCESS
+earlier <BR>??? should also stop, but no first -1 ????</FONT></P>
+<P><FONT FACE="Venetian301 BT">Concermimg the KF statements, my guess
+is that KF_PROCESS sets up a process group that contains the process
+that calls it and all subsequentprocesses KICKSTARTed from it;
+RESET_KF 0 -1 -1 0 0 then terminates all processes in the group, and
+RESET_KF 0 0 0 0 0 terminates all other processes in the group but
+keeps the one that executed RESET_KF running.</FONT></P>
+<HR>
+<H4>It should by now have become clear what the &quot;right&quot; way
+to add a frenzy is!</H4>
+<P><FONT FACE="Venetian301 BT">1) Add a POWERUP with the second
+parameter &gt; 100.<BR>You do not need to use a DUMMY line, just use
+any unused object line number. You can place the new line anywhere in
+the object section regardless of line number (a good choice would be
+to place it where the other frenzies are), although it helps finding
+your way around the file if you keep them in order.</FONT></P>
+<P><FONT FACE="Venetian301 BT">2) Add a TRIGGER at the same (x,y,z)
+as the POWERUP. Have it trigger an unused linenumber.</FONT></P>
+<P><FONT FACE="Venetian301 BT">3) Copy the code from an existing
+frenzy. Change the line numbers so they start at the unused line
+number the TRIGGER points to. Be sure to adjust parameters that
+reference these line numbers, too!</FONT></P>
+<P><FONT FACE="Venetian301 BT">4) Decide whether you want your frenzy
+to be a secret mission; if you do, increase the
+SECRET_MISSION_COUNTER object; if you don't, remove the DECCOUNT
+statement.</FONT></P>
+<P><FONT FACE="Venetian301 BT">5) You can write comments in the
+MISSION.INI; use any blank line (or make yourself one). It might be
+wise not to start your comment with a number! Place a comment where
+you made your additions so you can find them later.</FONT></P>
+<H5>That's it! </H5>
+<P><FONT FACE="Venetian301 BT">If you notice any errors or have any
+additional comments, please <A HREF="mailto:mendel@informatik.uni-bremen.de">contact</A>
+me.<BR>It would be groovy if you could send in a formula for the
+frenzy time!</FONT></P>
+<P><FONT FACE="Venetian301 BT">In the near future, the GTA editor
+project will make a tool available that allows you to distribute
+&quot;just the changes&quot; versions of missions; this helps you
+avoid copyright infringements you probably incur when distributing
+MISSION.INIs that contain DMA code. It also keeps file sizes small
+which is a decidied advantage for downloading! Look on
+<A HREF="http://www.informatik.uni-bremen.de/~mendel/gta/">http://www.informatik.uni-bremen.de/~mendel/gta/</A>
+for this!</FONT></P>
+<P><FONT FACE="Venetian301 BT">Have frenzied fun!</FONT></P>
+<P><FONT FACE="Venetian301 BT">Michael</FONT></P>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">MISSION.INI</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 31 Dez
+				1997</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DT><BR></DT>
+</DL>
+</BODY>
+</HTML>

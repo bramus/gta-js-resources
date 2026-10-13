@@ -1,0 +1,4560 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<TITLE>Car Data Type</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice/4.0 (WinNT/Win95)">
+	<META NAME="AUTHOR" CONTENT="Michael Mendelsohn">
+	<META NAME="CREATED" CONTENT="19971220;20003434">
+	<META NAME="CHANGEDBY" CONTENT="Michael Mendelsohn">
+	<META NAME="CHANGED" CONTENT="19971220;20443060">
+	<META NAME="CLASSIFICATION" CONTENT="Grand Theft Auto unofficial reference">
+	<META NAME="DESCRIPTION" CONTENT="Information about Cars">
+	<META NAME="KEYWORDS" CONTENT="Car Data">
+</HEAD>
+<BODY>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BELOW RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5><FONT FACE="ProseAntique">Cars</FONT></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=CENTER><A HREF="Obj_index.html"><FONT FACE="ProseAntique">Object
+				Codes</FONT></A></H5>
+			</TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<H5 ALIGN=RIGHT><FONT FACE="ProseAntique">Dat_Cars.html</FONT></H5>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+<H3>Description</H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Cars - Car Data Table </FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Availability</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">all GTA Demos, GTA Full Version</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Description</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Cars and other objects can be
+	placed on the map using the PARKED Object Code.  </FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Legend</FONT></H3>
+<DL>
+	<DL>
+		<DD>
+		<TABLE WIDTH=570 CELLPADDING=0 CELLSPACING=0 FRAME=VOID RULES=NONE>
+			<COLGROUP>
+				<COL WIDTH=364>
+				<COL WIDTH=206>
+			</COLGROUP>
+			<THEAD>
+				<TR>
+					<TD WIDTH=364 VALIGN=TOP>
+						<P><B>T</B> = parameter for PARKED</TD>
+					<TD WIDTH=206 VALIGN=TOP>
+						<P><B>$$$ </B>= Mint Value at Dock</TD>
+				</TR>
+			</THEAD>
+			<TBODY>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>Name</B> = Name of vehicle</TD>
+					<TD VALIGN=TOP>
+						<P><B>sp</B> = Speed quality</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>FXT</B> = Car Name Message ID in SPECIAL.FXT (Full game)</TD>
+					<TD VALIGN=TOP>
+						<P><B>hd</B> = Handling Quality</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>nyc: </B>x or color = available, - = not available in
+						Liberty City Demo, crash = game crashes when car is entered</TD>
+					<TD VALIGN=TOP>
+						<P><B>dm</B> = Damage Quality<BR><B>av</B> = availability</TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>sanb:</B> like sanb, but for San Andreas Demo 
+					</TD>
+					<TD VALIGN=TOP>
+						<P><B>ds = desirability</B></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><B>real name: </B>car that exists in the real world</TD>
+					<TD VALIGN=TOP>
+						<P><BR></TD>
+				</TR>
+				<TR>
+					<TD VALIGN=TOP>
+						<P><BR></TD>
+					<TD VALIGN=TOP>
+						<P><BR></TD>
+				</TR>
+			</TBODY>
+		</TABLE></DL>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=BOX RULES=ROWS>
+	<COLGROUP>
+		<COL WIDTH=15*>
+		<COL WIDTH=42*>
+		<COL WIDTH=24*>
+		<COL WIDTH=21*>
+		<COL WIDTH=21*>
+		<COL WIDTH=19*>
+		<COL WIDTH=9*>
+		<COL WIDTH=9*>
+		<COL WIDTH=12*>
+		<COL WIDTH=14*>
+		<COL WIDTH=9*>
+		<COL WIDTH=62*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=6% VALIGN=TOP>
+				<P ALIGN=CENTER><B>T</B></TD>
+			<TD WIDTH=16% VALIGN=TOP><DL>
+					<DT><B>Name</B> </DT>
+				</DL>
+			</TD>
+			<TD WIDTH=9% VALIGN=TOP>
+				<DL>
+					<DT><B>FXT</B> </DT>
+				</DL>
+			</TD>
+			<TD WIDTH=8% VALIGN=TOP>
+				<P ALIGN=CENTER><B>nyc</B></TD>
+			<TD WIDTH=8% VALIGN=TOP>
+				<P ALIGN=CENTER><B>sanb</B></TD>
+			<TD WIDTH=7% VALIGN=TOP><DL>
+					<DT><B>$$$</B> </DT>
+				</DL>
+			</TD>
+			<TD WIDTH=3% VALIGN=TOP>
+				<DL>
+					<DT><B>sp</B> </DT>
+				</DL>
+			</TD>
+			<TD WIDTH=4% VALIGN=TOP>
+				<DL>
+					<DT><B>hd</B> </DT>
+				</DL>
+			</TD>
+			<TD WIDTH=5% VALIGN=TOP>
+				<DL>
+					<DT><B>dm</B> </DT>
+				</DL>
+			</TD>
+			<TD WIDTH=6% VALIGN=TOP SDNUM="1031;1031;0%">
+				<DL>
+					<DT><B>av</B> </DT>
+				</DL>
+			</TD>
+			<TD WIDTH=4% VALIGN=TOP>
+				<DL>
+					<DT><B>ds</B> </DT>
+				</DL>
+			</TD>
+			<TD WIDTH=24% VALIGN=TOP>
+				<DL>
+					<DT><B>real name</B> </DT>
+				</DL>
+			</TD>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>0</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Beast GTS </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car0] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>12000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>9 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>10 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>10 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Dodge Viper GTS</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>1</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Bug </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car1] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>purple</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>2000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,05" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>5%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>2 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>VW Beetle</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Counthash </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car2] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>purple</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>12000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>9 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Lamborgini</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Bike </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car3] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>white</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>white</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>2000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>1 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,06" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>6%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Harley Davidson</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>4</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Squad Car </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car4] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=BOTTOM SDVAL="10" SDNUM="1031;0;">
+				<P ALIGN=CENTER>10</TD>
+			<TD VALIGN=BOTTOM SDVAL="4" SDNUM="1031;0;">
+				<P ALIGN=CENTER>4</TD>
+			<TD VALIGN=BOTTOM SDVAL="8" SDNUM="1031;0;">
+				<P ALIGN=CENTER>8</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER>1%</TD>
+			<TD VALIGN=BOTTOM SDVAL="6" SDNUM="1031;0;">
+				<P ALIGN=CENTER>6</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Squad Car</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>5</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Ambulance </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car5] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=BOTTOM SDVAL="6" SDNUM="1031;0;">
+				<P ALIGN=CENTER>6</TD>
+			<TD VALIGN=BOTTOM SDVAL="4" SDNUM="1031;0;">
+				<P ALIGN=CENTER>4</TD>
+			<TD VALIGN=BOTTOM SDVAL="9" SDNUM="1031;0;">
+				<P ALIGN=CENTER>9</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER>1%</TD>
+			<TD VALIGN=BOTTOM SDVAL="6" SDNUM="1031;0;">
+				<P ALIGN=CENTER>6</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Ambulance</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>6</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Repair Van </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car6] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>white</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>white 
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Repair Van</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>7</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Juggernaut </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car7] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>aqua</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Juggernaut</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>8</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Juggernaut </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car8] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>- </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>2 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Juggernaut</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>9</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Coach </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car9] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>- </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>1 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>10 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,04" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>4%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Coach</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>10</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Breakdown Truck </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car10] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Breakdown Truck</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>11</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Train </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car11] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=BOTTOM SDVAL="3" SDNUM="1031;0;">
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=BOTTOM SDVAL="4" SDNUM="1031;0;">
+				<P ALIGN=CENTER>4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER>1%</TD>
+			<TD VALIGN=BOTTOM SDVAL="2" SDNUM="1031;0;">
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Train</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>12</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Tram </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car12] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Tram</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>13</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Boat </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car13] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=BOTTOM SDVAL="2" SDNUM="1031;0;">
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=BOTTOM SDVAL="4" SDNUM="1031;0;">
+				<P ALIGN=CENTER>4</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=BOTTOM SDVAL="2" SDNUM="1031;0;">
+				<P ALIGN=CENTER>2</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Boat</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>14</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Penetrator </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car14] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>green</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Penetrator</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>15</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>16</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>17</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Itali </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car17] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Ferrari</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>18</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Mundano </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car18] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>aqua</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>6000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,11" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>11%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Ford Probe</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>19</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>4 X 4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car19] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>4000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,05" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>5%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Jeep Wrangler</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>20</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>21</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Stallion </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car21] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>6000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Ford Mustang</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>22</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Taxi </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car22] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>4000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,2" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>20%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Taxi</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>23</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>24</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>25</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Impaler </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car25] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>white</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Chevy Impala</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>26</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Jugular </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car26] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>white</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Jaguar</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>27</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Pickup </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car27] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>4000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,05" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>5%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>S-10</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>28</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Porka Turbo </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car28] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>gold</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Porsche Turbo</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>29</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Cossie </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car29] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>white</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>12000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>9 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>9 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Camaro</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>30</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>31</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Bulldog </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car31] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,03" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>3%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Ford Escort</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>32</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>33</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Juggernaut </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car33] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>- </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>2 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Juggernaut</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>34</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Challenger </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car34] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>4000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="6" SDNUM="1031;0;Standard">
+				<DL>
+					<DT>6</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="4" SDNUM="1031;0;Standard">
+				<DL>
+					<DT>4</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,04" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>4%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Challenger</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>35</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Limousine </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car35] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>black</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>dragon 
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>- </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>9 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Limousine</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>36</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>APC </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car36] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=BOTTOM SDVAL="6" SDNUM="1031;0;">
+				<P ALIGN=CENTER>6</TD>
+			<TD VALIGN=BOTTOM SDVAL="4" SDNUM="1031;0;">
+				<P ALIGN=CENTER>4</TD>
+			<TD VALIGN=BOTTOM SDVAL="8" SDNUM="1031;0;">
+				<P ALIGN=CENTER>8</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%"><DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="9" SDNUM="1031;0;">
+				<P ALIGN=CENTER>9</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>SWAT van?</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>37</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Tank </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car37] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=BOTTOM SDVAL="3" SDNUM="1031;0;">
+				<P ALIGN=CENTER>3</TD>
+			<TD VALIGN=BOTTOM SDVAL="1" SDNUM="1031;0;">
+				<P ALIGN=CENTER>1</TD>
+			<TD VALIGN=BOTTOM SDVAL="10" SDNUM="1031;0;">
+				<P ALIGN=CENTER>10</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%"><DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="9" SDNUM="1031;0;">
+				<P ALIGN=CENTER>9</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Tank</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>38</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>39</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>40</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>41</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Superbike </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car41] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>green</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Kawasaki Ninja</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>42</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Fire Truck </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car42] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=BOTTOM SDVAL="6" SDNUM="1031;0;">
+				<P ALIGN=CENTER>6</TD>
+			<TD VALIGN=BOTTOM SDVAL="4" SDNUM="1031;0;">
+				<P ALIGN=CENTER>4</TD>
+			<TD VALIGN=BOTTOM SDVAL="10" SDNUM="1031;0;">
+				<P ALIGN=CENTER>10</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER>2%</TD>
+			<TD VALIGN=BOTTOM SDVAL="6" SDNUM="1031;0;">
+				<P ALIGN=CENTER>6</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Fire Truck</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>43</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Bus </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car43] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>school</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>jesus</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>- </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>10 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,04" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>4%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Bus</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>44</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Tanker </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car44] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Tanker</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>45</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>TV Van </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car45] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>green</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>2 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>TV Van</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>46</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Transit Van </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car46] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue/ silver</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue/ grey 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Transit Van</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>47</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Model Car </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car47] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>doesn't work</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>doesn't work</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Model Car</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>48</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>49</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>50</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Roadster </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car50] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Roadster</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>51</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Love Wagon </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car51] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>aqua</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Love Wagon</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>52</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>53</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Beast GTS </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car53] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red 
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>12000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>9 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>10 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>10 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Dodge Viper GTS</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>54</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Mundano </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car54] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red 
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,11" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>11%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Ford Probe</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>55</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Mamba </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car55] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Ford Taurus</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>56</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>57</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>58</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Portsmouth </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car58] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>4000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,03" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>3%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Crown Victoria</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>59</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>60</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>61</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Speeder </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car61] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>orange 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Speeder</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>62</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Porka </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car62] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>d.green 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Porsche</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>63</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Flamer </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car63] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Flamer</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>64</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Vulture </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car64] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>purple</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Vulture</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>65</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Pickup </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car65] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>tan</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>4000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,05" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>5%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Ford Ranger</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>66</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Itali GTO </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car66] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Ferrari GTO</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>67</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>68</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>69</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>70</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Regal </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car70] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>brown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>brown</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>4000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,04" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>4%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Buick LaSabre</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>71</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Monster Bug </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car71] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Monster Bug</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>72</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Thunderhead </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car72] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>blue</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Ford Thunderbird</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>73</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Panther </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car73] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Panther</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>74</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Penetrator </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car74] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>green</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Penetrator</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>75</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>LeBonham </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car75] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>LeBaron</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>76</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Stinger </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car76] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Vette Stingray</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>77</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>F-19 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car77] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>F-19</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>78</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Brigham </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car78] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Brigham</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>79</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Stinger Z29 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car79] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>brown</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Vette Z29</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>80</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Classic </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car80] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>x</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,03" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>3%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Rolls Royce</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>81</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>29 Special </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car81] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>29 Special</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>82</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Itali GTB </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car82] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Ferrari GTB</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>83</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Hotrod </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car83] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Hotrod</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>84</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>85</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>86</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Limousine </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car86] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>black</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>- </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>6 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>4 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>9 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,01" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>1%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>7 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Limousine</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>87</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>Impaler </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>[car87] </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>8000 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>5 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=BOTTOM SDVAL="0,02" SDNUM="1031;1031;0%">
+				<DL>
+					<DT>2%</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>8 </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>Chevy Impala</DT>
+				</DL>
+			</TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>88</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>HELICOPTER </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT>see usage</DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>89</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>90</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>91</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>92</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>93</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>94</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>95</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>96</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>97</TD>
+			<TD VALIGN=TOP><DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>-</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>98</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>COACH (BUS) </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>99</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>JUGGERNAUT </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>aqua</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>GREY DOT </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>100</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>BOAT </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>101</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>TRASH CAN </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>GREY DOT </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>102</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>TRASH CAN </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP><DL>
+					<DT>GREY DOT </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>103</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>TRASH CAN </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash 
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>103-...</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>BEAST GTS </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>104</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>MUNDANO </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>105</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>BUG </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+		<TR>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>106-...</TD>
+			<TD VALIGN=TOP><DL>
+					<DT>MUNDANO </DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<DL>
+					<DT><BR></DT>
+				</DL>
+			</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER>red crash</TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=BOTTOM SDNUM="1031;1031;0%">
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+			<TD VALIGN=TOP>
+				<P ALIGN=CENTER><BR></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H3>Usage: </H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">No limitations reported. It seems
+	that the game crashes when it can't find the name of the car in the
+	active FXT file at the time the car is entered.</FONT></P></DD>
+</DL>
+<DD><P><FONT FACE="Venetian301 BT">Helicopter:</FONT></P></DD>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">The Helicopter can be used if a
+	<CODE>[car88]Helicopter</CODE> line is added to the active FXT file.
+	Sad to say, the Helicopter drives like a truck or bus...</FONT></P></DD>
+</DL>
+<H3>Examples</H3>
+<DL>
+	<DD>
+	<TABLE WIDTH=100% CELLPADDING=3 CELLSPACING=0 FRAME=VOID RULES=NONE>
+		<COLGROUP>
+			<COL WIDTH=119*>
+			<COL WIDTH=137*>
+		</COLGROUP>
+		<THEAD>
+			<TR>
+				<TD WIDTH=46% VALIGN=TOP>
+					<LISTING>293 1 (106,119,4) PARKED 31 0 </LISTING></TD>
+				<TD WIDTH=54% VALIGN=TOP><DL>
+						<DT>Bulldog, parked facing south in front of the... </DT>
+					</DL>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>238 1 (127,92,4) PARKED 22 0 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT><FONT FACE="Venetian301 BT">Taxi, parked facing south in
+						front of a strip joint in North Park</FONT> </DT>
+					</DL>
+				</TD>
+			</TR>
+			<TR>
+				<TD VALIGN=TOP>
+					<LISTING>511 1 (248,78,4) PARKED 41 512 </LISTING></TD>
+				<TD VALIGN=TOP><DL>
+						<DT>Superbike, parked facing north on Law Island </DT>
+					</DL>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+	<DL>
+		<DT>The examples were taken from section [1] of MISSION.INI. </DT>
+	</DL>
+</DL>
+<H4><FONT FACE="ProseAntique">See also</FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT"><A HREF="Ref_ObjectCodes.html">Object
+	Codes Overview</A>, <A HREF="Obj_PARKED.html">PARKED</A>, FXT Files</FONT></P></DD>
+</DL>
+<H4><FONT FACE="ProseAntique">Notes </FONT></H4>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Information contributed by
+	<A HREF="http://gudmund.vgs.no/~eirikso/">ZyNTaX</A>, <A HREF="mailto:c674228@cclabs.missouri.edu">schu</A>,
+	<A HREF="mailto:mjweiler@wctc.net">Nathan Weiler</A></FONT>(real
+	name info), <A HREF="mailto:chris.turner@ndirect.co.uk">Chris
+	Turner</A><FONT FACE="Venetian301 BT">, <A HREF="http://www.bmginteractive.com/area09/gta/cars/">BMG</A>
+	and <A HREF="mailto:mendel@informatik.uni-bremen.de">Michael
+	Mendelsohn</A>.</FONT></P></DD>
+</DL>
+<H3><FONT FACE="ProseAntique">Bugs</FONT></H3>
+<DL>
+	<DD><P><FONT FACE="Venetian301 BT">Not all car types have been
+	tested. Is the Helicopter able to fly? Availability info for
+	different versions of the game is also incomplete. </FONT></P></DD>
+	<DT><BR></DT>
+</DL>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=3 CELLSPACING=0 FRAME=ABOVE RULES=NONE>
+	<COLGROUP>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+		<COL WIDTH=85*>
+	</COLGROUP>
+	<THEAD>
+		<TR>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P><FONT FACE="Venetian301 BT">MISSION.INI</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=CENTER><FONT FACE="Venetian301 BT">Last change: 21 Dez
+				1997</FONT></TD>
+			<TD WIDTH=33% VALIGN=TOP>
+				<P ALIGN=RIGHT><FONT FACE="Venetian301 BT">unofficial GTA
+				Reference</FONT></TD>
+		</TR>
+	</THEAD>
+</TABLE><DL>
+	<DD><P><BR></P></DD>
+</DL>
+</BODY>
+</HTML>
