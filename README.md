@@ -2,7 +2,9 @@
 
 Note: Assets marked with _(*)_ can be found in the `./data` subfolder
 
-- Video of original GTA gameplay: https://www.youtube.com/watch?v=ahOIJNLLtkI
+- Video of original GTA gameplay:
+  - General: https://www.youtube.com/watch?v=Akmg6dUkwKc
+  - Kill Frenzy Missions: https://www.youtube.com/watch?v=Cn2eigBcV_0
 - GTA Web GL:
   - Orignal: https://github.com/niklasvh/WebGL-GTA
   - Fork that seems to have advanced quite a bit: https://github.com/GiovanniNery/WebGL-GTA
@@ -24,10 +26,16 @@ Note: Assets marked with _(*)_ can be found in the `./data` subfolder
   - Extra notes about cds.doc and others things: https://web.archive.org/web/20080820104252/http://www.fifengr.com/gtacars/topic.html _(* saved as `data/notes.html`)_
   - The Unofficial GTA Reference Handbook: https://web.archive.org/web/20050219185438/http://gta.mendelsohn.de/Reference/ _(* Multiple files, saved in `data/handbook/`)_
   - Gourange Missions and Guides: https://web.archive.org/web/20050407123226/http://missions.gouranga.com/index.shtml _(* Multiple files, saved in `data/gouranga-missions`)_
+  - Description of RAW and RAT files: https://web.archive.org/web/20000622011740/http://www.multimania.com/dolmen/gta/raw.html
+  - NPC Dialog index https://web.archive.org/web/20001205131800/http://www.gouranga.com/nf-info-gta.htm _(* Saved as `data/dialog.txt`)_
 - Other tools (open source)
   - File format extractors for g24 and fxt in python: https://github.com/VBGAMER45/gta-g24-fxt-extractors
 - Other tools (closed source)
   - FXT2TXT: https://gta.mendelsohn.de/gman/fxt2txt/
+  - Cops (to edit cop data of the maps)
+  - GTACars
+  - Junction25 and M1 Map Editors
+  - …
 - Other resources
   - Characters in GTA1 (found in english.fxt): https://projectcerbera.com/gta/1/tutorials/characters _(*)_
   - Random Pager Messages in GTA 1 Coding: https://projectcerbera.com/gta/1/tutorials/random-pager _(*)_
@@ -42,3 +50,5 @@ Note: Assets marked with _(*)_ can be found in the `./data` subfolder
 
 - Full GTA Data files
   - https://archive.org/download/grand-theft-auto-1997-dma-design/Grand%20Theft%20Auto%20%281997%29%28DMA%20Design%29.zip
+- DOSBOX Game:
+  - https://archive.org/details/grand-theft-auto-1997-dma-design (Hit the screen on the page)
