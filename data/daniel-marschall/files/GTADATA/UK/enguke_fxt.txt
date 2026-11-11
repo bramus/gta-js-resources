@@ -1,0 +1,588 @@
+﻿[1001]Get to the phones in Southwest City, kiddo!
+
+[1002]Mr. C wants two rival gangs of greasers wiped out. You're going to get rid of these filthy scumbags! There's a stack of explosives waiting for you in Northeast Bermondsey. 
+[1003]Alright! Take these explosives to one of the gang's hideouts in West Southwark, get out of the car, and plant them by the door. You don't have much time, so shake a leg.
+[1004]Better get back a little. Going to be a little bit of a mess around here very shortly.
+[1005]Good work, tiger! Now grab the second batch of explosives we left for you down in West Brixton.
+[1006]Drive  these explosives over to their shit-hole hang out in Southwest Bermondsey, get out of the car, and plant them.
+[1007]This ain't Glasgow! We only fry fish in these parts, so get the hell out of there before you get fried.
+[1008]You beauty! These two groups of pond slime are blamin' each other for the bombings. They're meeting over in Northwest Brixton. Get your arse over there and make sure the party hots up.
+[1009]Somethin's very fishy, like an old halibut! Harold reckons they know they've been set up. Go see Jack in the back. He'll tell you what's what, that's what he'll do, he will.
+[1010]Harold wants you to remove these South London kettle scum! Grab the armour though. You'll probably need it. 
+[1011]Now you can take care of these morons. Cook them all! Make Harold proud of you.
+[1012]Cock Snot! A few of those greasers scarpered. Track 'em down and put 'em underground. The first one is running around somewhere to the Northeast of 'ere.
+[1013]Pretty as a pickle. Next plonker is just South of you. Get him!
+[1014]Blimey! You're tasty as a picture. Next prat is to the West. Eradiate him!
+[1015]Bleedin' Nora! You're a right one aincha? Aincha? Well, don't go all shy on me, just go and kill the last maggot. He's somewhere to the East!
+[1016]Crikey! You're on a tyre, as Harold is fond of sayin'! Mr. C is goin' to be chuffed rotten!
+[1017]Too late! You missed your chance. You got to be a little faster, or Harold'll have your guts for gardening with!
+[1018]This ain't some leisurely afternoon stroll down Hyde Park with a stunning bird! This is major international crime, and time and crime waits for Norman, as Harold once said! You blew it, you nob!
+[1019]Damn! The gang members got away! Harold is gonna be spittin' chips, mate, only, you'll notice he's called Harold Cartwright, and not Captain Soddin' Birdseye.
+[1020]You weren't supposed to kill that plonker! Harold ain't going to be all smiles over this one!
+
+[1030]There's a very important punter, name of Mr.Caukenbolls coming into town. Your job is to pick him up and protect him. There's a cab in East City for you to abuse.
+[1031]Alright! Now, pick the man up, and don't take too long. He's waiting for you outside a hotel or somethin' in West City.
+[1032]That's the geezer. Now just wait for him to get into the motor.
+[1033]Now remember, he ain't a slag. Treat him proper and make sure nothin' happens to him. Like all very important gentlemen, he's got a few enemies. Bring him back here to Southeast Mile End.
+[1034]Go see Curly around the back. He wants a word.
+[1035]What the hell are you doing? You left Mr. Caukenbolls all alone. Now some gang has kidnapped him. You'd better find him and get him back here, unharmed! A miss is as good as a moron in this game, mate.
+[1036]Whew! That was tighter than a 15 year old, and I should know, I've got two daughters. Harold would have had your guts for garlands. Bring him back to our secure hideout in East Mile End. And no walkies, queenie.
+[1037]OK! Now it's time to give those kidnapping slags their ransom, but we're paying with a massive consignment of heavy duty TNT. We souped up their motor with explosives. Go drop it off at their doorstep!
+[1038]Their hangout is in Northwest City. Now move!
+[1039]Get out of the chariot and grab the super-armour in the crate, unless you're made of lead, which I think might be an explanation for why you're so bleedin' dense.
+[1040]Get the hell out of there. There's a parked car waiting for you in Southeast Soho. Go, go, go!
+[1041]Well, Mr.Caukenbolls' business here is done, like a kipper. Pick him up in East Mile End, and shift!
+[1042]Wait until he gets in the car.
+[1043]Take this man back to his hotel. His ride to the airport is there. Hurry up! He's later than the second coming!
+[1044]Nice work, my boy. Harold is over the womb with you for this!
+[1045]Not a good first impression! Bit like saying 'Hi, my name's Adolf, pleased to meet you.'
+[1046]That man was very important to Harold. Wait until he gets his hands on you. 
+[1047]Get back in the car and finish what you started.
+[1048]Stop getting out and drive Mr.Caukenbolls to the hideout.
+[1049]The purpose of a contact is to give you info. In order to give you that info, they must be alive. This's pretty elementary stuff, Einstein.
+[1050]Ah well! We thought you was an idiot, and now you've gone and proved us right.
+[1051]Bad dog!
+[1052]Get in the vehicle and finish what you started.
+[1053]Oops! You suck. Harold is gonna skin you alive for this screw-up!
+[1054]Holy smokes! What are you doing out of the car, when you should be in the car driving!
+[1055]You really needed that car! Unless you're Roger Bleedin' Bannister, you ain't going to get there in time, is you?
+[1056]Great! Mr.Caukenbolls is dead, and Harold is spittin' pips. All in all, I'd say you pratted it up good and proper.
+[1057]Get back in the vehicle. I repeat, for the benefit of the disadvantaged, get back in the vehicle!
+[1058]Why get out, when you know you just have to get back in again? This ain't the bloody rhythm method.
+[1059]Damn! You took your sweet time, and now Mr.Caukenbolls no longer has an interest in us. You stink like a soggy mackerel, and I should know, I've had a few!
+[1060]The boss wants you to get the car some armour. Go see Bobby in Southwest Westminster. He'll set you up nice!
+[1061]Too slow! Harold was waiting for you to show up, but it's like waitin' for bleedin' Godot, ain't it?
+[1062]Too slow! Mr.Caukenbolls missed his plane!
+
+[1181]We got some more jobs for 'ya back at the phones, mate. When you're ready!
+
+[1190]One of the grease monkey gang bosses, Gene White, is taking a dip in Southwest Hyde Park with some of his girls. Little does he know he's being set up. We want you to steal their clothes.
+[1191]Get to the phone in Southeast Soho mate! Harold's going to let you know what to do next. Hurry! He dosen't like to be kept waiting.
+[1192]We've called in some TV vans to film the naked gang leader in the park. Heh heh! Grab the cab and get your arse to the park to make everything goes down as planned.
+[1194]Now go make sure those TV vans are in Southwest Hyde Park filming those Wildebeasts frolic.
+[1195]Bollocks! The vans are here, but the nakeds are gone. Gene only went and spicked our bleedin' crumpet's drinks. They've all gone barmy. That's it! Kill the gang leader and round up girls.
+[1196]Good work! Now grab his girls. Chase them down and get them into the car. Knock 'em out if you have to. They used to be respectable, now they're running around like loonies!
+[1197]There she is. Don't forget to suppress her if you have to.
+[1198]Let her get in the car.
+[1199]Find the other girl and get her back. Mandy's her name. Nice Catholic girl before she met you.
+[1200]You've found her. 
+[1201]That's it, you've calmed her down! Now let her get in the car.
+[1204]OK! Now bring that crumpet back her. We'll have a little bit of slap and tickle with 'em to make up for that dreadful job what you ballsed up good and proper!
+[1205]Wrong jam jar.
+[1206]While we were getting frisky with Mandy and her gang, Gene's mob were secretly filming us. They made a porno starring us! Go see Bongo and he'll let you know how to take care of this problem.
+[1207]There are two shipments of porn tapes going out today. The tapes with you as a porno king are on those trucks. Blow them up and you solve the problem.
+[1208]OK! One more truck to go. Better hurry!
+[1209]Good work! You've averted a huge disaster. We coulda been run outta town if anyone had seen those tapes.
+[1210]Bad man!
+[1211]Get back in the damn car, all mouth and nuffin in the trouser department. That's your problem, ain't it?
+[1212]No chance!
+[1213]You suck!
+[1214]Always dissapointing, aincha? In every department.
+[1215]You ran out of time!
+[1216]You're not supposed to kill the contact!
+[1217]You are way too slow!
+[1218]No time left, gubbins!
+
+[1250]Harold wants you to take out a pill pushin' racecar driver by the name of Poundage Fern. He's got muscle looking out for him though. Take them out first. There's one in East Brixton.
+[1251]Damn! He got away. They are pretty fast. You're gonna need the special motor. Grab it from Southwest Bermondsey.
+[1252]You are now armed with drive-by capabilities. Use this car to do a drive-by on the spotter. Remember not to get out of the car!
+[1253]Great! Now it's time to get the rest of these pricks. There's a race today and all the muscle is hanging out by Fern's garage in Central Battersea. Do a St. Valentine's Massacre and get as many as you can!
+[1255]Don't let them get away. Run them down!
+[1256]They are gonna escape if you don't hurry and kill them!
+[1257]Find the rest and kill them!
+[1258]Better hurry and chase them down a little quicker!
+[1259]Run them all over! Yeah! Great! Tenderised meathead.
+[1260]Track these down quickly and kill them!
+[1261]Good effin' work mate! Now you can get rid of Fern. Grab one of his racers in North Battersea.
+[1262]Use this car to track him down and kill him. It's equipped with drive-by facilities as well! Use it to blow him up!
+[1263]Bye-bye Poundage Fern! Heh! Unfortunately, you have to pretend to be Fern! The finish line is in North Mile End. Hurry!
+[1264]Good work! You won the championship trophy. They all think you're Fern. We've fooled them! We're well intelligent, and you ain't got a tupeeny ha'penny brain neither.
+[1265]Now bring that damn trophy back to our hideout in Southwest Bow. Harold wants to see it...and you!
+[1270]You really needed that car, you pillock!
+[1271]Whoops! Told you not to get out!
+[1272]Get back in the effin' jam jar.
+[1273]Please don't get out yet!
+[1274]Crikey! Who's side are you on anyway?
+[1275]You are way too slow. Harold ain't gonna be pleased.
+[1276]You're not supposed to kill the presenters of the trophy.
+[1277]Do you always just go around slaying innocent people?
+[1278]Oh man! Stop getting out of the car!
+[1279]Get back in the car, or I'm gonna personally supervise your hide tanning. And you won't like that one little bit. Just ask me wife if you want a reference.
+[1280]Too slow...The guy bolted and is on his way to tell Fern everything about you!
+[1281]Too slow! You lost the race, and everyone knows you're not Fern. Your cover's blown. You failed!
+
+[1300]Harold's mum wants a Jug Swinger for her 60th birthday. There's one down in Westminster. Go get it!
+[1301]Hello, Mr.Chambers. We have a mission for you! Hans Nemesis has gotten into the potato business. We think it's something else. Go check it out.
+[1302]Avoid getting yourself killed, and steal the potato truck.
+[1303]Get back to one of our secret garages, where we can analyze the contents of the truck.
+[1304]Get back in your car, Endeavor. Your next set of instruction are waiting for you.
+[1305]The potato truck was carrying explosives. We need to stop Nemesis! Take some of the explosive and go visit Grandpa. We have a plan.
+[1306]That's it! The explosives have been secured to the wheel chair. Now, get in your car and we'll tell you what to do next.
+[1307]You are going to use Grandpa to help you. Park the car outside Nemesis' hideout. It'll cause a distraction.
+[1308]Where is your car, idiot? Better get it before you continue any further!
+[1309]Alright! Now get out of the car and get in the truck around back.
+[1310]Now guide Grandpa to the front of Nemesis's hideout.
+[1311]Nice! Nemesis has fled the country, and his explosive potato ring has been taken down.
+[1312]You aren't supposed to let your mission car be destroyed, Endeavor!
+[1313]Get back in your car, man.
+[1314]Now we'll never know what Dr.Nemesis is up too!
+[1315]Get back in the truck and bring it to us, Endeavor.
+[1316]You let Grandpa die! You're a bad man.
+[1317]Get back in your vehicle!
+[1318]You idiot! Now the whole plan is ruined!
+[1319]You weren't supposed to get out!
+[1320]Oh! No! You have failed your mission, Mr.Chambers.
+[1321]Get back in the damn vehicle!
+[1322]You weren't supposed to get out of the van, chump! You screwed up!
+[1323] Too late! Nemesis was able to move all his stuff out.
+
+[1370]Wrong vehicle, bub!
+
+[1400]Unless you want something new to do, you'd better get out of my car! Sharpish!
+[1401]This car is filled with Thunderthighs dolls. Harold's nephew is having his birthday and is crazy for these weird toys! Get these creepy little things over to Harold's place. Fast!
+[1402]Great work! Harold's little nephew Ashley will be so happy!
+[1403]You really messed up, you stupid cloth eared prat.
+[1404]Too slow, dickhead!
+[1405]Get back in the car man! You're wasting time! That kid's got to get his presents, or he'll scream his little heart out! He's a right one, that Ashley, I can tell you!
+
+[1430]Unless you want something new to do, you'd better get out of my car!
+[1431]Some geezer's been blackmailing Harold. We've got to film you getting back the evidence! Get your ass to London Tower!
+[1432]See the guy on the walkway. Go up to him and punch him about. We're filming.
+[1433]Right! Now, grab his bag! Hurry, hurry! It's got some very sensitive evidence inside it!
+[1434]Get back in the van, mate!
+[1435]OK! We're off to Buckingham Palace for the next phase of this exercise in retribution!
+[1436]This time we want you to kill the geezer on the sidewalk. He's the bastard son of the bastard what filmed Harold!
+[1437]Nice! Grab his bag.
+[1438]Get your arse back in the van! You've done great!
+[1439]Get this movie to Harold's house. Hurry before the bacon grabs you! Now, we'll show him the film of you wastin' those bastards and he can send it to that greaser what filmed him! Harold'll be right chuffed.
+[1440]Wrong vehicle, prat!
+[1441]Damn! You've landed Harold in hot water, good and proper!
+[1442]What are you doing? Looks very exotic.
+[1443]Get back in the van!
+[1444]Not yet loser! Wait until Harold hears about this one! He'll go bananas!
+[1445]Get back in the vehicle!
+[1446]Don't get out of the van unless we tell you to. Pay attention!
+
+[1460]There's a TV van parked somewhere in West Camden Town.
+[1461]There's a car parked somewhere in Northeast Battersea.
+
+[1462]I'm Sick As A Carrot, Mate. Thick As A Bloomin' Parrot, That's Me.
+[1463]Long, Tedious Messages Scrolling Across Your Screen Can Often Be Uninformative.
+[1464]Tight Threads. Sharp Suits. Nice, Thin Ties. It's The Look, Mate. The Bleedin' Look.
+[1465]A Nod Is As Good As A Drink To A Blind Whore. I've Heard.
+[1466]Well, You Know What They Say, Too Many Chefs And Not Enough Bleedin' Eskimos.
+[1467]I'll Tell You One Thing For Starters, Mate, I'm The Monkey And You're The Bleedin' Cheesegrater.
+[1468]I AM!
+
+[1450]You're on your own, mate. Go crazy and destroy as much as you can!
+
+[1500]Timer:
+
+[1525]Go crazy! You need 3000 points for a big bonus.
+[1526]Collect 2000 points in 30 seconds to get a free life!
+[1527]Get 1500 points for a point bonus!
+[1528]Collect 1500 for a big point bonus!
+
+[1700]You've done good, sunshine! Harold wants you to go meet him at the billiards. The entrance is out back.
+[1701]You've done fine, mate!
+
+[2498]You have 80 seconds to go on a rampage in the city for a BIG BONUS!
+[2499]YOU'VE WON THE RACE.
+[2500]NICE ONE!
+[2501]MISSION FAILED!
+[2502]............................
+[2503]KILL FRENZY!
+[2504]FRENZY FAILED!
+[2505]EXTRA LIFE BONUS!
+[2506]YOU HAVE 3 MINUTES TO DO $500 OF DAMAGE! GET TO IT!
+[2507]CONGRATULATIONS! You completed all KILL FRENZIES! Your prize is at the market!
+[2509]YOU HAVE 3 MINUTES TO DO $1000 OF DAMAGE! MOVE IT!
+[2510]YOU HAVE 2 MINUTES TO DO $500 OF DAMAGE! HAUL ASS!
+[2511]YOU HAVE 2 MINUTES TO DO $1000 OF DAMAGE! GO FOR IT!
+[2512]YOU HAVE 2 MINUTES TO DO $1000 OF DAMAGE! MOVE YOUR ASS!
+[2513]YOU HAVE 2 MINUTES TO DO $1000 OF DAMAGE! GET IT IN GEAR!
+[2514]INSANE STUNT BONUS!
+[2515]GO!
+[2516]GRATUITOUS VIOLENCE BONUS!
+[2517]BAD LOSER BONUS!
+[2612]CHEAT MODE ACTIVATED
+[2613]THE WINNING NUMBER IS 9424047
+[2614]PLEASE IGNORE THIS MESSAGE.
+[2615]GOD MODE ACTIVATED
+
+[3296]START YOUR ENGINES !
+[3392]...................
+[3456]GO!
+[3501]YOU GOT 100 SECONDS TO DO $5,000 OF DAMAGE. GET GOING!
+[3502]...................
+[3828]SLAP THEM BITCHES!
+[3829]BITCH SLAPPIN' BONUS!
+[3830]SLAP BONUS... 50,000
+[3831]SLAP BONUS... 40,000
+[3832]SLAP BONUS... 30,000
+[3833]SLAP BONUS... 25,000
+[3834]SLAP BONUS... 20,000
+[3835]SLAP BONUS... 15,000
+[3836]SLAP BONUS... 10,000
+[3846]BOOT CAMP BONUS!
+[4000]IT'S YOURS!
+[4001]FRENZY PASSED!
+[4002]BYE BYE BONUS!
+[4003]YOU'RE NICKED!
+[4004]YOU'RE BROWN BREAD!
+[4005]MOVE! MOVE! MOVE!
+[colour]Your Colour : %s
+[red]Red
+[yellow]Yellow
+[green]Green
+[blue]Blue
+[paused]Game Paused
+[lives]Lives :
+[target_score]Target Score :
+[target_miss]Target Missions :
+[secrets_found]Secrets Found :
+[8787]KEEP LONDON TIDY!
+[kill]Kill
+[frenzy]Frenzy!
+[pistol]Pistol
+[machine-gun]Machine Gun
+[rocket]Rocket Launcher
+[flame]Flamethrower
+[petrol]Petrol Bomb
+[speed+]Speed Up
+[car-speed+]Car Speed Up
+[bribe]Police Bribe
+[armour]Armor
+[multiplier+]Multiplier Up!
+[jail-free]Get Outta Jail Free Card
+[life+]Extra Life
+[lives_left]%d Lives Remaining!
+[life_left]One Life Remaining!
+[no_life]No Lives Left!
+[you-kill]You Mullered %s
+[kill-by]Mullered by %s
+[speed-limit-on]Frame Rate Limiter ON
+[speed-limit-off]Frame Rate Limiter OFF
+[1st_over_checkpoint]Way t' go, leader! Keep ya foot down!
+[second_checkpoint]C'mon, sloth turd! Step on it!
+[win_race]YOU WIN!
+[lost_race]YOU LOSE! Tough luck sucker!
+[bomb_bus]Shit! This bus is rigged with 500 lbs of plastic.
+[lucky_son]You lucky sonofabitch!
+[bomb_blows]Well, that saved cleaning up the mother of all messes!
+[car0]Porka 910
+[car1]Fab
+[car2]Jug Swinger
+[car3]Bike
+[car4]Copper
+[car5]Ambulance
+[car6]Ranger
+[car9]Double Decker
+[car11]Lewd Lorry
+[car13]Boat
+[car14]Tramp TR4
+[car17]Fat
+[car18]Beagle 3
+[car19]Myni
+[car21]Garden Shed
+[car22]London Cab
+[car25]Ferocious 250
+[car26]MC MK2
+[car27]Sweets Van
+[car28]Spider
+[car29]Squealey
+[car31]Ferocious 312
+[car34]Tramp TR3
+[car35]Tour Bus
+[car37]Tiger Tank
+[car41]Mod Scooter
+[car42]Fire Truck
+[car43]Bentover
+[car44]TV Van
+[car45]Wimp
+[car46]Camper
+[car47]Wheel Chair
+[car58]Raver 2000
+[car70]Voxel Concept
+[car72]Big Bends
+[car76]Safari
+[car80]Jug D-Type
+[car88]Potato Truck
+[quit1]You Want Out?
+[quit2]Press ENTER to confirm
+[quit3]or ESC to cancel
+[on_foot]on foot
+[bytrain]by train
+[bycar]by car
+[kidgets]or the kid gets it
+[yousorry]or you'll be sorry
+[buttto]to shift butt to
+[assto]to haul ass to
+[getto]to get to
+[in]in
+[secs]%d seconds
+[mins]%d minutes
+[minsecs]%d minutes %d seconds
+[vfew]a handful of seconds
+[bomb_added]Your car has been set up with armour plating!
+[bomb_cost]That'll be $%s.
+[no_respray]Come back when you got the dosh!
+[no_emerg_respray]I ain't touchin' that! Get out of here!
+[no_modelcar_respray]Get that toy out of here!
+[no_tank_respray]What do I look like? The army? Bugger off!
+[resray_done]There you go! Good as new!
+[clean_done]It's clean. The plates have been changed.
+[all_your]That cost you ALL your readies.
+[bomb_on]BOMB ARMED!
+[bomb_off]BOMB DISARMED!
+[bomb_set]Detonation in...
+[reload]Reloading...
+[entry]Entry Screen
+[space]Press SPACE To Continue
+[pol_act]Police Activated
+[pol_inact]Police Deactivated
+[stanmode]Standard Screen Mode
+[hi34mode]3/4 Hi-res Screen Mode
+[himode]Full Hi-res Screen Mode
+[320mode32]320 x 200 x 32-bit Mode
+[640mode32]640 x 400 x 32-bit Mode
+[800mode32]800 x 600 x 32-bit Mode
+[640480mode32]640 x 480 x 32-bit Mode
+[lozoom]Low Zoom Mode
+[hizoom]High Zoom Mode
+[vhizoom]Very High Zoom Mode
+[discon]%s Has Disconnected
+[connlost]Connection To %s Has Failed
+[sync-error]Sync Failure With %s - Connection Terminated
+[n]North
+[s]South
+[e]East
+[w]West
+[c]Central
+[se]Southeast
+[sw]Southwest
+[ne]Northeast
+[nw]Northwest
+[001area001]Manchester
+[001area002]Angel
+[001area003]Mile End
+[001area004]Bow
+[001area005]City
+[001area006]Soho
+[001area007]Chelsea
+[001area008]Westminster
+[001area009]Battersea
+[001area010]Brixton
+[001area011]Camberwell
+[001area012]Southwark
+[001area013]Bermondsey
+[001area014]Nothing
+[001area015]Camden Town
+[001area016]Hyde Park
+[002area001]Telephone Hill
+[002area002]Wood Hill
+[002area003]Soviet Hill
+[002area004]Sunrise
+[002area005]Richman
+[002area006]Atlantic Heights
+[002area007]Aye Valley
+[002area008]Chinatown
+[002area009]Eagleside
+[002area010]Woodside
+[002area011]Potato
+[002area012]Excalibur
+[002area013]Glen Wood
+[002area014]Market
+[002area015]Marina
+[002area016]Sailors Wharf
+[002area017]Sunview
+[003area001]Vice Beach
+[003area002]Banana Grove
+[003area003]Felicity
+[003area004]Richman Heights
+[003area005]Little Bogota
+[003area006]Greek Heights
+[003area007]Little Dominica
+[003area008]Coral City
+[003area009]Miramire
+[003area010]Vice Shores
+[003area011]Vice City
+[ipxnotinstalled]IPX Not Installed
+[uartnotresponding]UART Not Responding On COM%d
+[warning]Warning
+[networkoff]Network Game Not Possible
+[duplicate_model]Another one? Where's your imagination, ponce?
+[duplicate_models]I got these things comin' out my gary! Try somethin' different next time!
+[crane_nobomb]You really reckon I want a soddin' bomb up my gary? Get lost.
+[crane_long]That ain't going fit here. Get rid of it!
+[crane_screwed]I'm outta service. Try another crane!
+[crane_wreck]I ain't Oxfam! Get that old rubbish off my yard!
+[crane0]Get your pretty little arse out of there, I'm pickin' it up!
+[crane1]I stuffed full right now! Take it somewhere else!
+[crane2]What's the bleedin' rush all about? Give us a moment!
+[crane3]Them flames are very illuminatin', but I ain't touchin' that firework!
+[crane4]No way, boy! That's too hot for me!
+[crane5]There ain't much demand for these... but I'll see what I can do.
+[crane_nopolice]I ain't takin' that! You tryin' to set me up kid?
+[crane-excellent]Excellent condition. I'll give you $%d for it.
+[cranecar0]Lovely motor, one lady owner, eh? I'll give you $%d for it.
+[cranecar1]Not too bad. How does $%d grab ya?
+[cranecar2]Had a few prangs, this one... I can only give ya $%d for it.
+[cranecar3]What a write-off! You get $%d and no more!
+[m22dead]Dead as a Doornail!
+[m22failed]We ain't chuffed with your development. Kind of slow, ain't it? You is lucky to be breathin', much more of this and you won't be.
+[m22arrest]Thought we'd get you off, did you? Well, you got what you deserved for soddin' incompetency.
+[m22success]Good effort! We're over the moon with you, my lad.
+[m22incomplete]Had enough, have we?
+[m22timeout]You moron! Wars `ave been fought in less time! We ain't pleased.
+[m22timeover]TIME UP! %s WINS with a massive $%d, %s brings up second with a more modest %d!
+[m22score]%s HITS THE TARGET! The winning score is %d!
+[m22cannon]%s WINS THE RACE!
+[m22demo]Time's up, baby! You want more? Buy the real thing.
+[Nodes]Nodes
+[City]City
+[Mission]Mission
+[Control]Control
+[Keyboard]Keyboard
+[Joystick]Joystick
+[Sound]Sound
+[Music]Music
+[Rating]Rating
+[Score]Score
+[Cancel]Cancel
+[Reset]Reset
+[rename]Rename
+[menu]Menu
+[Play]Play
+[GatherNetwork]Gather Network
+[JoinNetwork]Join Network
+[Options]Options
+[Loading]Loading...
+[LoadingDemo]Loading Demo...
+[loading-replay]Loading Action Replay...
+[crimes]Criminal Record
+[crimeRTA]Shunts 'n' Bumps
+[crimeHAR]Hit 'n' Run
+[crimeHIJ]Hijacking
+[crimeCAR]Carjacking
+[crimeGTA]GTA
+[crimeSHO]Firearms Offences
+[crimeMUR]Murder One
+[crimeBAN]Bank Jobs
+[Text]Text
+[Off]Off
+[On]On
+[Slow]Slow
+[Normal]Normal
+[Fast]Fast
+[status]Status
+[connecting]Connecting
+[idle]Idle
+[dialling]Dialling %s
+[redialling]Redialling %s
+[redialagain]Redialling %s Again
+[waitcall]Waiting For Call
+[disconnecting]Disconnecting
+[unknownspeed]Unknown Speed
+[baud]Baud
+[failed]Failed
+[connectat]Connecting at %s
+[join]Join
+[gather]Gather
+[ipx]IPX
+[serial]Serial
+[modem]Modem
+[version-checking]Version Checking
+[initialising]Initialising
+[joining]Joining...
+[gathering]Gathering...
+[spc-key]Space
+[story]Cut-Scene
+[esc-key]Esc
+[rtn-key]Enter
+[del-key]Del
+[r-key]R
+[Quit]Quit
+[foundgather]Found Gatherer
+[found1join]Found 1 Joiner
+[foundnjoin]Found %d Joiners
+[startgame]And Away We Go...
+[commsfail]Oh Dear - Communications Failed
+[svgaerror]Bah! No SuperVGA Modes Working
+[3dfxerror]What 3DFX Card?
+[commsversionerror]Tch! Incompatible GTA Versions
+[mission1]When We Were Very Small
+[mission2]Mods and Sods
+[mission3]Chelsea Smile
+[mission4]Dead Certainty
+[mission102]g
+[mission103]h
+[mission202]j
+[mission203]k
+[city0]London
+[city1]London
+[city2]London
+[city3]London
+[mission1001]Deathmatch
+[mission1002]Cannonball Run 1
+[mission1003]Cannonball Run 2
+[mission1004]Cannonball Run 3
+[mission1101]d
+[mission1102]sa
+[mission1103]gf
+[mission1104]sadg
+[mission1201]dfg
+[mission1202]h
+[mission1203]f
+[mission1204]wdg
+[chapter:]%s Chapter %d :
+[dscolon]%d: %s
+[sdcolon]%s: %d
+[sscolon]%s: %s
+[trans-effects]Transparency Effects
+[music-mode]Music Mode
+[constant]Constant
+[radio]Radio
+[high-scores]Public Enemies
+[scores]Scores
+[crimes]Crimes
+[shighest]%s Highest
+[police]Police
+[end-game]End Game
+[end-score]End Score
+[end-kills]End Kills
+[kills]Kills
+[multi-options]Multiplayer Options
+[save]Save
+[win-score]To Win : Earn $%d
+[win-kills]To Win : %d Kills!
+[win-race]To Win : Come First!
+[did-not-finish]Failed To Finish
+[finish]Finish
+[missions-comp]Missions Passed :
+[race-results]Race Results
+[winner]The Champion!
+[loser]Loser!
+[no-win]Let's call it a draw!
+[abandon]Game Abandoned!
+[final-scores]Final Scores
+[9000]OK, one more should do it!
+[9001]That's just great, mate!
+[cd-warning]CD unavailable or in use. GTA will run without CD audio.
+[cut00]Listen right.
+[cut01]We heard you're a boy who can do his stuff.
+[cut02]And by hookers and by crooks.
+[cut03]You've proved you ain't bad!
+[cut04]Yeah! Ain't bad at all, sunshine.
+[cut05]You know what I mean?
+[linear-modes]Only Use DirectDraw Modes
+[cd-title]CD Warning!
+[cd-text]The Grand Theft Auto CD is not present.@@Only joining network games is possible.@@Start Grand Theft Auto again with the CD present for normal play.
+[cd-message]Network Only Version
+[demo-message]Hot Bitch Teaser Version
+[fix1]Choose a connection
+[fix2]No connections available
+[fix3]Choose a session
+[fix4]No sessions available
+[fix5]Create a new session
+[]

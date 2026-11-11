@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="de" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Grand Theft Auto 1 Windows Patch Bundle</title>
+<style type="text/css">
+.auto-style1 {
+	text-decoration: underline;
+}
+.auto-style2 {
+	font-size: small;
+	color:red;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Grand Theft Auto 1 &amp; Grand Theft Auto London<br />
+Windows
+Patch bundle by Daniel Marschall</h1>
+<p><a href="index.html">Back to main menu</a></p>
+
+<p><span class="auto-style2">
+Please note: These inofficial patches fix some problems and<br/>
+help you playing the game without CD. However, you NEED TO<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(A) have downloaded the free copy of "Rockstar Classics" (currently offline)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- or -<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(B) Be the owner of an original CD which you must use to install the game.<br/>
+I provide only the patch. The game must be installed by you from a legal<br/>
+copy of the game. My patch cannot be used without a purchased copy of the game,<br/>
+since I do not support piracy.
+</span></p>
+
+
+<h2>TL;DR</h2>
+<p><a href="downloads/All-In-One.zip">Here are all patches in one package</a>.
+Extract these files in your GTAwin or WINO directory.<br />
+With these patches, you have:<br />
+- Widescreen for GTA Retail, GTA Classics/Steam, GTA London 1969 and London 1961<br />
+- Bugfixes (player_a.dat crash in GTA Classics/Steam)<br />
+- Fixed music bugs (GTA Classics/Steam)<br />
+- NoCD patch (GTA Retail and London)</p>
+<p>In case you are already using workarounds in your GTA installation, you need
+to undo then:<br />
+1. You must stop using GTAFixer.exe<br />
+2. You must rename the music files back to their original file names. (&quot;wrong
+order&quot;)</p>
+<h2>ASI Plugins</h2>
+<p>ASI is a technique that allows you &quot;injecting&quot; code into games during
+runtime. This way you can fix bugs, include cheats, change things etc.<br />
+By placing a special file called ddraw.dll in your GTAwin folder (sometimes also
+called WINO), you can enable the Ultimate ASI loader.</p>
+<p>After you have installed the ASI loader, you will also have a folder
+&quot;Scripts&quot;. In this folder, you can place ASI-plugins which will be automatically
+executed if any GTA executable (gtawin.exe, gta_uk.exe etc.) is executed.</p>
+<h3>Following ASI plugins are developed or enhanced by me, and included in the
+package:</h3>
+<ul>
+	<li><strong>Scripts\GTA1.WidescreenFix.asi</strong> (enhanced by me)<br />
+	- Adds widescreen features to GTA 1 Classics/Steam, Retail, and GTA London
+	1969/1961<br />
+	- Fixes Player_A.dat Bug in GTA 1 Classics/Steam<br />
+	License: MIT, <a href="https://github.com/ThirteenAG/WidescreenFixesPack/blob/master/source/GTA1.WidescreenFix/dllmain.cpp">Source code in C++</a>, latest official version
+	<a href="https://thirteenag.github.io/wfp">here</a><br />
+	<br />
+	</li>
+	<li><strong>Scripts\GtaClassicMusicFix.asi </strong>(created by me)<br />
+	Fixes a lot of music related bugs in Rockstar Classics/Steam Edition:<br />
+	- Bugfix: Cop sounds instead of city atmosphere sounds<br />
+	- Bugfix: Wrong order of music files (e.g. pickups didn&#39;t play country
+	music)<br />
+	- Bugfix: No music in pause (F6) menu<br />
+	- Bugfix: No music in intro/gameover screen menu<br />
+	ATTENTION: You MUST now rename your music files back to the normal order,
+	since the renaming of files was just a workaround, not an actual fix.<br />
+	And you MUST not use GTAFixer.exe, since it will try renaming your Music
+	files again.<br />
+	This ASI file has no effect on GTA Retail or GTA London.<br />
+	License: Apache2, <a href="downloads/GtaClassicMusicFix_Source.zip">Source
+	code in C++</a>, see also <a href="radio_bugfix_notes.txt">personal notes</a><br />
+	<br />
+	</li>
+	<li><strong>Scripts\GtaClassicPlayerAFix.asi</strong> (created by me)<br />
+	Fixes Player_A.dat bug in GTA 1 Classics/Steam<br />
+	You can now stop using GTAFixer.exe.<br />
+	Additional advantage: The resolution will now be kept for the next game
+	session.<br />
+	This ASI file has no effect on GTA Retail or GTA London.<br />
+	License: Apache2, <a href="downloads/GtaClassicPlayerAFix_Source.zip">Source
+	code in C++</a>, see a <a href="player_a_bugfix.txt">technical description</a>
+	of the fix here<br />
+	<br />
+	</li>
+	<li><strong>Scripts\GtaNoCD.asi </strong>(created by me)<br />
+	Applies a NoCD patch for GTA Retail, GTA London 1969 and GTA London 1961.<br />
+	Please note: You still need a legal/original CD ROM to install GTA. If you play the patched game without CD, you won&#39;t have music.
+	You can, however, play any audio CD you like.<br />
+	This ASI file has no effect on GTA Rockstar Classics / Steam Edition.<br />
+	License: Apache2, <a href="downloads/GtaNoCD_Source.zip">Source code in C++</a>,
+	see also <a href="manual_nocd_patching.txt">hex editor instruction</a><br />
+	<br />
+	</li>
+	<li><strong>Scripts\PlayerAConverter_Automatic.asi</strong> (created by me)<br />
+	This patch will automatically adjust player_a.dat when you start GTA 1.<br />
+	The reason is that the Retail version and the Rockstar Classics / Steam
+	Edition have different
+	file formats for the savestate file player_a.dat . So if you run both
+	versions, your savestate
+	will become corrupt. Also, you could not &quot;import&quot; an old player_a.dat that
+	you have saved
+	from the Retail version and use it for the Rockstar Classics version.<br />
+	With this patch, the player_a.dat will automatically converted, so you can
+	play both
+	versions and keep your savestates.<br />
+	This ASI file has no effect on GTA London.<br />
+	License: Apache2, <a href="downloads/PlayerAConverter_Source.zip">Source code in Delphi</a></li>
+</ul>
+<h2>Manually patched</h2>
+<p>Here are some patched EXE files. Usually, you DON&#39;T need them.<br />
+<strong>Use them only if you have problems running the ASI loader.</strong></p>
+<ul>
+	<li><a href="downloads/gtawin_classic_fixed.zip">gtawin_classic_fixed.exe</a><br />
+	Contains GtaClassicMusicFix.asi and GtaClassicPlayerAFix.asi as hardcoded
+	fix;
+	does <span class="auto-style1">not</span> contain a widescreen fix.<br />
+	<br />
+	</li>
+	<li><a href="downloads/gtawin_retail_nocd.zip">gta_retail_nocd.exe</a><br />
+	GTA 1 Retail (CD), with integrated NoCD patch.<br />
+	<br />
+	</li>
+	<li><a href="downloads/gta_uk_nocd_icon.zip">gta_uk_nocd_icon.exe</a><br />
+	GTA London 1969, with integrated NoCD patch, and added London icon to the
+	EXE file.<br />
+	<br />
+	</li>
+	<li><a href="downloads/gta_61_nocd_icon.zip">gta_61_nocd_icon.exe</a><br />
+	GTA London 1961, with integrated NoCD patch, and added London icon to the
+	EXE file.<br />
+	<br />
+	</li>
+	<li><a href="downloads/PlayerAConverter_Standalone.zip">
+	PlayerAConverter_Standalone.exe</a><br />
+	This converter converts player_a.dat from GTA Classics to GTA Retail, and
+	vice versa.<br />
+	You can call this command line tool in a batch file, to ensure that your
+	player_a.dat is compatible
+	with the GTA version you will call afterwards.</li>
+</ul>
+
+</body>
+
+</html>

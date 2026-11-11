@@ -1,0 +1,30 @@
+.city {
+	color: brown;
+}
+
+.name {
+	color: olive;
+}
+
+.car {
+	color: darkgreen;
+}
+
+p.route {
+	background-color: #666666;
+	padding: 5;
+}
+
+dd.route {
+	background-color: #dddddd;
+	padding: 5px;
+}
+
+p.dosprompt{
+	color: #ffffff;
+	border: ridge silver;
+	background: #000000;
+	padding: 0.3em;
+	text-indent: 0;
+}
+

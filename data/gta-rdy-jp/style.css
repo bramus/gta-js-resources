@@ -1,0 +1,1397 @@
+/*---- Layout ----*/
+div {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0;
+}
+#leftColumn {
+	float: left;
+	width: 200px;
+}
+#contentColumn {
+	width: auto;
+	margin-left: 199px;
+}
+#masthead, #innerLeftColumn, #innerContentColumn, #innerFooter {
+	padding: 10px;
+}
+#footer {
+	clear: left;
+}
+#innerFooter {
+	text-align: center;
+}
+#innerContentColumn {
+	overflow: visible;
+	height: 100%;
+}
+#contentColumn,#innerContentColumn {
+	height: auto;
+}
+#innerContentColumn {
+	height: 100%;
+}
+#masthead, #footer {
+	z-index: 10;
+}
+
+/*---- Borders ----*/
+#pageFrame {
+	border: solid 1px #999;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer, #masthead, #innerLeftColumn, #contentColumn, .hnav {
+	border: solid 0px #999;
+}
+#footer {
+	border-top-width: 1px;
+}
+#masthead, .hnav {
+	border-bottom-width: 1px;
+}
+#innerLeftColumn {
+	border-right-width: 0px;
+}
+#contentColumn {
+	border-left-width: 0px;
+}
+
+/*---- Visual Elements ----*/
+body {
+	color: #000;
+	margin: 0;
+
+	background-color: #eeeeff;
+	background-image:
+		repeating-linear-gradient(-45deg,#fff, #fff 7px,transparent 0, transparent 14px);
+}
+#pageFrame {
+	background-color: #fff;
+	color: #000;
+	min-width: 500px;
+}
+
+.hnav {
+	white-space: nowrap;
+	margin: 0;
+	color: #000;
+	padding: 1px 0 2px 0;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+
+.hnav ul {
+	text-align: center;
+	list-style-type: none;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+}
+.hnav ul li{
+	display: inline;
+	white-space: nowrap;
+}
+
+a img {
+	border-width: 0;
+}
+#innerLeftColumn, #innerContentColumn {
+	overflow: visible;
+	height: 100%;
+	width: auto;
+}
+* html #masthead {
+	position: relative;
+}
+
+#innerContentColumnIndex {
+	padding: 10px;
+	background-color: #fff;
+}
+
+/* VNAV >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.vnav2 {
+	font-size: .9rem;
+	width: 180px;
+	border: solid 1px #d0d0ff;
+	border-radius: 8px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
+
+.vnav2 a {
+	text-decoration: none;
+	display: block;
+	color: #333399;
+	font-weight: bold;
+	padding: 4px 6px;
+	font-size: 1.1em;
+	border: solid 1px #d0d0ff;
+	border-width: 0 0 1px;
+}
+
+.vnav2 a:hover {
+	background-color: #f9f9ff;
+	color: red;
+}
+
+.vnav2 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.vnav2 ul li {
+	overflow: hidden;
+}
+
+.vnav2 ul li ul {
+	padding: 0 5px 0 5px;
+}
+
+.vnav2 ul li ul li {
+	background-color: #fff;
+}
+
+.vnav2 ul li ul li a{
+	font-size: 1em;
+	color: black;
+	font-weight: bold;
+	background-color: #fff;
+	border: solid 1px #d0d0ff;
+	border-width: 0 0 1px;
+	padding: 2px 0 2px 8px;
+}
+
+/* HNAV >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.hnav {
+	border-bottom: solid 1px #fff;
+	text-align: left;
+}
+
+div.hnav, .hnav ul {
+/*
+	padding-top: 4px;
+	padding-bottom: 4px;
+*/
+}
+.hnav ul, .hnav ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.hnav ul li a {
+	margin: 0 -1px 0 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	white-space: nowrap;
+}
+.hnav ul li a:link, .hnav ul li a:visited, .hnav ul li a:active, .hnav ul li a:hover {
+	text-decoration: none;
+}
+.hnav ul li span {
+	margin: 0 -1px 0 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+* html .hnav ul li, * html .hnav ul li a {
+	width: 1%;
+	display: inline-block;
+	width: auto;
+	display: inline;
+}
+
+* html .hnav, * html .hnav ul a {
+	height: 0.01%;
+}
+
+#footer a:link, #footer a:visited,#footer a:active {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* HEADMENU >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#headmenu {
+	margin: 0;
+	float: right;
+	color: #fff;
+}
+
+#headmenu a:link, #headmenu a:visited {
+	color: #ff6;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 80%;
+}
+
+#headmenu a:hover {
+	text-decoration: underline;
+}
+
+#headsearch {
+	margin-top: 1em;
+	float: right;
+	clear: right;
+}
+
+#headleft {
+	float: left;
+	padding: 0 0 0 1em;
+}
+
+#headright {
+	float: right;
+	padding: 0 10px 0 0;
+}
+
+/* SERIESLIST >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#headsearch .submit {
+	border-width: 0px;
+	background-color: #666;
+	color: #fff;
+}
+
+#serieslist {
+	text-align: right;
+	background-color: #333399;
+	color: #999;
+	font-size: 70%;
+	padding: 3px 5px;
+}
+
+#serieslist span {
+}
+
+#serieslist a {
+	padding: 0 4px;
+	border-radius: 4px;
+	margin: 0 .1em;
+	background-color: #fff;
+}
+
+#serieslist a:link, #serieslist a:visited, #serieslist a:active, #serieslist a:hover {
+	text-decoration: none;
+	color: #666;
+	border-color: #666;
+}
+
+#serieslist a:hover {
+	text-decoration: none;
+	color: #fff;
+	border-color: red;
+	background-color: red;
+}
+
+/* INNER CONTENT COLUMN >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#innerContentColumn a:link, #innerContentColumn a:visited, #innerContentColumn a:active, #innerContentColumn a:hover
+{
+	color: #00c;
+	text-decoration: none;
+}
+
+#innerContentColumn a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+#innerContentColumn th a:link, #innerContentColumn th a:visited, #innerContentColumn th a:active, #innerContentColumn th a:hover
+{
+	color: #f33;
+	text-decoration: none;
+}
+#innerContentColumn th a:hover
+{
+	background-color: #363;
+	color: #fff;
+}
+
+#innerContentColumn table.hundred-percent-checklist th {
+	text-align: left;
+}
+
+#innerContentColumn table.hundred-percent-checklist th a:link,
+#innerContentColumn table.hundred-percent-checklist th a:visited {
+	color: #fff;
+}
+
+
+#innerContentColumn h2 a:hover
+{
+	background-color: transparent;
+	color: #000;
+}
+#innerContentColumn h3 a:hover
+{
+	background-color: transparent;
+	color: #000;
+}
+
+#innerContentColumnIndex a:link, #innerContentColumnIndex a:visited, #innerContentColumnIndex a:active, #innerContentColumnIndex a:hover {
+	color: #00c;
+	text-decoration: none;
+}
+#innerContentColumnIndex a:hover {
+	background-color: #336;
+	color: #fff;
+}
+
+#pageFrame, #masthead, #footer {
+	background-color: #fff;	/* major background color */
+}
+#pageFrame {
+	background-color: #eeeeee;
+}
+#masthead {
+	color: #fff;
+	background-color: #333399;
+}
+#footer {
+	color: #fff;
+	background-color: #333399;
+	border-bottom: solid 1px #997;
+}
+
+#masthead h1 {
+	font-size: 140%;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0 0 0 .5em;
+	clear: both;
+	color: gold;
+	text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
+              -1px 1px 0 #000, 1px -1px 0 #000,
+              0px 1px 0 #000,  -1px 0 #000,
+              -1px 0 0 #000, 1px 0 0 #000;
+}
+
+#masthead h1 span {
+	font-size: 60%;
+	color: #ccf;
+	text-shadow: none;
+}
+
+.hnav ul li a {
+	color: #00f;
+	background-color: #fff;
+}
+
+.hnav {
+	color: #000;
+	background-color: #ffffff;
+	border-bottom: solid 1px #ccc;
+}
+
+.hnav ul li a:hover {
+	background-color: #336;
+	color: #fff;
+}
+.vnav ul li a {
+	color: #0000ff;
+}
+.vnav ul li li a {
+	color: #336;
+}
+.vnav ul li a:hover {
+	background-color: #336;
+	color: #fff;
+}
+
+/*** Left Column ***/
+
+#innerLeftColumn p {
+	font-size: 70%;
+	line-height: 140%;
+}
+#innerLeftColumn h3 {
+	color: #006;
+	margin: 1em 0 0 0;
+}
+
+/*** Content ***/
+
+#contentColumn {
+	background-color: #ffffff;
+}
+
+#innerContentColumn h2 {
+	background-color: #333399;
+	margin: 0 0 1em 0;
+	padding: .6em 0 .4em .8em;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+}
+
+#innerContentColumn h2 a{
+	padding: .1em 0 0 .5em;
+	border: solid 0 gold;
+	border-width: 0 0 0 5px;
+	text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
+              -1px 1px 0 #000, 1px -1px 0 #000,
+              0px 1px 0 #000,  -1px 0 #000,
+              -1px 0 0 #000, 1px 0 0 #000;
+
+}
+
+#innerContentColumn h2 a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+#innerContentColumn h3 {
+	font-size: 110%;
+	background-color: #333399;
+	margin: 1em 0 1em 0;
+	padding: .6em 0 .4em .8em;
+	color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+}
+
+#innerContentColumn h3 a{
+	padding: .1em 0 0 .5em;
+	border: solid 0 #fff;
+	border-width: 0 0 0 5px;
+	text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
+              -1px 1px 0 #000, 1px -1px 0 #000,
+              0px 1px 0 #000,  -1px 0 #000,
+              -1px 0 0 #000, 1px 0 0 #000;
+}
+
+#innerContentColumn h3 a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+#innerContentColumn .ptlink a:link,
+#innerContentColumn .ptlink a:visited,
+#innerContentColumn .ptlink a:active
+{
+	color: #ffffff;
+	background-color: #333399;
+	text-decoration: none;
+}
+#innerContentColumn .ptlink a:hover
+{
+	background-color: #ff0000;
+	color: #ffffff;
+}
+
+#innerContentColumn .misslist ul
+{
+	list-style-type: none;
+	line-height: 1.0em;
+}
+#innerContentColumn .misslist ul li a:link, 
+#innerContentColumn .misslist ul li a:visited,
+#innerContentColumn .misslist ul li a:active,
+#innerContentColumn .misslist ul li a:hover
+{
+	text-decoration: none;
+	color: #00c;
+}
+
+#innerContentColumn .misslist ul li a {
+	display: block;
+	font-size: 2.5rem;
+	margin: .6em 0 .2em 0;
+	padding: .5rem;
+}
+
+#innerContentColumn .misslist ul li a img {
+	border-radius: 5px;
+}
+
+#innerContentColumn .misslist ul li a span {
+	display: inline;
+	font-size: 50%;
+}
+
+#innerContentColumn .misslist ul li a:hover {
+	background-color: #f0f0ff;
+	color: red;
+}
+
+#innerContentColumn .misslist ul li li a {
+	font-size: 1.3rem;;
+	padding: .2em .2em;
+	margin: .2em 0;
+}
+
+
+
+
+/* SCRIPT ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+
+
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	
+}
+
+
+
+
+
+
+
+
+/* Basic code - don't modify */
+ 
+#nav { display: block; margin: 0; padding: 0; position: relative; }
+#nav li { display: block; list-style: none; margin: 0; padding: 0; float: left; position: relative; }
+#nav a { display: block; }
+
+#nav a {
+	background:url(./grp/crumbs.gif) no-repeat right center;
+	padding:0 15px 0 0;
+}
+#nav li li a {
+	background:transparent;
+	padding:6px 8px;
+}
+
+
+#nav ul { display: none; position: absolute; left: 0; margin: 0; padding: 0; }
+* html #nav ul { line-height: 0; } /* IE6 "fix" */
+	#nav ul a { zoom: 1; } /* IE6/7 fix */
+    #nav ul li { float: none; }
+    #nav ul ul { top: 0; }
+    
+/* Essentials - configure this */
+
+#nav ul { width: 330px; overflow:hidden;}
+#nav ul ul { left: 131px; }
+
+
+
+/* Everything else is theming */
+ 
+#nav { height: 25px; background-color:white;}
+#nav *:hover { background-color: none; }
+#nav a { border-right: 1px solid white; color: black; font-size: 100%; padding: 5px 15px 5px 8px; line-height: 1; }
+#nav li.hover a { background-color: none;  color:red}
+
+
+#nav li.hover ul a { color:white; }
+
+
+#nav ul { top: 25px; }
+#nav ul li a { background-color: #333; }
+#nav ul a.hover { background-color: goldenrod}
+#nav ul a { text-align: left; border-right: none; opacity: 0.9; filter: alpha(opacity=90); }
+/* #nav ul a { border-bottom: none; } - I also needed this for IE6/7 */
+#nav ul li.hover a span { color: black; }
+#nav ul a span { position: absolute; top: 0; left: 0; width: 316px; text-align: right; color: darkgoldenrod; font-weight: normal; font-size: 90%; display: block; padding: 6px;}
+#nav ul li.grouptop { border-top: 1px solid #ccc; }
+
+
+
+
+#faqList li { list-style: none; margin: .5em 0;}
+#faqList .question {
+  padding-left: 18px;
+  background: transparent url('grp/plus.png') left center no-repeat; 
+}
+#faqList li.simpleFAQShowing .question {
+  background: transparent url('grp/minus.png') left center no-repeat;
+}
+#faqList .simpleFAQHover { color: #060; }
+#faqList .answer {
+  margin-left: 1em;
+  border: 1px solid #66c;
+  padding: 0.4em;
+}
+.tags { font-size: 0.7em; color: #999; }
+
+#faqList p{
+margin: 0;
+padding:0;
+}
+
+
+
+
+
+
+/* global */
+#cluetip-close img {
+  border: 0;
+}
+#cluetip-title {
+  overflow: hidden;
+}
+#cluetip-title #cluetip-close {
+  float: right;
+  position: relative;
+}
+#cluetip-waitimage {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  background-image: url(grp/loading.gif);
+}
+.cluetip-arrows {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -11px;
+  height: 22px;
+  width: 11px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+#cluetip-extra {
+  display: none;
+}
+/***************************************
+   =cluetipClass: 'default' 
+-------------------------------------- */
+
+.cluetip-default {
+  background-color: #d9d9c2;
+  background-color: red;
+  font-size:100%;
+  border: solid 1px #ccc;
+  box-shadow: 0 1px 10px rgba(0,0,0,.5);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.cluetip-default #cluetip-outer {
+  position: relative;
+  margin: 0;
+  background-color: #fff;
+}
+
+.cluetip-default h3#cluetip-title {
+  margin: 0;
+  padding: 8px 10px 4px;
+  font-size: 1em;
+  background-color: #333399;
+  color: #fff;
+  font-weight: bold;
+  text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
+              -1px 1px 0 #000, 1px -1px 0 #000,
+              0px 1px 0 #000,  -1px 0 #000,
+              -1px 0 0 #000, 1px 0 0 #000;
+}
+
+.cluetip-default #cluetip-title a {
+  color: #d9d9c2;
+  font-size: 0.95em;
+}  
+.cluetip-default #cluetip-inner {
+  padding: 0px;
+}
+.cluetip-default div#cluetip-close { 
+  text-align: right;
+  margin: 0 5px 5px;
+  color: #900;
+}
+
+.cluetip-default #content p {
+	margin: 0;
+	text-align: center;
+}
+.cluetip-default #content dl {
+	margin: 0;
+	padding: 0 .5em .5em .5em;
+}
+
+
+/* default arrows */
+
+.clue-right-default .cluetip-arrows {
+}
+.clue-left-default .cluetip-arrows {
+  left: 100%;
+  margin-right: -11px;
+}
+.clue-top-default .cluetip-arrows {
+  top: 100%;
+  left: 50%;
+  margin-left: -11px;
+  height: 11px;
+  width: 22px;  
+}  
+.clue-bottom-default .cluetip-arrows {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  height: 11px;
+  width: 22px;
+}
+
+/* USER ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+
+h2,h3 {
+	clear: right;
+}
+
+/* P >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.yodan {
+	clear: both;
+	clear: right;
+	color: #563112;
+	background-color: #ffd700;
+	font-size: 90%;
+	padding: .5em 1em;
+	margin: 1em 2em;
+	font-weight: bold;
+	border: solid 1px #563112;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.jisseki {
+	clear: both;
+	color: #cccccc;
+	background-color: #666666;
+	font-size: 90%;
+	padding: .5em;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	border-color: #66ff66;
+	border-style: solid;
+	border-width: 0 0 0 .5em;
+}
+
+p.gamemessage {
+	border-style: solid;
+	border-width: 1px 2px 2px 1px;
+	border-color: #d0d0ff;
+	background-color: #f9f9ff;
+	padding: .3em .5em 0 .5em;
+	color: maroon;
+	font-weight: bold;
+	margin-left: 2em;
+	border-radius: 4px;
+}
+p.gamemessage span.en {
+	display: block;
+	border-color: #d0d0ff;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	padding: .2em 0;
+	color: #666;
+	font-weight: normal;
+	font-size: 80%;
+	margin-top: 3px;
+}
+
+p.stip {
+	color: #ffffff;
+	font-size: .8em;
+	background-color: #666666;
+	background-color: #555;
+	margin: 1em 3em;
+	padding: .3em .5em;
+	width: 50%;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	border-color: #333333;
+}
+
+/* MISSIONPIC >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.missionpic {
+	color: #666;
+	float: right;
+	text-align: left;
+	padding: 10px;
+	width: 240px;
+	margin: 0 0 .5em .5em;
+	background-color: #f6f6f6;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+}
+
+.missionpic a div.missionpicimg {
+	overflow: hidden;
+}
+
+.missionpic a .missionpicimg img {
+	transform: scale(1);
+	transition: .2s ease-in-out;
+}
+
+.missionpic a .missionpicimg:hover img {
+	transform: scale(1.3);
+	filter: blur(3px);
+}
+
+.missionpic .caption {
+	display: block;
+	padding: 0;
+	margin: 0;
+	font-size: 90%;
+}
+
+/* GAMEPAD BUTTON >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.ps2_o, .ps2_x, .ps2_t, .ps2_s, .ps2_btn, .ps2_d, .ps2_stick {
+	font-size: .8em;
+	font-weight: bold;
+	background-color: #ddd;
+	padding: 0;
+	margin: 0 3px;
+	border: solid 1px #ccc;
+	border-width: 1px 2px 2px 1px;
+	border-radius: 30px;
+	width: 1.5em;
+	display: inline-block;
+	text-align: center;
+	text-shadow:1px 1px 0 #666, -1px -1px 0 #666,
+              -1px 1px 0 #666, 1px -1px 0 #666,
+              0px 1px 0 #666,  -1px 0 #666,
+              -1px 0 0 #666, 1px 0 0 #666;
+
+}
+
+.ps2_o {
+	color: #ff6666;
+}
+.ps2_x {
+	color: lightblue;
+}
+.ps2_t {
+	color: lightgreen;
+}
+.ps2_s {
+	color: pink;
+}
+.ps2_btn {
+	color: #333;
+	width: 2em;
+	border-radius: 6px;
+	text-shadow: none;
+}
+
+.ps2_stick {
+	color: #333;
+	width: auto;
+	border-radius: 6px;
+	padding: 0 3px;
+	text-shadow: none;
+}
+
+.ps2_d {
+	color: #333;
+	border-radius: 6px;
+	text-shadow: none;
+}
+
+.ds_btn {
+	color: #666600;
+	font-size: 75%;
+	font-weight: bold;
+	background-color: #ffffdd;
+	padding: 1px;
+	border: solid 1px #dddd99;
+	margin: 0 1px;
+	line-height: 1.5em;
+}
+
+.psp_btn {
+	color: #cccccc;
+	font-size: 75%;
+	font-weight: bold;
+	background-color: #666666;
+	padding: 1px;
+	border: solid 1px #333333;
+	margin: 0 1px;
+	line-height: 1.5em;
+}
+
+.xb_a, .xb_b, .xb_x, .xb_y, .xb_btn, .xb_lr {
+	color: #fff;
+	font-size: .8em;
+	font-weight: bold;
+	background-color: #666;
+	padding: 0;
+	margin: 0 3px;
+	border: solid 1px #000;
+	border-width: 1px 2px 2px 1px;
+	border-radius: 30px;
+	width: 1.5em;
+	display: inline-block;
+	text-align: center;
+	text-shadow:1px 1px 0 #666, -1px -1px 0 #666,
+              -1px 1px 0 #666, 1px -1px 0 #666,
+              0px 1px 0 #666,  -1px 0 #666,
+              -1px 0 0 #666, 1px 0 0 #666;
+}
+
+.xb_a {
+	color: #ccffcc;
+	background-color: #669966;
+}
+.xb_b {
+	color: #ffcccc;
+	background-color: #990000;
+}
+.xb_x {
+	color: #ccccff;
+	background-color: #000099;
+}
+.xb_y {
+	color: #ffffcc;
+	background-color: #cccc00;
+}
+.xb_btn {
+	width: 2em;
+	border-radius: 6px;
+	text-shadow: none;
+}
+
+.xb_stick {
+	width: auto;
+	border-radius: 6px;
+	padding: 0 3px;
+	text-shadow: none;
+}
+
+/* DL DT >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+dt.mission,dt.reward,dt.weapon,dt.jumpdie,dt.haveto,dt.location {
+	color: red;
+	font-weight: bold;
+}
+
+dl.std dt {
+	color: red;
+	font-weight: bold;
+}
+
+dl.weapon dt {
+	color: red;
+	font-weight: bold;
+}
+
+dl.race dt {
+	color: red;
+	font-weight: bold;
+}
+
+/* TABLE >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+div.ctable {
+	text-align: center;
+}
+div.ctable table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+table{
+	empty-cells: show;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px 0 1px 0;
+	border-color: #cccccc;
+}
+th {
+	text-align: center;
+	padding: 2px .5em;
+	border-color: #333333;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+	color: #eef;
+	background-color: rgb(109,133,191);
+	background-color: #333399;
+}
+
+td {
+	color: #333333;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+	border-color: #cccccc;
+	padding: 0 .3em;
+}
+
+tr.evenline td {
+	background-color: #f6f6f9;
+}
+tr.oddline td {
+	background-color: #ffffff;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+	color: #f33;
+}
+
+.ptlink {
+	text-align: right;
+	clear: right;
+}
+.ptlink a
+{
+	font-size: 80%;
+	padding: 0 1em;
+	border-radius: 5px;
+}
+
+p#skipnavi {
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	position: absolute;
+}
+.yellow
+{
+	color: #ffff00;
+}
+.blue
+{
+	color: #0000ff;
+}
+.red
+{
+	color: #ff0000;
+}
+.green
+{
+	color: green;
+}
+.red-marker {
+	color: #f00;
+	text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
+              -1px 1px 0 #000, 1px -1px 0 #000,
+              0px 1px 0 #000,  -1px 0 #000,
+              -1px 0 0 #000, 1px 0 0 #000;
+}
+.pink-marker {
+	color: #ff94d6;
+	text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
+              -1px 1px 0 #000, 1px -1px 0 #000,
+              0px 1px 0 #000,  -1px 0 #000,
+              -1px 0 0 #000, 1px 0 0 #000;
+}
+.green-marker {
+	color: #00ff00;
+	text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
+              -1px 1px 0 #000, 1px -1px 0 #000,
+              0px 1px 0 #000,  -1px 0 #000,
+              -1px 0 0 #000, 1px 0 0 #000;
+}
+table.noborder,table.noborder td {
+	border-style: none;
+}
+
+/* PAGENAGTE >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+p.pagenate {
+  background-color: #f6f6ff;
+  text-align: center;
+  padding: 5px;
+  line-height: 160%;
+  line-height: 200%;
+  word-break: keep-all;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #ddf;
+}
+
+p.pagenate a {
+  background-color: #f6f6f6;
+  border: solid 1px #333399;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin: 0 .1em;
+}
+
+#innerContentColumn p.pagenate a:hover {
+	color: #fff;
+	background-color: #333399;
+	text-decoration: none;
+}
+
+/* OL.HP >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+ol.hp li {
+	background-color: #eeeeee;
+	margin: 0 0 .5em 0;
+	border: solid 1px #999999;
+	padding: .5em;
+}
+ol.hp li img{
+	margin: .5em 0 0 0;
+}
+
+/* UL.HP >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+ul.hp {
+	list-style: none;
+	margin: .5em 0 0 0;
+	padding: 0;
+}
+ul.hp li {
+	background-color: #f9f9ff;
+	margin: 0 0 .5em 0;
+	border: solid 2px #d0d0ff;
+	padding: .5em;
+	border-radius: 5px;
+}
+
+ul.hp li .hpimg {
+	position: relative;
+}
+
+ul.hp li .hpimg img {
+	border: solid 1px #999;
+	border-radius: 8px;
+}
+
+ul.hp li .num {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 1.6em;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 0 0 10px #990;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 1px 8px;
+	border-radius: 3px;
+}
+
+/* GAMETOP(index.html) >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#gametopmenu h2 {
+	font-size: 1.6em;
+	text-align: center;
+	line-height: 1em;
+	font-weight: bold;
+	margin: 0;
+	color: #fff;
+	text-shadow:2px 2px 0 #000, -2px -2px 0 #000,
+              -2px 2px 0 #000, 2px -2px 0 #000,
+              0px 2px 0 #000,  -2px 0 #000,
+              -2px 0 0 #000, 2px 0 0 #000;
+}
+
+#gametopmenu h2 span{
+	font-size: .7em;
+	color: gold;
+	text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
+              -1px 1px 0 #000, 1px -1px 0 #000,
+              0px 1px 0 #000,  -1px 0 #000,
+              -1px 0 0 #000, 1px 0 0 #000;
+}
+
+#gametopmenu #gameinfo {
+	float: right;
+	margin: .5em;
+	padding: 5px;
+	width: 128px;
+	border: solid 1px #999;
+	border-radius: 5px;
+	font-size: .7em;
+	color: #666;
+	font-weight: bold;
+}
+
+#gametopmenu #gameinfo img{
+}
+
+#gametopmenu #arasuji {
+	font-weight: bold;
+	line-height: 1.4em;
+	margin: .5em 1em;
+	font-size: 1.1em;
+}
+
+#gametopmenu #arasuji2 {
+	line-height: 1.2em;
+	margin: .5em 1em;
+	font-size: 1em;
+	color: #666;
+}
+
+div#gametopmenu {
+}
+
+#gametopmenu ul{
+	width: 800px;
+	border: solid 1px #999999;
+	list-style: none;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+	overflow: hidden;
+}
+
+#gametopmenu li{
+	border: solid 1px #999999;
+	border-width: 1px 0 0;
+}
+
+#gametopmenu li#info{
+	padding: .7em 0 .6em;
+	background-color: #333399;
+	border-width: 0;
+}
+
+#gametopmenu li.heading{
+	padding: 5px 1em;
+	font-weight: bold;
+	color: #fff;
+	background-color: #333399;
+	clear: both;
+	display: flex;
+	align-items: center;
+	text-shadow: 0 0 0.10em #000;
+}
+
+#gametopmenu li.heading img{
+	width: 1.6em;
+	height: 1.6em;
+	margin: 0 .4em 0 0;
+}
+
+#gametopmenu li.item a::first-letter{
+	font-size: .8em;
+	color: gold;
+	margin-right: .2em;
+	text-shadow:1px 1px 0 #666, -1px -1px 0 #666,
+              -1px 1px 0 #666, 1px -1px 0 #666,
+              0px 1px 0 #666,  -1px 0 #666,
+              -1px 0 0 #666, 1px 0 0 #666;
+}
+
+#gametopmenu li a{
+	display: block;
+	padding: .4em 1.6em .3em;
+	font-weight: bold;
+	line-height: 2em;
+	font-size: 1.2em;
+	text-shadow: 0 2px 0 #eeeeee;
+	line-height: 1.0em;
+}
+
+#gametopmenu li a span{
+	font-size: .7em;
+	color: #666;
+	margin-left: 1em;
+	font-weight: normal;
+}
+
+#gametopmenu a:link, #gametopmenu a:visited {
+	color: #000;
+}
+#gametopmenu a:hover {
+	background-color: #eee;
+}
+
+
+

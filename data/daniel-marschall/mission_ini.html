@@ -1,0 +1,1522 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="de" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>GTA 1 Mission.ini</title>
+<style type="text/css">
+.auto-style1 {
+	color: #008000;
+}
+.auto-style2 {
+	color: #FF0000;
+}
+.auto-style3 {
+	background-color: #FFFFFF;
+}
+.auto-style4 {
+	font-family: "Courier New", Courier, monospace;
+}
+.auto-style6 {
+	color: #FF00FF;
+}
+.auto-style7 {
+	font-style: normal;
+}
+.auto-style8 {
+	color: #000000;
+}
+</style>
+</head>
+
+<body>
+
+<h1>GTA 1 Mission.ini</h1>
+<p><a href="index.html">Back to main page</a></p>
+<h2>Used commands in each GTA version</h2>
+<ul>
+	<li><strong>GTA 1</strong><ul>
+	<!--
+	cat GTADATA/MISSION_INI.TXT | grep -iv ".cmp" | grep -oE '[A-Z_]+' | sort | uniq -c | sort -nr > GTADATA/MISSION_INI__occurrences.TXT
+	cat GTADATA/MISSION_INI.TXT | grep -iv ".cmp" | grep -oE '[A-Z_]+' | sort | uniq > GTADATA/MISSION_INI__unique.TXT
+	-->
+		<li><a href="files/GTADATA/MISSION_INI.TXT">Mission.ini</a></li>
+		<li><a href="files/GTADATA/MISSION_INI__occurrences.TXT">Commands count</a></li>
+		<li><a href="files/GTADATA/MISSION_INI__unique.TXT">Unique commands by 
+		alphabet</a></li>
+		<li><a href="files/gta1_exe_cmds.txt">Strings in the EXE file</a> (<a href="files/gta1_exe_cmds__sorted.txt">sorted</a>)<br />
+		</li>
+	</ul>
+	</li>
+	<li><strong>GTA London 1969</strong><ul>
+	<!--
+	cat GTADATA/UK/MISSUK_INI.TXT | grep -iv ".cmp" | grep -oE '[A-Z_]+' | sort | uniq -c | sort -nr > GTADATA/UK/MISSUK_INI__occurrences.TXT
+	cat GTADATA/UK/MISSUK_INI.TXT | grep -iv ".cmp" | grep -oE '[A-Z_]+' | sort | uniq > GTADATA/UK/MISSUK_INI__unique.TXT
+	-->
+		<li><a href="files/GTADATA/UK/MISSUK_INI.TXT">Mission.ini</a></li>
+		<li><a href="files/GTADATA/UK/MISSUK_INI__occurrences.TXT">Commands 
+		count</a></li>
+		<li><a href="files/GTADATA/UK/MISSUK_INI__unique.TXT">Unique commands by 
+		alphabet</a></li>
+		<li><a href="files/gtauk_exe_cmds.txt">Strings in the EXE file</a> (<a href="files/gtauk_exe_cmds__sorted.txt">sorted</a>)</li>
+		<li>New commands<ul>
+			<li>RED_ARROWCAR</li>
+			<li>RED_ARROWPED<br />
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>GTA London 1961</strong><ul>
+	<!--
+	cat GTADATA/UK/missuke_ini.txt | grep -iv ".cmp" | grep -oE '[A-Z_]+' | sort | uniq -c | sort -nr > GTADATA/UK/missuke_ini__occurrences.txt
+	cat GTADATA/UK/missuke_ini.txt | grep -iv ".cmp" | grep -oE '[A-Z_]+' | sort | uniq > GTADATA/UK/missuke_ini__unique.txt
+	-->
+		<li><a href="files/GTADATA/UK/missuke_ini.txt">Mission.ini</a></li>
+		<li><a href="files/GTADATA/UK/missuke_ini__occurrences.txt">Commands 
+		count</a></li>
+		<li><a href="files/GTADATA/UK/missuke_ini__unique.txt">Unique commands 
+		by alphabet</a></li>
+		<li><a href="files/gtauke_exe_cmds.txt">Strings in the EXE file</a> (<a href="files/gtauke_exe_cmds__sorted.txt">sorted</a>)</li>
+		<li>New commands<ul>
+			<li>DRIVE_BY</li>
+			<li>DRIVE_BY_OFF</li>
+			<li>PLAYER_DRIVE_BY</li>
+			<li>PLAYER_DRIVE_BY_OFF</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+<h2>Header of all official maps</h2>
+<p>The numbers in the header have an unknown usage.</p>
+<pre>[1]    Easy Liberty City NEW,   22, nyc.cmp,    0, 100 1 1 1 1 0 
+[2]    Medium Liberty City new, 22, nyc.cmp,    0, 100 1 1 1 1 0 
+[1001] DEATHMATCH1,             22, nyc.cmp,    0, 100 1 1 1 1 0 
+[1002] Canonball Run1,          22, nyc.cmp,    0, 100 1 1 1 1 0 
+[1003] Canonball Run2,          22, nyc.cmp,    0, 100 1 1 1 1 0 
+[1004] Canonball Run3,          22, nyc.cmp,    0, 100 1 1 1 1 0 
+[102]  San Andreas medium,      22, sanb.cmp,   0, 100 1 1 1 1 0 
+[103]  San Andreas hard,        22, sanb.cmp,   0, 100 1 1 1 1 0 
+[1101] DEATHMATCH1,             22, sanb.cmp,   0, <span class="auto-style2">150</span> 1 1 1 1 0 
+[1102] Canonball Run1,          22, sanb.cmp,   0, 100 1 1 1 1 0 
+[1103] Canonball Run2,          22, SANB.cmp,   0, 100 1 1 1 1 0 
+[1104] Canonball Run3,          22, sanb.cmp,   0, 100 1 1 1 1 0 
+[202]  Vice is Painless,        22, miami.cmp,  0, 100 1 1 1 1 0 
+[203]  Vice is Painless,        22, miami.cmp,  0, 100 1 1 1 1 0 
+[1201] DEATHMATCH1,             22, miami.cmp,  0, 100 1 1 1 1 0 
+[1202] Canonball Run1,          22, miami.cmp,  0, 100 1 1 1 1 0 
+[1203] Canonball Run2,          22, miami.cmp,  0, 100 1 1 1 1 0 
+[1204] Canonball Run3,          22, miami.cmp,  0, 100 1 1 1 1 0 
+[1]    Intro London NEW,        22, uk\uk.cmp,  0, 100 1 1 1 1 0 
+[2]    Easy London NEW,         22, uk\uk.cmp,  0, 100 1 1 1 1 0 
+[3]    Medium London NEW,       22, uk\uk.cmp,  0, 100 1 1 1 1 0 
+[4]    Hard London NEW,         22, uk\uk.cmp,  0, 100 1 1 1 1 0 
+[1001] DEATHMATCH1,             22, uk\uk.cmp,  0, 100 1 1 1 1 0 
+[1002] Canonball Run1,          22, uk\uk.cmp,  0, 100 1 1 1 1 0 
+[1003] Canonball Run2,          22, uk\uk.cmp,  0, 100 1 1 1 1 0 
+[1004] Canonball Run3,          22, uk\uk.cmp,  0, 100 1 1 1 1 0 
+[1]    Camp01 London2 NEW,      22, uk\uke.cmp, 0, 100 1 1 1 1 0 
+[1001] DEATHMATCH1,             22, uk\mc.cmp,  0, 100 1 1 1 1 0</pre>
+<h2>List of all commands</h2>
+<p>This list is based on the strings found in the EXE files, compared with the commands used 
+in the INI files.</p>
+<p>The commands were compared with the template in IniPad and the usage in the 
+game's Mission.ini files, and some fixes have been made.</p>
+<p>The descriptions were mainly taken from <a href="mtd.pdf">mtd.pdf</a> (GTA Mission Template Description by 
+DMA Design Ltd. 1998-01-21).</p>
+<!--
+Unused commands:
+	cat gta1_exe_cmds.txt | sort | uniq > gta1_exe_cmds__sorted.txt
+	cat gtauk_exe_cmds.txt | sort | uniq > gtauk_exe_cmds__sorted.txt
+	cat gtauke_exe_cmds.txt | sort | uniq > gtauke_exe_cmds__sorted.txt
+	cat GTADATA/MISSION_INI__unique.TXT GTADATA/UK/MISSUK_INI__unique.TXT GTADATA/UK/missuke_ini__unique.txt | sort | uniq > xxx
+	diff xxx gtauke_exe_cmds__sorted.txt | grep -v '@' > unused_commands.txt
+	rm xxx
+-->
+<ul>
+	<li><strong>ADD_A_LIFE</strong> 0 &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Simply adds a life to the current player’s total, and proceeds to &lt;succ&gt; 
+	etc.</em>
+	<br />
+	<br /></li>
+	<li>(X,Y,Z) <strong>ALT_DAMAGE_TRIG </strong>&lt;line?&gt; &lt;range?&gt;<br />
+	<em>IniPad describes (X,Y,Z) ALT_DAMAGE_TRIG &lt;line&gt; &lt;range&gt; &lt;type&gt; , but in 
+	the game's INI files, there is no 3rd parameter.</em><br />
+	<span class="auto-style6"><em>(description is missing)<br />
+	</em></span><br />
+	</li>
+	<li><strong>ANSWER</strong> &lt;phone&gt; &lt;succ&gt; &lt;fail&gt; &lt;rings&gt; &lt;score&gt;<br />
+	<em>Starts a telephone ringing, usually used after SURVIVE to form a delay + 
+	telephone ring, but can be triggered by a TRIGGER, the phone will ring 
+	rings/2 times. If you answer it goes to &lt;succ&gt; objective otherwise it goes 
+	to &lt;fail&gt; objective.</em>
+	<br />
+	<br /></li>
+	<li><strong>ARE_BOTH_ONSCREEN</strong> &lt;car one&gt; &lt;succ&gt; &lt;fail&gt; &lt;car two&gt; 
+	&lt;score&gt;<br />
+	<em>Checks to see if the cars declared in lines &lt;car one&gt; &amp; &lt;car two&gt; are 
+	both onscreen at this particular moment. If so, it goes to line &lt;succ&gt;. If 
+	not, or if either car has not been created, it goes to line &lt;fail&gt;. <br />
+	This (hopefully) will give you something to use for the end of the taxi 
+	following mission - set up a trigger on the block the taxi’s going to which 
+	will call this, and it’ll do a branch to wherever you want, IYKWIM.<br />
+	</em><span class="auto-style2"><em>[never used in any INI file!]<br />
+	<br />
+	</em></span></li>
+	<li><strong>ARMEDMESS</strong> 0 &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Displays the message "Bomb Armed"</em>
+	<br />
+	<br /></li>
+	<li><strong>ARROW</strong> &lt;target&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Points an arrow at line &lt;target&gt;, this should not be used with moving 
+	targets. &lt;target&gt; should have a suitable (X,Y,Z)</em>
+	<br />
+	<br /></li>
+	<li><strong>ARROWCAR</strong> &lt;car num&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Points the arrow to the car defined in line &lt;car num&gt;, following it 
+	around if the car moves.</em>
+	<br />
+	<br /></li>
+	<li><strong>ARROW_OFF</strong> 0 &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Removes the arrow if it’s switched on.</em>
+	<br />
+	<br /></li>
+	<li><strong>ARROWPED</strong> &lt;ped num&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Points the arrow to the ped defined in line &lt;ped num&gt;, following it 
+	around if the ped moves. <br />
+	</em>
+	<br /></li>
+	<li><strong>BANK_ALARM_OFF </strong>&lt;location&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Switches off the sound effect of a ‘bank alarm’ at the location declared 
+	in line &lt;location&gt;. This should be the line used as &lt;location&gt; when you 
+	started the bank alarm.</em>
+	<br />
+	<br /></li>
+	<li><strong>BANK_ALARM_ON </strong>0 &lt;succ&gt; -1 &lt;location&gt; &lt;score&gt;<br />
+	<em>This switches on the ‘bank alarm’ at the coords defined in &lt;location&gt;. 
+	This should probably be a dummy as data needs to be stored.</em>
+	<br />
+	<br /></li>
+	<li><strong>BANK_ROBBERY</strong> &lt;car&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Reports a bank robbery crime, with the car defined in line &lt;car&gt; the 
+	culprit, e.g. if player has to make it to the bank in car 100, report the 
+	crime on that car. This also causes an alarm to <br />
+	NO LONGER sets off an alarm, use BANK_ALARM_ON for that.</em>
+	<br />
+	<br /></li>
+	<li>&lt;reset&gt; (X,Y,Z) <strong>BARRIER</strong> &lt;face&gt; &lt;num frames&gt; &lt;type&gt;<br />
+	<em>Creates a barrier that can only be opened by emergency vehicles. &lt;num 
+	frames&gt; is the number of frames of animation. &lt;type&gt; is the interior block 
+	to use.</em>
+	<br />
+	<em>&lt;reset&gt;<br />
+&nbsp;&nbsp; 0 Do not keep this object active after&nbsp;RESET&nbsp;commands.<br />
+&nbsp;&nbsp; 1 Keep this object active after&nbsp;RESET&nbsp;commands.<br />
+	&lt;face&gt;<br />
+&nbsp;&nbsp; 0 Door will appear on West face of the cube<br />
+&nbsp;&nbsp; 1 Door will appear on East face of the cube<br />
+&nbsp;&nbsp; 2 Door will appear on North face of the cube<br />
+&nbsp;&nbsp; 3 Door will appear on South face of the cube.<br />
+	&lt;num frames&gt;<br />
+&nbsp;&nbsp; 0 to 16 The vehicle model or type number which is allowed access.<br />
+	&lt;type&gt;<br />
+&nbsp;&nbsp; 0 to 255 Sets the interior to this texture ID. Check the original 
+	code to get the right style.</em><br />
+	<br /></li>
+	<li>(X,Y,Z) <strong>BASIC_BARRIER </strong>&lt;face&gt; &lt;num frames&gt; &lt;type&gt;<br />
+	<em>Creates a barrier that will open for ANY vehicle. &lt;num frames&gt; is the 
+	number of frames of animation. &lt;type&gt; is the interior block to use. 
+	<br />
+	</em>
+	<br /></li>
+	<li>(X,Y,Z) <strong>BLOCK_INFO</strong> &lt;info1&gt; &lt;info2&gt;<br />
+	<em>This is used to declare the info for the “CHANGE_BLOCK” and 
+	“CHANGE_TYPE” commands.<br />
+	For CHANGE_BLOCK, &lt;info1&gt; is the new value for the block., and &lt;info2&gt; is 0.<br />
+	For CHANGE_FACE, &lt;info1&gt; is the face to change &amp; &lt;info2&gt; is the new face 
+	value.</em>
+	<br />
+	<br /></li>
+	<li>(X,Y,Z) <strong>BOMBSHOP</strong> 0 0 <br />
+	<em>Creates a bomb shop trigger that places a bomb in your current car for a 
+	price!</em>
+	<br />
+	<br /></li>
+	<li>(0,0,0) <strong>BOMBSHOP_COST </strong>&lt;cost&gt; 0<br />
+	<em>Sets the cost value of using a bombshop to &lt;cost&gt;. Whenever a player 
+	uses a bombshop now, this value will be taken from his/her score.<br />
+	This command isn’t necessary, the game defaults to 5,000.</em>
+	<br />
+	<br /></li>
+	<li><strong>BRIEF</strong> &lt;target&gt; &lt;succ&gt; &lt;dest_loc&gt; &lt;time&gt; &lt;type&gt;<br />
+	<em>IniPad defines BRIEF 0 &lt;succ&gt; 0 0 &lt;type&gt;<br />
+	Produces a message telling the player where to go and how long he’s got 
+	to get there. It always goes to &lt;succ&gt;. At this stage, you should be using 
+	your ‘special’ briefings, e.g. from 1001 upwards.</em>
+	<br />
+	<br /></li>
+	<li><strong>CANCEL_BRIEFING </strong>&lt;briefing&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Cancels the ‘timed briefing’ which is currently going on. &lt;briefing&gt; 
+	should be the line number of the briefing you want cancelled.<br />
+	This command is here for completion’s sake.</em>
+	<br />
+	<br /></li>
+	<li>(X,Y,Z) <strong>CANNON_START</strong> 0 0<br />
+	<em>Needed for the cannon-ball runs to work properly - should just be the 
+	‘start’ square of it.</em>
+	<br />
+	<br /></li>
+	<li>(X,Y,Z) <strong>CAR</strong> &lt;model&gt; &lt;angle&gt;<br />
+	<em>Creates a car of type &lt;model&gt; at facing &lt;angle&gt;</em><br />
+	<span class="auto-style2"><em>[never used in any INI file!]<br />
+	</em><span class="auto-style6"><em><br />
+	</em></span></span></li>
+	<li>(X,Y,Z) <strong>CARBOMB</strong> &lt;type&gt; &lt;angle&gt; <br />
+	<em>Creates a car with a bomb in it.<br />
+	Type can be the following:-<br />
+	0 - No Bomb (disarm)<br />
+	1 - Unarmed ‘5 second’ bomb<br />
+	2 - Armed ‘5 second’ bomb - i.e. it will blow in five seconds<br />
+	3 - Model Car Bomb (instant detonation on pressing ‘special key’)<br />
+	4 - Dodgy Explosives (take some damage then it will blow)<br />
+	5 - Unarmed Speed Bomb (Speed &gt; ¾ max speed to arm)<br />
+	6 - Armed Speed Bomb (Speed &lt; ½ max speed to detonate)<br />
+	N.B. This can be used with stationary vehicles to blow them up instantly 
+	!UNSUPPORTED!<br />
+	</em><span class="auto-style2"><em>[never used in any INI file!]<br />
+	<br />
+	</em></span></li>
+	<li>(0,0,0) <strong>CARBOMB_TRIG</strong> &lt;car&gt; &lt;line&gt;<br />
+	<em>MTD defines (0,0,0), but IniPad defines (X,Y,Z). The game files 
+	sometimes use (0,0,0) and sometimes (X,Y,Z).<br />
+	Sets up a trigger that goes to line number &lt;line&gt; when the car defined 
+	in line &lt;car&gt; gets a bomb placed on it, e.g. when it enters a bombshop.</em>
+	<br />
+	<br /></li>
+	<li>(X,Y,Z) <strong>CARDESTROY_TRIG</strong> &lt;line&gt; &lt;range&gt; &lt;car&gt;<br />
+	<em>Trigger that goes to line &lt;line&gt; when the car declared in line &lt;car&gt; is 
+	destroyed within the area defined by (X,Y,Z) &amp; &lt;range&gt;.</em>
+	<br />
+	<br /></li>
+	<li><strong>CAR_ON</strong> &lt;futurecar&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Creates the FUTURECAR futurecar, WITH a driver.</em>
+	<br />
+	<br /></li>
+	<li>(0,0,0) <strong>CARSTUCK_TRIG</strong> &lt;line?&gt; &lt;car?&gt;<br />
+	<span class="auto-style6"><em>(description is missing)<br />
+	</span>
+	<span class="auto-style8">IniPad defines (X,Y,Z) CARSTUCK_TRIG &lt;line&gt; &lt;car&gt; 
+	&lt;type&gt; , but the game's files don't contain a 3rd parameter.</span><span class="auto-style6"><br />
+	</span><span class="auto-style8">Cerbera writes: If the vehicle crashes and 
+	gets wedged against a fence or suchlike you allow the player to get out, or 
+	the&nbsp;AI&nbsp;driver gets out and fights on foot. </span><span class="auto-style6"><br />
+	<br />
+	</span>
+	</em></li>
+	<li>(X,Y,Z) <strong>CARTRIGGER</strong> &lt;line&gt; &lt;car&gt; <br />
+	<em>Creates a trigger that will start &lt;line&gt; line when player enters &lt;car&gt; 
+	vehicle.</em>
+	<br />
+	<br /></li>
+	<li>(0,0,0) <strong>CARWAIT_TRIG</strong> &lt;line&gt; &lt;car&gt;<br />
+	<em>InitPad defines (X,Y,Z) CARWAIT_TRIG &lt;line&gt; &lt;car&gt;, but the game's files 
+	always use (0,0,0).<br />
+	Sets up a trigger that goes to line &lt;line&gt; when the car defined in line 
+	&lt;car&gt; is stationary for a set period (currently 40 secs) and on screen.. as 
+	asked for by Steve. As soon as it goes offscreen, the counter is reset.</em>
+	<br />
+	<br /></li>
+	<li><strong>CHANGE_BLOCK</strong> &lt;block def&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Changes the block defined in line &lt;block def&gt; to the new type declared 
+	in that line. Goes to &lt;succ&gt;, adding &lt;score&gt; as usual.</em>
+	<br />
+	<br /></li>
+	<li><strong>CHANGE_PED_TYPE</strong> &lt;ped&gt; &lt;succ&gt; -1 &lt;new type&gt; &lt;data&gt;<br />
+	<em>Changes the type of the ped declared in line &lt;ped&gt; to type &lt;new type&gt;. 
+	If new type is a follow, &lt;data&gt; should be the line num that the ped to 
+	follow was declared on.<br />
+	Works for all ped types.<br />
+	</em><br /></li>
+	<li><strong>CHANGE_TYPE</strong> &lt;face def&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Similar in construction to CHANGE_BLOCK. Changes the face defined in 
+	line &lt;block def&gt; to the new face as defined in that line. <br />
+	These two commands can be used to temporarily manipulate the physical map 
+	structure, e.g. to ‘destroy’ bridges.<br />
+	</em><br /></li>
+	<li><strong>CHECK_CAR</strong> &lt;car&gt; &lt;succ&gt; &lt;fail&gt; &lt;remap&gt; &lt;score&gt;<br />
+	<em>Simple command that checks that the player is currently driving the car 
+	defined in line &lt;car&gt;. If he is, it goes to &lt;succ&gt; adding &lt;score&gt;, otherwise 
+	it goes to &lt;fail&gt;. In addition, if &lt;remap&gt; is greater than -1, it will check 
+	that the car’s remap value equals &lt;remap&gt;.<br />
+	</em><br /></li>
+	<li>... <strong>CHECK_PEDBACK</strong> ...<br />
+	<span class="auto-style2"><em>[never used in any INI file!]</em><br />
+	<span class="auto-style6"><em>(description is missing)<br />
+	</em></span></span><br /></li>
+	<li>(X,Y,0) <strong>CHOPPER_ENDPOINT</strong> 0 0<br />
+	<em>Sets the end destination for the end of level chopper. X &amp; Y are in 
+	PIXEL coords.<br />
+	You MUST define this line from now on!<br />
+	UNSUPPORTED! (but should still work with START_CHOPPER.)<span class="auto-style6"><br />
+	</span></em><br /></li>
+	<li>... <strong>CLOCK</strong><span class="auto-style2"> ...<br />
+	<em>[never used in any INI file!]<br />
+	</em><span class="auto-style6"><em>(description is missing)<br />
+	</em></span></span><br /></li>
+	<li>... <strong>CLOCK_START</strong><span class="auto-style2"> ...<br />
+	<em>[never used in any INI file!]</em><br />
+	<span class="auto-style6"><em>(description is missing)<br />
+	</em></span></span><br /></li>
+	<li>... <strong>CLOCK_STOP</strong> ...<br />
+	<span class="auto-style2"><em>[never used in any INI file!]</em><br />
+	<span class="auto-style6"><em>(description is missing)<br />
+	</em></span></span><br /></li>
+	<li><strong>CLOSE_DOOR </strong>&lt;door&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Manually force the door &lt;door&gt; to start closing.<br />
+	</em><br /></li>
+	<li><strong>COMPARE</strong> &lt;counter&gt; &lt;succ&gt; &lt;fail&gt; &lt;check&gt; &lt;score&gt; <br />
+	<em>Takes the counter &lt;counter&gt; and compares it to the number &lt;check&gt;. If 
+	equale, goes to &lt;succ&gt;, otherwise it goes to &lt;fail&gt;.<br />
+	</em><br /></li>
+	<li>(X,Y,Z) <strong>CORRECT_CAR_TRIG</strong> &lt;line&gt; &lt;radius&gt; &lt;car&gt;<br />
+	<em>Defines a trigger on the block (x,y,z) with range &lt;radius&gt; that goes to 
+	line num &lt;line&gt; as usual. It is triggered if the player is driving the car 
+	created on line &lt;car&gt;. Once triggered, disable it otherwise it will keep 
+	‘retriggering’.<br />
+	</em><br /></li>
+	<li>(X,Y,Z) <strong>CORRECT_MOD_TRIG</strong> &lt;line&gt; &lt;radius&gt; &lt;model&gt;<br />
+	<em>Defines a trigger on the block (x,y,z) with range &lt;radius&gt; that goes to 
+	line num &lt;line&gt; as usual. It is triggered if the player is driving a car 
+	with model number &lt;model&gt;.<br />
+	</em><br /></li>
+	<li>(X,Y,Z) <strong>COUNTER</strong> &lt;count&gt; 0 <br />
+	<em>Defines a counter that can be used for looped missions with the DECCOUNT 
+	command, e.g. for keeping track of the number of cars you’ve brought to a 
+	specific location.<br />
+	</em><br /></li>
+	<li>&lt;reset&gt; (X,Y,Z) <strong>CRANE</strong> &lt;1/-1&gt; &lt;0/512&gt;<strong><br />
+	</strong><em>
+	<span class="auto-style6">(description is missing)<br />
+	</span><strong><br />
+	</strong>
+	</em></li>
+	<li><strong>CRANE</strong> &lt;crane&gt; &lt;succ&gt; &lt;fail&gt; &lt;trigger&gt; &lt;score&gt;<br />
+	<em>Starts a GTA crane lifting any vehicle that may be beneath its trigger 
+	&lt;trigger&gt;, this will end when the crane fails to find a car, or has lifted 
+	the car and is about to move it back onto its ferry. <br /></em><br /></li>
+	<li>(X,Y,Z) <strong>DAMAGE_TRIG </strong>&lt;line&gt; &lt;range&gt;<br />
+	<em>This sets up a trigger that goes to line &lt;line&gt; when the player drives a 
+	car into the location defined with (x,y,z) &amp; &lt;range&gt;, and blows it up. The 
+	car doesn’t have to blow up with a bomb, it just has to have reached the 
+	maximum damage limit (100). <br />This command is a bit odd in execution and I’m warning you now it may act a 
+	little odd.<br /></em><br /></li>
+	<li><strong>DEAD_ARRESTED </strong>&lt;ped&gt; &lt;succ&gt; &lt;fail&gt; -1 &lt;score&gt;<br />
+	<em>Simple command that goes to &lt;succ&gt; if the ped declared in line &lt;ped&gt; is 
+	either dead or arrested at that particular moment. Goes to &lt;fail&gt; if not.<br />Handy when ‘looped round’.<br />
+	</em><br /></li>
+	<li><strong>DECCOUNT</strong> &lt;counter&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Decrements the counter &lt;counter&gt; and if it reaches zero then it goes to 
+	&lt;succ&gt; otherwise it goes to &lt;fail&gt;.<br /></em><br /></li>
+	<li><strong>DELAY_CRIME</strong> &lt;criminal&gt; &lt;succ&gt; &lt;type&gt; &lt;delay&gt; &lt;score&gt;<br />
+	<em>Delays the reporting of a particular crime. It isn’t very flexible I’m 
+	afraid, more to do with the crime side of things rather than mission code.<br />&lt;criminal&gt; is the line number of the criminal, NOT the player but the car 
+	you expect him to be in, e.g. the line num of a car which he has to use to 
+	‘do’ a bank job. &lt;type&gt; is the time of crime to watch out for, see below for 
+	values. &lt;delay&gt; is the number of frames to wait until the crime gets 
+	reported. <br /></em><span class="auto-style2"><em>[never used in any INI file!]<br />
+	</em></span><em><br />Possible types:-<br />CARJACKING 5<br />MURDER 6<br />BANK ROBBERY 9<br />CONVOY ATTACK 10<br />
+	</em><br /></li>
+	<li><strong>DESTROY</strong> &lt;object&gt; &lt;succ&gt; &lt;fail&gt; &lt;timer&gt; &lt;score&gt;<br />
+	<em>Wait for the player to destroy a certain object, or for the timer to run 
+	out, if the player destroys the object it goes to the &lt;succ&gt; objective 
+	otherwise ot goes to the &lt;fail&gt; objective. A timer of 0 will disable the 
+	timer.<br /></em><br /></li>
+	<li><strong>DISABLE</strong> &lt;trig&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Disables trigger &lt;trig&gt; so that it cannot be used (allows mission areas 
+	to be switched off).<br /></em><br /></li>
+	<li><strong>DISARMMESS </strong>0 &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Displays the message "Bomb Disarmed" and disarms any bomb on the 
+	player’s current car. If there’s no bomb or the player isn’t in a car, it 
+	goes to &lt;fail&gt;<br /></em><br /></li>
+	<li><strong>DO_GTA </strong>&lt;gta demand&gt; &lt;succ&gt; &lt;fail&gt; &lt;score&gt;<br />
+	<em>IniPad describes &lt;fail&gt; while MTD defines 0.</em><br /><em>Switches ‘on’ the GTA demand declared in line &lt;gta demand&gt;. This 
+	basically means that the crane involved will be looking for the target, 
+	giving a bonus when it’s reached. This gives NO message upon starting, do 
+	one yourself before it. It will do a "Just one more" when there’s one more 
+	to, and a "completion" style message when the player’s completed the order.<br />
+	</em><br /></li>
+	<li><strong>DO_MODEL</strong> &lt;startmodel&gt; &lt;succ&gt; &lt;fail&gt; &lt;car to kill&gt; 0<br />
+	<em>This command does the actual processing of the Dead Pool stuff. 
+	&lt;startmodel should be the line number of the ‘START_MODEL’ command. Whenever 
+	a model car blows up, this will check whether or not to create a new one. 
+	When the player has gone through all his/her cars,<br />it goes to &lt;succ&gt;. &lt;car to kill&gt; is as above - set to -1 to ignore it. 
+	<br />&lt;succ&gt; should go directly to a RETURN_CONTROL.<br /></em><br />
+	</li>
+	<li><strong>DONOWT</strong> 0 0 0 0 &lt;score&gt;<br /><em>The simplest thing is to do nowt, this does nothing at all, it sits 
+	there forever, useful for linking several triggers, or waiting for the 
+	player to trigger a mission.<br /></em><br /></li>
+	<li>&lt;reset&gt; (X,Y,Z) <strong>DOOR</strong> &lt;face&gt; &lt;type&gt; &lt;interior&gt; 
+	<br /><em>Creates a door of type &lt;type&gt; on face &lt;face&gt; of a building, with 
+	interior block &lt;interior&gt;.<br />Doors are NASTY to place correctly, and they usually have a trigger tied to 
+	them.<br />&lt;reset&gt;<br />&nbsp;&nbsp; 0 Do not keep this object active after RESET commands.<br />&nbsp;&nbsp; 1 Keep this object active after RESET commands.<br />&lt;face&gt;<br />&nbsp;&nbsp; 0 Door will appear on West face of the cube<br />&nbsp;&nbsp; 1 Door will appear on East face of the cube<br />&nbsp;&nbsp; 2 Door will appear on North face of the cube<br />&nbsp;&nbsp; 3 Door will appear on South face of the cube.<br />&lt;type&gt;<br />&nbsp;&nbsp; 0 to ? Sets the exterior style of the door. Check the original code 
+	to get the right style.<br />&lt;interior&gt;<br />&nbsp;&nbsp; 0 to 255 Can be used to force an interior style. 
+	<br /></em><br /></li>
+	<li><strong>DOOR_OFF</strong> &lt;door num&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Switches the door defined in line &lt;door num&gt; ‘off’, i.e. it will stay 
+	closed no matter what. Use this to prevent players entering doors at the 
+	wrong time. If the door is in the middle of closing, it will wait till the 
+	animation is finished, then switch it off.<br /></em><br /></li>
+	<li><strong>DOOR_ON</strong> &lt;door num&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Switches the door defined in line &lt;door num&gt; ‘on’, i.e. it will now 
+	open/close when its requirements are met. If the door is in the middle of 
+	closing, it will wait till the animation is finished, then switch it on.<br />
+	</em><br /></li>
+	<li><strong>DO_REPO</strong> &lt;car&gt; &lt;succ&gt; 0 &lt;timer&gt; &lt;score&gt;<br />
+	<em>This handles an old style repo-man mission. Initially, it does a timer 
+	of &lt;timer&gt; frames, when this finishes it creates the driver ped (declared as 
+	a FUTUREPED) and sends him to the car. When he reaches the car, it drives 
+	off. <br />When this is all happening, it’s checking for the player stealing the car - 
+	at this point it’ll go to line &lt;succ&gt;, adding &lt;score&gt;.<br />
+	</em><br /></li>
+	<li>... <strong>DRIVE_BY</strong> ...<br /><em>(</em><span class="auto-style1"><em>introduced in GTA London 1961</em></span>)<em><br />
+	</em><span class="auto-style2"><em>[never used in any INI file!]</em><br />
+	<span class="auto-style6"><em>(description is missing)<br /></em></span>
+	</span><br /></li>
+	<li>... <strong>DRIVE_BY_OFF</strong> ...<br /><em>(</em><span class="auto-style1"><em>introduced in GTA London 1961</em></span>)<em><br />
+	</em><span class="auto-style2"><em>[never used in any INI file!]</em><br />
+	<span class="auto-style6"><em>(description is missing)<br /></em></span>
+	</span><br /></li>
+	<li>... <strong>DRIVEON</strong><span class="auto-style2"> ...<br /><em>[never used in any INI file!]<br />
+	</em><span class="auto-style6"><em>(description is missing)<br /></em>
+	</span></span><br /></li>
+	<li>(X,Y,Z) <strong>DRIVER </strong>0 &lt;car&gt; <br /><em>Creates a player pedestrian inside car &lt;car&gt;<br />
+	</em><span class="auto-style2"><em>[never used in any INI file!]<br /></em>
+	</span><br /></li>
+	<li>(X,Y,Z) <strong>DRIVER_PARK</strong> &lt;model&gt; &lt;angle&gt;<br />
+	<em>Creates a parked vehicle of &lt;model&gt; with driver. <br /></em>
+	<span class="auto-style2"><em>[never used in any INI file!]<br /></em>
+	</span><br /></li>
+	<li><strong>DROP_ON</strong> &lt;object&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Creates the ‘drop off’ point &lt;object&gt;. To use this, create your dropoff 
+	point as a FUTURE object, then call this when player reaches final telephone 
+	(or whatever). Means player cannot see the drop off until it’s time. <br />
+	</em><br /></li>
+	<li><strong>DROP_WANTED_LEVEL</strong> 0 &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Clears the wanted level for the current player, adding score &amp; going to 
+	&lt;succ&gt;<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>DUM_MISSION_TRIG</strong> &lt;line&gt; &lt;radius&gt; &lt;vehicle&gt;<br />
+	<em>Defines a trigger on the block (x,y,z) with range &lt;radius&gt; that goes to 
+	line num &lt;line&gt;. It is triggered by the dummy vehicle defined in line 
+	&lt;vehicle&gt; entering the range of the trigger.<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>DUMMY</strong> 0 0 <br /><em>Does nothing, allows padding of lines of objects.<br />Coords are usually in BLOCKS. 
+	<br />This gets used a lot with GET_DRIVER_INFO - by calling a GET_DRIVER_INFO.
+	<br /></em><br /></li>
+	<li><strong>DUMMY_DRIVE_ON</strong> &lt;car&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Definition taken from IniPad.</em><br /><span class="auto-style6"><em>(description is missing)<br />
+	</em></span><br /></li>
+	<li>... <strong>DUMMY_OFF</strong><span class="auto-style2"> ...<br /><em>[never used in any INI file!]<br />
+	</em><span class="auto-style6"><em>(description is missing)<br /></em>
+	</span></span><br /></li>
+	<li><strong>DUMMYON</strong> &lt;car&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Starts &lt;car&gt; driving as a normal dummy car. It always goes to &lt;succ&gt;<br />
+	</em><br /></li>
+	<li>(X,Y,Z) <strong>DUM_PED_BLOCK_TRIG</strong> &lt;line&gt; &lt;radius&gt; &lt;dummy ped&gt;<br />
+	<em>Sets up a trigger that goes to line &lt;line&gt; etc, when the dummy ped in 
+	line &lt;dummy ped&gt; enters the block/radius defined…<br /></em><br />
+	</li>
+	<li><strong>ENABLE</strong> &lt;trig&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Re-enables trigger &lt;trig&gt; so that the mission can come back on again. 
+	This will also ‘look up’ the relevant info for the trigger if the trigger is 
+	using a FUTURECAR, PED or whatever. <br />In other words, if you’re pointing the trigger to a FUTURECAR, do an ENABLE 
+	once you’ve done CAR_ON and the correct info will magically appear in the 
+	trigger.<br /></em><br /></li>
+	<li><strong>END</strong> &lt;code&gt; 0 0 &lt;timer?&gt; &lt;score?&gt;<br />
+	<em>Sets the game to terminate after &lt;timer&gt;, returns &lt;code&gt; 
+	which can be:<br />0 = Quit via Esc<br />1 = Completed<br />2 = Failed missions<br />3 = Out of lives<br />4 = Too many arrests<br />5 = Too much time for mission<br />6 = Time finished for Deathmatch/Race? 
+	<br />
+	No longer needed.<br />
+	Note: The 4th argument is not &lt;timer&gt;, like described in MTD, since the game 
+	does not wait...<br />
+	Note: The 5th argument is not &lt;score&gt;, like described in MTD, since it does 
+	not add any score...<br /></em><br /></li>
+	<li>... <strong>ESCORT</strong> ...<br /><span class="auto-style2"><em>[never used in any INI file!]<br />
+	</em><span class="auto-style6"><em>(description is missing)<br /></em>
+	</span></span><br /></li>
+	<li>... <strong>ESCORTED</strong> ...<br /><span class="auto-style2"><em>[never used in any INI file!]<br />
+	</em><span class="auto-style6"><em>(description is missing)<br /></em>
+	</span></span><br /></li>
+	<li><strong>EXPL_LAST</strong> 0 &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Explodes the last car the player controlled - at the moment always 
+	proceeds to &lt;succ&gt;. <br />Complaints about the effect of this command, please DO NOT use it. With a 
+	bit of planning, you can usually come up with something less ‘random’ 
+	looking.<br /></em><br /></li>
+	<li><strong>EXPL_NO_FIRE </strong>&lt;target&gt; &lt;succ&gt; 0 &lt;face&gt; &lt;score&gt;<br />
+	<em>Causes the building at &lt;target&gt; to explode on its &lt;face&gt; side, without 
+	producing any rubble, plantpots or fire. It always goes to &lt;succ&gt;<br />
+	</em><br /></li>
+	<li><strong>EXPLODE</strong> &lt;target&gt; &lt;succ&gt; 0 &lt;face&gt; &lt;score&gt;<br />
+	<em>Causes the building at &lt;target&gt; to explode on its &lt;face&gt; side, It always 
+	goes to &lt;succ&gt;<br /></em><br /></li>
+	<li><strong>EXPLODE_CAR</strong> &lt;car num&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Explodes the car defined in line &lt;car num&gt;, proceeding to &lt;succ&gt; if 
+	exploded &amp; adding &lt;score&gt;, otherwise, eg if car not created, to &lt;fail&gt;.<br />
+	</em><br /></li>
+	<li><strong>EXPL_PED</strong> &lt;pednum&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Explodes the ped defined in line &lt;pednum&gt;. Simple as that!<br />
+	</em><br /></li>
+	<li>(X,Y,Z) <strong>FINAL_MULTI</strong> 0 0<br /><em>The ‘finishing line’ trigger for the a list of checkpoints…. It will 
+	congrat the first player and commiserate the stragglers. It keeps a record 
+	of positions, but at the moment does nothing with them. <br /></em><br />
+	</li>
+	<li><strong>FREEUP_CAR </strong>&lt;car&gt; &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>This will ‘flag’ the car defined in line &lt;car&gt; as no longer need as a 
+	mission car.<br /></em><br /></li>
+	<li><strong>FREEZE_ENTER</strong> 0 &lt;succ&gt; 0 0 &lt;score&gt;<br /><em>Freezes the ‘enter/leave car’ key, e.g. preventing the player leaving 
+	the car. <br /></em><br /></li>
+	<li><strong>FREEZE_TIMED</strong> &lt;time&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Freezes the player’s controls as discussed for &lt;time&gt; frames.<br />
+	</em><br /></li>
+	<li><strong>FRENZY_BRIEF</strong> 0 &lt;succ&gt; 0 0 &lt;brief&gt;<br /><em>This does a standard brief but with a “KILL FRENZY” icon - plus no 
+	‘chatter’ sound effect.<br /></em><br /></li>
+	<li><strong>FRENZY_CHECK</strong> &lt;score diff&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>This does the actual ‘frenzy check’ for the player. It takes &lt;score 
+	diff&gt;, the score the player should have achieved for this mission and 
+	compares it to the player’s current score. If okay, goes to &lt;succ&gt; else to 
+	&lt;fail&gt;.<br /></em><br /></li>
+	<li><strong>FRENZY_SET </strong>&lt;line&gt; &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Sets the score for this player in the correct place in line &lt;line&gt;. This 
+	should be a FRENZY_CHECK or else strange things will happen.<br /></em>
+	<br /></li>
+	<li>(X,Y,Z) <strong>FUTURE</strong> &lt;type&gt; &lt;angle&gt; <br /><em>Defines an object that can be created in the future (eg. a Suitcase)<br />
+	</em><br /></li>
+	<li>(X,Y,Z) <strong>FUTURECAR</strong> &lt;model&gt; &lt;angle&gt; <br />
+	<em>Creates a future car of &lt;model&gt;, with driver.<br /></em><br />
+	</li>
+	<li>... <strong>FUTUREDROP</strong> ...<br /><span class="auto-style2"><em>[never used in any INI file!]<br />
+	</em><span class="auto-style6"><em>(description is missing)<br /></em>
+	</span></span><br /></li>
+	<li>(X,Y,Z) <strong>FUTUREPED </strong>&lt;type&gt; &lt;angle&gt; <br /><em>Data for a ped to be created at a later date.<br />
+	</em><br /></li>
+	<li><strong>GARAGE_SEND</strong> &lt;car&gt; &lt;succ&gt; 0 &lt;dest&gt; &lt;score&gt;<br />
+	<em>Use this for the ‘dummy parking in garages’ gumpf instead of 
+	START_HIRED_ESC.<br /></em><span class="auto-style2"><em>[never used in any INI file!]<br />
+	</em></span><br /></li>
+	<li><strong>GENERAL_ONSCREEN</strong> &lt;goal&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Checks to see if the goal &lt;goal&gt; is currently ‘on’ the current player’s 
+	screen (ie the player ‘doing’ this mission.). If it is, goes to &lt;succ&gt; etc 
+	etc.<br /></em><br /></li>
+	<li><strong>GET_CAR_INFO</strong> &lt;ped&gt; &lt;succ&gt; 0 &lt;dummy&gt; &lt;score&gt;<em><br />This is used to ‘get’ the info for a car. It takes the ped defined in line 
+	&lt;ped&gt; and sets the relevant info in line &lt;dummy&gt; which should have been 
+	defined as a DUMMY.<br /></em><br /></li>
+	<li><strong>GET_DRIVER_INFO</strong> &lt;car&gt; &lt;succ&gt; 0 &lt;dummy&gt; &lt;score&gt;<br />
+	<em>This is used to ‘get’ the info for a driver. It takes the car defined in 
+	line &lt;car&gt; and sets the relevant info in line &lt;dummy&gt; which should have been 
+	defined as a DUMMY.<br />[ Use this, e.g., when you’ve done a dummy_on and need to refer to the 
+	driver ped. ]<br /></em><br /></li>
+	<li><strong>GOTO</strong> &lt;target&gt; &lt;succ&gt; &lt;fail&gt; &lt;time&gt; &lt;score&gt;<br />
+	<em>Waits for the player to get to &lt;target&gt; by any means possible - player 
+	can be inside a car and it will succeed. Use LOCATE for ‘on foot only’.<br />
+	</em><br /></li>
+	<li><strong>GOTO_DROPOFF</strong> &lt;drop point&gt; &lt;succ&gt; &lt;fail&gt; &lt;timer&gt; &lt;score&gt;<br />
+	<em>Makes the player go to the drop off point defined in line &lt;drop point&gt; 
+	in &lt;timer&gt; ‘ticks’. If fail, go to &lt;fail&gt; else &lt;succ&gt;.<br />Will eventually ‘animate’ the drop off point like the phones. Not at the 
+	moment though.<br /></em><br /></li>
+	<li>(0,0,0) <strong>GTA_DEMAND</strong> &lt;crane num&gt; &lt;model type&gt; &lt;remap&gt; 
+	&lt;number to get&gt;<br /><em>IniPad defines (X,Y,Z), while MTD defines 
+	(0,0,0). The game files always use (0,0,0).<br />
+	Creates a ‘GTA Demand’ for a crane. It basically means the player has to 
+	steal <br />&lt;number to get&gt; cars of model &lt;model&gt; of color &lt;remap&gt; and take them to 
+	crane &lt;crane&gt;<br />[ Crane is (0-3), NOT the line number. Get this by the order in which 
+	they’re declared in your mission.ini ]<br />[ See Liberty Easy MPHONE 4 for example with stealing two taxis ]</em>
+	<br /><br /></li>
+	<li>(0,0,0) <strong>GUN_SCREEN_TRIG</strong> &lt;line&gt; &lt;ped&gt;<em><br />
+	IniPad defines (X,Y,Z), while MTD defines (0,0,0). The game files always use 
+	(0,0,0).<br />
+	Sets up a trigger that goes to line &lt;line&gt; when the player starts shooting 
+	and the ped defined in line &lt;ped&gt; is on-screen.<br /></em>
+	<span class="auto-style6"><em><br /></em></span></li>
+	<li>(X,Y,Z) <strong>GUN_TRIG</strong> &lt;line&gt; &lt;range&gt;<br /><em>Sets up a trigger that goes to line &lt;line&gt; when the player starts 
+	shooting in location (X,Y,Z) &amp; range (you know the score…).<br /></em>
+	<br /></li>
+	<li><strong>HELL_ON</strong> &lt;goal&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Creates a Hells Angel which has been declared as a FUTURE_CAR. Remaps 
+	the ped etc correctly for a hell’s angel ped…<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>HELLS</strong> &lt;model&gt; &lt;angle&gt; <br /><em>Creates parked bike with driver of type &lt;model&gt; facing &lt;angle&gt;.<br />
+	</em><br /></li>
+	<li><strong>HUNTOFF</strong> &lt;car&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Stops &lt;car&gt; hunting, turns it back into a dummy car, it always goes to 
+	&lt;succ&gt;.<br /></em><br /></li>
+	<li><strong>HUNTON</strong> &lt;car&gt; &lt;succ&gt; &lt;type&gt; &lt;hunted&gt; &lt;score&gt;<br />
+	<em>Starts &lt;car&gt; hunting &lt;hunted&gt;, if this car was previously parked, you 
+	will need to use DUMMYON to start the car first. It always goes to &lt;succ&gt;. 
+	&lt;type&gt; is the type of hunt as listed in the briefing.txt file. <br />
+	</em><br /></li>
+	<li><strong>INCCOUNT</strong> &lt;counter&gt; &lt;succ&gt; &lt;fail&gt; &lt;check&gt; &lt;score&gt;<br />
+	<em>Increments the given counter in line &lt;counter&gt; by 1. After it does this, 
+	it checks to see if the counter is great than or equal to the &lt;check&gt; 
+	number… Goes to &lt;succ&gt; if it is, &lt;fail&gt; otherwise. Set check to &lt;-1&gt; if you 
+	don’t want any sort of check.<br /></em><br /></li>
+	<li><strong>INC_HEADS</strong> &lt;num heads&gt; &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Simply increases the number of heads by &lt;num heads&gt;, to a maximum of 
+	four.<br /></em><br /></li>
+	<li>... <strong>INIT</strong> ...<br /><em><span class="auto-style2">[never used in any INI file!]<br />
+	</em><span class="auto-style6"><em>(description is missing)<br /></em>
+	</span></span><br /></li>
+	<li><strong>IS_A_TRAIN_WRECKED</strong> -1 &lt;succ&gt; &lt;fail&gt; -1 &lt;score&gt;<br />
+	<em>Checks to see if there’s currently a train wrecked anywhere on the map. 
+	Goes to &lt;succ&gt; if there is &lt;fail&gt; if there isn’t. You can use this to 
+	‘protect’ any missions using the trains - check to see if they can complete 
+	the mission before you start it for instance.<br />UNSUPPORTED<br /></em>
+	<span class="auto-style2"><em>[never used in any INI file!]</em><br />
+	</span><br /></li>
+	<li><strong>IS_GOAL_DEAD</strong> &lt;goal&gt; &lt;succ&gt; &lt;fail&gt; &lt;killer&gt; &lt;score&gt;<br />
+	<em>Checks the status of goal &lt;goal&gt;. If it is technically ‘dead’ - i.e. if 
+	a car, blown up, if a ped, dead, it goes to &lt;succ&gt;, otherwise proceeds 
+	rightaway to &lt;fail&gt;.<br />New: if &lt;killer&gt; is greater than 0 and &lt;goal&gt; is a ped/player, it will check 
+	to see if ped &lt;killer&gt; killed the goal ped. So you’ll need a ped health of 0 
+	AND this other ped killing it for this to succeed if &lt;killer&gt; is used. That 
+	make sense?<br /></em><br /></li>
+	<li><strong>IS_PED_ARRESTED</strong> &lt;ped&gt; &lt;succ&gt; &lt;fail&gt; -1 &lt;score&gt;<br />
+	<em>Does a simple check to see if this ped is ‘currently’ arrested. Goes to 
+	&lt;succ&gt; if so, otherwise <br />straight to &lt;fail&gt;<br />This command isn’t foolproof - it really needs to be looped round to ‘catch’ 
+	the arrest 100%<br /></em><br /></li>
+	<li><strong>IS_PED_IN_CAR</strong> &lt;ped&gt; &lt;succ&gt; &lt;fail&gt; &lt;model&gt; &lt;score&gt;<br />
+	<em>Checks to see if the ped in line &lt;ped&gt; is currently inside a car/on a 
+	bike. If &lt;model&gt; is &gt;-1, the ped must be in a car with this model number. 
+	Set it to 0 for ‘basic’ use. <br />If so, goes to &lt;succ&gt;, otherwise to &lt;fail&gt;.<br />
+	</em><br /></li>
+	<li><strong>IS_PED_STUNNED</strong> &lt;ped&gt; &lt;succ&gt; &lt;fail&gt; -1 &lt;score&gt;<br />
+	<em>If the ped definied in line &lt;ped&gt; is currently ‘stunned’, it will go to 
+	&lt;succ&gt; otherwise to &lt;fail&gt;<br />A ped is ‘stunned’ when he is punched.<br />
+	</em><br /></li>
+	<li><strong>IS_PLAYER_ON_TRAIN </strong>&lt;train&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>If the current player is curerntly in a train, this will go to &lt;succ&gt;. 
+	&lt;train&gt; should be the line number of a DUMMY line, this is for storing the 
+	train info if you want to blow it up later on.. If the player isn’t on a 
+	train, goes to &lt;fail&gt; etc.<br /></em><br /></li>
+	<li><strong>IS_POWERUP_DONE </strong>&lt;powerup&gt; &lt;succ&gt; &lt;fail&gt; &lt;timer|-1&gt; &lt;score&gt;<br />
+	<em>If the powerup declared in line &lt;powerup&gt; has been collected, it will go 
+	line &lt;succ&gt; otherwise, goes to &lt;fail&gt;<br /></em><br /></li>
+	<li><strong>KEEP_THIS_PROC </strong>0 &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Use this to ‘keep’ this process from being stopped when a new mission 
+	starts.</em><br /><br /></li>
+	<li><strong>KF_BRIEF_GENERAL</strong> 0 &lt;succ&gt; 0 &lt;time&gt; &lt;type&gt;<br />
+	<em>Displays a “KILL FRENZY” briefing of type &lt;type&gt; that finishes with a 
+	countdown like KF_BRIEF_TIMED.<br /></em><br /></li>
+	<li><strong>KF_BRIEF_TIMED</strong> 0 &lt;succ&gt; -1 &lt;time&gt; &lt;type&gt;<br />
+	<em>Displays a “KILL FRENZY” briefing of type &lt;type&gt; that finishes with a 
+	countdown of &lt;time&gt; secs roughly. Proceeds straightaway to &lt;succ&gt;. This 
+	‘switches on’ tanks.<br /></em><br /></li>
+	<li><strong>KF_CANCEL_BRIEFING</strong> &lt;briefing&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Cancels the ‘timed briefing’ which is currently going on. &lt;briefing&gt; 
+	should be the line number of the brief you want cancelled. Switches off tank 
+	firing.<br /></em><br /></li>
+	<li><strong>KF_CANCEL_GENERAL</strong> &lt;briefing&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Cancles the ‘timed briefing’ which is currently going on. &lt;briefing&gt; 
+	should be the line number of the briefing you want cancelled. Doesn’t do 
+	anything to tanks.<br /></em><br /></li>
+	<li><strong>KF_PROCESS</strong> 0 &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Definition taken from IniPad.</em><br /><span class="auto-style6"><em>(description is missing)<br />
+	</em></span><br /></li>
+	<li><strong>KICKSTART</strong> &lt;line&gt; &lt;succ&gt; -1 -1 -1<br /><em>This command is pretty powerful, it allows you to ‘kickstart’ a new 
+	mission process, starting at line &lt;line&gt; with the current player, in tandem 
+	with the current one, i.e. you can do two things at once…. <br />Please EXPLICITLY declare &lt;succ&gt;, i.e. don’t just put 0, put the proper 
+	linenum in.<br />Use this when you want to do one thing and check for a destroy at the same 
+	time, but use it WISELY.<br /></em><br /></li>
+	<li><strong>KILL_CAR</strong> &lt;car num&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Kills the car defined in line &lt;car num&gt;.<br /></em><br /></li>
+	<li><strong>KILL_DROP</strong> &lt;object&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Kills the ‘drop off’ point &lt;object&gt; that has been turned on with 
+	DROP_OFF previously. If successful, goes to &lt;succ&gt; else goes to &lt;fail&gt;, e.g. 
+	if not previously turned on, it’ll go to fail.<br /></em><br /></li>
+	<li><strong>KILL_OBJ</strong> &lt;obj_num&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Kills the object declared in line num &lt;obj_num&gt;. <br /></em><br />
+	</li>
+	<li><strong>KILL_PED </strong>&lt;ped num&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Kills the ped defined in line &lt;ped num&gt;. If it doesn’t exist, it will go 
+	to &lt;fail&gt;.<br /></em><br /></li>
+	<li><strong>KILL_PROCESS</strong> &lt;kickstart&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>This is the compliment of the kickstart command, allowing you to stop 
+	processes. &lt;kickstart&gt; is the line num of the KICKSTART command, and this 
+	will kill ANY process started using KICKSTART &amp; NEXT_KICK in the same 
+	‘section’ of code. <br />This command MUST be executed at some point when you’ve done a load of 
+	kickstarts &amp; next_kicks otherwise things could get messy…. <br /></em>
+	<br /></li>
+	<li><strong>KILL_SIDE_PROC</strong> &lt;kickstart&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Kills all ‘kickstarted’ process started on the line &lt;kickstart&gt;, but 
+	keeps the ‘original’ thread running.<br /></em><br /></li>
+	<li><strong>KILL_SPEC_PROC</strong> &lt;kickstart&gt; &lt;succ&gt; -1 &lt;proc&gt; &lt;score&gt;<br />
+	<em>Kills a ‘thread’ started by either a kickstart or a NEXT_KICK. Point it 
+	to the original kickstart in line &lt;kickstart&gt;. &lt;proc&gt; should be one of 1,2 
+	or 3, depending on the process. The process ‘kickstarted’ is 1, the process 
+	from the first NEXT_KICK is 2, the second NEXT_KICK is 3 etc. Doing a 0 will 
+	kill the ‘orignal process’ that executed the KICKSTART.<br />This will then proceeed to &lt;succ&gt; adding &lt;score&gt;, unless you’ve killed this 
+	process.<br /></em><br /></li>
+	<li><strong>LOCATE</strong> &lt;object&gt; &lt;succ&gt; &lt;fail&gt; &lt;timer&gt; &lt;score&gt;<br />
+	<em>Waits for the player to reach a certain location on foot, or for the 
+	timer to run out, if the player reaches the location it goes to the &lt;succ&gt; 
+	objective otherwise it goes to the &lt;fail&gt; objective. A timer of 0 will 
+	disable the timer. Note: PLAYER MUST BE ON FOOT for this to succeed…<br />
+	</em><br /></li>
+	<li><strong>LOCATE_STOPPED </strong>&lt;object&gt; &lt;succ&gt; &lt;fail&gt; &lt;timer&gt; &lt;score&gt;<br />
+	<em>Waits for the player to reach a certain location on foot, or for the 
+	timer to run out, if the player reaches the location it goes to the &lt;succ&gt; 
+	objective otherwise it goes to the &lt;fail&gt; objective. A timer of 0 will 
+	disable the timer. Note: PLAYER MUST BE ON FOOT &amp; STOPPED for this to 
+	succeed!<br /></em><span class="auto-style2"><em>[never used in any INI file!]<br />
+	</em></span><br /></li>
+	<li><strong>LOCK_DOOR</strong> &lt;car&gt; &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Locks the door of a previously created car, stopping ped from entering 
+	(and maybe leaving..)<br /></em><br /></li>
+	<li><strong>MAKEOBJ</strong> &lt;obj&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Creates the FUTURE object &lt;obj&gt; on the map. It always goes to &lt;succ&gt;<br />
+	</em><br /></li>
+	<li><strong>MESSAGE_BRIEF</strong> 0 &lt;succ&gt; 0 0 &lt;brief&gt;<br />
+	<em>Does a simple ‘message’ style briefing at the very top of the screen. 
+	Behaves like every other briefing, you know the score..<br /></em><br />
+	</li>
+	<li>(X,Y,Z) <strong>MID_MULTI_SETUP</strong> &lt;first checkpoint&gt; 0<br />
+	<em>This object is needed to setup the checkpoints properly, call it after 
+	you’ve done your sequence of checkpoints. &lt;first checkpoint&gt; is the line 
+	number of the first one, strangely enough.<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>MIDPOINT_MULTI </strong>&lt;next checkpoint&gt; 0<br />
+	<em>Creates a trigger on block (X,Y,Z) that operates a ‘checkpoint’ in the 
+	multi-player games. First player to cross it gets a congrats message, and it 
+	switches on the next checkpoint, declared in line num &lt;next checkpoint&gt;. 
+	Further players get failure message and arrow pointing to next checkpoint.
+	<br /></em><br /></li>
+	<li>(0,0,0) <strong>MISSION_COUNTER</strong> &lt;num&gt; 0<br />
+	<span class="auto-style6"><em>(description is missing)<br /></em></span>
+	<br /></li>
+	<li><strong>MISSION_END </strong>0 &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br /><em>Explicitly tells the game that this mission has been successfully 
+	completed - IMPORTANT!<br />You MUST do one of these lines at the end of each mission. Always goes to 
+	&lt;succ&gt;.<br /></em><br /></li>
+	<li>(0,0,0) <strong>MISSION_TOTAL</strong> &lt;num&gt; 0<br />
+	<span class="auto-style6"><em>(description is missing)<br /></em></span>
+	<br /></li>
+	<li><strong>MOBILE_BRIEF</strong> 0 &lt;succ&gt; 0 0 &lt;brief&gt;<br /><em>This does a new ‘mobile phone’ style brief. Similar to pager I think, 
+	but puts a mobile phone icon on-screen. Talk to Keith about this &amp; the 
+	speech one, nothing to do with me. Both of these new commands ‘pause’ the 
+	game. <br /></em><br /></li>
+	<li>... <strong>MODEL</strong> ...<br /><span class="auto-style2"><em>[never used in any INI file!]</em><br />
+	<span class="auto-style6"><em>(description is missing)<br /></em></span>
+	</span><br /></li>
+	<li>(X,Y,Z) <strong>MODEL_BARRIER</strong> &lt;face&gt; &lt;type&gt; &lt;num frames&gt; 
+	&lt;car_type&gt;<br /><em>Creates a barrier that opens only for vehicles of model &lt;car_type&gt;. &lt;num 
+	frames&gt; is the number of frames of animation. &lt;type&gt; is the floor block to 
+	use.<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>MODEL_DOOR</strong> &lt;face&gt; &lt;type&gt; &lt;num frames&gt; 
+	&lt;interior&gt; &lt;car_type&gt;<br /><em>Creates a door that behaves in the same way as MODEL_BARRIER. See that 
+	for details, with &lt;interior&gt; the interior block to use.<br /></em>
+	<span class="auto-style2"><em>[never used in any INI file!]<br /></em>
+	</span><br /></li>
+	<li><strong>MODEL_FUTURE</strong> &lt;car line&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Creates a model car declared as a FUTURECAR in line &lt;car line&gt;, going to 
+	line &lt;succ&gt; if<br />created okay, otherwise line &lt;fail&gt;. Use this BEFORE MODEL_HUNT to ‘switch 
+	on’ the model cars.<br /></em><span class="auto-style2"><em>[never used in any INI file!]<br />
+	</em></span><br /></li>
+	<li><strong>MODEL_HUNT</strong> &lt;first car&gt; &lt;succ&gt; 0 &lt;number&gt; &lt;score&gt;<br />
+	<em>This routine handles the ‘Dead Pool’ style attack. Line &lt;first car&gt; is 
+	where the model cars are declared, with &lt;number&gt; the number of them. The 
+	cars MUST be declared in consecutive lines, with consecutive numbers.<br />eg<br />(…) MODEL_CAR ….. {296}<br />(…) MODEL_CAR ….. {297}<br />It will start them hunting, with them blowing up when they’re underneath the 
+	player. When all are destroyed, it will proceed to line &lt;succ&gt;.<br />
+	</em><br /></li>
+	<li>(X,Y,Z) <strong>MOVING_TRIG</strong> &lt;car_num&gt; &lt;radius&gt; &lt;hunt type&gt;<br />
+	<em>Creates a trigger on car defined on line &lt;car_num&gt;. When any player gets 
+	within &lt;radius&gt; distance of this car, it will start hunting player down with 
+	a hunt of &lt;hunt type&gt;.<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>MOVING_TRIG_HIRED</strong> &lt;car&gt; &lt;range?&gt;<br />
+	IniPad defines "&lt;car&gt; &lt;range&gt; &lt;type&gt;", but the game's files do not use a 3rd 
+	parameter<br /><span class="auto-style6"><em>(description is missing)<br />
+	</em></span><br /></li>
+	<li><strong>MPHONE</strong> &lt;phone&gt; &lt;succ&gt; &lt;phones&gt; &lt;rings&gt; &lt;score&gt;<br />
+	<em>Allows a group of phones to ring simultaneously,, allows the player to 
+	answer only one phone, then runs the mission &lt;succ&gt;+&lt;answered&gt;-&lt;phone&gt; (i.e. 
+	&lt;succ&gt; plus the number of the phone from the MPHONES point of view &lt;phone&gt; 
+	being 0.<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>MPHONES</strong> &lt;phone&gt; &lt;radius&gt;<br /><em>Creates a trigger for Multi-Phones which will set them to on whenever a 
+	player approaches the phone in line &lt;phone&gt;, with radius &lt;radius&gt;.<br />
+	</em><br /></li>
+	<li>... <strong>MY_MODEL</strong> ...<br /><span class="auto-style2"><em>[never used in any INI file!]</em><br />
+	<span class="auto-style6"><em>(description is missing)<br /></em></span>
+	</span><br /></li>
+	<li><strong>NEXT_KICK</strong> &lt;line&gt; &lt;succ&gt; -1 &lt;kickstart&gt; 0<br />
+	<em>This does a ‘second’ kickstart in the same block of code, e.g. when you 
+	want a destroy check on a car &amp; a ped at the sametime. &lt;line&gt; is the line to 
+	start the new process from, &lt;kickstart&gt; is the linenum of the first 
+	KICKSTART in this ‘section’. <br /></em><br /></li>
+	<li>(X,Y,Z) <strong>OBJECT</strong> &lt;type&gt; &lt;angle&gt; <br /><em>Creates an object of type &lt;type&gt; facing &lt;angle&gt;<br />Coords are in pixels, not blocks.<br />
+	</em><br /></li>
+	<li><strong>OBTAIN</strong> &lt;obj&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Creates the object &lt;obj&gt; in the players hands, useful for bombs, 
+	suitcases and other things that need to be thrown. It always goes to &lt;succ&gt;. 
+	THIS COMMAND IS BOLLOCKS.<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>ONETRIGGER</strong> &lt;line&gt; &lt;radius&gt; &lt;car num&gt;<br />
+	<em>Creates a trigger of &lt;radius&gt; radius, that toggles the door defined at 
+	&lt;line&gt;. <br />It’s triggered when the player drives car &lt;car num&gt; (the line num) to 
+	(X,Y,Z).<br />UNSUPPORTED</em><span class="auto-style2"><em><br />[never used in any INI file!]<br />
+	</em></span><br /></li>
+	<li><strong>OPEN_DOOR</strong> &lt;door&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Manually force the door &lt;door&gt; to start opening. If things go okay, it 
+	goes to &lt;succ&gt;, adding &lt;score&gt; as usual, otherwise it goes to &lt;fail&gt;.<br />
+	</em><br /></li>
+	<li><strong>PARK</strong> &lt;door&gt; &lt;succ&gt; &lt;dummy&gt; &lt;face&gt; &lt;score&gt;<br />
+	<em>Displays animation of your current car parking in the garage at &lt;door&gt;, 
+	then of the player walking out again.<br />&lt;face&gt; is the face that the door is on. Values are:&nbsp; 0 - up, 1 - right, 
+	2 - down, 3 - left<br />Check that you have the correct info in this line matching the definition of 
+	the doorway in line &lt;door&gt; before telling me that PARK isn’t working, 
+	please. <br />&lt;dummy&gt; is a line number of a DUMMY that is set to the coords of the garage 
+	- i.e. the ‘location’ inside that the actual park command takes place on, 
+	that make sense??<br />If it is set to 0, it will look up the trigger that ‘started’ this process &amp; 
+	use its coords. This it the existing code which is causing all the weird 
+	problems.<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>PARKED </strong>&lt;model&gt; &lt;angle&gt; <br /><em>Creates a parked car of type &lt;model&gt; facing &lt;angle&gt;<br />
+	</em><br /></li>
+	<li><strong>PARKED_ON </strong>&lt;futurecar&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Creates the FUTURECAR futurecar, but without a driver.<br /></em><br />
+	</li>
+	<li>(X,Y,Z) <strong>PARKED_PIXELS</strong> &lt;model&gt; &lt;angle&gt;<br />
+	<em>Creates a parked car of type &lt;model&gt; facing &lt;angle&gt;, with (X,Y,Z) in 
+	PIXEL coords.<br /></em><br /></li>
+	<li><strong>PARKED_PIXELS_ON</strong> &lt;car&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Creates the a FUTURECAR &lt;car&gt; in ‘pixels’, with no driver.<br />Use this for precise placement of cars.<br />
+	</em><br /></li>
+	<li><strong>P_BRIEF</strong> &lt;target&gt; &lt;succ&gt; &lt;dest_loc&gt; &lt;time&gt; &lt;type&gt;<br />
+	<em>IniPad defines "P_BRIEF 0 &lt;succ&gt; 0 0 &lt;type"<br />
+	Displays a ‘BRIEF’ style message on the Pager. Should behave exactly as 
+	the BRIEF command, so look at that for specific information.<br /></em>
+	<br /></li>
+	<li><strong>P_BRIEF_TIMED</strong> 0 &lt;succ&gt; 0 &lt;time&gt; &lt;type&gt;<em><br />
+	Displays a pager briefing of type &lt;type&gt; that finishes with a countdown 
+	of &lt;time&gt; secs (roughly). Now proceeds straight away to &lt;succ&gt;.<br />Don’t use any of the fancy briefing constructions with this, stick to fairly 
+	simple ones.<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>PED</strong> &lt;type&gt; &lt;angle&gt; &lt;remap&gt; &lt;enemy&gt;<br />
+	<em>Creates a pedestrian of type &lt;type&gt; facing &lt;angle&gt; with remap &lt;remap&gt;.
+	<br /><br />Clarification on &lt;enemy&gt;<br />This parameter is needed for complicated ped types who ‘work on’ another 
+	ped.<br />The following types need &lt;enemy&gt;:<br />FOLLOW Ped to follow<br />ESCAPE Ped to runaway from<br />GUARD_FOLLOW Ped to follow whilst in ‘guard’ mode<br />KILLER_BLOKE Ped to try to kill for you<br />
+	<br />Suitable lines for &lt;enemy&gt; are PLAYER, PED, FUTUREPED. An enemy of -2 will 
+	make the ped choose another ped at random. Use at your own risk!<br />If the ped type is NOT one of these, miss it out COMPLETELY. 
+	</em><span class="auto-style6"><em><br /></em></span><br /></li>
+	<li><strong>PED_BACK </strong>&lt;car_num&gt; &lt;succ&gt; &lt;fail&gt; &lt;ped_num&gt; &lt;score&gt;<br />
+	<em>Sends the ped in line &lt;ped_num&gt; to the back door of car &lt;car_num&gt;. 
+	Proceeds to &lt;success&gt; without delay.<br /></em><br /></li>
+	<li>(0,0,0) <strong>PEDCAR_TRIG</strong> &lt;line&gt; &lt;ped&gt; &lt;car&gt;<br />
+	IniPad <em>defines (X,Y,Z) while MTD defines (0,0,0). The game files only 
+	use (0,0,0).<br />
+	Sets a trigger that goes to line &lt;line&gt; when the ped defined in line 
+	&lt;line&gt; enters the car &lt;car&gt;.<br />This should be used with dummy peds, not the player - use a cartrigger for 
+	that.<br /></em><br /></li>
+	<li><strong>PED_ON</strong> &lt;futureped&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;enemy&gt;<br />
+	<em>Creates the FUTUREPED futureped. <br />If ped type is FOLLOW, &lt;enemy&gt; is the ped to follow<br />DRIVER, &lt;enemy&gt; is the car to drive.<br />[See PED for what &lt;enemy&gt; should be, as &lt;enemy&gt; behaves like &lt;enemy&gt;]<br />
+	</em><br /></li>
+	<li><strong>PED_OUT_OF_CAR</strong> &lt;car num&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Chucks the driver of car &lt;car num&gt; out of the car, going to &lt;succ&gt; when 
+	the animation has finished. <br />If you make a ped a driver, he will go and get into that specific car. 
+	<br /></em><br /></li>
+	<li><strong>PED_POLICE</strong> &lt;ped&gt; &lt;succ&gt; &lt;fail&gt; -1 &lt;score&gt;<br />
+	<em>Changes the previously created ped in line &lt;ped&gt; to look like a 
+	policeped. Goes to &lt;succ&gt;, blah, blah, blah.<br /></em><br /></li>
+	<li><strong>PED_SENDTO</strong> &lt;dest&gt; &lt;succ&gt; &lt;fail&gt; &lt;ped_num&gt; &lt;score&gt;<br />
+	<em>Sends the ped defined in line &lt;ped_num&gt; to the point defined in line 
+	&lt;point&gt;. This line doesn’t wait for the ped to reach that point, go to a 
+	WAIT_FOR_PED to do that.<br />Uses the ‘logical z’ value, and sends the ped to the centre of the block 
+	declared in &lt;dest&gt;.<br /></em><br /></li>
+	<li><strong>PED_WEAPON</strong> &lt;ped&gt; &lt;succ&gt; 0 &lt;weapon&gt; &lt;score&gt;<br />
+	<em>Gives the dummy ped in line &lt;ped&gt; a weapon of type &lt;weapon&gt;, going to 
+	&lt;succ&gt; etc. If the ped has yet to be created, or anything else goes wrong, 
+	it will give a fatal error message.<br /></em><br /></li>
+	<li>(X,Y,Z) <strong>PHONE_TOGG</strong> &lt;phone num&gt; &lt;range&gt;<br />
+	<em>This trigger has to be used to get the multiphones to ring again after a 
+	phone has been answered. Declare your MPHONES, then somewhere after it use 
+	this… &lt;phone num&gt; is the line num of the MPHONES declaration, &lt;range&gt; should 
+	be bigger than the MPHONE range by one or two, recommended value is 4/5.
+	<br /></em><br /></li>
+	<li><strong>PIXEL_CAR_ON</strong> &lt;car&gt; &lt;succ&gt; &lt;fail&gt; &lt;remap&gt; &lt;score&gt;<br />
+	<em>Creates a car, similar to CAR_ON, but with coords defined in PIXELS, 
+	like PARKED_PIXELS. &lt;car&gt; should ideally be a TARGET, with the data similar 
+	to a FUTURE_CAR…<br />e.g. 293 (7840,8736,256) TARGET 29 768<br />20 PIXEL_CAR_ON 293 100 0 0 0<br />
+	</em><br /></li>
+	<li><strong>PLAIN_EXPL_BUILDING</strong> &lt;target&gt; &lt;succ&gt; 0 &lt;face&gt; &lt;score&gt;<br />
+	<em>Causes the building at &lt;target&gt; to explode on its &lt;face&gt; side, without 
+	producing any rubble or plant-pots. It always goes to &lt;succ&gt;<br />
+	</em><br /></li>
+	<li>(X,Y,Z) <strong>PLAYER</strong> &lt;car&gt; &lt;angle&gt; <br /><em>Creates a player pedestrian who owns &lt;car&gt; where car is the line number 
+	of it<br /></em><br /></li>
+	<li><strong>PLAYER_ARE_BOTH_ONSCREEN </strong>&lt;car one&gt; &lt;succ&gt; &lt;fail&gt; 0 
+	&lt;score&gt;<br /><em>Checks to see if the current player and the car declared on line &lt;car 
+	one&gt; are both onscreen at this particular moment. The player cannot be on a 
+	train, only in a car or on foot<br /></em><br /></li>
+	<li><strong>PLAYER_DRIVE_BY</strong> &lt;?&gt; &lt;?&gt; &lt;?&gt; &lt;?&gt; &lt;?&gt;<br />
+	<em>Usage in the INI files is always:<br />PLAYER_DRIVE_BY 0 0 0 0 0 <br />(</em><span class="auto-style1"><em>introduced in GTA London 1961</em></span>)<br />
+	<span class="auto-style6"><em>(description is missing)<br /></em></span>
+	<br /></li>
+	<li><strong>PLAYER_DRIVE_BY_OFF</strong> &lt;?&gt; &lt;?&gt; &lt;?&gt; &lt;?&gt; &lt;?&gt;<br />
+	<em>Usage in the INI files is always:</em><br /><em>PLAYER_DRIVE_BY_OFF 0 0 0 0 0 
+	</em><br /><em>(</em><span class="auto-style1"><em>introduced in GTA London 1961</em></span>)<br />
+	<span class="auto-style6"><em>(description is missing)<br /></em></span>
+	<br /></li>
+	<li>(X,Y,Z) <strong>POWERUP</strong> &lt;type&gt; &lt;timer&gt;<br /><em>Defines the location and info for a ‘powerup icon’. (X,Y,Z) are in block 
+	coords (0-255), <br />&lt;type&gt; is the powerup type<br />For a Killfrenzy powerup, timer should be the number of frames (must be &gt; 
+	100)<br />For a certain amount of ammo, timer &gt; 0 but &lt; 100<br />For default amount, set timer to 0.<br />
+	</em><br /></li>
+	<li><strong>POWERUP_OFF</strong> &lt;powerup def&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Deletes the powerup defined in line &lt;powerup def&gt;, going to &lt;succ&gt; etc.<br />
+	</em><br /></li>
+	<li><strong>POWERUP_ON</strong> &lt;powerup&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Creates the ‘power-up’ defined in line &lt;powerup&gt;. Goes to &lt;succ&gt;, adding 
+	&lt;score&gt;.<br /></em><br /></li>
+	<li><strong>RED_ARROW </strong>&lt;loc&gt; &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Points a RED arrow at a given goal. This arrow will NOT be reset/removed 
+	unless a “RED_ARROW_OFF” is called. It does NOT interfere with the standard 
+	yellow arrow. It points to the (XYZ) of &lt;loc&gt; and will NOT update if this 
+	goal moves. <br /></em><br /></li>
+	<li><strong>RED_ARROWCAR</strong> &lt;car&gt; &lt;succ?&gt; &lt;fail?&gt; 0? &lt;score?&gt;<br />
+	<em>(</em><span class="auto-style1"><em>introduced in GTA London 1969</em></span>)<em><br />
+	</em><span class="auto-style6"><em>(description is missing)<br /></em>
+	</span><br /></li>
+	<li><strong>RED_ARROW_OFF</strong> 0 &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Cancels the red arrow. Duh.<br /></em><br /></li>
+	<li><strong>RED_ARROWPED</strong> &lt;target?&gt; &lt;succ?&gt; &lt;fail?&gt; 0? &lt;score?&gt;<em><br />
+	</em>(<span class="auto-style1"><em>introduced in GTA London 1969</em></span>)<em><br />
+	</em><span class="auto-style2"><em>[never used in any INI file!]</em><br />
+	<span class="auto-style6"><em>(description is missing)<br /></em></span>
+	</span><br /></li>
+	<li><strong>REMAP_CAR </strong>&lt;car num&gt; &lt;succ&gt; &lt;fail&gt; &lt;new remap&gt; &lt;score&gt;<br />
+	<em>Changes the remap value for the car declared in line &lt;car num&gt; to value 
+	&lt;new remap&gt;. Goes to &lt;succ&gt; if successful, &lt;fail&gt; if the car hasn’t been 
+	created.</em> <br /><br /></li>
+	<li><strong>REMAP_PED</strong> &lt;ped num&gt; &lt;succ&gt; &lt;fail&gt; &lt;new remap&gt; &lt;score&gt;<br />
+	<em>Changes the remap value for the ped declared in line &lt;ped num&gt; to value 
+	&lt;new remap&gt;. Goes to &lt;succ&gt; if successful, &lt;fail&gt; if the ped hasn’t been 
+	created.<br /></em><br /></li>
+	<li><strong>RESET</strong> 0 &lt;succ&gt; -1 -1 &lt;score&gt;<br /><em>Forces a reset - this will clear off every process that’s running 
+	(except for this one, and any KEEP_THIS_PROC ones of course), and any 
+	objects, peds &amp; cars that have been created without the ‘1’ flag. <br />
+	</em><br /></li>
+	<li><strong>RESET_KF</strong> 0 &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Definition taken from IniPad.</em><br /><span class="auto-style6"><em>(description is missing)<br />
+	<br /></em></span></li>
+	<li><strong>RESET_WITH_BRIEFS</strong> 0 &lt;succ&gt; -1 0 &lt;score&gt;<br />
+	<em>Does a ‘standard’ reset but with the added bonus of stopping any 
+	briefings that are on-screen<br />except for any ‘big font’ messages.</em>
+	<br /><br /></li>
+	<li><strong>RETURN_CONTROL</strong> &lt;start line&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Simple command to wrap up the Dead Pool, it returns control to the ped 
+	the player originally<br />controlled, adding &lt;score&gt; and going on to &lt;succ&gt;.<br />
+	<span class="auto-style3">[See Notes]<br /><br /></span></em></li>
+	<li><strong>SCORE_CHECK </strong>&lt;score&gt; &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Checks to see if the current player’s score is greater than or equal to 
+	&lt;score&gt;, going to &lt;succ&gt; if it is adding &lt;score&gt;.<br />Goes to &lt;fail&gt; if not.</em>
+	<br /><br /></li>
+	<li>(0,0,0) <strong>SECRET_MISSION_COUNTER</strong> &lt;total&gt; 0 <br />
+	<em>Operates like a normal counter, but is a count of the SECRET missions 
+	e.g. kill frenzies etc. <br /></em><br /></li>
+	<li><strong>SENDTO</strong> &lt;car&gt; &lt;succ&gt; 0 &lt;dest&gt; &lt;score&gt;<br />
+	<em>Sends &lt;car&gt; to &lt;dest&gt;. It always goes to &lt;succ&gt;.<br />[See notes]</em>
+	<br /><br /></li>
+	<li><strong>SETBOMB</strong> &lt;car&gt; &lt;succ&gt; &lt;fail&gt; &lt;bomb&gt; &lt;score&gt;<br />
+	<em>Sets the car bomb value of &lt;car&gt; to &lt;bomb&gt;, some useful values of bomb 
+	are:-<br />0 - No Bomb (disarm)<br />1 - Unarmed ‘5 second’ bomb<br />2 - Armed ‘5 second’ bomb - i.e. it will blow in five seconds<br />3 - Model Car Bomb (instant detonation on pressing ‘special key’)<br />4 - Dodgy Explosives (take some damage then it will blow)<br />5 - Unarmed Speed Bomb (Speed &gt; ¾ max speed to arm)<br />6 - Armed Speed Bomb (Speed &lt; ½ max speed to detonate)<br />N.B. This can be used with stationary vehicles to blow them up instantly</em>
+	<br /><br /></li>
+	<li><strong>SET_COLLIDE</strong> &lt;car&gt; &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Equivalent command to clear the ‘non-collide’ flag set by SET_NO_COLLIDE<br />
+	</em><span class="auto-style2"><em>[never used in any INI file!]<br /><br />
+	</em></span></li>
+	<li><strong>SET_KILLTRIG</strong> &lt;trigger&gt; &lt;succ&gt; 0 &lt;kickstart&gt; &lt;number&gt;<br />
+	<em>This does a special ‘killer trigger’ that will kill a given process when 
+	the trigger &lt;trigger&gt; is switched on by its normal conditions. &lt;kickstart&gt; 
+	should be the line the kickstart that the process was ‘stored’ in, and 
+	&lt;number&gt; should be the number of the process, e.g. if it’s the kickstart 
+	it’s 1, the first NEXT_KICKSTART is 2, etc.</em> <br /><br /></li>
+	<li><strong>SET_NO_COLLIDE</strong> &lt;car&gt; &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>This will set the car declared in line &lt;car&gt; as a ‘non-collidable’. So 
+	if bumped, it’ll stay stationary &amp; the other car will bounce.</em> <br />
+	<br /></li>
+	<li><strong>SET_PED_SPEED</strong> &lt;ped&gt; &lt;succ&gt; 0 &lt;new speed&gt; &lt;score&gt;<br />
+	<em>Sets the ‘max speed’ for a given ped. Means he won’t run faster than 
+	this speed. The standard ped speed is 4 for guidance. Goes to &lt;succ&gt; etc.<br />Useful for FOLLOWs where you don’t want the player to catch up…</em>
+	<br /><br /></li>
+	<li><strong>SETUP_REPO</strong> &lt;car&gt; &lt;succ&gt; 0 &lt;ped&gt; 0<br />
+	<em>Sets up a repo-man mission, &lt;car&gt; should be the line the car’s declared 
+	in, &lt;ped&gt; is the line the future ped’s declared in.</em> <br /><br />
+	</li>
+	<li>(X,Y,Z) <strong>SETUP_SPEED</strong> &lt;range&gt; 0<br /><em>This defines and creates a disarm point on the map at (X,Y,Z) (Logical 
+	block level). This will be toggled on and off by the behind the scenes Speed 
+	mission. If you don’t have buses on your map, ignore this.<br /></em>
+	<span class="auto-style2"><em>[never used in any INI file!]<br /><br /></em>
+	</span></li>
+	<li>(X,Y,Z) <strong>SPECIFIC_BARR </strong>&lt;face&gt; &lt;type&gt; &lt;num frames&gt; &lt;car 
+	num&gt; &lt;remap&gt;<br /><em>Creates a barrier that opens only for a specific vehicle declared in 
+	line &lt;car num&gt;. For the barrier to open, the car must have a remap value 
+	&lt;remap&gt;, set this to -1 to ignore the car color. &lt;type&gt; is the interior 
+	block to use.</em> <br /><br /></li>
+	<li>(X,Y,Z) <strong>SPECIFIC_DOOR </strong>&lt;face&gt; &lt;type&gt; &lt;interior&gt; &lt;car 
+	num&gt; &lt;remap&gt;<br /><em>Creates a door that opens for a specific vehicle declared in line &lt;car 
+	num&gt;. For it to open, the car must have a remap value of &lt;remap&gt;, -1 to 
+	ignore. &lt;type&gt; is the floor block to use, &lt;interior&gt; is the ‘floor’ (I 
+	think….).</em><br /><br /></li>
+	<li>(X,Y,Z) <strong>SPECIFIC_DOOR_BOMB</strong> &lt;face&gt; &lt;type&gt; &lt;interior&gt; &lt;car num&gt;<em><span class="auto-style8"><br />Creates a door that opens for a specific vehicle declared in line &lt;car num&gt;. 
+	For it to open, the car must have a bomb planted. &lt;type&gt; is the floor block 
+	to use, &lt;interior&gt; is the ‘floor’ (I think.). </span><br />
+	<span class="auto-style2">[never used in any INI file!]<br /></span></em>
+	<span class="auto-style6"><em><br /></em></span></li>
+	<li><strong>SPEECH_BRIEF</strong> 0 &lt;succ&gt; 0 0 &lt;brief&gt;<br /><em>This does a ‘speech’ brief - similar to old style subtitles, with a 
+	speech icon. <br /></em><br /></li>
+	<li>(X,Y,Z) <strong>SPRAY</strong> &lt;color&gt; &lt;radius&gt; <br /><em>Creates a spray shop for &lt;color&gt;</em>
+	<br /><br /></li>
+	<li><strong>START_CHOPPER</strong> &lt;start loc&gt; &lt;succ&gt; &lt;fail&gt; &lt;player&gt; 0<br />
+	<em>This will start the ‘automatic’ end of level pickup. &lt;player&gt; is the 
+	line num of the player, &lt;start loc&gt; is the block where the helicopter should 
+	be created at. If it fails to create a chopper, it will go to &lt;fail&gt;, 
+	otherwise &lt;succ&gt;.<br />Notes:<br />For the end of level to look smooth, create the chopper slightly offscreen &amp; 
+	at a high z-level. Make sure the player has been ‘freezed’ to prevent him 
+	moving off. The chopper will fly over and drop down, and then zoom out &amp; fly 
+	off to the point defined as the end point - where the game will end. <br />
+	</em><span class="auto-style2"><em>[never used in any INI file!]<br /><br />
+	</em></span></li>
+	<li><strong>START_HIRED_ESC</strong> &lt;car&gt; &lt;succ&gt; 0 &lt;dest&gt; &lt;score&gt;<br />
+	<em>Orders the dummy vehicle defined in line &lt;car&gt; to go into ‘Hired Gun’ 
+	Escape style mode, i.e. the car will attempt to get to a specific location 
+	as quickly as possible. Will go to line &lt;succ&gt;. As with all hired escapes, I 
+	cannot guarantee that the car will get to its destination, nor the quality 
+	of its escape - it depends on the road layout, the traffic, the weather.<br />
+	</em><span class="auto-style2"><em>[never used in any INI file!]<br /></em>
+	</span></li>
+	<li>
+	<p><strong>START_DRIVER </strong>&lt;ped&gt; &lt;succ&gt; 0 &lt;car&gt; &lt;score&gt;<br />
+	<span class="auto-style2"><em><strong>THIS IS NOT A VALID COMMAND</strong>! 
+	However, here is the description written in mtd.txt.</em></span><em><br />Creates driver object and sends him to &lt;car&gt;. It always goes to &lt;succ&gt;.</em></p>
+	</li>
+	<li><strong>START_MODEL</strong> &lt;dummy&gt; &lt;succ&gt; &lt;fail&gt; &lt;car to kill&gt; &lt;num of 
+	cars&gt;<br /><em>All singing, all dancing reverse model cars command set. New structure -<br />&lt;dummy&gt; is a DUMMY line used to ‘create’ the model cars in, and store some
+	<br />more info in. It should have the (XYZ) to create the cars at, usually the 
+	same<br />as the truck the player should be in. Not really important now - gets the 
+	coords<br />of the truck at runtime…<br />&lt;succ&gt; if it successfully creates the car, goes to here<br />&lt;fail&gt; else to here if ANYTHING goes wrong!!!<br />&lt;car to kill&gt; Simply the linenumber of a target to kill. Means the DO_MODEL 
+	will<br />stop when you destroy it. Set to -1 to ignore it<br />&lt;num of cars&gt; Number of model cars you get to play with!</em>
+	<br /><br /></li>
+	<li><strong>STARTUP</strong> &lt;trigger line&gt; &lt;succ&gt; -1 0 0<br />
+	<em>Special trigger ‘case’ - use this to branch to a part of your code at 
+	the start of the game, eg to switch off certain triggers etc. &lt;trigger line&gt; 
+	is the line where the ‘startup’ trigger is declared (the one placed where 
+	the player starts), &lt;succ&gt; is the line num to branch to. See the note below 
+	for more details.</em> <br /><br /></li>
+	<li><strong>STEAL</strong> &lt;car&gt; &lt;succ&gt; &lt;fail&gt; &lt;timer&gt; &lt;score&gt;<br />
+	<em>Waits for the player to steal the &lt;car&gt; specified, i.e. Enters the car. 
+	If timer is set to 0 there is no time limit.</em> <br /><br /></li>
+	<li><strong>STOP_FRENZY</strong> &lt;weapon&gt; &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>This will prematurely stop a kill frenzy started on the weapon declared 
+	in line &lt;weapon&gt;.</em> <br /><br /></li>
+	<li>(X,Y,Z) <strong>STOPPED</strong> &lt;type&gt; &lt;angle&gt; <br /><em>Creates a stopped car, with a driver</em><span class="auto-style2"><em><br />[never used in any INI file!]<br />
+	<br /></em></span></li>
+	<li><strong>SURVIVE</strong> 0 &lt;succ&gt; 0 &lt;timer&gt; &lt;score&gt;<br />
+	<em>Survive for &lt;timer&gt; and it goes to &lt;succ&gt;, if you dont survive, your 
+	dead anyway.</em> <br /><br /></li>
+	<li>(X,Y,Z) <strong>TARGET</strong> 0 0 <br /><em>Creates a target area used for explosions, destinations<br />Targets are normally declared in PIXELS, use a DUMMY for blocks. 
+	<br /></em><br /></li>
+	<li>(0,0,0) <strong>TARGET_SCORE</strong> &lt;score&gt; 0<br /><em>Defines the score the player has to reach, for display on the pause 
+	screen.<br />SCORE_CHECK does the actual checking.</em> <br /><br /></li>
+	<li>(X,Y,Z) <strong>TELEPHONE</strong> &lt;means&gt; &lt;angle&gt;<br /><em>Creates a telephone at &lt;angle&gt;. If &lt;means&gt; is greater than 0, then when 
+	the player is sent to answer this phone, how he got there will be checked<br />1 = by car<br />2 = by train<br />3 = on foot<br />Means checking is not guaranteed to work - it isn’t used currently.</em>
+	<br /><br /></li>
+	<li><strong>THROW</strong> &lt;obj&gt; &lt;succ&gt; 0 &lt;car&gt; &lt;score&gt;<br />
+	<em>Causes the player to throw &lt;obj&gt; at &lt;car&gt;. It always goes to &lt;succ&gt;</em>
+	<br /><br /></li>
+	<li><strong>THROW_TO_POINT </strong>&lt;obj&gt; &lt;succ&gt; 0 &lt;location&gt; &lt;score&gt;<br />
+	<em>Causes the player to throw &lt;obj&gt; to the (x,y,z) declared in line 
+	&lt;location&gt; - these are in pixels. It always goes to &lt;succ&gt;. Doesn’t throw 
+	very far at the moment - will be worked on shortly. Again, maybe best to 
+	avoid this if possible. <br /></em><span class="auto-style2"><em>[never used in any INI file!]<br />
+	<br /></em></span></li>
+	<li>(X,Y,Z) <strong>TRIGGER</strong> &lt;line&gt; &lt;range&gt; <br /><em>Creates a trigger that will start &lt;line&gt; line of Targets with a radius 
+	of &lt;range&gt; blocks in a ‘square’ range. A range of 0 means check just this 
+	block.</em> <br /><br /></li>
+	<li><strong>UNFREEZE_ENTER</strong> 0 &lt;succ&gt; 0 0 &lt;score&gt;<br />
+	<em>Unfreezes the ‘enter/leave car’ key. All three of these commands go to 
+	&lt;succ&gt; adding &lt;score&gt; right away.</em> <br /><br /></li>
+	<li><strong>UNLOCK_DOOR </strong>&lt;car&gt; &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Unlocks the door of a car, allowing the player to get back out.</em>
+	<br /><br /></li>
+	<li><strong>WAIT_FOR_PED </strong>&lt;loc&gt; &lt;succ&gt; &lt;fail&gt; &lt;ped_num&gt; &lt;score&gt;<br />
+	<em>Waits for the ped defined in line &lt;ped_num&gt; to reach the point defined 
+	in line &lt;loc&gt;.</em> <br /><br /></li>
+	<li><strong>WAIT_FOR_PLAYER </strong>&lt;location&gt; &lt;succ&gt; 0 &lt;dist&gt; &lt;score&gt;<br />
+	<em>This is the definition from MTD:<br />
+	Waits for the player to leave the immediate area around the block 
+	declared in line &lt;location&gt; before proceeding to &lt;succ&gt;.. &lt;dist&gt; is the 
+	number of blocks in each direction it checks. <br /></em>
+	<span class="auto-style2"><em>[never used in any INI file!]<br /><br /></em>
+	</span></li>
+	<li><strong>WAIT_FOR_PLAYERS</strong> &lt;?&gt; &lt;?&gt; &lt;?&gt; &lt;?&gt; &lt;?&gt;<br />
+	<em>This method is used in the INI, but not defined in MTD.<br />
+	It is NOT a typo. The EXE file contains both strings, so there seem to be 
+	two commands: WAIT_FOR_PLAYER or WAIT_FOR_PLAYERS.<br />
+	Its usage is like this:<br />
+	</em>550 DISABLE 68 0 0 0 0<br />
+	560 MAKEOBJ 49 0 0 0 0<br />
+	570 ENABLE 69 0 0 0 0<br />
+	580 WAIT_FOR_PLAYERS 18 0 580 0 0<br />
+	590 SURVIVE 0 0 0 50 0<br />
+	595 KILL_OBJ 48 -1 -1 0 0 <br /><span class="auto-style6"><em>(description is missing)<br />
+	<br /></em></span></li>
+	<li><strong>WRECK_A_TRAIN </strong>&lt;train&gt; &lt;succ&gt; -1 -1 &lt;score&gt;<br />
+	<em>Wrecks a train! &lt;train&gt; should be the &lt;train&gt; line set before in a 
+	IS_PLAYER_ON_TRAIN. Goes to &lt;succ&gt; etc.<br />NOTE - this PERMANENTLY wrecks the train system!</em>
+	<br /><br /></li>
+	<li><strong>WRECK_CURR_TRAIN</strong> 0 &lt;succ&gt; &lt;fail&gt; 0 &lt;score&gt;<br />
+	<em>Wrecks the train the player is currently on. If the player isn’t on a 
+	train, it goes to &lt;fail&gt;, otherwise to &lt;succ&gt; adding &lt;score&gt;. Not much use 
+	to be honest.<br /></em><span class="auto-style2"><em>[never used in any INI file!]<br />
+	<br /></em></span></li>
+	<li>XXXX (<em>this string occurs twice</em>)<br /><span class="auto-style2">
+	<em>[never used 
+in any INI file!]</em><br /><span class="auto-style6"><em>(description is missing)</em></span></span></li>
+</ul>
+<h2>Notes on Triggers &amp; Ordering (taken from mtd.txt)</h2>
+<p>Any car-triggers must be declared after the car that they’re referring to. 
+This is very important! Same with drivers for cars, make sure the car is 
+declared first. </p>
+<p>This is the same for ANYTHING that refers to another line - this ‘other’ 
+car/ped/object must have been declared before the reference to it.</p>
+<h2>Notes on Timed Objectives with zero timer (taken from mtd.txt)</h2>
+<p>Every objective that has a timer with the 0 - Infinite option, can now be 
+failed, at the moment only the escort arriving at their destination will cause 
+this to happen, but if you can think of anything else that could be used then 
+please let me know.</p>
+<h2>Line Numbering (taken from mtd.txt)</h2>
+<p>After the effort James went to, to insert proper line numbering, you could at 
+least have the decency to use it in a bit more responsible manner, you have 
+32768 (0-32767) line numbers to play with, you don’t have to squeeze them all 
+together, plus at the moment you’re not leaving any room if anything needs to be 
+inserted into them later you’ll be completely stuck, just don’t say I didn’t 
+warn your, and before you ask, I am not going to write a renumber program for 
+you, you’ll have to do that yourselves.</p>
+<h2>Line Number Zero (taken from mtd.txt)</h2>
+<p>The target defined with line number zero will be executed every time. Use 
+this very carefully!</p>
+<h2>Z-Values (taken from mtd.txt)</h2>
+<p>‘Physical’ Z-Value means it’s like the actual z-value, e.g. 4<br />
+‘Logical’ Z-Value means it’s the game processing value, e.g. 3</p>
+<p>Basically, if you’re creating something use the physical value, if you’re 
+referring to something use the logical value… That’s the gist of it.</p>
+<h2>Startup &amp; Multiphone triggering (taken from mtd.txt)</h2>
+<p>Multiphone ‘retriggering’ now works, if you follow the proper layout for it. 
+It’s a bit fiddly but it works. You need to do a <strong>MPHONE</strong> 
+declaration, followed by a <strong>PHONE_TOGG</strong> to get the multi-phones 
+to work…. <br />
+If you want to execute a section of code once on startup, you need to place a 
+trigger on the start location of the player, which calls a line with the <strong>
+STARTUP</strong> command in it. This section of code doesn’t have to consist of 
+DISABLEs only, you can use it to do an arrow pointing to the multiphones, or a 
+briefing. In fact, it’s better to do this with <strong>STARTUP</strong>.</p>
+<p>Here’s a little example to show you what I mean.</p>
+<p><span class="auto-style4">(123,50,4) MPHONES 10 3 {line 200}</span><br class="auto-style4" />
+.<br class="auto-style4" />
+.<br class="auto-style4" />
+<span class="auto-style4">(123,50,4) PHONE_TOGG 200 5 {line 203}</span><br class="auto-style4" />
+.<br class="auto-style4" />
+<span class="auto-style4">(120,50,4) TRIGGER 3000 0 {line 210}</span><br class="auto-style4" />
+<br class="auto-style4" />
+<span class="auto-style4">10 {multiphones as normal}</span><br class="auto-style4" />
+.<br class="auto-style4" />
+.<br class="auto-style4" />
+.<br class="auto-style4" />
+<span class="auto-style4">3000 STARTUP 210 0 -1 0 0</span><br class="auto-style4" />
+<span class="auto-style4">3010 DISABLE {disable triggers etc goes here}</span><br class="auto-style4" />
+.<br class="auto-style4" />
+.<br class="auto-style4" />
+<span class="auto-style4">3020 DISABLE 10 -1 0 0 0 {the -1 ‘kills’ this process, 
+THIS IS IMPORTANT….}</span></p>
+<h2>Doors (taken from mtd.txt)</h2>
+<p>Doors now have a default state of ‘OFF’ to prevent players entering them at 
+the wrong time. Use <strong>DOOR_ON</strong> to turn them ‘ON’ during particular 
+missions, and use <strong>DOOR_OFF</strong> to switch them back off when you’re 
+finished. DOORS NOW DEFAULT TO OFF</p>
+<h2>Typical Errors (taken from mtd.txt)</h2>
+<p>If you’re having problems getting mission.ini to load, things to 
+check/remember are:<br />
+“Request for an object line number has produced a line_num of -1”<br />
+These tend to mean that a line somewhere above has too little or too many 
+parameters, particular culprits are doors &amp; peds. Look out for driver peds 
+without a car for example. <br />
+<br />
+Typing errors are also prone to give this - look for brackets with { and ( mixed 
+up, or maybe . instead of , … All these can give this error. These can be fiddly 
+to find, but if I can do it, so can you. <br />
+<br />
+Of course, it could be that you’re just referring to an object which doesn’t 
+exist.<br />
+<br />
+“missing ‘(‘ in style … “<br />
+This means dino is trying to find a (X,Y,Z) when it shouldn’t be. Commonest 
+cause of this is<br />
+missing out the ‘-1’ at the end of the object list. Something like<br />
+101 (0,0,0) DUMMY 0 0<br />
+102<br />
+103 (0,0,0) DUMMY 0 0 <br />
+can cause this error too…. <br />
+IS_PED_IN_CAR not going to succ<br />
+Check that your model number is -1… If it’s 0, it will look for a model num of 
+0!</p>
+<h2>GTA PED REMAPS (taken from mtd.txt)</h2>
+<p>(These may not be 100% correct)</p>
+<ul>
+	<li>0 not used</li>
+	<li>1 darken 50%</li>
+	<li>2 lighten 50%</li>
+	<li>3 red -&gt; yellow</li>
+	<li>4 red -&gt; green</li>
+	<li>5 red -&gt;light blue</li>
+	<li>6 lighten 40%</li>
+	<li>7 darken 40%</li>
+	<li>8 lighten 30%</li>
+	<li>9 darken 30%</li>
+	<li>10 darken 10%</li>
+	<li>11 darken 20%</li>
+	<li>12 lighten 10%</li>
+	<li>13 darken 10%</li>
+	<li>14 red -&gt; grey</li>
+	<li>15 ALL -&gt; red</li>
+	<li>16 ALL -&gt; dark blue</li>
+	<li>17 ALL -&gt; light green</li>
+	<li>18 ALL -&gt; light yellow</li>
+	<li>19 ALL -&gt; bright green</li>
+	<li>20 ALL -&gt; dark blue (not light brown!)</li>
+	<li>30 ALL -&gt; yellow</li>
+	<li>31 ALL -&gt; bright green</li>
+	<li>32 ALL -&gt; light blue</li>
+	<li>33 ALL -&gt; grey</li>
+	<li>34 ALL -&gt; red (not l.blue)</li>
+	<li>35 ALL -&gt; light blue (not red)</li>
+	<li>36 ALL -&gt; yellow (not l.green)</li>
+	<li>37 ALL -&gt; light green (not yellow)</li>
+	<li>38 ALL -&gt; light brown</li>
+	<li>128 darken 8%</li>
+	<li>129 darken 16%</li>
+	<li>130 darken 26%</li>
+</ul>
+<h2>A Guide to Ped Types in GTA (taken from mtd.txt)</h2>
+<p>NOTE:<br />
+“EXTRA INFO” is the piece of extra info called &lt;enemy&gt; in the command listing 
+above. <br />
+For PED_ONS this should be in the &lt;score&gt; field…<br />
+An ‘extra info’ of -1 for simple guards means do NOT shoot at any ped/player<br />
+-2 means the ped will latch onto a random ped…</p>
+<ul>
+	<li>Standing Ped 0<br />
+	Simple standing ped, that will jostle slightly. Doesn’t require any extra 
+	info</li>
+	<li>Basic Guard 1<br />
+	Basic guard, waits for you to shoot near him. Will not chase.</li>
+	<li>Driver 2<br />
+	A driver of a car, he will attempt to get into ‘his’ car &amp; drive off.<br />
+	EXTRA INFO: line num of his car.</li>
+	<li>Walking Ped 4<br />
+	Simply walks around…</li>
+	<li>Follow ped 5<br />
+	Simply follows another ped around<br />
+	EXTRA INFO: linenum of ped to follow around</li>
+	<li>Running Ped 6<br />
+	Simply runs around…</li>
+	<li>Escaping Ped 7<br />
+	This ped will try to flee a given ped.<br />
+	EXTRA INFO: linenum of ped to flee from</li>
+	<li>“Follow Guard” 8<br />
+	This ped behaves as a normal stationary guard ped until someone shoots at 
+	him, when he <br />
+	starts giving chase, shooting as necessary.<br />
+	EXTRA INFO: line num of the ped ‘expected’ to chase - eg the player.</li>
+	<li>Mayor 9<br />
+	The Mayor/VIP/President as necessary. Doesn’t really do much except run when 
+	he can,<br />
+	but is worth a LOT when killed.</li>
+	<li>Lemming ped 10<br />
+	Is very thick. So thick in fact that he’ll commit suicide by walking off the 
+	edges of buildings<br />
+	etc. </li>
+	<li>“Killer Bloke” 11<br />
+	A friend to the needy. He’ll start shooting peds acting as a kind of 
+	bodyguard to you.<br />
+	EXTRA INFO: linenum of ped to kill.</li>
+	<li>“Mr Shooty Cars” 12<br />
+	This guy will shoot at a given car till kingdom comes.<br />
+	EXTRA INFO: linenum of car to shoot.</li>
+	<li>“Mr Shooty Follow” 13<br />
+	This guy will shoot at a given car till kingdom comes like above, but this 
+	guy CHASES the <br />
+	car too!<br />
+	EXTRA INFO: linenum of car to shoot.</li>
+</ul>
+<p>(complicated peds now…)</p>
+<ul>
+	<li>Standing Guard, Crap Shot 21<br />
+	Stationary guard who is a fairly crap shot</li>
+	<li>Standing Guard, Good Shot 22<br />
+	As above, but a pretty good shot.</li>
+	<li>Standing Guard, Crack Shot 23<br />
+	As above, but rarely misses</li>
+	<li>Follow Guard, Crap Shot 24<br />
+	A “follow guard” like above, but is a fairly crap shot</li>
+	<li>Follow Guard, Good Shot 25<br />
+	As above, but a pretty good shot.</li>
+	<li>Follow Guard, Crack Shot 26<br />
+	As above, but rarely misses.</li>
+	<li>Standing Killer Bob, Crap Shot 41<br />
+	Stationary ‘killer bloke’ - will shoot at a given ped. Crap shot though.</li>
+	<li>Standing Killer Bob, Good Shot 42<br />
+	Stationary ‘killer bloke’ - will shoot at a given ped. Good shot though.</li>
+	<li>Standing Killer Bob, Crack Shot 43<br />
+	Stationary ‘killer bloke’ - will shoot at a given ped. Rarely misses</li>
+	<li>Chase Killer Bob, Crap Shot 44<br />
+	This ‘killer bloke’ will chase after his target ped, shooting at him. Crap 
+	shot though.</li>
+	<li>Chase Killer Bob, Good Shot 45<br />
+	As above, but a better shot.</li>
+	<li>Chase Killer Bob, Crack Shot 46<br />
+	As above, but rarely misses his target.</li>
+</ul>
+<p>By using these more complicated types, you get more control of the actions of 
+these peds. </p>
+<h2>Object types in GTA (taken from mtd.txt)</h2>
+<p>A quick list of suitable ‘object types’ for the likes of suitcases, 
+telephones etc. </p>
+<ul>
+	<li>o_umberella 0</li>
+	<li>o_tyre 1</li>
+	<li>o_lid 2</li>
+	<li>o_bin 3</li>
+	<li>o_cone 4</li>
+	<li>o_flowers 5</li>
+	<li>o_barriery 6</li>
+	<li>o_barrier2 7</li>
+	<li>o_bench 8</li>
+	<li>o_gravestone 9</li>
+	<li>o_smoke 10</li>
+	<li>o_skid 11</li>
+	<li>o_bloodskid 12</li>
+	<li>o_spark 13</li>
+	<li>o_train_doors 14</li>
+	<li>o_blood 15</li>
+	<li>o_tlrbox 16</li>
+	<li>o_dirtskid 17</li>
+	<li>o_fire 18</li>
+	<li>o_fire2 19</li>
+	<li>o_interior2 21</li>
+	<li>o_bomb 22</li>
+	<li>o_barrier 24 //used to be 24, changed due to barriercades creating 
+	tombstones!!</li>
+	<li>o_bumper 25</li>
+	<li>o_tree1 26</li>
+	<li>o_tree2 27</li>
+	<li>o_tree3 28</li>
+	<li>o_crane 30</li>
+	<li>o_missile 31</li>
+	<li>o_turret 33</li>
+	<li>o_tgun 34</li>
+	<li>o_zturret 38</li>
+	<li>o_zgun 39</li>
+	<li>o_phone 40</li>
+	<li>o_case 41</li>
+	<li>o_rubble 43</li>
+	<li>o_rubble2 44</li>
+	<li>o_rubble1 45</li>
+	<li>o_lfire 46</li>
+	<li>o_dropoff 47</li>
+	<li>o_fw1 48</li>
+	<li>o_fw2 49</li>
+	<li>o_firehose 50</li>
+	<li>o_big_smoke 51</li>
+	<li>o_stretch 52</li>
+	<li>o_exhaust 53</li>
+	<li>o_splash 54</li>
+	<li>o_arm1 55</li>
+	<li>o_arm2 56</li>
+	<li>o_arm3 57</li>
+	<li>o_swatgun 59</li>
+	<li>o_checkflag 60</li>
+	<li>o_first_blood 63</li>
+	<li>o_body 64</li>
+	<li>o_inv 65</li>
+	<li>o_inv2 66</li>
+	<li>o_smk 67</li>
+	<li>o_inv3 68</li>
+	<li>o_barrel2 69</li>
+	<li>o_camera 70</li>
+	<li>o_bullet 74</li>
+	<li>o_fireball 75</li>
+	<li>o_blood_smear 77</li>
+	<li>o_powerup_pistol 78</li>
+	<li>o_powerup_machinegun 79</li>
+	<li>o_powerup_rocket 80</li>
+	<li>o_powerup_flamethrower 81</li>
+	<li>o_crate 84</li>
+	<li>o_crate_exploding 85</li>
+	<li>o_beachball 86</li>
+	<li>o_bollard 87</li>
+	<li>o_flag_waving 88</li>
+	<li>o_rubbish 89</li>
+	<li>o_blade 92</li>
+	<li>o_rubbish_exploding 93</li>
+	<li>o_helipad 94</li>
+	<li>o_powerup_info 95</li>
+	<li>o_powerup_shield 96</li>
+	<li>o_powerup_light 97</li>
+	<li>o_powerup_key 98</li>
+	<li>o_powerup_heart 99</li>
+	<li>o_powerup_extra 100</li>
+	<li>o_powerup_coin 101</li>
+</ul>
+<h2>Note on Coordinates (taken from mtd.txt)</h2>
+<p>All coordinates in the mission.ini are one of two types <br />
+0 - 255 (BLOCKS)<br />
+These are block references. (0,0,0) would be the very top corner, (255,255,4) 
+would be the very bottom right. <br />
+0 - 16320 (PIXELS)<br />
+A more precise way of placing objects etc - this gives you an extra 64 pixels 
+per block to place things. To convert between blocks &amp; shifted coords, divide 
+your PIXEL coord by 64.</p>
+<h2>Mission Object Creation (taken from mtd.txt)</h2>
+<p>The basic format for Object creation is<br />
+{X,Y,Z} TYPE CLASS ANGLE<br />
+However various types use the Class and Angle fields for additional data, below 
+is a description of all the types you can create, and what the parameters mean.</p>
+<p>(X,Y,Z) are now PIXEL values like objects. Z value should be PHYSICAL level, 
+e.g. 4 shifted up.</p>
+<h2>Targets/Commands (taken from mtd.txt)</h2>
+<p>Each objective is specified in the following manner<br />
+<br />
+TYPE &lt;Object&gt; &lt;Succeed&gt; &lt;Fail&gt; &lt;Data&gt; &lt;Score&gt;</p>
+<h2>Documents by Cerbera</h2>
+<p>Ben Millard, <abbr title="also known as">aka</abbr> <dfn class="auto-style7">Cerbera, 
+has created some very helpful documentation, found
+<a href="https://projectcerbera.com/gta/1/tutorials/reference">here</a>:</dfn></p>
+
+<table>
+<tr>
+ <th><a href="https://projectcerbera.com/gta/1/tutorials/block.rar">block.rar</a>
+ <td>Manipulating map block data.
+ <td class="number">(<a href="cerbera/block.txt">mirror</a>)<tr>
+ <th><a href="https://projectcerbera.com/gta/1/tutorials/car.rar">car.rar</a>
+ <td>Lists all vehicle indentifiers and some relevant commands.
+ <td class="number">(<a href="cerbera/car.txt">mirror</a>)<tr>
+ <th><a href="https://projectcerbera.com/gta/1/tutorials/misc.rar">misc.rar</a>
+ <td>Two sets of uncommented code examples.
+ <td class="number">(mirror: <a href="cerbera/misc.txt">part1</a> /
+ <a href="cerbera/misc2.txt">part2</a>)<tr>
+ <th><a href="https://projectcerbera.com/gta/1/tutorials/object.rar">object.rar</a>
+ <td>Using dynamic objects, such as potted trees and bollards.
+ <td class="number">(<a href="cerbera/object.txt">mirror</a>)<tr>
+ <th><a href="https://projectcerbera.com/gta/1/tutorials/ped.rar">ped.rar</a>
+ <td>Ped remaps, <acronym title="Artificual Intelligence">AI</acronym> types and relevant commands.
+ <td class="number">(<a href="cerbera/ped.txt">mirror</a>)<tr>
+ <th><a href="https://projectcerbera.com/gta/1/tutorials/powerup.rar">powerup.rar</a>
+ <td>Complete list of all valid powerups.
+ <td class="number">(<a href="cerbera/powerup.txt">mirror</a>)</table>
+
+<p>See also the <a href="https://projectcerbera.com/gta/1/tutorials/smallest">
+smallest mission.ini</a> for GTA 1 Coding (<a href="cerbera/smallest.txt">mirror</a>).</p>
+
+</body>
+
+</html>

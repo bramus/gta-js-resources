@@ -1,0 +1,70 @@
+
+problem: wrong order
+====================
+
+
+Die Funktion play_track wird normalerweise aufgerufen mit argument=0..9
+wir ändern es ab, sodass der aufruf -1..8 ist
+
+
+Modulo 10 Schutzfunktion
+	85 F6 7C 05 83 FE 09 7E 02 33 F6
+muss erstmal weichen, damit wir offset anpassen können:
+	46 90 90 90 90 90 90 90 90 90 90
+
+
+unten haben wir noch NOPs (90 90 90 90 90 90 90 90), mit denen wir arbeiten können
+ 
+
+
+Datei		Titel				CD-Track	Eigentlicher Index	Programmaufruf
+-----------------------------------------------------------------------------------------------------------
+Track1.wav	"Gangster Friday" (gameover)	1 (2)		0			push 1 (sollte sein: 0)
+Track2.wav	N-CT FM (Intro music)		2 (3)		1			push 0 (sollte sein: 1)
+Track3.wav	Radio '76 FM / Funk FM		3 (4)		2
+Track4.wav	Head Radio			4 (5)		3
+Track5.wav	Fix FM				5 (6)		4
+Track6.wav	It's Unleashed FM		6 (7)		5
+Track7.wav	The Fergus Buckner Show FM	7 (8)		6			(push 5)  (truck: track 6 plays. should 7)
+Track8.wav	Brooklyn Underground FM		8 (9)		7
+Track9.wav	Cops				9 (10)		8			(push 7)  (police car: track 8 plays. should 9)
+Track10.wav	Atmo				10 (11)		9			push 8 (atmo. track 9 plays. should be 10)
+
+---------------------------------------------
+
+Problem #1 (play menu music wird nicht angesteuert)
+74 7B 50 FF 15		je 0x7d
+74 2c 50 FF 15		je 0x2E
+
+---------------------------------------------
+
+Problem #2 (test)
+Automatically set game volume in play_track function (otherwise menu has volume 0):
+8b 15 38 bd 4a 00 8d 44 24 04 52 68 cc bd 4a 00 50 e8 3c 03 09 00 8b 0d 9c 1a 50 00 83 c4 0c
+8b 15 38 bd 4a 00 52 8b 0d 9c 1a 50 00 51 ff 15 8C 72 4A 00 8b 0d 9c 1a 50 00 90 90 90 90 90
+
+TODO: actually, in the menu_proc function, we should set the function call that adjusts the volume (when the options are changed)
+
+wir brauchen in menu_proc einen CALL zu
+.text:0040C8B0 menu_adjust_music proc near 
+
+---------------------------------------------
+
+Fix menu gameovermusic (gangster friday, wird nun ID -1)
+50 6A 01 E8 E3 F9 FF FF 83 C4 08
+50 6A FF E8 E3 F9 FF FF 83 C4 08
+
+
+
+ 
+ Repair #2 (pause menu music missing)
+=======================================
+
+ 85 C0 75 05 A3 AC 1A 50 00
+ 40 90 90 90 A3 AC 1A 50 00
+ 
+ 85 C0 74 57 50 FF 15 F8 71 4A 00
+ 85 C0 74 2C 50 FF 15 F8 71 4A 00
+ 
+ 6A 00 E8 3C F9 FF FF 83 C4
+ 6A FF E8 3C F9 FF FF 83 C4

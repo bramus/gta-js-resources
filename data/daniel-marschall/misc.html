@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Grand Theft Auto - Misc</title>
+<style type="text/css">
+.auto-style1 {
+	font-family: "Courier New", Courier, monospace;
+}
+.auto-style2 {
+	margin-left: 80px;
+}
+.auto-style3 {
+	background-color: #FFFF00;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Grand Theft Auto - Misc</h1>
+<p><a href="index.html">Back to main menu</a></p>
+<ul>
+	<li>GTA London probably had the internal name &quot;GTA2&quot;, since in the EXE file we 
+can find a reference to &quot;gta2.pdb&quot;<br />
+	<br />
+	</li>
+	<li>2. In GTA1 and GTA London, in the graphics pack, you can find some interesting 
+unused graphics,<br />for example an &quot;petrol bomb&quot;. In the language files, the item is mentioned as:<br />
+	<span class="auto-style1">[petrol]Petrol Bomb</span><br />Is this item really unused, or is there a secret?<br />
+	<br />
+	</li>
+	<li>In GTA 1, there is a language file SPECIAL.FXT that contains the English 
+offensive language variant.<br />The offensive language can be enabled/disabled by the 
+	<a href="cheats.html">cheat codes</a> &quot;iamgarypenn&quot; 
+and &quot;iamnotgarypenn&quot;.<br />In GTA London 1969, a file SPEUK.FXT is 
+	included, but it is actually just a copy from GTA1's SPECIAL.FXT,<br />
+	in other words, GTA London 1969 was never translated to "special" language. 
+	This is why there is no cheat code for vulgar language.<br />
+	<br />
+	</li>
+	<li>The female protagonists are only available if the language "English" is 
+	selected.<br />
+	Probably "violence against women" was the reason why Germany banned all 
+	female characters.<br />
+	<br />
+	</li>
+	<li>You can play GTA Retail &amp; London without CD and still have your music!<br />Here is how you do it:</li>
+</ul>
+<ol class="auto-style2">
+	<li>Download Magic ISO</li>
+	<li>Rip your original CD into &quot;UIF&quot; files (using Magic ISO)<br />Note: UIF files can have data and audio tracks. ISO files can only have 1 track, 
+afaik.</li>
+	<li>Create a virtual Magic ISO drive. The drive letter must be BEFORE any other 
+physical CD drives.<br />To change drive letters of your physical drives, go into Disk management in the 
+Windows control panel.</li>
+	<li>Before starting the game, mount the UIF file.</li>
+</ol>
+
+<ul>
+	<li>The developers of GTA London are very vulgar:<br />
+	- gtados\k_61.exe creates a debug file with the same "FUCKU".<br />
+	- gtawin\gta_uk.exe and gtawin\gta_61.exe create log files called 
+	"radioshit".<br />
+	Not vulgar:<br />
+	- gtawin\gta_61.exe create log files called "kenbonus"<br />
+	<br /></li>
+</ul>
+
+<h2>Player animation offset in GRY/G24 files</h2>
+<p>Animation offsets according to
+<a href="https://github.com/niklasvh/WebGL-GTA/blob/gh-pages/js/person.js#L53">
+https://github.com/niklasvh/WebGL-GTA/blob/gh-pages/js/person.js#L53</a> </p>
+<ul>
+	<li>offset+0..7 (anim speed 0.1) = walking<br /></li>
+	<li>offset+8..15 (anim speed 0.1) = running<br /></li>
+	<li>offset+89 = pistol, standing<br /></li>
+	<li>offset+98 = standing<br /></li>
+	<li>offset+99..106 (anim speed 0.1) = pistol, walking<br /></li>
+	<li>offset+107..114 (anim speed 0.1) = pistol, running<br /></li>
+	<li>offset+118..125 (anim speed 0.1) = flame thrower, walking<br /></li>
+	<li>offset+126..133(anim speed 0.2) = flame thrower, running<br /></li>
+	<li>offset+134 = flame thrower, standing<br /></li>
+	<li>offset+136..143 (anim speed 0.1) = machine gun, walking<br /></li>
+	<li>offset+144..151 (anim speed 0.2) = machine gun, running<br /></li>
+	<li>offset+152 = machine gun, standing<br /></li>
+	<li>offset+154..161 (anim speed 0.001) = rocket launcher, walking<br /></li>
+	<li>offset+162..169 (anim speed 0.002) = rocket launcher, running<br /></li>
+	<li>offset+170 = rocket launcher, standing<br /></li>
+	<li>offset+221 = fist??? (commented out in WebGL-GTA source code)</li>
+</ul>
+<h2>Debug options in GTADATA\CONFIG.INI</h2>
+<p>If this file exists, various values of the game can be overwritten. The exact 
+values and config keys are unknown (if you have research results, please let me 
+know!):</p>
+<p>Example contents:</p>
+<pre>[car 15 centre of mass x]
+123.456
+
+[car 15 moment of inertia]
+123.456
+
+[car 15 mass]
+123.456</pre>
+<p>The following strings in the EXE file show the following 
+strings which might be config options:</p>
+<pre>car
+centre of mass x
+centre of mass y
+moment of inertia
+mass
+gear 1
+tyre adhesion x
+tyre adhesion y
+handbrake friction
+footbrake friction
+front brake bias
+turn ratio
+drive wheel offset
+steering wheel offset
+back end slide value
+handbrake slide value
+car %d centre of mass x
+car %d centre of mass y
+car %d moment of inertia
+car %d mass
+car %d gear 1
+car %d tyre adhesion x
+car %d tyre adhesion y
+car %d handbrake friction
+car %d footbrake friction
+car %d front brake bias
+car %d turn ratio
+car %d steering wheel offset
+car %d drive wheel offset
+car %d back end slide value
+car %d handbrake slide value</pre>
+<h2>Languages in GTADOS\STARTUP.INI</h2>
+<p>The file can look like this:</p>
+<pre>[language]
+0</pre>
+<p>The values are:</p>
+<ul>
+	<li>0 = English<br /></li>
+	<li>1 = French<br /></li>
+	<li>2 = German<br /></li>
+	<li>3 = Italian<br /></li>
+	<li>4 = Japanese (requires GTADATA\JAPANESE.FXT, GTADATA\KANJI.IDX, and 
+	GTADATA\KANJI.BIT)</li>
+</ul>
+<p class="auto-style3">(Other config options need to be documented)</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

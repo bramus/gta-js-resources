@@ -1,0 +1,288 @@
+﻿[main0]GTA starten
+[main1]Netzwerkspiel konfigurieren
+[main2]Soundeinstellungen
+[main3]Steuerung wählen
+[main4]Joysticks kalibrieren
+[main5]Sprache festlegen
+[main6]Verlassen
+[net0]Kein Netzwerk
+[net1]Nullmodemverbindung
+[net2]IPX Netzwerk
+[net3]Modemverbindung
+[net4]COM Port wählen
+[net5]Telefonnummer ändern
+[net6]Modem Strings ändern
+[net7]Warte auf Anruf
+[net8]Netzwerk Socket ändern
+[net9]Änderungen übernehmen
+[net10]Änderungen verwerfen
+[net11]Neue Socket Nummer eingeben (0 - 65535)
+[net12]Eingabe OK!
+[net13]Neuen seriellen Port eingeben (1 - 4)
+[net14]Netzwerkart auswählen
+[net15]Neue Telefonnummer eingeben
+[net16]Nullmodemverbindung konfigurieren
+[net17]Unpassenden Wert eingegeben
+[net18]Modemverbindung konfigurieren
+[net19]IPX Netzwerk konfigurieren
+[net20]Kein Netzwerk gewählt
+[cont0]Voreingestellte Tastatur
+[cont1]Joystick 1
+[cont2]Joystick 2
+[cont3]Benutzerdefiniert
+[cont4]Änderungen akzeptieren
+[cont5]Änderungen verwerfen
+[cont6]Steuermethode wählen
+[cust0]Nach links
+[cust1]Nach rechts
+[cust2]Vorwärts
+[cust3]Rückwärts
+[cust4]Bremsen
+[cust5]Fahrzeug Ein-/Aussteigen
+[cust6]Angreifen
+[cust7]Nächste Waffe
+[cust8]Vorherige Waffe
+[cust9]Specials
+[cust10]Änderungen übernehmen
+[cust11]Änderungen verwerfen
+[cust12]Wählen Sie die zu ändernde Steuerung
+[cust13]Gegen welche Taste ändern?
+[cust14]Die Taste wird schon verwendet!
+[cust15]Steuerung geändert!
+[cust16]Unerlaubte Taste gewählt
+[cust17]Steuerung anpassen.
+[joy0]Joysticks kalibrieren
+[joy1]Änderungen akzeptieren
+[joy2]Änderungen verwerfen
+[joy3]Joysticks bis zum Limit bewegen
+[joy4]Drücken Sie eine Taste - oder Feuer
+[joy5]Neue Daten akzeptiert!
+[joy6]Joystick 1
+[joy7]Joystick 2
+[joy8]Joysticks nicht kalibriert!
+[joy9]Kalibrierung abgebrochen
+[sound0]Soundkarte einstellen
+[sound1]CD Lautstärke einstellen
+[sound2]Akzeptieren
+[sound3]Abbrechen
+[sound4]Sound konfigurieren
+[lang0]Englisch
+[lang1]Französisch
+[lang2]Deutsch
+[lang3]Italienisch
+[lang4]Japanisch
+[lang5]Englisch
+[lang6]Französisch
+[lang7]Deutsch
+[lang8]Italienisch
+[lang9]Japanisch
+[mode0]Modem Reset
+[mode1]Modem wählen
+[mode2]Modem aufgelegt
+[mode3]Modem initialisieren
+[mode4]Modem Auto-Answer
+[mode5]Annehmen
+[mode6]Abbrechen
+[mode7]Neuen String eingeben
+[mode8]Modem Kommando Strings ändern
+[run0]GTA mit wenigen Farben starten
+[run1]GTA mit vielen Farben starten
+[run2]3DFx GTA starten
+[run3]Abbrechen
+[run4]Wählen Sie eine Version aus
+[run5]3DFx Version benötigt eine 3DFx Karte!
+[run6]IDIOT!!
+[misc0]Drücken Sie eine Taste
+[misc1]
+[misc2]Steuerung: Tastatur
+[misc3]Steuerung: Joystick
+[misc4]Steuerung: Joystick 2
+[misc5]Steuerung: Benutzerdefiniert
+[misc6]
+[misc7]Sprache: Deutsch
+[misc8]Grand Theft Auto Start
+[misc9]Pfad des existierenden DMA Verzeichnisses angeben
+[misc10]oder einen neuen Pfad bestimmen.
+[misc11]Angenommen
+[misc12]Dateien installieren
+[misc13]Festplatteninstallation
+[misc14]Installation abgeschlossen
+[misc15]Falscher Pfad angegeben
+[misc16]Bitte eine Option wählen
+[misc17]Bitte Sprache wählen
+[misc18]Unzureichender Speicherplatz auf diesem Laufwerk
+[misc19]Installieren in
+[misc20]Sind Sie sicher?
+[misc21]'Eingabetaste' zum Akzeptieren drücken.
+[misc22]Drücken Sie eine andere Taste zum Abbrechen
+[misc23]Installiere in
+[misc24]Benötigt 80 MB freien Plattenspeicher
+[detect-auto]Soundkarte automatisch bestimmen
+[detect-manual]Soundkarte manuell konfigurieren
+[detect-diff]Einen anderen Soundtreiber wählen
+[detect-help]Hilfe
+[main-curr]Aktuelle Soundkonfiguration
+[main-midi]MIDI Musik:
+[main-none]Keine
+[main-dig]Sound:
+[main-msel]MIDI Musik Treiber wählen
+[main-dsel]Soundtreiber wählen
+[no-midi]Keine MIDI Musik
+[no-dig]Kein Sound
+[view-win]Windows 95 Konfiguration ansehen
+[done]Fertig
+[main-opt]Sound Konfiguration Optionen
+[win-err]Fehler beim Starten des Windows 95 Konfigurations Utility
+[win-nocard]Windows 95 fragt: wo ist die Soundkarte?
+[win-mem]Fehler beim Zuweisen von DOS-Speicher für das Windows 95 Konfigurations Utility.
+[win-help1]Diese Option zeigt die aktuelle Windows 95 Sound Hardware Konfiguration an,
+[win-help2]und könnte hilfreich sein, wenn die Autoerkennung in einer DOS Box unter Windows 95
+[win-help3]Probleme bereitet. In dieser Umgebung funktioniert die Autoerkennung nicht immer,
+[win-help4]da Windows 95 verschiedenste Einstellungen der Soundkarte vornehmen kann.
+[win-help5]Sollte die Autoerkennung also fehlschlagen, stellen Sie die Soundkarte manuell mit
+[win-help6]diesem Utility ein, und zwar den I/O Port, IRQ und DMA Kanal.
+[win-return]Zurück zum vorherigen Menü
+[copyright]%F Miles Sound System, (C) Copyright 1991-96 RAD Software Version
+[title]%F Sound System Konfigurations Utility
+[avail-midi]Verfügbare MIDI Treiber
+[avail-dig]Verfügbare Soundtreiber
+[err-null]Bitte einen Wert eingeben
+[err-file]Kann Datei nicht öffnen
+[err-ornull]Beide Felder können nicht leer sein.
+[err-nodri]Keine Soundtreiber im aktuellen Verzeichnis gefunden.
+[err-nolist]Kann MSSDRVR.LST nicht öffnen
+[err-crit]I/O Fehler
+[err-fail]Sound Hardware Fehler
+[err-check]Teste Treiber und Konfiguration
+[err-nosave]Kann Konfigurationsdatei nicht speichern
+[err-default]Unbekannter Systemfehler
+[error]FEHLER!
+[try-again]Drücken Sie eine Taste und wählen ein anderes Laufwerk.
+[con-succ]Karte erfolgreich erkannt!
+[con-sel]Drücken Sie eine Taste, um die neue Einstellung für
+[con-midi]MIDI Music
+[con-dig]Sound
+[con-config]abzuspeichern und
+[con-return]zum Hauptmenü zurückzukehren.
+[ok]OK
+[detect-title]Sound Karten Erkennung
+[detect-help1]Sie sollten ,Autoerkennung übergehen und Soundtreiber manuell konfigurieren' wählen,
+[detect-help2]wenn Sie nicht sicher wissen, ob Ihr PC Peripheriegeräte enthält, die den Standard I/O
+[detect-help3]Werten der Soundkarten Probleme bereiten könnten.
+[detect-help4]Mit dieser Option können Sie dann die I/O Parameter der Karte von Hand setzen. Dies ist
+[detect-help5]auch dann nötig, wenn die Option ,Soundkarte automatisch bestimmen' die Karte nicht
+[detect-help6]automatisch und richtig bestimmen konnte.
+[detect-help7]
+[detect-help8]In den meisten Fällen sollten Sie dennoch zunächst die ,Soundkarte automatisch
+[detect-help9]bestimmen' lassen. Wenn Ihr PC hängen bleiben sollte oder die Mitteilung
+[detect-help10],Soundhardware nicht gefunden' erscheint, können Sie dann noch ,Autoerkennung
+[detect-help11]übergehen und Soundtreiber manuell konfigurieren' wählen.
+[io-address]I/O Adresse:
+[select-irq]IRQ wählen:
+[select-dma]8-bit DMA wählen:
+[select-config]DMA Kanal Konfiguration:
+[select-16]16-bit DMA wählen:
+[io-request]I/O Adresse in Hexadezimal eingeben:
+[irq3]3
+[irq4]4
+[irq5]5
+[irq7]7
+[irq9]9
+[irq10]10
+[irq11]11
+[irq12]12
+[irq15]15
+[dma0]0
+[dma1]1
+[dma3]3
+[dmah5]5
+[dmah6]6
+[dmah7]7
+[dmah56]5/6
+[dmah67]6/7
+[dmah57]5/7
+[select-16]16-bit DMA Kanal wählen:
+[16-5]5
+[16-6]6
+[16-7]7
+[IWAV.DIG]Wählen Sie diesen Treiber für den Gebrauch einer Soundkarte mit InterWave (TM) Audio Prozessor. Beispiele für solche Soundkarten sind die Core Dynamic Dynasonix, die Reveal WaveExtreme 32 und die STB SoundRage 32. Einige Modelle von Compaq und Gateway 2000 PCs verfügen ebenfalls über einen InterWave Audio Prozessor; lesen Sie für weitere Informationen bitte in Ihrem Herstellerhandbuch nach.
+[NVDIG.DIG]Wählen Sie diesen Treiber, wenn Ihr System mit einem NVidia-kompatiben Multimedia Beschleuniger ausgestattet ist. Wenn der Treiber Ihre Karte nicht richtig erkennen kann, setzen Sie sich bitte mit dem Hersteller oder Verkäufer Ihrer Karte / Ihres Systems in Verbindung, damit Sie ein Treiberupdate erhalten.
+[RAP10.DIG]WARNUNG: Während der Autoerkennung der Roland RAP-10 Karte, erkannte der Treiber, daß die RAP-10 auf der I/O Adresse 320H oder 330H liegt. Es werden NICHT der DMA Kanal oder die IRQ Einstellungen überprüft. Wenn Ihre RAP-10 Karte für einen IRQ 9 nicht ausgelegt ist oder die DMA Kanäle 5 und 6 bereits von anderen Karten in Ihrem System verwendet werden, MÜSSEN Sie ,Autoerkennung übergehen und Soundtreiber manuell konfigurieren' im folgenden Menü wählen und die richtigen I/O Einstellungen für Ihre Karte vornehmen. Andernfalls könnte Ihr System hängen bleiben oder bei der Soundausgabe ,stottern'.
+[PROAUDIO.DIG]Wenn Sie den Media Vision Pro Audio Spectrum Treiber verwenden, verfügen Sie über digitalen Stereo Sound. Wenn Sie mit dieser Einstellung Probleme bekommen sollten, sollten Sie statt dessen den Sound Blaster kompatiblen Treiber wählen. Das Media Vision Utility MVSOUND.SYS muß zuvor in den Speicher geladen werden, sonst kann die Karte nicht erkannt werden.
+[ULTRA.DIG]Bevor Sie diesen Treiber verwenden, überprüfen Sie bitte, daß keine Gravis Utilities wie z. B. SBOS, UltraMID oder Mega-Em aktiv sind. Ihre UltraSound System Software sollte mindestens Version 2.0 sein.
+[JAMMER.DIG]Die WaveJammer Karte von der New Media Corporation liefert qualitativ hochwertigen Sound für PCMCIA-basierte Computer. Wählen Sie den Ad Lib(R) Musik Synthesizer Treiber für FM Musik bei einer WaveJammer Karte.
+[SNDSCAPE.DIG]Wählen Sie diesen Treiber, wenn Sie eine Ensoniq SoundScape(TM) oder kompatible Soundkarte haben.
+[SNDSYS.DIG]Wählen Sie diesen Treiber, wenn Ihre Karte mit dem Microsoft Windows Sound System kompatibel ist. Wenn der DMA Kanal 1 nicht für das Windows Sound System verfügbar ist, müssen Sie ,Autoerkennung übergehen und Soundtreiber manuell konfigurieren' wählen und einen anderen DMA Kanal einstellen. Wenn Sie das Spiel unter Windows 95 starten, müssen Sie evtl. die Option , Windows 95 Konfiguration ansehen' wählen, um festzustellen, welche I/O Adresse Ihr Windows Sound System verwendet.
+[ADRV688.DIG]Dieser Treiber unterstützt den ESS Technology's ES688 Chipsatz.
+[SBLASTER.DIG]Dieser Treiber ist für die Soundkarten Sound Blaster, Sound Galaxy, Thunderboard oder Pro Audio Spectrum geeignet. Andere Karten, die nicht direkt durch einen anderen Treiber angesprochen werden, könnten auch mit diesem Treiber funktionieren, sofern die Karte Sound Blaster Kompatibilität ohne Emulation und speicherresidente Programme besitzt.
+[SBPRO.DIG]Dieser Treiber unterstützt alle Versionen von Sound Blaster Pro und 100%-kompatiblen Karten. Bitte verwenden Sie ihn nicht mit Sound Blaster 16 oder AWE32 Karten.
+[SB16.DIG]Für qualitativ hochwertigen digitalen Sound mit einer Sound Blaster 16 oder AWE32 Karte müssen Sie diesen Treiber wählen.
+[MPU401.MDI]Die meisten General MIDI Synthesizer unterstützen den Roland MPU-401 MIDI Hardware Interface Standard. Dies beinhaltet auch die Roland Sound Canvas, RAP-10 und kompatible sowie alle Aufsätze für Karten der Reihe Sound Blaster 16. MPU-401 liefern normalerweise den bestmöglichen Klang und die höchste Qualität, jedoch sollten Besitzer von Adaptec SCSI Controllern ,Autoerkennung übergehen und Soundtreiber manuell konfigurieren' wählen, um die sonst auftretenden Probleme bei der Erkennung einer MPU-401 Karte zu umgehen. Wenn Sie eine Creative Labs AWE-32 Karte besitzen, sollten Sie statt dessen lieber ,Creative Labs AWE-32(TM) General MIDI' wählen.
+[IWAV.MDI]Wählen Sie diesen Treiber für den Gebrauch einer Soundkarte mit InterWave (TM) Audio Prozessor. Beispiele für solche Soundkarten sind die Core Dynamic Dynasonix, die Reveal WaveExtreme 32 und die STB SoundRage 32. Einige Modelle von Compaq und Gateway 2000 PCs verfügen ebenfalls über einen InterWave Audio Prozessor; lesen Sie für weitere Informationen bitte in Ihrem Herstellerhandbuch nach. Wenn Sie mit diesem Treiber Probleme haben sollten, wählen Sie den Roland MPU-401 Treiber.
+[NVMPU.MDI]Wählen Sie diesen Treiber, wenn Ihr System mit einem NVidia-kompatiben Multimedia Beschleuniger ausgestattet ist. Wenn der Treiber Ihre Karte nicht richtig erkennen kann, setzen Sie sich bitte mit dem Hersteller oder Verkäufer Ihrer Karte / Ihres Systems in Verbindung, damit Sie ein Treiberupdate erhalten.
+[MPU401.MDI]Wählen Sie diesen Treiber, wenn Ihre Creative Labs Sound Blaster(TM) Karte mit einem Yamaha General MIDI/XG Aufsatz erweitert wurde. Besitzer von Adaptec SCSI Controllern sollten ,Autoerkennung übergehen und Soundtreiber manuell konfigurieren' wählen und so die gängigen Probleme bei der Erkennung von MPU-401 Karten umgehen.
+[SNDSCAPE.MDI]Wählen Sie diesen Treiber, wenn Sie eine Ensoniq SoundScape(TM) oder kompatible Karte besitzen.
+[ULTRA.MDI]Wenn Sie diesen Treiber verwenden, achten Sie bitte darauf, daß keine Gravis Utilities wie z. B. SBOS, UltraMID oder Mega-Em aktiv sind. Ihre UltraSound System Software sollte mindestens Version 2.0 sein.
+[SBAWE32.MDI]Dieser Treiber bietet General MIDI mit einer Creative Labs AWE-32 Karte. Der ,Creative Labs Sound Blaster 16 oder AWE32' Treiber sollte dann auch für den Sound gewählt werden.
+[PAS.MDI]Nur die Besitzer von sehr frühen Versionen der Pro Audio Spectrum Karte von Media Vision sollten diesen Treiber wählen. Das Media Vision Utility MVSOUND.SYS muß in den Speicher geladen werden, ansonsten kann die Karte nicht erkannt werden.
+[PASPLUS.MDI]Besitzer von Media Vision Pro Audio Spectrum Plus und Pro Audio Spectrum 16 Karten sollten diesen Treiber wählen. Das Media Vision Utility MVSOUND.SYS muß in den Speicher geladen werden, ansonsten kann die Karte nicht erkannt werden.
+[ADLIBG.MDI]Dieser Treiber unterstützt die Ad Lib Gold Music Synthesizer Karte mit ihrem 4-Operator FM Modus.
+[ADLIB.MDI]Dieser Treiber kann mit einer Ad Lib-kompatiblen FM Musik Synthesizer Karte verwendet werden, sofern sie auch ohne speicherresidente Programme Ad Lib FM Kompatibilität besitzt. Besitzer von weiterentwickelten General MIDI basierten Karten sollten den Ad Lib Treiber nur wählen, wenn es Probleme mit dem General MIDI Treiber geben sollte, da der ältere Ad Lib OPL-2 Chipsatz die höherwertige Soundqualität der modernen Karten nicht unterstützt.
+[OPL3.MDI]Dieser Treiber unterstützt Karten mit einem ESS Technology's ES688 Chipsatz.
+[ESFM.MDI]Dieser Treiber unterstützt Karten mit den ESS Technology's ES1688, ES1788 oder ES1888 Chipsätzen. Mit diesem Treiber kann verbesserte FM Musik erreicht werden. Wenn Sie hierbei Probleme bekommen sollten, wählen Sie dann den ,ESS Technology ES688 FM Audio' Treiber.
+[OPL3.MDI]Dieser Treiber ist für den Einsatz mit allen Yamaha OPL-3 basierten FM Musik Synthesizer Karten gedacht, auch für alle diejenigen, die keinen speziellen Treiber in dieser Liste haben.
+[MT32MPU.MDI]Obwohl die Roland MT-32 nicht General MIDI kompatibel ist, verwendet es den MPU-401 Hardware Interface Standard. MT-32 Besitzer mit Adaptec SCSI Controllern im Rechner sollten im folgenden Menü ,Autoerkennung übergehen und Soundtreiber manuell konfigurieren' wählen und so die Erkennungsprobleme der MPU-401 umgehen.
+[SBLASTER.MDI]Dieser Treiber kann mit jeder Sound Blaster kompatiblen FM Musik Synthesizer Karte verwendet werden, die auch ohne speicherresidente Programme Sound Blaster FM Kompatibilität besitzt. Probleme weiterentwickelter General MIDI basierten Karten sollten den Sound Blaster Treiber nur verwenden, wenn es Probleme mit dem speziellen General MIDI Treiber gibt, da der Sound Blaster OPL-2 Chipsatz nicht die Qualität der heute modernen Karten erzielen kann.
+[SBPRO2.MDI]Dieser Treiber ist für den Gebrauch mit einer Sound Blaster 16 Karte gedacht, die keinen General MIDI Aufsatz wie z. B. den Wave Blaster hat. Obwohl die AWE-32 auch mit dem Sound Blaster 16 Treiber betrieben werden kann, sollten AWE-32 Besitzer den ,Creative Labs AWE-32(TM) General MIDI' Treiber für noch besseren Sound benutzen.
+[SBPRO2.MDI]Wenn Ihr Sound Blaster Pro ein sehr aktuelles Modem mit dem Yamaha OPL-3 Synthesizer ist oder sich die Musik bei dem normalen Sound Blaster Pro Treiber nicht ,richtig' anhört, sollten Sie diesen Treiber versuchen.
+[SBPRO1.MDI]Besitzer früherer Versionen von Sound Blaster Pro Karten können 18-Stimmen, 2-Operator FM Stereo Musik mit diesem Treiber erzielen. Dennoch verwenden eigentlich die meisten Sound Blaster Pro und kompatiblen Karten den besseren OPL-3 Chipsatz. Bei den aktuelleren Karten sollten Sie daher den ,Creative Labs Sound Blaster Pro(TM) (neue Version)' Treiber verwenden.
+[TANDY.MDI]Mit diesem Treiber bekommen Sie Tandy 1000 kompatible 3-stimmige Musik.
+[PCSPKR.MDI]Musik über den 1-stimmigen IBM PC internen Lautsprecher erhalten Sie mit diesem Treiber. Die Qualität der Musik ist natürlich entsprechend gering.
+[backspace]Löschen
+[tab]Tabulator
+[enter]Eingabetaste
+[ctrl]Linke Strg
+[rightctrl]Rechte Strg
+[leftshift]Linke Umschalttaste
+[rightshift]Rechte Umschalttaste
+[alt]Alt
+[space]Leertaste
+[capslock]Feststelltaste
+[home]Pos 1
+[pageup]Bild hoch
+[keypad-]Nummernblock -
+[up]Nummernblock hoch
+[left]Nummernblock links
+[right]Nummernblock rechts
+[down]Nummernblock runter
+[cursor-up]Hoch
+[cursor-left]Links
+[cursor-right]Rechts
+[cursor-down]Runter
+[keypad-enter]Nummernblock Enter
+[keypad5]Nummernblock 5
+[keypad+]Nummernblock +
+[end]Ende
+[pagedown]Bild runter
+[insert]Einfügen
+[delete]Entfernen
+[escape]Esc
+[err0]Fataler Fehler:
+[err1]GTA.BAT Datei nicht gefunden!
+[comb0]Standardtastatur
+[comb1]Gängige Tastatur
+[comb2]Joystick
+[comb3]Links
+[comb4]Rechts
+[comb5]Vorwärts
+[comb6]Rückwärts
+[comb7]Bremsen
+[comb8]Fahrzeug ein-/aussteigen
+[comb9]Angreifen
+[comb10]Nächste Waffe
+[comb11]Vorherige Waffe
+[comb12]Specials
+[comb13]Änderungen übernehmen
+[comb14]Änderungen verwerfen
+[comb15]Zu welcher Taste ändern?
+[]

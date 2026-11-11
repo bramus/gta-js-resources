@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Grand Theft Auto 1 - Bugs, Incompatibilites and Problems</title>
+<style type="text/css">
+.auto-style1 {
+	background-color: #00FF00;
+}
+.auto-style2 {
+	background-color: #FF0000;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Grand Theft Auto 1 - Bugs, Incompatibilites and Problems</h1>
+<p><a href="index.html">Back to main menu</a></p>
+<h2>GTA Rockstar Classics / Steam Edition:</h2>
+<p><span class="auto-style1">FIXED</span> There is no menu music and no pause-music; Track10.wav is never played?<br />
+=&gt; fixed by with <a href="patches.html">ASI patch</a> <strong>
+GtaClassicMusicFix.asi </strong>by me</p>
+<p><span class="auto-style1">FIXED</span> Wrong music files are loaded. You hear cop sounds instead of atmo.<br />
+Renaming the WAV files is only a workaround. The actual bug is in the EXE file,<br />
+since the WAV files have the correct order.<br />
+=&gt; fixed with an <a href="patches.html">ASI patch</a> <strong>
+GtaClassicMusicFix.asi </strong>by me</p>
+<p><span class="auto-style1">FIXED</span> Resolution will not be preserved for the next session.<br />
+It will be correctly saved in player_a.dat, but the game will crash<br />
+when the resolution byte in player_a.dat (fifth byte) is not 6.<br />
+=&gt; fixed with the <a href="patches.html">widescreen ASI patch</a> which was 
+enhanced by me, or alternatively with the ASI patch <strong>
+GtaClassicPlayerAFix.asi.</strong><br />
+=&gt; Alternatively, use GTAFixer.exe , but then the resolution is not preserved 
+for the next game session</p>
+<p><span class="auto-style1">FIXED</span> The Rockstar Classics / Steam edition 
+will corrupt player_a.dat files created by the Retail version,<br />
+because they have different file formats. Fixed with an <a href="patches.html">
+ASI patch</a> <strong>PlayerAConverter_Automatic.asi </strong> by me.</p>
+<p><span class="auto-style1">FIXED</span> French Translation does not display 
+the "œ" ligature and the ñ character. This was fixed in my <a href="language_fixes.html">language 
+patch</a> by replacing œ with "oe" and ñ with "n".<br />
+The same problems happens with non-implemented Kanji characters 嗅, 洒, 訛 which 
+are displayed as "！". In my patch they have been replaced with Hiragana 
+characters.</p>
+<p><span class="auto-style2">OPEN</span> If sounds AND music are set of &quot;off&quot;, you still hear horns and other 
+traffic sounds.<br />
+But you don&#39;t hear crashes and foot steps. If music is NOT &quot;off&quot;, then 
+everything works as expected.</p>
+<p><span class="auto-style2">OPEN</span> The music stops after some playtime until the game is restarted<br />
+=&gt; A new version of mss32.dll seems to have fixed the issue, but this new 
+version<br />
+has another big disadvantage: The music is loud and extremely noisy, especially 
+if played with low volume.<br />
+It sounds very broken.</p>
+<p><span class="auto-style2">OPEN</span> (small issue): If you increase the sound volume, the music volume increases too 
+(in option screen).<br />
+</p>
+<p><span class="auto-style2">OPEN</span> 32 bit color depth: graphics flickers.
+16 bit color depth: game is slow, even with frame limiter off.</p>
+<p><span class="auto-style2">OPEN</span> GTA London for DOS: Cutscene animations 
+are too fast and have no subtitles.</p>
+<h2>GTA Retail, London69 and London61 incompatibilities:</h2>
+<ul>
+	<li>Menu animations are too fast</li>
+	<li>Cut scene replay is too fast and crashes</li>
+	<li>No sounds at menu?</li>
+	<li>soundtrack stutters after some gaming time</li>
+	<li>&nbsp;32 bit color depth: graphics flickers.
+16 bit color depth: game is slow, even with frame limiter off.</li>
+</ul>
+<h2>Bugs in GTA London 1961:</h2>
+<ul>
+	<li>The game will crash if it is started with a non-English language setting.<br />Reason: It is only translated to English.<br />Solution: Either change the language setting, or copy the file enguke.fxt to 
+e.g. geruke.fxt (German).</li>
+</ul>
+<h2>Bugs in GTA 1 (Retail and Classics):</h2>
+<ul>
+	<li>The cheat &quot;suckmyrocket&quot; will give you 3 armor, but it does not protect 
+	you. You still die with a single shot.</li>
+</ul>
+<h2>Problems with the widescreen patch:</h2>
+<ul>
+	<li>Menus and cut scenes are not stretched to widescreen / fullscreen<br />
+	</li>
+</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,360 @@
+[File Holding Research Material]
+[To make cars drive round: reference Player to a PARKED car.]
+
+[Swapped space START]
+
+[Swap space END]
+
+
+[Shortcut Lines for Cerbera2]
+ATF Stakeout:
+80 KICKSTART 272 -1 -1 -1 -1 
+Rasta Tail:
+80 KICKSTART 2173 -1 -1 -1 -1 
+Party Pickups:
+80 KICKSTART 2596 -1 -1 -1 -1 
+
+
+
+[Delivering vehicles to cranes]
+(0,0,0) GTA_DEMAND <crane num> <model type> <remap> <number to get>
+Creates a 'GTA Demand' for a crane. It basically means the player has to steal 
+<number to get> cars of model <model> of colour <remap> and take them to crane <crane>
+[ Crane is (0-3), NOT the line number. Get this by the order in which they're declared in your mission.ini ]
+
+DO_GTA <gta demand> <succ> 0 <score>
+Switches 'on' the GTA demand declared in line <gta demand>. This basically means that the crane involved will be looking for the target, giving a bonus when it's reached. This gives NO message upon starting, do one yourself before it. It will do a "Just one more…" when there's one more to, and a "completion" style message when the player's completed the order.
+
+
+[CODE:]
+Level 1, Chapter 2.
+nyc.cmp
+
+270 1 (0,0,0) GTA_DEMAND 0 22 -1 2 
+
+-1
+
+1500 ARROW_OFF 0 0 0 0 0 
+1501 BRIEF 0 0 0 0 1052 
+1502 SURVIVE 0 0 0 20 0 
+1505 ARROW 157 0 0 0 0 
+1507 INCCOUNT 138 0 0 -1 0 
+1508 POWERUP_ON 541 0 0 0 0 
+1509 DO_GTA 270 0 -1 0 20000 
+1510 ARROW_OFF 0 0 0 0 0 
+1560 SURVIVE 0 0 0 30 0 
+
+116 ARROW 144 0 0 0 0 
+117 DO_GTA 202 0 0 0 20000 
+
+-1
+[1052]We need two yellow cabs for a bank job. Bring 'em to the docks in New Guernsey.
+
+
+[Multiple Payphones]
+[CODE:]
+Level 2, Chapter 1.
+Cerbera1.cmp
+
+500 1 (205,31,4) TELEPHONE 0 256 
+501 1 (206,31,4) TELEPHONE 0 256 
+502 1 (207,31,4) TELEPHONE 0 256 
+503 1 (208,31,4) TELEPHONE 0 256 
+600 1 (206,31,4) MPHONES 6060 2 
+610 1 (206,32,4) PHONE_TOGG 600 5 
+620 1 (106,16,4) TRIGGER 6400 5 
+625 1 (13248,2016,4) TARGET 0 0 
+630 (0,0,0) COUNTER 0 0 
+631 (0,0,0) COUNTER 0 0 
+632 (0,0,0) COUNTER 0 0 
+633 (0,0,0) COUNTER 0 0 
+
+-1
+
+6060 MPHONE 500 6070 4 30 0 
+6070 BRIEF 0 80 0 0 20000 
+6080 BRIEF 0 9000 0 0 20010 
+6085 BRIEF 0 6900 0 0 20020 
+6088 BRIEF 0 6900 0 0 20030 
+
+6400 DISABLE 620 0 0 0 0 
+6401 RESET 0 0 -1 -1 0 
+6410 ENABLE 610 0 0 0 0 
+6420 ENABLE 6030 0 0 0 0 
+
+6430 COMPARE 630 0 6440 1 0 
+6431 COMPARE 631 0 6440 1 0 
+6432 COMPARE 632 0 6440 1 0 
+6433 COMPARE 633 -1 6440 1 0 
+
+6440 ARROW 625 0 0 0 0 
+6441 GENERAL_ONSCREEN 500 0 6441 -1 0 
+6442 KICKSTART 6450 -1 -1 -1 -1 
+
+6450 COMPARE 6120 6460 0 1 0 
+6451 ARROW 500 0 0 0 0 
+6452 SURVIVE 0 0 0 10 0 
+6460 COMPARE 631 6470 0 1 0 
+6461 ARROW 501 0 0 0 0 
+6462 SURVIVE 0 0 0 10 0 
+6470 COMPARE 632 6480 0 1 0 
+6471 ARROW 502 0 0 0 0 
+6472 SURVIVE 0 0 0 10 0 
+6480 COMPARE 633 6450 0 1 0 
+6481 ARROW 503 0 0 0 0 
+6482 SURVIVE 0 6450 0 10 0 
+
+
+6900 DISABLE 610 0 0 0 0 
+6902 DISABLE 620 0 0 0 0 
+6904 SURVIVE 0 0 0 100 0 
+6906 ENABLE 610 0 0 0 0 
+6908 ENABLE 620 0 0 0 0 
+6998 DONOWT 0 -1 0 0 0 
+
+-1
+
+
+[Score Checking]
+[CODE:]
+Level 2, Chapter 1.
+Sanb.cmp
+
+3620 1 (0,0,0) TARGET_SCORE 2000000 0 
+
+-1
+
+15400 DISABLE 9440 0 0 0 0 
+15402 KEEP_THIS_PROC 0 0 0 0 0 
+15404 SCORE_CHECK 2000000 0 15404 0 0 
+15406 COMPARE 9420 0 15404 0 0 
+
+15410 SURVIVE 0 0 0 200 0 
+15420 MOBILE_BRIEF 0 0 0 0 2195 
+15421 RED_ARROW 3995 0 0 0 0 
+15422 ENABLE 3995 -1 0 0 0 
+
+-1
+
+
+[Weapon Kill Frenzies]
+[CODE:]
+Level 2, Chapter 1.
+Sanb.cmp
+
+2630 1 (37,201,4) POWERUP 4 3000 
+2640 1 (37,201,4) TRIGGER 11500 0 
+
+-1
+
+11500 DISABLE 2640 11547 0 0 0 
+11501 IS_POWERUP_DONE 2630 0 11511 200 0 
+11502 MESSAGE_BRIEF 0 0 0 0 2503 
+11503 FRENZY_BRIEF 0 0 -1 0 2511 
+11504 KICKSTART 11514 0 -1 -1 -1 
+11506 FRENZY_SET 11512 0 0 0 0 
+11508 KICKSTART 11512 0 -1 -1 -1 
+11510 KICKSTART 11538 -1 -1 -1 -1 
+
+11511 ENABLE 2640 -1 -1 0 0 
+
+11512 FRENZY_CHECK 10000 11530 11512 0 0 
+
+11514 DEAD_ARRESTED 85 0 11514 0 0 
+11518 MESSAGE_BRIEF 0 0 0 0 2504 
+11520 STOP_FRENZY 2630 0 0 0 0 
+11521 RESET_KF 0 -1 -1 -1 0 
+
+11530 MESSAGE_BRIEF 0 0 0 0 2505 
+11531 STOP_FRENZY 2630 0 0 0 0 
+11532 ADD_A_LIFE 0 0 -1 -1 0 
+11533 RESET_KF 0 0 -1 -1 0 
+11534 DROP_WANTED_LEVEL 0 0 0 0 0 
+11535 DECCOUNT 3990 26000 -1 0 0 
+
+11538 SURVIVE 0 0 0 2000 0 
+11540 MESSAGE_BRIEF 0 0 0 0 2504 
+11542 STOP_FRENZY 2630 0 0 0 0 
+11543 RESET_KF 0 -1 -1 -1 0 
+
+11547 KF_PROCESS 0 0 -1 -1 0 
+11548 DECCOUNT 3991 11501 11501 0 0 
+
+26000 SURVIVE 0 0 0 100 0 
+26010 FRENZY_BRIEF 0 0 0 0 2507 
+
+-1
+
+
+[RC Car Frenzies]
+[MESSAGES:]
+[CODE:]
+Level 2, Chapter 2.
+Cerbera1.cmp
+
+13001 1 (92,101,4) PARKED 45 256 
+13011 1 (92,101,4) CARTRIGGER 13000 13001 
+13021 1 (92,101,4) DUMMY 0 0 
+
+-1
+
+13000 DISABLE 13011 0 0 0 0 
+13001 KF_PROCESS 0 0 -1 -1 0 
+13002 DECCOUNT 20010 0 0 0 0 
+
+13005 KICKSTART 13042 0 -1 -1 -1 
+13010 MESSAGE_BRIEF 0 0 0 0 2503 
+13011 FRENZY_BRIEF 0 0 -1 0 2510 
+13015 FRENZY_SET 13040 0 -1 -1 0 
+13020 START_MODEL 13021 0 0 -1 100 
+13030 KICKSTART 13040 0 -1 -1 -1 
+13035 KICKSTART 13060 0 -1 -1 -1 
+13038 DO_MODEL 13020 -1 13244 -1 0 
+
+13040 FRENZY_CHECK 10000 13070 13040 0 0 
+
+13042 DEAD_ARRESTED 666 0 13042 0 0 
+13043 RETURN_CONTROL 13020 0 0 0 0 
+13044 MESSAGE_BRIEF 0 0 0 0 2504 
+13046 KF_CANCEL_BRIEFING 13060 0 0 0 0 
+13048 RESET_KF 0 -1 -1 -1 0 
+
+13060 KF_BRIEF_TIMED 0 0 0 120 2502 
+13061 SURVIVE 0 0 0 3000 0 
+13062 RETURN_CONTROL 13020 0 0 0 0 
+13063 MESSAGE_BRIEF 0 13048 0 0 2504 
+
+13070 MESSAGE_BRIEF 0 0 0 0 2505 
+13071 RESET_KF 0 0 -1 -1 0 
+13072 RETURN_CONTROL 13020 0 0 0 0 
+13073 DROP_WANTED_LEVEL 0 0 0 0 0 
+13076 KF_CANCEL_BRIEFING 13060 0 0 0 0 
+13077 ADD_A_LIFE 0 0 -1 -1 0 
+13078 DECCOUNT 20020 17000 -1 0 0 
+
+-1
+
+
+[Tank Frenzies]
+[CODE:]
+Level 2, Chapter 1.
+Sanb.cmp
+
+2530 1 (91,176,4) PARKED 37 512 
+2540 1 (91,176,4) CARTRIGGER 11100 2530 
+
+-1
+
+11100 DISABLE 2540 11130 0 0 0 
+11101 KICKSTART 11113 0 -1 -1 -1 
+11102 MESSAGE_BRIEF 0 11126 0 0 2503 
+11103 FRENZY_SET 11106 0 -1 -1 0 
+11104 KICKSTART 11106 0 -1 -1 -1 
+11105 KICKSTART 11107 -1 -1 -1 -1 
+
+11106 FRENZY_CHECK 10000 11120 11106 0 0 
+
+11107 KF_BRIEF_TIMED 0 0 0 120 2502 
+11108 SURVIVE 0 0 0 3000 0 
+11109 MESSAGE_BRIEF 0 0 0 0 2504 
+11110 RESET_KF 0 -1 -1 -1 0 
+
+11113 DEAD_ARRESTED 85 0 11113 0 0 
+11115 MESSAGE_BRIEF 0 0 0 0 2504 
+11116 KF_CANCEL_BRIEFING 11107 0 0 0 0 
+11117 RESET_KF 0 -1 -1 -1 0 
+
+11120 MESSAGE_BRIEF 0 0 0 0 2505 
+11121 KF_CANCEL_BRIEFING 11107 0 0 0 0 
+11122 ADD_A_LIFE 0 0 -1 -1 0 
+11123 RESET_KF 0 0 -1 -1 0 
+11124 DROP_WANTED_LEVEL 0 0 0 0 0 
+11125 DECCOUNT 3990 26000 -1 0 0 
+
+11126 FRENZY_BRIEF 0 11103 -1 0 2511 
+
+11130 KF_PROCESS 0 0 -1 -1 0 
+11131 DECCOUNT 3991 0 0 0 0 
+11132 KICKSTART 11135 11101 -1 -1 -1 
+
+11135 IS_PED_IN_CAR 85 11135 11115 -1 0 
+
+
+-1
+
+[Anti-theft Devices; Carbombs]
+[CODE:]
+Level 3, Chapter 1.
+Miami.cmp
+
+295 1 (117,26,4) PARKED 7 256 
+296 1 (117,26,4) CARTRIGGER 2900 295 
+
+-1
+
+2900 DISABLE 296 0 0 0 0 
+2901 MOBILE_BRIEF 0 0 0 0 3774 
+2902 SETBOMB 295 -1 -1 2 0 
+
+-1
+
+[Bank Robberies]
+[CODE:]
+Level 2, Chapter 1.
+SanB.cmp
+
+135 (15680,15104,256) FUTUREPED 0 512 
+136 (53,172,4) FUTURECAR 64 768 
+
+161 (245,235,4) DUMMY 0 0 
+
+-1
+
+627 BANK_ALARM_ON 0 -1 -1 161 0 
+633 IS_PED_IN_CAR 135 0 633 -1 0 
+
+640 BANK_ROBBERY 136 0 0 0 0	'BANK_ROBBERY -1 
+
+-1
+
+[Garage Animation]
+[CODE:]
+DMA mission guide.
+
+
+161 (245,235,4) DUMMY 0 0 
+136 (53,172,4) FUTURECAR 64 768 
+
+-1
+
+PARK		<door> <succ> <COORDS> <face> <score>
+Displays animation of your current car parking in the garage at <door>, then of the player walking out again
+
+-1
+
+
+
+DMA mission guide.
+START_CHOPPER <start loc> <succ> <fail> <player> 0
+This will start the 'automatic' end of level pickup. <player> is the line num of the player, <start loc> is the block where the helicopter should be created at. If it fails to create a chopper, it will go to <fail>, otherwise <succ>.
+
+Notes:
+For the end of level to look smooth, create the chopper slightly offscreen & at a high z-level. Make sure the player has been 'freezed' to prevent him moving off. The chopper will fly over and drop down, and then zoom out & fly off to the point defined as the end point - where the game will end. 
+
+-1
+
+[Level Ending Messages]
+[CODE:]
+ALL Levels, ALL Chapters.
+
+10054 END 0 0 0 0 0 
+	    ^ This parameter
+
+
+0	=  Quit via Esc.
+1	=  Completed.
+2	=  Failed missions.
+3	=  Out of lives.
+4	=  Too many arrests.
+5	=  Too much time for mission.
+6	=  Time finished for Deathmatch/Race?

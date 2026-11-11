@@ -1,0 +1,86 @@
+
+GRAND THEFT AUTO 1 - HOW TO *ACTUALLY* FIX THE PLAYER_A.DAT BUG IN THE ROCKSTAR CLASSICS / STEAM EDITION
+Analysis and Fix by Daniel Marschall, 08 Feb 2019
+Current release: https://misc.daniel-marschall.de/spiele/gta1/player_a_bugfix.txt
+
+Problem:
+	GTA1 Rockstar Classics or Steam Edition crashes after the first run.
+	The reason is the resolution setting which is saved into player_a.dat ("fifth byte")
+	The setting is actually correctly loaded, but the game
+	will crash during the loading of the setting.
+	
+Existing Workarounds:
+	Currently, the workaround is mainly to change the fifth byte to the value "0x06" (invalid)
+	before running GTA. The tool GTAFixer.exe can do that for you.
+
+	Unfortunately, with to this workaround, the resolution won't be kept when
+	the game is launched again.
+	
+Actual problem:
+	In function sub_414C70, following happens:
+	The resolution is saved in "byte_00503224". The values are:
+		00 = 640x480x16
+		01 = 800x600x16
+		02 = 1024x768x16
+		03 = 640x480x32
+		04 = 800x600x32
+		05 = 1024x768x32
+	It turns out that the function "sub_414C70" sets the variable like this:
+		function sub_414C70(int desired_resolution) {
+			...
+			int x;
+			if (... >= desired_resolution) {
+				x = 1;
+			} else {
+				x = 0;
+			}
+			x--; // x is now either $00000000 or $FFFFFFFF
+			byte_00503224 = x & 6; // byte_00503224 is now either 0 or 6
+			                       // This is wrong! Resolution "6" does not exist! (Valid: 0..5)
+			...
+		}
+	So, byte_00503224 will become either 0 or 6. If it becomes 6, the game will crash
+	in function "sub_414CC0", because 6 is no valid resolution. It is a typical off-by-one bug.
+	Actually, I do not understand this function, because actually we want to set
+	byte_00503224 equal to the argument "desired_resolution", so that the resolution from
+	the previous game session gets recovered?!
+	
+	To fix the problem, we change the code like this:
+		function sub_414C70(int desired_resolution) {
+			...
+			byte_00503224 = desired_resolution;
+			...
+		}
+	
+	In assembly:	
+		sub_414C70 proc near
+		arg_0= dword ptr  4   ; arg_0 = desired_resolution
+		mov     eax, dword_503214
+		mov     ecx, dword_503218
+		lea     edx, [eax+ecx*2]
+		mov     ecx, dword_503210
+		mov     eax, dword_50320C
+		add     edx, ecx
+		mov     ecx, dword_503208
+		add     edx, eax
+		mov     eax, dword_503204
+		add     edx, ecx
+		mov     ecx, [esp+arg_0]
+		add     edx, eax
+		xor     eax, eax
+		mov     al, [ecx]     ; apply following patch:
+		cmp     eax, edx      ; mov edx, eax
+		setnl   dl            ; nop
+		dec     dl            ; nop
+		and     edx, 6        ; nop
+		mov     byte ptr byte_00503224, dl
+		retn
+		sub_414C70 endp
+		
+	In the HexEditor, you need to apply following patch:
+	
+		Search:   3B C2 0F 9D C2 FE CA 83 E2 06
+		Replace:  89 C2 90 90 90 90 90 90 90 90
+
+	Now you can finally play the game without GTAFixer.exe ,
+	and your resolution will be kept for the next game session.

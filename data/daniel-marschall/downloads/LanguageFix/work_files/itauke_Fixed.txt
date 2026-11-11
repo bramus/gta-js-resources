@@ -1,0 +1,588 @@
+﻿[1001]Vai ai telefoni a Southwest City, ragazzo!
+
+[1002]Il signor C vuole che due bande rivali di rockers vengano spazzate via. Devi liberarti di questi luridi rifiuti! C'è una pila di esplosivi che ti aspetta a Northeast Bermondsey.
+[1003]D'accord! Porta questi esplosivi a uno dei rifugi della banda a West Southwark, scendi dall'auto e piazzali vicino alla porta. Non hai molto tempo, quindi muoviti.
+[1004]Faresti meglio ad arretrare un po'. Qui tra poco sarà un bel casino.
+[1005]Bel lavoro, tigre! Ora prendi il secondo carico di esplosivi che ti abbiamo lasciato a West Brixton.
+[1006]Porta questi esplosivi al loro buco di merda a Southwest Bermondsey, scendi dall'auto e piazzali.
+[1007]Questo non è Glasgow! Qui friggiamo solo il pesce, quindi togliti di lì prima di finire fritto anche tu.
+[1008]Benissimo! Questi due gruppi di feccia si stanno dando la colpa a vicenda per gli attentati. Si incontrano a Northwest Brixton. Porta il culo fin là e fai scaldare la festa.
+[1009]Qui puzza di marcio, come un vecchio halibut! Harold pensa che abbiano capito di essersi fatti piantare. Va' da Jack sul retro. Ti dirà lui come stanno le cose.
+[1010]Harold vuole che tu faccia sparire questa feccia di sbirri del sud di Londra! Però prendi l'armatura, ti servirà di sicuro.
+[1011]Ora puoi occuparti di questi idioti. Falli fuori tutti! Rendi Harold fiero di te.
+[1012]Maledizione! Alcuni di quei tipi sono scappati. Rintracciali e sotterrali. Il primo corre da qualche parte a nord-est di qui.
+[1013]Perfetto. Il prossimo idiota è proprio a sud di te. Prendilo!
+[1014]Accidenti! Sei in gran forma. Il prossimo coglione è a ovest. Cancellalo dalla faccia della terra!
+[1015]Porca miseria! Sei proprio un bel tipo, eh? Bene, non fare il timido e va' a uccidere l'ultimo verme. È da qualche parte a est!
+[1016]Perbacco! Sei in gran forma, come dice sempre Harold! Il signor C sarà contentissimo!
+[1017]Troppo tardi! Hai perso la tua occasione. Devi essere un po' più rapido, o Harold farà giardinaggio con le tue budella!
+[1018]Questa non è una tranquilla passeggiata pomeridiana a Hyde Park con una bella ragazza! Qui si parla di grande crimine internazionale, e il tempo e il crimine non aspettano nessuno, come diceva Harold! Hai mandato tutto a puttane, idiota!
+[1019]Maledizione! I membri della banda sono scappati! Harold sputerà fuoco, amico, e nel caso non te ne fossi accorto si chiama Harold Cartwright, non Capitan Findus.
+[1020]Non dovevi uccidere quel cretino! Harold non la prenderà per niente bene!
+
+[1030]Sta arrivando in città un cliente molto importante, di nome Mr.Caukenbolls. Il tuo lavoro è andarlo a prendere e proteggerlo. A East City c'è un taxi che ti aspetta.
+[1031]D'accord! Ora vai a prendere l'uomo e non metterci troppo. Ti aspetta fuori da un hotel o qualcosa del genere a West City.
+[1032]È lui. Ora aspetta semplicemente che salga sulla macchina.
+[1033]E ricorda: non è un pezzente qualunque. Trattalo come si deve e assicurati che non gli succeda niente. Come tutti i grandi signori, ha qualche nemico. Riportalo qui a Southeast Mile End.
+[1034]Va' a vedere Curly sul retro. Vuole dirti due parole.
+[1035]Ma che diavolo stai facendo? Hai lasciato Mr.Caukenbolls tutto solo. Adesso qualche banda l'ha rapito. Faresti meglio a trovarlo e riportarlo qui sano e salvo! In questo gioco sbagliare vale quanto essere idioti, amico.
+[1036]Uff! È stato più stretto di un quindicenne, e io dovrei saperlo, ho due figlie. Harold avrebbe fatto ghirlande con le tue budella. Riportalo al nostro rifugio sicuro a East Mile End. E niente passeggiatine, reginetta.
+[1037]OK! Ora è il momento di consegnare il riscatto a quei rapitori, ma li pagheremo con una grossa partita di TNT pesante. Abbiamo truccato il loro mezzo con gli esplosivi. Vai a lasciarlo davanti alla loro porta!
+[1038]Il loro rifugio è a Northwest City. Muoviti!
+[1039]Scendi dal carrozzone e prendi la super-armatura dalla cassa, a meno che tu non sia fatto di piombo, e questo spiegherebbe perché sei così dannatamente ottuso.
+[1040]Levati da lì. C'è un'auto parcheggiata che ti aspetta a Southeast Soho. Vai, vai, vai!
+[1041]Beh, gli affari di Mr.Caukenbolls qui sono finiti. Vai a prenderlo a East Mile End e muoviti!
+[1042]Aspetta che salga in macchina.
+[1043]Riporta quest'uomo al suo hotel. Il passaggio per l'aeroporto lo aspetta lì. Sbrigati! È più in ritardo della fine del mondo!
+[1044]Bel lavoro, ragazzo mio. Harold è al settimo cielo per questa faccenda.
+[1045]Non è una gran prima impressione! È un po' come dire: "Ciao, mi chiamo Adolf, piacere".
+[1046]Quell'uomo era molto importante per Harold. Aspetta solo che ti metta le mani addosso.
+[1047]Torna in macchina e finisci quello che hai cominciato.
+[1048]Smettila di scendere e porta Mr.Caukenbolls al rifugio.
+[1049]Lo scopo di un contatto è darti informazioni. Per darti queste informazioni deve essere vivo. È roba piuttosto elementare, Einstein.
+[1050]Be', pensavamo che fossi un idiota, e adesso ce l'hai pure dimostrato.
+[1051]Cattivo cane!
+[1052]Sali sul veicolo e finisci quello che hai cominciato.
+[1053]Oops! Fai schifo. Harold ti scorticherà vivo per questo casino!
+[1054]Santo cielo! Che ci fai fuori dalla macchina quando dovresti essere dentro a guidare?
+[1055]Avevi davvero bisogno di quell'auto! A meno che tu non sia Roger Bannister in persona, non ci arriverai in tempo, vero?
+[1056]Perfetto! Mr.Caukenbolls è morto e Harold fuma di rabbia. Tutto sommato, direi che hai fatto un disastro in piena regola.
+[1057]Torna nel veicolo. Ripeto, per il bene dei meno dotati: torna nel veicolo!
+[1058]Perché scendi, se sai già che devi risalire subito dopo? Questa non è mica la contraccezione del ritmo.
+[1059]Maledizione! Te la sei presa comoda, e adesso Mr.Caukenbolls non è più interessato a noi. Puzzi come uno sgombro fradicio, e io lo so bene, ne ho avuti un po'!
+[1060]Il capo vuole che tu faccia blindare la macchina. Va' da Bobby a Southwest Westminster. Ti arrangia tutto lui!
+[1061]Troppo lento! Harold ti aspettava, ma è come aspettare Godot, no?
+[1062]Troppo lento! Mr.Caukenbolls ha perso il suo aereo!
+
+[1181]Abbiamo altri lavori per te ai telefoni, amico. Quando sei pronto!
+
+[1190]Uno dei capi della banda di meccanici, Gene White, si sta facendo un bagno a Southwest Hyde Park con alcune delle sue ragazze. Quello che non sa è che è una trappola. Vogliamo che tu gli rubi i vestiti.
+[1191]Vai al telefono a Southeast Soho, amico! Harold ti dirà cosa fare dopo. Muoviti! Non gli piace aspettare.
+[1192]Abbiamo fatto arrivare dei furgoni TV per filmare il capo della gang nudo nel parco. Heh heh! Prendi il taxi e porta il culo al parco, così tutto andrà come previsto.
+[1194]Ora vai e assicurati che quei furgoni TV siano a Southwest Hyde Park a filmare quei gnu mentre si agitano.
+[1195]Cazzo! I furgoni sono qui, ma i nudi sono spariti. Gene ha drogato i drink della nostra bella con della roba. Sono impazzite tutte. Basta così! Uccidi il capo della gang e raduna le ragazze.
+[1196]Bel lavoro! Ora prendi le sue ragazze. Inseguille e falle salire in macchina. Stendile pure se devi. Un tempo erano rispettabili, adesso corrono in giro come matte!
+[1197]Eccola. Non dimenticare di calmarla con le cattive, se necessario.
+[1198]Lasciala salire in macchina.
+[1199]Trova l'altra ragazza e riportala indietro. Si chiama Mandy. Era una brava ragazza cattolica prima di incontrarti.
+[1200]L'hai trovata.
+[1201]Ecco, l'hai calmata! Ora lasciala salire in macchina.
+[1204]OK! Ora riporta qui quella bella figliola. Ci divertiremo un po' con loro per compensare quello schifo di lavoro che hai mandato a monte in piena regola!
+[1205]Veicolo sbagliato.
+[1206]Mentre ci stavamo dando da fare con Mandy e la sua banda, i ragazzi di Gene ci hanno filmati di nascosto. Hanno fatto un porno con noi protagonisti! Vai da Bongo, ti dirà come sistemare il problema.
+[1207]Oggi partono due spedizioni di videocassette porno. Su quei camion ci sono i nastri dove tu fai il re del porno. Falli saltare e risolvi il problema.
+[1208]OK! Ne resta più che un camion. Meglio sbrigarsi!
+[1209]Bel lavoro! Hai evitato un disastro enorme. Avrebbero potuto cacciarci dalla città se qualcuno avesse visto quei nastri.
+[1210]Cattivo ragazzo!
+[1211]Torna in quella dannata macchina, tutto chiacchiere e niente nei pantaloni. È questo il tuo problema, no?
+[1212]Nessuna possibilità!
+[1213]Fai schifo!
+[1214]Sempre deludente, eh? In ogni reparto.
+[1215]Hai finito il tempo!
+[1216]Non dovevi uccidere il contatto!
+[1217]Sei troppo lento!
+[1218]Non c'è più tempo, idiota!
+
+[1250]Harold vuole che tu faccia fuori un pilota che spaccia pillole di nome Poundage Fern. Però ha dei gorilla a proteggerlo. Fai fuori prima quelli. Uno si trova a East Brixton.
+[1251]Maledizione! È scappato. Sono piuttosto veloci. Ti servirà il mezzo speciale. Vai a prenderlo a Southwest Bermondsey.
+[1252]Ora sei armato per fare sparatorie in corsa. Usa quest'auto per fare un drive-by sulla vedetta. E ricordati di non scendere dalla macchina!
+[1253]Ottimo! Ora è il momento di occuparsi del resto di questi stronzi. Oggi c'è una gara e tutti i gorilla bighellonano vicino al garage di Fern a Central Battersea. Fai una strage di San Valentino e prendine quanti più puoi!
+[1255]Non lasciarli scappare. Investili!
+[1256]Scapperanno se non ti sbrighi a ucciderli!
+[1257]Trova gli altri e uccidili!
+[1258]Meglio sbrigarsi e inseguirli un po' più in fretta!
+[1259]Investili tutti! Sì! Grande! Bel pezzo di muscoli tritati.
+[1260]Rintracciali in fretta e ammazzali!
+[1261]Gran cazzo di lavoro, amico! Ora puoi occuparti di Fern. Prendi una delle sue auto da corsa a North Battersea.
+[1262]Usa quest'auto per rintracciarlo e ucciderlo. È equipaggiata anche per le sparatorie in corsa! Usala per farlo saltare in aria!
+[1263]Ciao ciao, Poundage Fern! Eh! Purtroppo ora dovrai fingerti lui! Il traguardo è a North Mile End. Muoviti!
+[1264]Bel lavoro! Hai vinto il trofeo del campionato. Tutti pensano che tu sia Fern. Li abbiamo fregati! Siamo proprio intelligenti, e nemmeno tu sei proprio senza cervello.
+[1265]Ora riporta quel dannato trofeo al nostro rifugio a Southwest Bow. Harold vuole vederlo... e vedere te!
+[1270]Avevi davvero bisogno di quell'auto, idiota!
+[1271]Ops! Ti avevo detto di non scendere!
+[1272]Torna in quella dannata bagnarola.
+[1273]Per favore, non scendere ancora!
+[1274]Perbacco! Ma da che parte stai?
+[1275]Sei troppo lento. Harold non sarà contento.
+[1276]Non dovevi uccidere quelli che consegnano il trofeo.
+[1277]Vai sempre in giro ad ammazzare innocenti?
+[1278]Oh, amico! Smettila di scendere dalla macchina!
+[1279]Torna in macchina, o supervisonerò personalmente la tua pellaccia mentre la conciamo. E non ti piacerà affatto. Chiedilo pure a mia moglie, se vuoi referenze.
+[1280]Troppo lento... Il tizio è scappato e sta andando a raccontare tutto di te a Fern!
+[1281]Troppo lento! Hai perso la corsa e adesso tutti sanno che non sei Fern. La tua copertura è saltata. Hai fallito!
+
+[1300]La mamma di Harold vuole una Jug Swinger per il suo sessantesimo compleanno. Ce n'è una a Westminster. Vai a prenderla!
+[1301]Buongiorno, Mr.Chambers. Abbiamo una missione per lei! Hans Nemesis si è messo nel commercio di patate. Pensiamo che ci sia sotto qualcos'altro. Vada a controllare.
+[1302]Eviti di farsi ammazzare e rubi il camion di patate.
+[1303]Torni in uno dei nostri garage segreti, così potremo analizzare il contenuto del camion.
+[1304]Torni nella sua auto, Endeavor. La prossima série d'istruzioni la sta aspettando.
+[1305]Il camion di patate trasportava esplosivi. Dobbiamo fermare Nemesis! Prenda un po' dell'esplosivo e vada a trovare il nonno. Abbiamo un piano.
+[1306]Ecco! Gli esplosivi sono stati fissati alla sedia a rotelle. Ora salga in auto e le diremo cosa fare dopo.
+[1307]Userà il nonno per aiutarla. Parcheggi l'auto davanti al rifugio di Nemesis. Creerà una distrazione.
+[1308]Dov'è la sua auto, idiota? Farebbe meglio a recuperarla prima di continuare!
+[1309]D'accord! Ora scenda dall'auto e salga sul camion dietro.
+[1310]Ora accompagni il nonno davanti al rifugio di Nemesis.
+[1311]Bene! Nemesis è fuggito dal paese e il suo giro di patate esplosive è stato smantellato.
+[1312]Non doveva lasciar distruggere il suo veicolo di missione, Endeavor!
+[1313]Torni in macchina, uomo.
+[1314]Adesso non sapremo mai cosa stava combinando il Dr.Nemesis!
+[1315]Torni sul camion e ce lo porti, Endeavor.
+[1316]Ha lasciato morire il nonno! È proprio una brutta persona.
+[1317]Torni nel suo veicolo!
+[1318]Imbecille! Adesso tutto il piano è rovinato!
+[1319]Non doveva scendere!
+[1320]Oh no! Ha fallito la sua missione, Mr.Chambers.
+[1321]Torni in quel dannato veicolo!
+[1322]Non doveva scendere dal furgone, idiota! Ha combinato un disastro!
+[1323]Troppo tardi! Nemesis è riuscito a spostare via tutta la sua roba.
+
+[1370]Veicolo sbagliato, amico!
+
+[1400]Se non vuoi qualcosa di nuovo da fare, faresti meglio a scendere dalla mia auto! E in fretta!
+[1401]Questa macchina è piena di bambole Thunderthighs. Il nipote di Harold compie gli anni ed è pazzo per questi giocattoli strani! Porta in fretta quelle cosette inquietanti a casa di Harold.
+[1402]Ottimo lavoro! Il piccolo nipote di Harold, Ashley, sarà felicissimo!
+[1403]Hai davvero combinato un casino, stupido idiota dalle orecchie flosce.
+[1404]Troppo lento, coglione!
+[1405]Torna in macchina, amico! Stai perdendo tempo! Quel moccioso deve avere i suoi regali, o si metterà a strillare come un ossesso! Quell'Ashley è un bel tipino, te lo dico io!
+
+[1430]Se non vuoi fare qualcosa di nuovo, faresti meglio a scendere dalla mia auto!
+[1431]Un tizio sta ricattando Harold. Dobbiamo filmarti mentre recuperi le prove! Porta il culo alla Torre di Londra!
+[1432]Vedi il tizio sul passaggio? Avvicinati e riempilo di botte. Stiamo filmando.
+[1433]Bene! Ora prendi la sua borsa! Presto, presto! Dentro ci sono prove molto delicate!
+[1434]Torna nel furgone, amico!
+[1435]OK! Ora si va a Buckingham Palace per la prossima fase di questa piccola operazione di vendetta!
+[1436]Stavolta vogliamo che tu uccida il tizio sul marciapiede. È il figlio bastardo del bastardo che ha filmato Harold!
+[1437]Bene! Prendi la sua borsa.
+[1438]Riporta il culo nel furgone! Hai fatto un ottimo lavoro!
+[1439]Porta questo film a casa di Harold. Sbrigati prima che ti prendano gli sbirri! Gli mostreremo il filmato di te che fai fuori quei bastardi e lui potrà spedirlo al grassone che lo ha filmato! Harold sarà felicissimo.
+[1440]Veicolo sbagliato, idiota!
+[1441]Maledizione! Hai davvero messo Harold nei guai fino al collo!
+[1442]Che stai facendo? Sembra molto esotico.
+[1443]Torna nel furgone!
+[1444]Non ancora, perdente! Aspetta che Harold senta questa! Andrà fuori di testa!
+[1445]Torna nel veicolo!
+[1446]Non scendere dal furgone finché non te lo diciamo noi. Fai attenzione!
+
+[1460]C'è un furgone TV parcheggiato da qualche parte a West Camden Town.
+[1461]C'è una macchina parcheggiata da qualche parte a Northeast Battersea.
+
+[1462]Sono malato come una carota, amico. Tonto come un dannato pappagallo, eccomi qui.
+[1463]Lunghi messaggi noiosi che scorrono sullo schermo spesso non dicono un granché.
+[1464]Completi stretti. Abiti eleganti. Belle cravatte sottili. È questo il look, amico. Il dannato look.
+[1465]Un cenno vale quanto un drink per una puttana cieca. Almeno così ho sentito dire.
+[1466]Beh, sai come si dice: troppi cuochi e non abbastanza dannati eschimesi.
+[1467]Ti dico una cosa per cominciare, amico: io sono la scimmia e tu sei la dannata grattugia.
+[1468]SONO IO!
+
+[1450]Sei da solo, amico. Scatena l'inferno e fai più danni che puoi!
+
+[1500]Timer:
+
+[1525]Fai il pazzo! Ti servono 3000 punti per un grosso bonus.
+[1526]Raccogli 2000 punti in 30 secondi per ottenere una vita extra!
+[1527]Ottieni 1500 punti per un bonus punti!
+[1528]Raccogli 1500 punti per un grosso bonus punti!
+
+[1700]Hai fatto un buon lavoro, raggio di sole! Harold vuole che tu lo raggiunga al biliardo. L'ingresso è sul retro.
+[1701]Hai fatto bene, amico!
+
+[2498]Hai 80 secondi per seminare il caos in città e ottenere un GROSSO BONUS!
+[2499]HAI VINTO LA GARA.
+[2500]BEN FATTO!
+[2501]MISSIONE FALLITA!
+[2502]............................
+[2503]FURIA OMICIDA!
+[2504]FURIA FALLITA!
+[2505]BONUS VITA EXTRA!
+[2506]HAI 3 MINUTI PER FARE $500 DI DANNI! MUOVITI!
+[2507]CONGRATULAZIONI! Hai completato tutte le FURIE OMICIDE! Il tuo premio è al mercato!
+[2509]HAI 3 MINUTI PER FARE $1000 DI DANNI! MUOVITI!
+[2510]HAI 2 MINUTI PER FARE $500 DI DANNI! DATTI UNA MOSSA!
+[2511]HAI 2 MINUTI PER FARE $1000 DI DANNI! VAI!
+[2512]HAI 2 MINUTI PER FARE $1000 DI DANNI! MUOVI IL CULO!
+[2513]HAI 2 MINUTI PER FARE $1000 DI DANNI! INGRANA!
+[2514]BONUS ACROBAZIA PAZZESCO!
+[2515]VAI!
+[2516]BONUS VIOLENZA GRATUITA!
+[2517]BONUS CATTIVO PERDENTE!
+[2612]MODALITÀ TRUCCHI ATTIVATA
+[2613]IL NUMERO VINCENTE È 9424047
+[2614]SI PREGA DI IGNORARE QUESTO MESSAGGIO.
+[2615]MODALITÀ DIO ATTIVATA
+
+[3296]ACCENDETE I MOTORI !
+[3392]...................
+[3456]VAI!
+[3501]HAI 100 SECONDI PER FARE $5,000 DI DANNI. MUOVITI!
+[3502]...................
+[3828]DAGLIELE A QUELLE STRONZE!
+[3829]BONUS SBERLA ALLE STRONZE!
+[3830]BONUS SBERLA... 50,000
+[3831]BONUS SBERLA... 40,000
+[3832]BONUS SBERLA... 30,000
+[3833]BONUS SBERLA... 25,000
+[3834]BONUS SBERLA... 20,000
+[3835]BONUS SBERLA... 15,000
+[3836]BONUS SBERLA... 10,000
+[3846]BONUS CAMPO D'ADDESTRAMENTO!
+[4000]È TUO!
+[4001]FURIA SUPERATA!
+[4002]BONUS AU REVOIR!
+[4003]SEI FREGATO!
+[4004]SEI MORTO STECCHITO!
+[4005]MUOVITI! MUOVITI! MUOVITI!
+[colour]Il tuo colore : %s
+[red]Rosso
+[yellow]Giallo
+[green]Verde
+[blue]Blu
+[paused]Gioco in pausa
+[lives]Vite :
+[target_score]Punteggio obiettivo :
+[target_miss]Missioni obiettivo :
+[secrets_found]Segreti trovati :
+[8787]TENETE LONDRA PULITA!
+[kill]Uccidi
+[frenzy]Furia!
+[pistol]Pistola
+[machine-gun]Mitragliatrice
+[rocket]Lanciarazzi
+[flame]Lanciafiamme
+[petrol]Bomba molotov
+[speed+]Velocità aumentata
+[car-speed+]Velocità auto aumentata
+[bribe]Mazzetta alla polizia
+[armour]Armatura
+[multiplier+]Moltiplicatore aumentato!
+[jail-free]Carta esci di prigione gratis
+[life+]Vita extra
+[lives_left]%d vite rimaste!
+[life_left]Una vita rimasta!
+[no_life]Nessuna vita rimasta!
+[you-kill]Hai fatto fuori %s
+[kill-by]Fatto fuori da %s
+[speed-limit-on]Limite fotogrammi ATTIVO
+[speed-limit-off]Limite fotogrammi DISATTIVO
+[1st_over_checkpoint]Bravo, campione! Tieni giù il piede!
+[second_checkpoint]Forza, lumacone! Schiaccia!
+[win_race]HAI VINTO!
+[lost_race]HAI PERSO! Sfortuna, allocco!
+[bomb_bus]Merda! Questo autobus è imbottito con 500 libbre di esplosivo plastico.
+[lucky_son]Che culo, figlio di puttana!
+[bomb_blows]Beh, almeno ci ha risparmiato di ripulire il padre di tutti i casini!
+[car0]Porka 910
+[car1]Fab
+[car2]Jug Swinger
+[car3]Moto
+[car4]Sbirro
+[car5]Ambulanza
+[car6]Ranger
+[car9]Double Decker
+[car11]Camion Osceno
+[car13]Barca
+[car14]Tramp TR4
+[car17]Fat
+[car18]Beagle 3
+[car19]Myni
+[car21]Casetta da giardino
+[car22]Taxi di Londra
+[car25]Ferocious 250
+[car26]MC MK2
+[car27]Furgone dei dolci
+[car28]Spider
+[car29]Squealey
+[car31]Ferocious 312
+[car34]Tramp TR3
+[car35]Autobus turistico
+[car37]Carro Tiger
+[car41]Scooter mod
+[car42]Camion dei pompieri
+[car43]Bentover
+[car44]Furgone TV
+[car45]Wimp
+[car46]Camper
+[car47]Sedia a rotelle
+[car58]Raver 2000
+[car70]Voxel Concept
+[car72]Big Bends
+[car76]Safari
+[car80]Jug D-Type
+[car88]Camion di patate
+[quit1]Vuoi uscire?
+[quit2]Premi INVIO per confermare
+[quit3]o ESC per annullare
+[on_foot]a piedi
+[bytrain]in treno
+[bycar]in auto
+[kidgets]oppure il ragazzino ci rimette
+[yousorry]oppure te ne pentirai
+[buttto]portare il culo fino a
+[assto]fare il culo fino a
+[getto]arrivare a
+[in]a
+[secs]%d secondi
+[mins]%d minuti
+[minsecs]%d minuti %d secondi
+[vfew]una manciata di secondi
+[bomb_added]La tua auto è stata rinforzata con blindatura!
+[bomb_cost]Sono $%s.
+[no_respray]Torna quando avrai i soldi!
+[no_emerg_respray]Io quella non la tocco! Sparisci!
+[no_modelcar_respray]Porta via quel giocattolo!
+[no_tank_respray]Cosa sembro, l'esercito? Sparisci!
+[resray_done]Ecco fatto! Come nuova!
+[clean_done]È pulita. Le targhe sono state cambiate.
+[all_your]Ti è costato TUTTI i tuoi soldi.
+[bomb_on]BOMBA ATTIVA!
+[bomb_off]BOMBA DISATTIVATA!
+[bomb_set]Detonazione tra...
+[reload]Ricarica...
+[entry]Schermata iniziale
+[space]Premi SPAZIO per continuare
+[pol_act]Polizia attivata
+[pol_inact]Polizia disattivata
+[stanmode]Modalità schermo standard
+[hi34mode]Modalità schermo alta risoluzione 3/4
+[himode]Modalità schermo alta risoluzione completa
+[320mode32]Modalità 320 x 200 x 32 bit
+[640mode32]Modalità 640 x 400 x 32 bit
+[800mode32]Modalità 800 x 600 x 32 bit
+[640480mode32]Modalità 640 x 480 x 32 bit
+[lozoom]Modalità zoom basso
+[hizoom]Modalità zoom alta
+[vhizoom]Modalità zoom molto alta
+[discon]%s si è disconnesso
+[connlost]Connessione a %s non riuscita
+[sync-error]Errore di sincronizzazione con %s - Connessione terminata
+[n]Nord
+[s]Sud
+[e]Est
+[w]Ovest
+[c]Centro
+[se]Sud-est
+[sw]Sud-ovest
+[ne]Nord-est
+[nw]Nord-ovest
+[001area001]Manchester
+[001area002]Angel
+[001area003]Mile End
+[001area004]Bow
+[001area005]City
+[001area006]Soho
+[001area007]Chelsea
+[001area008]Westminster
+[001area009]Battersea
+[001area010]Brixton
+[001area011]Camberwell
+[001area012]Southwark
+[001area013]Bermondsey
+[001area014]Niente
+[001area015]Camden Town
+[001area016]Hyde Park
+[002area001]Telephone Hill
+[002area002]Wood Hill
+[002area003]Soviet Hill
+[002area004]Sunrise
+[002area005]Richman
+[002area006]Atlantic Heights
+[002area007]Aye Valley
+[002area008]Chinatown
+[002area009]Eagleside
+[002area010]Woodside
+[002area011]Potato
+[002area012]Excalibur
+[002area013]Glen Wood
+[002area014]Mercato
+[002area015]Marina
+[002area016]Molo dei Marinai
+[002area017]Sunview
+[003area001]Vice Beach
+[003area002]Banana Grove
+[003area003]Felicity
+[003area004]Richman Heights
+[003area005]Little Bogota
+[003area006]Greek Heights
+[003area007]Little Dominica
+[003area008]Coral City
+[003area009]Miramire
+[003area010]Vice Shores
+[003area011]Vice City
+[ipxnotinstalled]IPX non installato
+[uartnotresponding]UART non risponde su COM%d
+[warning]Avviso
+[networkoff]Gioco in rete non possibile
+[duplicate_model]Un altro? Dov'è la tua immaginazione, idiota?
+[duplicate_models]Queste cose mi escono da tutte le parti. Prova qualcosa di diverso la prossima volta!
+[crane_nobomb]Davvero pensi che voglia una dannata bomba nel mio deposito? Sparisci.
+[crane_long]Quello qui non ci entra. Sbarazzatene.
+[crane_screwed]Sono fuori servizio. Prova un'altra gru.
+[crane_wreck]Non sono un ente di beneficenza! Togli quella ferraglia dal mio piazzale!
+[crane0]Togli quel bel culetto da lì, lo sto sollevando!
+[crane1]Sono già pieno! Portalo altrove!
+[crane2]Perché tutta questa fretta maledetta? Dammi un attimo!
+[crane3]Quelle fiamme fanno scena, ma io non tocco quel fuoco d'artificio!
+[crane4]Non se ne parla, ragazzo! È troppo caldo per me.
+[crane5]Non c'è molta richiesta per queste... ma vedrò cosa posso fare.
+[crane_nopolice]Quella non la prendo! Vuoi fregarmi, ragazzo?
+[crane-excellent]Condizioni eccellenti. Ti do $%d.
+[cranecar0]Bel mezzo, un'unica proprietaria, eh? Ti do $%d.
+[cranecar1]Non male. Che ne dici di $%d?
+[cranecar2]Ha preso qualche botta... posso darti solo $%d.
+[cranecar3]Un rottame totale! Ti becchi $%d e non un soldo di più!
+[m22dead]Morto come un chiodo!
+[m22failed]Non siamo per niente soddisfatti del tuo sviluppo. Abbastanza lento, eh? Sei fortunato a respirare ancora; ancora un po' così e hai finito.
+[m22arrest]Pensavi che ti avremmo tirato fuori? Be', ti sei preso quello che meritavi per la tua dannata incompetenza.
+[m22success]Bel lavoro! Siamo al settimo cielo per te, ragazzo mio.
+[m22incomplete]Ne hai avuto abbastanza, eh?
+[m22timeout]Idiota! In meno tempo si sono combattute guerre! Non siamo per niente contenti.
+[m22timeover]TEMPO SCADUTO! %s VINCE con un enorme $%d, %s arriva secondo con un più modesto %d!
+[m22score]%s RAGGIUNGE L'OBIETTIVO! Il punteggio vincente è %d!
+[m22cannon]%s VINCE LA GARA!
+[m22demo]Il tempo è scaduto, baby! Ne vuoi ancora? Compra il gioco vero.
+[Nodes]Nodi
+[City]Città
+[Mission]Missione
+[Control]Comandi
+[Keyboard]Tastiera
+[Joystick]Joystick
+[Sound]Suono
+[Music]Musica
+[Rating]Valutazione
+[Score]Punteggio
+[Cancel]Annulla
+[Reset]Reimposta
+[rename]Rinomina
+[menu]Menu
+[Play]Gioca
+[GatherNetwork]Raccogli rete
+[JoinNetwork]Unisciti alla rete
+[Options]Opzioni
+[Loading]Caricamento...
+[LoadingDemo]Caricamento demo...
+[loading-replay]Caricamento Action Replay...
+[crimes]Crimini
+[crimeRTA]Tamponamenti e urti
+[crimeHAR]Investimento e fuga
+[crimeHIJ]Dirottamento
+[crimeCAR]Carjacking
+[crimeGTA]GTA
+[crimeSHO]Reati con armi da fuoco
+[crimeMUR]Omicidio premeditato
+[crimeBAN]Rapine in banca
+[Text]Testo
+[Off]Off
+[On]On
+[Slow]Lento
+[Normal]Normale
+[Fast]Veloce
+[status]Stato
+[connecting]Connessione...
+[idle]Inattivo
+[dialling]Composizione %s
+[redialling]Ricomposizione %s
+[redialagain]Ricomposizione di %s
+[waitcall]In attesa di chiamata
+[disconnecting]Disconnessione...
+[unknownspeed]Velocità sconosciuta
+[baud]Baud
+[failed]Non riuscito
+[connectat]Connessione a %s
+[join]Unisciti
+[gather]Raccogli
+[ipx]IPX
+[serial]Seriale
+[modem]Modem
+[version-checking]Controllo versione
+[initialising]Inizializzazione
+[joining]Connessione in corso...
+[gathering]Raccolta...
+[spc-key]Spazio
+[story]Scena d'intermezzo
+[esc-key]Esc
+[rtn-key]Invio
+[del-key]Del
+[r-key]R
+[Quit]Esci
+[foundgather]Trovato host
+[found1join]Trovato 1 partecipante
+[foundnjoin]Trovati %d partecipanti
+[startgame]E si parte...
+[commsfail]Oh no - Comunicazioni fallite
+[svgaerror]Bah! Nessuna modalità SuperVGA funzionante
+[3dfxerror]Quale scheda 3DFX?
+[commsversionerror]Tsk! Versioni GTA incompatibili
+[mission1]Quando eravamo molto piccoli
+[mission2]Mods e Sods
+[mission3]Sorriso di Chelsea
+[mission4]Certezza mortale
+[mission102]g
+[mission103]h
+[mission202]j
+[mission203]k
+[city0]Londra
+[city1]Londra
+[city2]Londra
+[city3]Londra
+[mission1001]Deathmatch
+[mission1002]Cannonball Run 1
+[mission1003]Cannonball Run 2
+[mission1004]Cannonball Run 3
+[mission1101]d
+[mission1102]sa
+[mission1103]gf
+[mission1104]sadg
+[mission1201]dfg
+[mission1202]h
+[mission1203]f
+[mission1204]wdg
+[chapter:]%s Capitolo %d :
+[dscolon]%d: %s
+[sdcolon]%s: %d
+[sscolon]%s: %s
+[trans-effects]Effetti di trasparenza
+[music-mode]Modalità musica
+[constant]Costante
+[radio]Radio
+[high-scores]Nemici pubblici
+[scores]Punteggi
+[crimes]Crimini
+[shighest]%s più alto
+[police]Polizia
+[end-game]Fine gioco
+[end-score]Punteggio finale
+[end-kills]Uccisioni finali
+[kills]Uccisioni
+[multi-options]Opzioni multigiocatore
+[save]Salva
+[win-score]Per vincere : Guadagna $%d
+[win-kills]Per vincere : %d uccisioni!
+[win-race]Per vincere : Arriva primo!
+[did-not-finish]Non ha finito
+[finish]Arrivo
+[missions-comp]Missioni completate :
+[race-results]Risultati gara
+[winner]Il campione!
+[loser]Perdente!
+[no-win]Diciamo che è un pareggio!
+[abandon]Partita abbandonata!
+[final-scores]Punteggi finali
+[9000]OK, dovrebbe bastarne ancora uno!
+[9001]È proprio fantastico, amico!
+[cd-warning]CD non disponibile o in uso. GTA verrà eseguito senza audio CD.
+[cut00]Ascolta bene.
+[cut01]Abbiamo sentito che sei un ragazzo che sa il fatto suo.
+[cut02]Tra sgualdrine e furfanti.
+[cut03]Hai dimostrato di non essere male!
+[cut04]Già! Per niente male, raggio di sole.
+[cut05]Sai cosa intendo?
+[linear-modes]Usa solo modalità DirectDraw
+[cd-title]Avviso CD!
+[cd-text]Il CD di Grand Theft Auto non è presente.@@È possibile solo unirsi a partite in rete.@@Riavvia Grand Theft Auto con il CD inserito per giocare normalmente.
+[cd-message]Versione solo rete
+[demo-message]Versione teaser super sexy
+[fix1]Scegli una connessione
+[fix2]Nessuna connessione disponibile
+[fix3]Scegli una sessione
+[fix4]Nessuna sessione disponibile
+[fix5]Crea una nuova sessione
+[]

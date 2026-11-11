@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>GTA 1 File Formats: CMP, GRY, G24</title>
+<style type="text/css">
+.auto-style1 {
+	color: #000000;
+}
+.auto-style2 {
+	text-decoration: underline;
+}
+.auto-style3 {
+	color: #FF0000;
+}
+</style>
+</head>
+
+<body>
+
+<h1>GTA 1 File Formats:&nbsp; CMP, GRY, G24</h1>
+
+<p><a href="index.html">Back to main page</a></p>
+<h2>Description</h2>
+<table style="width: 100%" border="1">
+	<tr>
+		<td style="width: 114px"><strong>Extension</strong></td>
+		<td style="width: 243px"><strong>Definition</strong></td>
+		<td style="width: 277px"><strong>Published files</strong></td>
+		<td><strong>Description</strong></td>
+	</tr>
+	<tr>
+		<td style="width: 114px" valign="top">.CMP</td>
+		<td style="width: 243px" valign="top"><a href="cds.pdf">cds.pdf</a>, 
+		chapter 2.9, format v331</td>
+		<td style="width: 277px" valign="top">v331 (GTA1/London69/London61)</td>
+		<td valign="top">Compressed Map file, referenced by <a href="mission_ini.html">
+		mission.ini</a></td>
+	</tr>
+	<tr>
+		<td style="width: 114px" valign="top">.ROP</td>
+		<td style="width: 243px" valign="top"><a href="cds.pdf">cds.pdf</a>, 
+		chapter 2.6</td>
+		<td style="width: 277px" valign="top">No</td>
+		<td valign="top" class="auto-style1">Police Route File. Only for 
+		development</td>
+	</tr>
+	<tr>
+		<td style="width: 114px" valign="top">.PRB</td>
+		<td style="width: 243px" valign="top"><a href="cds.pdf">cds.pdf</a>, 
+		chapter 2.6.1</td>
+		<td style="width: 277px" valign="top">No</td>
+		<td valign="top" class="auto-style1">Road Block File. Only for 
+		development</td>
+	</tr>
+	<tr>
+		<td style="width: 114px" valign="top">.GRX</td>
+		<td style="width: 243px" valign="top"><a href="cds.pdf">cds.pdf</a>, 
+		chapter 3.6, format v290</td>
+		<td style="width: 277px" valign="top">No</td>
+		<td valign="top">For editors only</td>
+	</tr>
+	<tr>
+		<td style="width: 114px" valign="top">.GRY</td>
+		<td style="width: 243px" valign="top"><a href="cds.pdf">cds.pdf</a>, 
+		chapter 3.6, format v325<br />
+		(but chapter 3.7 writes v305)</td>
+		<td style="width: 277px" valign="top">v325 (GTA1/London69/London61)</td>
+		<td valign="top">8-bit graphics, Referenced by .cmp</td>
+	</tr>
+	<tr>
+		<td style="width: 114px" valign="top">.G24</td>
+		<td style="width: 243px" valign="top"><a href="cds.pdf">cds.pdf</a>, 
+		chapter 3.8.1, format v336</td>
+		<td style="width: 277px" valign="top">v336 (GTA1/London69/London61)</td>
+		<td valign="top">24-bit graphics, Referenced by .cmp</td>
+	</tr>
+	<tr>
+		<td style="width: 114px" valign="top">.SAM</td>
+		<td style="width: 243px" valign="top">No definition found</td>
+		<td style="width: 277px" valign="top">No</td>
+		<td valign="top">Speech samples for area names, referenced by .cmp; 
+		however, all .cmp files reference 0, i.e. not using SAM.<br />
+		The spoken area names are instead in the <a href="format_sdt.html">SDT files</a> 
+		with index 100+sample_id<br />
+		The 100 seems to be hardcoded, as it is <span class="auto-style2">not</span> 
+		the 100 we see in the <a href="mission_ini.html">mission.ini</a> header</td>
+	</tr>
+	<tr>
+		<td style="width: 114px" valign="top">.MAP</td>
+		<td style="width: 243px" valign="top"><a href="cds.pdf">cds.pdf</a> ?</td>
+		<td style="width: 277px" valign="top">v331 (London1969/London61)</td>
+		<td valign="top" class="auto-style1">Uncompressed map file. 
+		<span class="auto-style3">Only for 
+		development</span>. A leftover can be found in GTA London.</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

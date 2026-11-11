@@ -1,0 +1,982 @@
+﻿[1001] Si tu veux du boulot, va au téléphone à Northeast Chelsea.
+[1002]T'as déjà entendu parler des jumeaux Crisp, hein ? Ils veulent un scooter mod pour leur vieille mère. Donc toi, tu vas leur en trouver un. Récupère la bécane à Central Chelsea, et on verra si t'es à la hauteur.
+[1003]Apporte le scooter chez Harold Cartwright à Southeast Mile End. S'il aime ta tête, il te donnera peut-être quelque chose à faire. 
+[1004]Très propre. Les Crisp sont ravis. Ils ont dit à Harold de veiller sur toi. Et quand un des jumeaux lâche une caisse, Harold dit "nouveau parfum?". Tu vois l'idée ? Maintenant va le voir !
+[1005]C'était pour la mère des jumeaux ! Espèce de crétin. Personne ne s'en prend à Mme Crisp, sauf s'il tient pas à ses bras.
+[1006]Hé ! Remonte sur cette bécane et bouge-toi.
+
+[1007]C'était Harold que t'as buté, mec ! T'es mort !
+
+[1010]Bon, Harold m'a dit que les Mods de Battersea commencent à taper sur les nerfs des Crisp. Va au téléphone à Southwest City, et mon pote Pretty Charlie te dira comment procéder.
+
+[1011]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[1012]Harold avait de la bonne came pour appâter ces Mods. Seul problème : ce pédant de Chalkie lui a piqué ses purple hearts. Prends la caisse à Northwest Angel et trouve cet abruti.
+[1013]Chalkie est quelque part à Soho. Quand tu le trouves, colle-lui une bonne raclée et fais-le cracher où est la came.
+[1014]Hé, mollo ! Tu veux la came de Harold ? J'ai dû la planquer dans un buisson à côté d'un bâtiment à Northwest Soho, parce qu'y avait des flics partout, j'te jure. Je vais pas faire de taule pour un peu de drogue.
+[1015]Et puis quoi encore ! Chalkie mentait pas. Bien ! Mais il piaille encore comme une salope. Harold en a fini avec lui. Va me le descendre, bien comme il faut.
+[1016]Harold pense qu'il faut montrer aux gens qu'on plaisante pas avec nous et qu'on nous pique pas notre matos. Va au pub de Chalkie à West Soho, et on te dira comment faire.
+[1017]Laisse des explosifs près de la porte du pub. Puis tire-toi !
+[1019]C'est pas la bonne foutue caisse, espèce d'outil. Écoute mieux la prochaine fois ou je t'arrache les oreilles moi-même pour te cracher sur le cerveau.
+[1020]Pauvre idiot ! T'as descendu Keith. 
+[1021]T'es qui, toi ? Sterling Moss en personne ? T'as bousillé la caisse de Harold. Maintenant c'est lui qui va te bousiller.
+[1022]Fallait pas tuer Chalkie tout de suite. Maintenant on peut dire adieu à notre came. Harold est furax, et les jumeaux non plus vont pas apprécier. Crétin.
+
+[1028]On a monté une transaction de drogue avec ce gang de Mods. Aussi réglo qu'une synagogue à saucisses. Va à leur club à West Chelsea et retrouve ces clowns.
+[1029]Qu'est-ce que tu veux ? Y a pas de Mods ici, et je sais pas où ils sont. Maintenant dégage avant que j'appelle les flics.
+[1030]C'est qui ce guignol ? Colle-lui un pain. Aucun dur de Chelsea parle comme ça à un gars de Harold.
+[1031]Ooooh ! Enlève tes mains. Lâche-moi, j'te dis. D'accord, les gars que tu cherches sont sur le toit d'un bâtiment à Southwest Westminster. Ils attendent une livraison de stimulants. 
+[1032]Descends-les ! Harold veut ces crétins morts.
+[1033]Doucement. Prends la bécane et file tout droit. Faudra sauter le toit, parce qu'il y a de la flicaille partout.
+[1034]Descends du toit et file au garage de Len à Northeast Westminster. Et ramène la moto. Y a quelque chose dessus dont on a besoin.
+[1035]Espèce de grosse masse ! Ce guignol devait pas mourir ! Ces Mods débiles savent maintenant que tu les cherches et ils ont filé. T'as tout foiré !
+[1036]Hé, l'amateur, tout le fric et toute la foutue speed étaient sur cette bécane. Abruti !
+[1037]Pas de promenade ! Monte sur cette fichue moto.
+
+[1040]On a parié sur le foot. Un gros pari, et on perd jamais nos paris. Y a un lance-roquettes du côté de Central Brixton. Va le chercher.
+[1041]Bien, va faire sauter le car des Rangers, ensuite on arrangera un autre transport pour l'équipe. Le bus roule dans South Camberwell.
+[1042]Très bon. On a dit à l'équipe qu'ils prendraient des taxis à la place. Et c'est toi qui en conduiras un. Il y a un taxi à Southeast Camberwell. Va le prendre.
+[1043]Bon, les milieux de terrain des Rangers attendent leur transport à South Bermondsey. Va les chercher, mais assure-toi qu'ils montent tous.
+[1044]Emmène ces incapables au garage auto d'Honest Ray à West Brixton. On va les retenir quelques heures, rien de trop violent.
+[1045]Magnifique. Grâce à toi, Harold et moi on s'est gavés. On a gagné une fortune. T'as vraiment bien bossé.
+[1046]Hé, oreilles en carton. On t'a dit d'utiliser la caisse qu'on t'a donnée. Fais attention, ou trouve-toi un bon croque-mort.
+[1047]C'était le seul foutu taxi qu'on avait ! T'es aussi utile qu'une sage-femme dans un couvent.
+[1048]Je déteste les Rangers aussi, mais t'étais pas censé jouer à Dieu avec leur fichu milieu. Maintenant on a un sacré bordel à gérer.
+[1049]Remonte dans le taxi
+[1050]Qu'est-ce que tu fabriques ? Monte dans le taxi.
+
+[1060]Les frères Noles nous ont taxé cinq mille balles et un paquet de blues. Harold pense que t'es l'homme de la situation. Va chercher la voiture qu'on t'a préparée du côté d'East Camberwell.
+[1061]D'après ce qu'on dit, y a un deal à Northeast Bow avec ces salopes de Noles et notre marchandise. Va jeter un oeil.
+[1062]C'est ces foutus pédés de Noles ! Finis-les. Personne ne touche aux affaires de Harold, sinon on n'aura plus jamais de bon boulot chez les Crisp.
+[1063]Nom de Dieu, t'es couvert de saleté, si j'ose dire. Va chez Beryl, la soeur de Harold, à Central Camden Town. Tu peux t'y planquer, mais pas de galipettes, compris.
+[1064]On te file un char, et toi tu te prends pour Ben Hur. T'es complètement à côté de la plaque, mon grand !
+
+[1070]Albert Crisp est un homme très raffiné. Il adore l'art. On a entendu dire qu'il y avait quelques tableaux volés à récupérer. Va voir le contact d'Albert au musée de Northwest Westminster, un certain Dr Zel, un Boche, et achète-les-lui.
+[1071]Wunderbar ! Vite, prends les tableaux. Et merci pour les livres sterling. Avec ça, je vais m'acheter et boire de la bière blonde, immédiatement ! 
+[1072]Ramène ces tableaux de poseurs au garage de North Soho avant que les flics te tombent dessus. Zel avait braqué ce fichu musée.
+[1073]Jack Parkinson nous a dit que la Special Branch est maintenant sur le coup. Faut nettoyer les bouts qui dépassent et éviter que ça jase. Zel est bavard, surtout après quelques verres. Prends un taxi et récupère-le au bistrot.
+[1074]Voilà Zel qui sort du bistrot à North Soho. Fais-le monter dans le taxi, mais ne tue pas le vieux ici présent. Jack veut que tout soit beaucoup plus propre si la Special Branch fouine.
+[1075]Bien, emmène le taxi à Northeast Bermondsey. Jack te dira quoi faire.
+[1076]Ce mangeur de saucisses s'est évanoui à force de picoler. Parfait.
+[1077]Pendant qu'il pionce, monte dans cette camionnette et sers-t'en pour pousser le taxi dans la rivière.
+[1078]Hé ! La guerre est finie. On ne bute plus les Allemands à vue. Écoute un peu.
+[1079]Crétin ! Cette camionnette était essentielle à notre plan
+[1080]T'es en permission de sortie ou quoi ? 
+[1081]T'es sourd ? Consanguin ? Ou juste complètement con ? Écoute mieux la prochaine fois.
+[1082]Remonte dans la caisse !
+[1083]Remonte dans la voiture !
+[1084]T'es trop lent. Le vieux Zel est parti choper un autre foutu taxi. Tu nous as bien laissés tomber.
+[1085]Pousse-la, mec ! Et vite.
+
+[1090]Va au téléphone à East Westminster. 
+[1091]Le pote de Parkinson, Sidney Moore, fait un pique-nique pour repérer une banque à braquer. Harold veut sa part, alors on a besoin que tu t'occupes de Sid. Va chercher le fourgon traiteur qu'on a laissé à East Chelsea.
+[1092]Bon, va falloir faire vite. D'abord, trouve-leur de la purée avec tourte. Et mets bien de la sauce dessus. 
+[1093]Bon, maintenant apporte-leur des oeufs au vinaigre. Répugnant si tu veux mon avis, mais Jack adore ça.
+[1094]Et avec ça ? Un peu de pudding du Yorkshire. Bouge.
+[1095]Et pour le dessert ? Sid adore le Spotted Dick. Va en chercher. 
+[1096]Bien joué, mon gars ! Maintenant livre la nourriture dans le fourgon à Sidney du côté de North Hyde Park.
+[1097]Merci, gamin, pas mal. De la bonne bouffe. Mais ça pue vraiment par ici. Ces hippies qui évitent le savon doivent disparaître. Écrase-les pour nous, mon brave.
+[1098]Sid a fini de bouffer. Récupère les restes et apporte-les chez lui à Northeast Bow.
+[1099]C'est pas le bon foutu fourgon, espèce de gland. On peut te confier rien du tout.
+[1100]Hé, Einstein, comment t'es censé livrer de la bouffe sans le fourgon ? Parkinson va péter un câble à cause de toi.
+[1101]Ramène ton cul dans le fourgon !
+[1102]T'es vraiment qu'un foutu bon à rien !
+
+[1110]Il se dit que Midnight se dégonfle pour le coup de la centrale électrique qu'on avait prévu. Va voir le vieux Keith à South Angel. Il te dira comment régler ça. 
+[1111]Alors, rayon de soleil ? Le bras droit de Midnight est au pub Prince Albert à Northwest Soho. Colle-lui une baffe de ma part aussi.
+[1112]Voilà ton gars. Passe-lui une bonne dérouillée et il parlera.
+[1113]Hé, du calme. Me frappe pas. Je suis anémique. T'as raison, Midnight dit qu'il fera plus aucun coup avec des amateurs comme vous. C'est un professionnel.
+[1114]Il s'avère que Midnight comptait pas faire le coup. Il est à la foutue centrale électrique en train de se tirer !
+[1115]Voilà Midnight. Arrête-le et récupère notre voiture !
+[1116]Bien. Retourne à la centrale électrique et gare la caisse derrière.
+[1117]Bien, sors de la voiture. Elle va exploser.
+[1118]Très propre... Plus d'électricité dans toute la ville. Ça nous arrange parfaitement.
+[1119]Maintenant, c'est le moment de descendre ce salaud de Midnight, cette ordure à deux faces.
+[1120]Ne tue pas ce sale type. On a besoin de lui, il a des infos qu'il nous faut.
+[1121]C'était la voiture qu'il nous fallait pour le coup ! Pauvre débile !
+[1122]T'as tué ton foutu contact ! Crétin !
+
+[1130]Le courant a sauté partout en ville, alors on peut aller braquer quelques banques, mais on a besoin que tu sortes nos gars de là. Prends le bus à Southeast Chelsea et va les récupérer.
+[1131]Bien, va chercher Fingers à South Soho.
+[1132]Fingers est à bord, maintenant prends Lenny à Southeast City.
+[1133]Lenny est monté. Terry est à Northeast City. Va le chercher.
+[1134]Magnifique, mon gars. Maintenant ramène le bus et les lads à notre garage d'East Mile End et le boulot sera terminé.
+[1135]Plus une seule foutue erreur de ta part, ma jolie !
+[1136]Monte dans le bus. Termine ce que t'as commencé.
+[1137]Pathétique ! T'as pas les couilles pour bosser pour nous.
+[1138]Espèce de rouquin de malheur ! Tout est parti en vrille.
+[1139]Grand Dieu ! Pourquoi t'as pas dit que t'étais fan de Danny La Rue ?
+[1140]Monte dans le bus et nettoie ton bazar !
+[1141]Arrête de nous prendre pour des cons et remonte dans ce bus.
+
+[1142]T'es fini !
+[1143]Grosse dinde !
+
+[1150]Bien, les jumeaux Crisp ont dit à Harold de faire ce que veut Jack Parkinson. Il veut trois Beagle. Alors va les lui chercher. Il y en a chez un concessionnaire à Northwest Bermondsey. Va les voler.
+[1151]Amène-la au garage de Northeast Bow.
+[1152]Retourne au parc auto et vole la suivante.
+[1153]Ramène-la à notre garage.
+[1154]Plus qu'une à prendre. Dépêche-toi !
+[1155]Il y a des flics partout. Va dans un autre garage.
+[1156]Retourne au parc auto et détruis le reste de ces foutues caisses.
+[1157]C'est pas la bonne voiture, imbécile !
+[1158]Mauvaise foutue caisse ! Crétin !
+[1159]Il nous fallait ces voitures. Idiot !
+[1160]Idiote. Il nous fallait ces voitures !
+[1161]Il nous fallait ces caisses ! T'as encore merdé.
+[1162]Hé, monte dans la caisse !
+[1163]Arrête de traîner. Remonte dans cette voiture.
+[1164]Arrête de faire le malin et remonte dans cette voiture !
+
+[1170]Va au téléphone à Northwest Bow. On a quelque chose pour toi.
+[1171]Un vieux pote des gars Crisp sort du tribunal. Il veut pas de publicité, vu qu'il est au gouvernement et tout. Va lui filer un coup de main à Northwest Westminster.
+[1172]Merci. Débarrasse-toi des preuves. Il y a trois journalistes qui essaient de filer. Dégomme leurs voitures.
+[1173]Une de faite, plus que deux.
+[1174]Réglé. Maintenant va chercher la dernière !
+[1175]Très propre. On savait que tu pouvais gérer ça. Sacré petit propret, hein ?
+[1176]Qu'est-ce qui cloche chez toi ? On t'a dit de faire exploser cette fichue voiture, pas de partir faire un tour avec !
+
+[1180]Bien. Très simple. On a besoin que tu fasses un peu de bruit. Sème un maximum de chaos et fais-toi plaisir.
+
+[1181]Bon, retourne aux téléphones. On a encore du boulot pour toi.
+[1182]Bien. À partir de maintenant, tu te débrouilles seul. Il y a du boulot dehors, mais faudra le trouver toi-même.
+
+[1190]Le jeune Jack veut te parler. Il t'est très reconnaissant pour tous les services que tu lui as rendus. Et si on veut encore avoir du boulot des Crisp, on doit faire ce que dit Jack.
+[1191]Bon boulot. Dans la rue, on dit que t'as de la gueule.
+
+[1200]UN PETIT EXTRA !
+[1201]J'ai un nouveau boulot pour toi ! Sinon, sors de ma voiture !
+
+[1210]Un homme important a besoin d'un transport de toute urgence. Trouve sa limousine à North Chelsea.
+[1211]Un de nos gars a disparu à North Soho. Vois si tu peux le trouver. Il est sûrement caché dans une voiture quelque part.
+[1212]Il y a un véhicule à Northeast Brixton qu'on veut que tu utilises pour faire sauter Jehads'. Trouve-le.
+
+[1213]Les Crisp veulent que tu récupères une voiture de police pour un coup qu'ils préparent. Il y en a une à Southwest Westminster.
+[1214]On a besoin que tu crées une diversion pour un coup. Prends le camion-citerne à Central Bow.
+[1215]On a volé les tapis en peau de rhinocéros des Crisp. Le voleur a été vu pour la dernière fois quelque part à Southwest Bermondsey.
+
+[1216]Un chargement de fine cuisine indienne attend les Crisp à Southeast Bow.
+[1217]On veut que tu récupères la camionnette à Northwest Southwark. Elle est remplie de bootlegs Trojan rares.
+[1218]Il y a un bus de la société d'auto-préservation à Southeast Hyde Park. Prends-le. Il est bourré d'or !
+
+[1370]Mauvaise voiture, mec !
+
+[1425]Fais 300 points dans le temps imparti et tu décroches un gros bonus !
+[1426]Fais 100 points dans le temps imparti pour un bonus énorme !
+
+[1440]Bon, va au combiné pour que Jack te file quelque chose à faire.
+
+[1441]Hé, garçon ! Mon nom, c'est Lucan, mais tu peux m'appeler Sir. Emmène-moi chez un chirurgien esthétique du coin à Southeast Soho. Je dois... disparaître... J'ai eu un petit souci avec la nounou.
+[1442]Merci, garçon ! Tu ne me reverras probablement JAMAIS, et personne d'autre non plus.
+[1443]Eh bien, c'en est fini du pauvre vieux rupin.
+[1444]Où tu crois aller, sale petit goujat ? Reviens, ou je te tanne le cuir.
+
+[1450]C'est Gary ! Il est blessé, et les flics sont après lui. Ramène-le chez nous à East Bow et on le remettra sur pied.
+[1451]Bon boulot, mec ! On va le retaper, il sera comme neuf en un rien de temps, et on a récupéré sa livraison de la voiture.
+[1452]T'es vraiment pas doué, hein ?
+[1453]Ne sors pas ! Tu vas pas finir ce boulot en faisant le paon comme une tafiole de seconde zone.
+
+[1460]Parfait ! Conduis ce bébé jusqu'au grand magasin Jehads' à Southwest Camden Town. Gare-le et admire le feu d'artifice.
+[1461]Tu ferais mieux de reculer un peu !
+[1462]Merde ! On va devoir trouver quelqu'un d'autre pour faire sauter ce foutu endroit.
+[1463]Remonte ! On laisse pas un véhicule armé jusqu'aux dents planté là comme ça !
+
+[help1]Écrase les bonus d'information pour obtenir de l'aide et des conseils. Ou va voir ton médecin.
+[help2]Suis la flèche pour atteindre ta destination.
+[help3]Défonce les caisses en bois pour récupérer des armes et des bonus.
+[help4]Tu vas devoir coller quelques baffes dans cette ville. Utilise le bouton de changement d'arme pour passer à tes poings.
+[help5]Gagne de l'argent en vendant des voitures à la grue des docks.
+[help6]Fais lâcher les flics en repeignant ta voiture dans un garage de respray. Ça te coûtera une partie de ton argent durement gagné.
+[help7]Transforme ta voiture en bombe à retardement dans une boutique de bombes. Les bombes, ça coûte cher.
+[help8]Respecte toujours le code de la route.
+
+[1480]Le premier checkpoint est à Northeast Southwark.
+[1481]Le premier checkpoint est à North West Kings.
+[1482]Le premier checkpoint est à North West Island City.
+
+
+[1499]PARTEZ !
+
+[1500]Temps : 
+
+[1501]Va aux téléphones de Northwest Bow pour du boulot.
+
+[1502]On veut prendre le contrôle du marché. Seul problème, il y a un gang qui croit le contrôler. Tu vas éliminer leurs gros bras. L'un d'eux parade dans sa voiture. Va la faire sauter.
+[1503]Très pro ! Il y en a encore une bande qui traîne à North Camden Town. Débarrasse-nous-en tous.
+[1504]Bon boulot. Maintenant occupe-toi de leur repaire. On a une livraison spéciale à te faire faire. Va chercher la voiture qu'on a laissée à Northeast Chelsea.
+[1505]Bien, gare la voiture dans le garage du repaire du gang à South Camden Town. Mais fais gaffe, elle est plus chargée qu'un gigolo d'Earl's Court.
+[1506]Éloigne-toi de la porte ! Ça va exploser !
+[1507]Pique la camionnette derrière leur base et ramène-la ici, mec.
+[1508]Apporte cette camionnette au garage d'East Mile End, et fissa. Et fais surtout pas arriver quoi que ce soit.
+[1509]T'es incontinent ou quoi ? Pourquoi faut-il toujours envoyer des gens nettoyer ton foutu bordel ?
+[1510]Pauvre débile ! Il nous fallait ce véhicule !
+[1511]Remonte dans ce fichu véhicule ! C'est du boulot !
+[1512]Hé ! Monte dans le véhicule. Pas de pause pendant le travail.
+
+[1515]Va retrouver ton contact à West Angel.
+[1516]Jack veut que tu collectes chez les commerçants du marché. Va chercher leur argent de protection à Central Camden Town. Mais sans enterrement, s'il te plaît.
+[1517]C'est le premier. Prends le fric, mais ne tue personne.
+[1518]Je paie plus la protection ! Arthur dit que j'ai pas à le faire ! Maintenant dégage avant que j'appelle les flics. Vous faites moins les durs sans vos potes bien sapés.
+[1519]Ignore ce minus. Passe au suivant. Va dire deux mots à ce creep d'Arthur à Southeast Camden Town et montre-lui à qui il a affaire.
+[1520]De retour comme une mauvaise odeur, hein, tas de parasites ! Eh ben vous pouvez dégager pour de bon, parce que les flics arrivent.
+[1521]Quoi ? Il a appelé les flics ! Quel culot monstrueux ! On va apprendre les bonnes manières à cet abruti : on a une voiture avec des explosifs qui t'attend à West Soho.
+[1522]Ramène ça chez ce rat d'Arthur. Tu vas faire sauter cette balance dans sa boutique miteuse. Après ça, les autres guignols paieront.
+
+[1523]SCORE !
+[1524]T'AS PAS DE BOULOT !
+[1525]PREMIÈRE MISE EN PLACE !
+[1526]TRAVAIL EN COURS
+
+[1527]Sors de la caisse et pose la dynamite sur sa porte d'entrée. Puis file, à moins d'aimer la chaleur !
+[1528]Bien, ramasse le fric et va voir ce que pensent les autres guignols. J'imagine qu'ils vont payer maintenant ! 
+[1529]C'est ça. On dirait qu'on n'aura plus d'ennuis ici. Ramène le pognon au garage de Southeast Mile End.
+[1530]T'as assassiné ton foutu contact !
+[1531]Hé ! On t'a dit de pas le tuer ! Fais gaffe, ou c'est nous qui allons t'en donner, de l'attention. Compris ?
+[1532]Dieu du ciel ! On peut vraiment rien te confier d'important ? T'es complètement nul.
+
+[1540]T'es un homme du monde. Un sale type nous a piqué nos foutues poupées gonflables. On les avait fait fabriquer sur mesure, avec du TNT dedans. On va offrir à ce pervers, ce sale Colin, la partie de jambes en l'air de sa vie. Récupère-les ! On a retrouvé leur trace à Central Camberwell.
+[1541]Trop tard. Peu importe. On en a trouvé quelques autres. Va les prendre pour nous. Elles sont à Northwest Camberwell.
+[1542]Très propre. Ramène-les ici.
+[1543]Espèce de tripoteur louche ! Tu commences vraiment à me faire perdre patience, et Jack aussi. 
+[1544]On a trouvé le reste des poupées. Va les récupérer. Et pas de cochonneries, on sait comment t'es.
+[1545]Enfin, putain ! Ces charmantes dames vont régler le compte de Colin pour de bon. Va à East Chelsea et laisse la camionnette là-bas.
+[1546]Bien, sors de la camionnette et attends que Colin monte dedans. Reste à distance, il est pas réputé patient dans les affaires de coeur, si tu vois ce que je veux dire.
+[1547]Quel boum ! Bien joué, mon gars. Jack sera ravi, et les garçons Crisp ne seront pas déçus non plus.
+[1548]Pauvre abruti ! Cette camionnette était essentielle à notre foutu plan.
+[1549]Tu te prends pour un dur ? J'ai vu des crottes avec plus de cervelle. Colin devait mourir à notre façon. C'est tout le symbole, non ? 
+[1550]Remonte dans la camionnette !
+
+[1560]Un client important à nous se fait emmerder par un petit arriviste. On veut l'effacer. Le représentant de notre client t'attend avec l'argent du boulot à Southwest Soho.
+[1561]Il y a un bus qui t'attend à West Brixton. Sers-t'en pour récupérer l'emmerdeur. Il croit qu'il a droit à un traitement VIP pour aller au foot. On va lui donner le V.I. putain de P.
+[1562]Attrape-le. Il est à Southwest Southwark.
+[1563]Doucement. Attends qu'il monte.
+[1564]Bien, maintenant emmène-le dans la ruelle au fond de South Hyde Park, où quelques associés de notre client veulent discuter avec lui, si tu vois ce que je veux dire.
+[1565]Sors du bus, mais assure-toi qu'il prenne une vraie correction. 
+[1566]Il y a une caisse qui t'attend derrière. Prends-la et ramène l'argent ici.
+[1567]Vite. Le temps, c'est de l'argent, mon gars. Va au garage de Southeast Mile End.
+[1568]Idiot. T'as tout raté.
+[1569]Oh non ! Il te fallait le bus pour faire le foutu boulot.
+[1570]T'étais pas censé le tuer, juste le déposer dans la ruelle !
+[1571]Ne le tue pas, emmène-le juste dans la ruelle !
+[1572]Le tue pas, emmène-le simplement dans la ruelle !
+[1573]T'étais pas censé le tuer, juste le déposer dans la ruelle. Nos clients sont des gens très particuliers.
+[1574]Monte dans le bus !
+[1575]C'est pas très malin !
+[1576]C'est pas très brillant !
+[1577]C'est nul.
+[1578]Affreux. Atroce.
+[1579]C'était pas dans le script, hein ? Moins d'improvisation, bordel.
+[1580]Monte dans la voiture. Pas de balade maintenant.
+
+[1590]Va chercher cette foutue caisse à Central City !
+[1591]Il y a là-dedans un garde royal qui nous doit deux mille balles, deux poneys et un monkey, tout claqué en jupons. Il va nous dire comment on peut piquer les joyaux de la couronne. Ça réglera sa dette.
+[1592]Hors de question que je vous aide, bande de tarés, et vous pourrez rien y faire !
+[1593]Colle-lui une bonne baffe !
+[1594]Aïe ! Lâche ma viande ! Je vous aiderai, je jure. Qu'est-ce que vous voulez que je fasse ?
+[1595]Une fois qu'il est monté, conduis jusqu'au garage d'East Mile End. Pas de flânerie.
+[1596]Romeo nous a tout raconté. Avec les Razors, ils finissent tous par chanter. Prends la voiture à West Mile End.
+[1597]Entre dans la tour et gare-toi dans la zone indiquée.
+[1598]Sors. Cette voiture va exploser.
+[1599]Tout le monde est distrait ! Prends le matériel à l'arrière et disparais très vite.
+[1600]Les flics sont partout sur ce coup. Retourne vite au garage d'East Mile End.
+[1601]T'es mauvais ! Quel boulot pourri.
+[1602]C'était quoi, ça ?
+[1603]Remonte dans la caisse.
+[1604]Espèce de planche à pisse épaisse !
+[1605]Eunuque !
+[1606]Remonte dans le char !
+[1607]Remonte dans la caisse !
+
+[1610]Bon, il y a deux grosses livraisons qui vont arriver à North City Bank. Des billets usagés. On les veut. Va les récupérer.
+[1611]T'as le fric. Maintenant sors du fourgon en vitesse. Il va exploser d'une seconde à l'autre !
+[1612]Bien, pique un taxi et amène-le à la grue de North Battersea. On va expédier l'argent à Jersey.
+[1613]Magnifique. Maintenant chope le deuxième chargement d'argent.
+[1614]Sors ton cul du fourgon ! Il va exploser !
+[1615]Bien joué. T'as le cash, maintenant vole un autre taxi et retourne à la grue de North Battersea.
+[1616]Super. Jack va bien s'amuser à dépenser ça, et il prendra soin de toi. Il a de grands projets pour toi. 
+[1617]T'as perdu le fourgon, t'as perdu le foutu fric. T'as aussi perdu la tête, espèce d'abruti ?
+[1618]Pas de putain d'argent, pas de putain de fourgon. Tu vaux pas un putain de clou.
+[1619]T'es pas arrivé à temps.
+
+[1630]Un noble bien comme il faut emmerde l'un des garçons préférés d'Albert Crisp. Ils veulent que Jack enlève ce guignol devant le palais. Mais d'abord, il faut détourner les flics. Prends le camion à West Soho et on te tient au courant.
+[1631]Va à Big Ben à Southeast Westminster. On va changer l'heure, et on a besoin que tu parles au gardien pour qu'il nous dise comment faire.
+[1632]Voilà le type. Vois ce qu'il a à dire.
+[1633]Mon Dieu, gouverneur. Je peux pas vous dire ça, ça vaut plus que mon foutu poste, hein ? J'ai pas fait la guerre pour me faire emmerder comme ça par des jeunes voyous !
+[1634]La guerre, mon cul ! Casse-lui la figure. Il parlera avec un peu d'encouragement.
+[1635]Lâchez-moi, espèce de vaurien ! D'accord, d'accord ! Passez par l'arrière jusqu'au panneau de contrôle - tout est électrique, hein ? Changez l'heure là-bas.
+[1637]Super. Tu as forcé les bus de touristes à partir plus tôt. Maintenant trouve-en un et utilise-le pour embarquer des touristes. Tu vas les kidnapper. Ça fera une diversion suffisante.
+[1638]Retourne à Big Ben. Il y a un groupe de touristes allemands qui attendent son bus là-bas. Haha !
+[1639]Bien, attends que Fritz et sa bande montent dans le bus, puis amène-les au garage de West City.
+[1641]Qu'est-ce que tu fabriques ? Concentre-toi sur le putain de boulot en cours.
+[1642]Oh, crétin des crétins ! Quand tu foires quelque chose, tu le foires vraiment bien.
+[1643]Jack va pas être content, surtout si les Crisp apprennent ça. On commençait à gagner leur respect.
+[1644]Jack est pas ravi de toi, c'est censé être du business et toi t'es un foutu boulet.
+[1645]Monte dans la camionnette. C'est du boulot, pas un gosse qui joue les durs.
+[1646]Comment tu veux qu'on kidnappe des Boches morts ?
+[1647]Pas facile de kidnapper des morts, hein ? Imbécile.
+[1648]Génial ! Une bande d'Allemands morts, et des flics partout. C'est pas la putain de bataille de la Somme.
+[1649]Monte dans le bus. C'est du boulot.
+
+[1700]Bien, ce noble petit salaud quitte Buckingham Palace. Il sort d'une quelconque réception à la con. Vole sa limousine quand elle part et ramène-la-nous. Les flics sont plus occupés par des Allemands disparus.
+[1701]On va frapper ce type là où ça fait mal. Au portefeuille. On va demander une rançon. Ramène-le à notre base de Northeast Bow.
+[1702]Beau boulot, mec. On te contactera quand on aura besoin que tu récupères l'argent de la rançon. Après ça, c'est lui qui ira se prostituer.
+[1703]Bien. L'argent est prêt à être ramassé à Northeast Brixton. Vas-y, mon gars.
+[1704]Amène-le ici, à East Bermondsey, et pas de conneries. C'est du boulot, rappelle-toi.
+[1705]Bon boulot. T'as vraiment la tête pour les affaires.
+[1706]Merde ! Des foutus Mods ont récupéré ce noble guignol et le ramènent au palais. Une grosse récompense est offerte pour lui. Il paraît qu'il allait recevoir un OBE. Services rendus au pays, tu parles. 
+[1707]Magnifique ! Maintenant ramène-le au palais à Central Westminster et prends l'argent de la récompense.
+[1708]C'est pas un foutu jeu, garçon. Fais ce qu'on dit, et fais-le bien, sinon tu finiras mort.
+[1709]C'est pas une promenade tranquille à la campagne. C'est du business. T'es beaucoup trop lent.
+[1710]Remonte dans la limousine. C'est du boulot. Du sérieux. Pas un petit jeu de poseur !
+[1711]Monte dans cette putain de limousine. 
+[1712]Eh ben, j'imagine que t'aimes pas beaucoup l'aristocratie. Idiot, tu nous as fait perdre un paquet de fric !
+
+[1720]Jack est furieux. Un petit frimeur, du nom d'Endeavor Chambers, tourne autour de deux de ses filles. Il se croit un peu trop bon, dit qu'il est agent secret ou photographe ou je sais pas quelle connerie. Va prendre sa voiture à East Brixton.
+[1721]Après-midi, M. Chambers. Vous avez fini de vous amuser avec les dames ? Nous avons une mission vitale pour vous. Hans Nemesis, ce sale mégalomane autrichien, a volé un ICBM. Récupérez-le. Pour la Grande-Bretagne !
+[1722]Ah ah ! Une fois de plus, vous êtes tombé dans mes plans machiavéliques, M. Chambers. Vous avez exactement 75 secondes pour amener ce camion à mon garage de Northwest Brixton. Bonne chance ! Il est prêt à exploser ! Hahahahahaha !
+[1723]Chambers ! Votre seul espoir est de tuer le garde et de vous ouvrir un chemin à l'explosif ! Bonne chance. La Grande-Bretagne dépend de vous !
+[1724]Retournez à votre voiture ! Elle est à Northwest Brixton.
+[1725]Nous devons arrêter Hans Nemesis une bonne fois pour toutes, sinon le monde ne sera jamais à l'abri de son mal ! Il a caché les codes de l'ICBM dans deux voitures. Prenez les voitures ! Et, Endeavor, soyez prudent !
+[1726]Voilà un jeu de codes. Prenez l'autre, Chambers. Pour la Reine !
+[1727]Bon travail, Endeavor ! Maintenant allez à West Brixton et désactivez l'ICBM. Vous n'avez que 30 secondes pour sauver le monde !
+[1728]Excellent, Chambers. Vous êtes un héros pour les hommes, et un étalon pour les dames.
+[1729]Vous n'êtes pas Endeavor Chambers ! Il aimait cette voiture plus que toutes les femmes de la chrétienté !
+[1730]KABOOOOM ! Vous avez laissé tomber votre Reine, Endeavor, et le pays !
+[1731]Vous n'étiez pas censé sortir du camion !
+[1732]Non, non et trois fois non ! Le code était dans cette voiture. À cause de vos pitreries d'incapable, nous sommes condamnés !
+[1733]Vous avez laissé tout le monde tomber, Endeavor. Vous êtes un incapable priapique aux dents pourries !
+[1734]Bon sang, qu'est-ce que vous croyez faire ? C'est la propriété du gouvernement !
+
+[1800]Prêt pour un autre boulot ? Sinon, sors.
+[1801]Les Twins ont besoin de cette voiture pour un coup. Amène-la au garage de Northeast City.
+[1802]Beau travail ! On aime bien ce que t'as fait jusqu'ici.
+[1803]Beurk ! Les Twins vont pas être contents du tout. On t'a fait confiance et tu nous as laissés tomber.
+[1804]Remonte dans la voiture de police.
+
+[1811]Prends ce camion et gare-le à l'intersection de Southwest City.
+[1812]Sors de là, mec ! Ça va exploser !
+[1813]Ouais ! Les flics nous surveilleront plus maintenant ! Bon boulot, mon gars !
+[1814]BOUM ! C'est lamentable, et toi aussi !
+[1815]Ne laisse pas le camion sans surveillance. Mieux encore, remonte dedans !
+
+[1821]Ramène ces tapis en peau de rhinocéros aux Twins à Southwest City.
+[1822]Merci, garçon ! T'as bien bossé !
+[1823]On dirait qu'il y aura encore du rhino au dîner !
+[1824]Remonte dans le Rover.
+
+[1900]Prêt pour un nouveau boulot ? Sinon, reviens plus tard.
+
+[1901]Apporte ce délicieux plat indien à emporter chez les Crisp. Ne te fais pas choper. Les Crisp ne mangeront peut-être pas, mais toi tu ne marcheras plus jamais.
+[1902]Oh, mon thé, super ! Oh non. Qui a commandé ces fichus bhajis ? Je chie de meilleurs oignons.
+[1903]Je ne crois pas que les Crisp aiment leur curry aussi trop cuit. 
+[1904]Remonte dans la voiture avant que le korma d'Albert ne fige. 
+
+[1910]Ces démos Trojan pirates vont nous rapporter un paquet. Du Dennis Brown inestimable. Apporte-les à la boutique de notre pote à North City.
+[1911]Beau boulot, mec ! Bon travail. Réglé. 
+[1912]Tu crains vraiment, hein.
+[1913]Hé ! Remonte dans le véhicule. 
+
+[1920]Amène ce bus abandonné à notre garage de Southeast City. Et vite, sans traîner.
+[1921]Bien conservé, mon gars, très bien conservé. 
+[1922]Ahhhh ! Les Crisp vont te couper les couilles pour ce gâchis, espèce d'âne !
+[1923]Remonte dans le bus !
+
+[2001]Va aux téléphones de West Angel quand tu seras prêt pour un boulot.
+
+[2002]Les jumeaux Crisp préparent un gros coup. Ils ont besoin de deux Myni. Vole celle de North Chelsea.
+[2003]Une de prise. Ramène-la ici au garage de Northeast Bow.
+[2004]La suivante est à East Bermondsey. Bouge-toi.
+[2005]Bien, ramène celle-là aussi.
+[2006]Maintenant va à Northeast Bermondsey. On a boosté une Myni, et on a besoin que tu fasses un peu de test pour nous.
+[2007]Bien, maltraite cette caisse. Conduis aussi vite que possible dans le coin, mais sans la planter, s'il te plaît.
+[2008]Réglé. Cette voiture est bonne. Maintenant il faut tester le blindage de l'autre. Cours, monte dedans et place les explosifs.
+[2009]Sors ! Quand tu seras revenu dans la zone sûre, fais détoner les explosifs.
+[2010]Nom de Dieu ! T'étais seulement censé souffler les foutues portes ! T'es un vrai Guy Fawkes, hein ? Pas grave, t'as fait du bon boulot.
+[2011]Pas de foutues Myni, pas la moindre foutue chance de faire ce boulot. Fais attention. C'est pas des soldats de plomb.
+[2012]Remonte dans cette voiture.
+[2013]C'est pas très malin, hein ? Archie et Albert vont pas être contents de ça.
+[2014]Arrête de faire l'idiot et ramène cette caisse ici.
+[2015]Comment tu veux qu'on teste une voiture qui a été détruite ? Ça a ruiné tout le foutu boulot. Tout reposait sur le timing.
+[2016]Non, non, non ! T'es bête ou quoi ? Écoute quand je parle.
+
+[2030]Va au téléphone à Southwest City, mon garçon. Albert a quelque chose à te faire faire.
+[2031]Salut, ma belle, tu sais à qui tu parles ? Tu vas me faire un gros coup. File à Trafalgar Square à Central Soho et désactive les caméras de sécurité en posant les "brouilleurs".
+[2032]Une caméra de couchée. Dépêche-toi, ange.
+[2033]Encore une en moins ! Allez, continue !
+[2034]Tout est fait. Prends le lance-roquettes et utilise-le pour faire sauter le Golden Tank. 
+[2035]Voilà ce salaud. Détruis-le ! Détruis-le !
+[2036]Formidable. Maintenant ramasse la marchandise au centre de la place, ou piazza, comme ils disent sur le continent. Peut-être qu'on ira là-bas un jour.
+[2037]Tu l'as récupérée. Maintenant monte dans la Myni et casse-toi de là.
+[2038]Magnifique, mon garçon, magnifique. Maintenant souviens-toi de ce que tu as pratiqué. Évite ces foutus flics ! Tu as fière allure.
+[2039]OK ! Amène ça par chez nous à Southwest Bow, au garage, et dépose ma marchandise. J'ai besoin de cette merde.
+[2040]Tu n'es pas arrivé à temps. Tu m'as fait perdre ma foutue marchandise. Et j'en avais vraiment besoin. T'as toujours bonne mine, mais t'es quand même un peu une buse, hein ?
+[2041]Oh, putain ! Qu'est-ce que tu fabriques, bon sang ? Je suis un homme patient, je peux te l'assurer, mais j'aime pas l'incompétence totale plus que le voisin.
+[2042]Ramène ton cul dans cette voiture ! Tu vas pas foirer ce boulot maintenant.
+
+[2061]Albert a parié sur le grand match. Seul problème, le gardien douteux des Rovers. Albert risque de perdre une fortune, et il a pété les plombs. Il veut que tu ailles tuer tous les joueurs du stade à Southwest Southwark.
+[2062]Salut, beauté. C'est moi. Maintenant, tue toute cette bande d'ânes inutiles. T'as environ 30 secondes pour tuer un maximum de monde.
+[2063]Tu as laissé filer les joueurs principaux, surtout ce fichu gardien. Tue-les tous. Je les veux morts.
+[2064]Merde ! Des hooligans ont coincé quelques-uns de nos associés à West Battersea. Dans quel monde on vit ? Va les sauver.
+[2065]Très bien. Je m'en souviendrai.
+[2066]Espèce de con ! Nos associés sont de l'histoire ancienne !
+
+[2091]Albert pense que cet imbécile d'Harold Cartwright a piqué une partie de leur marchandise. La réserve personnelle d'Albert. Un des singes d'Harold, Cyprus Phil, est à Northeast City. Il saura où est ce trou du cul.
+[2092]J'ai pas vu Harold depuis une éternité. J'ai entendu qu'il était passé sous terre quand il a appris qu'Archie et Albert lui couraient après. 
+[2093]Passe-moi le téléphone ! Albert à l'appareil. Fais sauter la tête de ce con de bouffeur de kebab. Il raconte n'importe quoi.
+[2094]Maintenant va voir Beryl, la soeur d'Harold. Cette vieille traînée fait le trottoir à Central Soho.
+[2095]Harold ? Pas vu. Maintenant dégage, j'ai du travail. Tu empiètes sur mon terrain.
+[2096]Cette vieille salope ment elle aussi ! Tue cette bécasse. Tu rendras service à tout le monde.
+[2097]Archie vient d'apprendre qu'Harold essaie de quitter Londres à l'arrière de la voiture d'un pote. Fais sauter la voiture et tue ce salaud !
+[2098]Voilà Harold réglé. Maintenant, où sont mes foutues pilules ? Elles sont peut-être dans le coffre de sa voiture, derrière son appart. Va chercher la voiture.
+[2099]Ramène-la ici. On est à East Mile End comme d'habitude. Et vite.
+[2100]Pas de foutues pilules, hein ? Et on a vérifié son appartement. Je sais pas, peut-être qu'Harold les avait pas volées. Je m'en fiche, c'était un incapable de toute façon.
+[2101]T'as tout foutu en l'air, crétin.
+[2102]T'es vraiment un emmerdeur, hein ?
+[2103]Mon Dieu ! T'es vraiment pas doué, hein ?
+[2104]Sois un homme ! Monte dans la voiture et fais un travail d'homme !
+
+[2121]Un associé député d'Archie a quelques soucis avec ses créanciers. On n'aime pas qu'on emmerde nos gens, alors c'est toi qui vas les emmerder. Va chercher cette call-girl à West City. Elle t'attend dans une limousine.
+[2122] Oooh, elle est sacrément pas mal, hein ? Bien trop bien pour être gâchée. Emmène-la à Southeast Mile End. Mon pote voudrait bien un peu d'elle.
+[2123]Il y a une vieille pouffiasse à ramasser juste au nord d'ici à Northeast Mile End. Elle fera l'affaire. Laisse cette dame de classe en dehors de ça.
+[2124]Ooh, elle a déjà fait le tour du pâté de maisons plusieurs fois ! Emmène-la au garage de Central Camden Town. Un des créanciers est dans un hôtel tout près. Ça devrait s'occuper de lui. Il est marié. Et nous, on a un appareil photo.
+[2125]Mon Dieu. Un autre de ces créanciers a pris la fuite. Il fonce au commissariat. Trouve-le et tue ce salaud !
+[2126]On dirait qu'on va reprendre ses comptes. Le dernier créancier acceptera un pourcentage de ce qu'on lui doit. On a une mallette de fric qui t'attend à South City.
+[2127]Bien, il attend le cash dans un hôtel à Central Angel. Apporte-le-lui.
+[2128]Magnifique. Archie a presque souri. On dirait que tu apprécies ça autant qu'ils l'appréciaient.
+[2129]Tu as trop souvent laissé tomber les jumeaux Crisp. Encore une fois, et Archie te donnera à manger à ses cochons. 
+[2130]Monte dans cette putain de limousine. T'es pas la Reine !
+[2131]Tu pues comme un cadavre, abruti !
+[2132]Christ ! Ce fichu créancier est arrivé chez les flics. Tout est parti en couille.
+
+[2151]Merde. Le maquereau de cette vieille traînée, Rough Tony, a appris qu'on utilisait sa fille comme appât. Il a kidnappé notre belle. Va la récupérer ! Elle est à West City.
+[2152]Ramène-la-moi ici à East Mile End. C'est une bombe, et j'espère qu'ils ne l'ont pas touchée. Si c'est le cas, on liquidera ce Tony !
+[2153]Il lui a collé quelques baffes ! Archie et Albert Crisp n'aiment pas la violence envers les femmes. Va tuer ses putains ! La première est à North City.
+[2154]Il y en a une autre qui fait le trottoir un peu plus au sud, à Southeast City. Mets-la hors circuit !
+[2155]Une autre vieille prostituée est à Northwest City. Il paraît qu'elle sert les banques. Va la finir.
+[2156]Apparemment Rough Tony te veut mort. Surveille tes arrières, mon gars, moi je le fais toujours. Si tu le vois, bute ce sale raté.
+[2157]Ça apprendra à Rough Tony à frapper nos filles. Maintenant prends sa caisse à Central Angel. C'est un fournisseur bien connu des meilleures blues, et on est à sec. 
+[2158]Ramène-la à l'entrepôt de North Bermondsey ! Nos gars vont la démonter et récupérer toute la marchandise.
+[2159]Oh, espèce de sale morceau de merde ! T'es vraiment une imbécile.
+[2160]Qu'est-ce qui cloche chez toi ? T'es simple ou quoi ?
+[2161]Je vais être beaucoup moins impressionné par mon joli garçon aux yeux bleus maintenant, hein ?
+[2162]Monte dans cette putain de limousine, espèce de crétin.
+
+[2175]C'est pas le bon foutu véhicule, hein, génie ?
+
+[2181]Va parler à cette grande gueule de Terry Dorkins. Il te dira ce qu'il faut faire. Il traîne à North Southwark.
+[2182]Ça faisait longtemps, mec. Les Crisp n'ont plus de patience pour les clowns de Lenny Smith. Ils ont pris un peu trop la confiance. Prends le tank et démonte-les dans leur complexe vers Southwark.
+[2183]Dépêche-toi. Va à ce putain de complexe. Lenny est un grande gueule qui a besoin qu'on lui apprenne deux ou trois choses.
+[2184]Détruis tout. Tue tout.
+[2185]Ça devrait faire fermer sa gueule à ce guignol de Lenny pour un jour ou deux. On est ravis.
+[2186]T'es pas vraiment taillé pour ce genre de business, hein ?
+[2187]Archie va pas afficher un grand sourire avec ça.
+[2188]Monte dans cette putain de voiture et va là où t'es censé aller. T'as pas fait la putain de connaissance.
+
+[2201]Terry Dorkins a appris des choses sur quelques gars de Lenny. On les veut morts. Une fois hors jeu, on pourra profiter pour éliminer Lenny. Va voir Terry à West Bermondsey.
+[2202]Doucement, tigre ! J'ai entendu dire qu'Albert te porte dans son coeur ! Ouais, un des clowns de Lenny est à la friterie. Tu vas empoisonner sa bouffe. Prends la camionnette de livraison qui va à la friterie.
+[2203]Bien. Il y a du poison derrière l'entrepôt d'Archie tout près, à West Brixton. Va le récupérer.
+[2204]Voilà assez de poison pour tuer un foutu éléphant. Dépose-le au restaurant à North Brixton.
+[2206]Va reparler à Terry à West Bermondsey. Il te dira où traîne Gerald, un des gars de Lenny.
+[2207]Ouais, mec, le gros Gerald est chez lui à South Camberwell. Pique sa caisse, et on va lui filer la peur de sa vie.
+[2208]Emmène la caisse à la boutique de bombes d'East Brixton.
+[2209]Maintenant ramène-la chez Gerald avant qu'il s'en rende compte. Souviens-toi, gare-la exactement pareil !
+[2210]Sors de la voiture et attends de voir ce qui se passe.
+[2211]Boum ! Avec cette leçon donnée à Lenny, on pourra reprendre le contrôle de Southwark sans souci.
+[2212]Quel genre d'homme es-tu ? Tu devrais avoir honte de toi !
+[2213]Ça prouve ce que j'ai toujours pensé. À savoir : t'es un abruti. Un joli abruti, mais un abruti quand même.
+[2214]T'es beaucoup trop lent, mon soleil.
+[2215]Monte, espèce de salopard, remonte !
+[2216]Trop lent, mon garçon, bien trop lent.
+[2217]Remonte dans la voiture !
+[2218]Tu te fous de moi, ou quoi ?
+[2219]Remonte là-dedans et conduis, conduis, conduis !!
+[2220]Presque, mais presque ne suffit pas. Y a pas de médaille d'argent dans ce jeu.
+[2221]Reste dans cette foutue voiture et termine le boulot.
+[2222]T'es trop lent, abruti !
+[2223]Les choses tournent pas très bien pour toi, hein ?
+
+[2241]Bon. Maintenant, il est temps de s'occuper de Lenny. Il l'ouvre depuis trop longtemps. Va voir Terry à Southwest Bermondsey pour en savoir plus.
+[2242]Le frère idiot de Lenny, Reg, se balade à Northeast Southwark. C'est une vraie pipelette. Colle-lui une raclée et il dira où est Lenny.
+[2243]Aaah ! Lenny ? Lenny est toujours dans son appart sur le toit, juste au sud d'ici à Central Southwark. Mais lui fais pas mal. Il a des responsabilités familiales.
+[2244]Je vais lui donner des responsabilités familiales à ce petit fouineur. Des responsabilités envers la famille Crisp. Descends-le. Tue-le maintenant !
+[2245]Trouve l'escalier de secours qui mène à la planque de Lenny.
+[2246]Lenny est là-haut, mais il est pas armé. Ne le tue pas tout de suite. Écoute-le un peu, il couine de façon très drôle. Mais assure-toi de bien le finir !
+[2248]Tu t'appelles un tueur à gages ? Parce que moi, je t'appellerais plutôt un crétin.
+[2249]Les morts ne sont pas très utiles pour parler, hein ?
+[2250]Écoute, mec, Albert est devenu cinglé. Tu sais qu'il abuse des purple hearts depuis des mois. Il croit que tu lui fais la gueule. Il veut ta mort. Il faut que tu prennes toi-même le contrôle de cette ville.
+[2251]Bosse avec moi et on peut éliminer les Twins. On a tous les deux besoin qu'ils meurent.
+[2252]Je te raconte pas des conneries. Il faut que tu descendes les Twins. Albert veut ta peau, et ça veut dire qu'Archie t'aura aussi.
+[2253]Alors bosse avec moi. J'ai le cerveau et le savoir-faire, et toi t'es le meilleur gars de la ville. C'est ça, ou on meurt tous les deux.
+
+[2261]Il y a une sacrée caisse à North Brixton. Va la voler. On dirait une voiture du gouvernement ou un truc du genre. Dans tous les cas, je la veux. 
+[2262]Bonjour, Agent Temple. Nous avons entendu dire que Nemesis a repris ses vieilles habitudes. Il prévoit d'empoisonner l'approvisionnement en thé de Londres, le gredin. Nous pensons qu'il utilise des fourgons à West Southwark pour le transport.
+[2263]Réquisitionnez un de ses fourgons afin que nous puissions enquêter sur le problème.
+[2264]Amenez-le à l'un de nos garages secrets à East Bermondsey, Temple. Là, nous pourrons diagnostiquer le problème.
+[2265]Retournez immédiatement à votre voiture et attendez nos instructions, Temple, et pas d'écarts galants. Nous en avons assez de ces affaires de paternité.
+[2266]Un docker a appelé avec des nouvelles sur ce fiasco du thé. Il est aux docks de Northeast Southwark. Allez parler à cet oaf et voyez ce qu'il peut vous dire.
+[2267]Salut, gouverneur ! Ouais, y a des drôles de types qui traficotent le thé. Des Allemands, au bruit. Tous blonds avec du cuir. Ils vont pas tarder à arriver, dans une grosse caisse qui en jette.
+[2268]C'est leur limousine, Temple. Faites-les exploser !
+[2269]Excellent, Agent Temple. Remontez dans votre prochaine voiture et attendez de nouvelles instructions.
+[2270]On a entendu dire que Nemesis est dans le parc à Southeast Camberwell. Allez enquêter sur ce qu'il prépare.
+[2271]Aaah ! Temple, espèce de pillard incompétent. Je vous attendais. Vous ne m'arrêterez jamais. Je vivrai pour toujours. Hahahahaha !
+[2272]Grand Dieu ! Cet Autrichien avide de pouvoir s'est fait exploser jusqu'au royaume des morts ! La crise du thé est résolue. La nation peut à nouveau boire de chaudes boissons à base de plantes en toute sécurité.
+[2273]Temple ! Vous commencez à prendre de l'âge ! Des erreurs pareilles ne sont pas votre style habituel !
+[2274]Service de la circulation pour vous, Temple. C'est une irrégularité de trop !
+[2275]Temple ! Remontez dans le véhicule.
+[2276]Ce n'est pas la bonne voiture, Temple, espèce d'imbécile. Prenez la bonne !
+[2277]Cela pourrait provoquer un incident international, Temple. Je vous suggère de vous faire oublier pendant quelque temps, très longtemps !
+[2278]Temple, je pensais que les situations d'un danger et d'une complexité impossibles étaient votre spécialité, et voilà qu'on vous donne une mission simple et vous faites ça !
+[2279]Roulez un peu et occupez-vous, mon garçon.
+
+[2281]C'est ta grande chance. Les gars Crisp ont décidé de déguerpir. Albert a finalement complètement craqué. Il croit que tu vas le tuer, lui et Archie. Tout ce que tu as à faire, c'est les trouver et faire sauter leur voiture !
+
+[2499]VOUS AVEZ GAGNÉ.
+[2500]BIEN JOUÉ !
+[2501]MISSION ÉCHOUÉE !
+[2502]............................
+[2503]CARNAGE !
+[2504]CARNAGE RATÉ !
+[2505]BONUS VIE SUPPLÉMENTAIRE !
+[2506]VOUS AVEZ 3 MINUTES POUR CAUSER $500 DE DÉGÂTS ! BOUGEZ-VOUS !
+[2507]FÉLICITATIONS ! Vous avez terminé tous les CARNAGES ! Votre récompense est au marché !
+[2509]VOUS AVEZ 3 MINUTES POUR CAUSER $1000 DE DÉGÂTS ! ON Y VA !
+[2510]VOUS AVEZ 2 MINUTES POUR CAUSER $500 DE DÉGÂTS ! DÉPÊCHEZ-VOUS !
+[2511]VOUS AVEZ 2 MINUTES POUR CAUSER $1000 DE DÉGÂTS ! ALLEZ-Y !
+[2512]VOUS AVEZ 2 MINUTES POUR CAUSER $1000 DE DÉGÂTS ! BOUGEZ VOTRE CUL !
+[2513]VOUS AVEZ 2 MINUTES POUR CAUSER $1000 DE DÉGÂTS ! PASSEZ LA VITESSE !
+[2514]BONUS CASCADE DÉMENTE !
+[2515]GO !
+[2516]BONUS VIOLENCE GRATUITE !
+[2517]BONUS MAUVAIS PERDANT !
+[2612]MODE TRICHE ACTIVÉ
+[2613]LE NUMÉRO GAGNANT EST 9424047
+[2614]VEUILLEZ IGNORER CE MESSAGE.
+[2615]MODE DIEU ACTIVÉ
+[3000]J'ai reçu les résultats du test. C'est à toi.
+[3001]Les télégrammes. La communication du futur.
+[3002]Fais ce qu'il faut pour ma fille.
+[3003]Appelle-moi. J'ai entendu parler de toi. Albert.
+[3004]J'espère que t'es assuré.
+[3005]Va à Southwest Westminster si tu t'ennuies.
+[3006]Il y a de quoi s'amuser à Southeast Hyde Park.
+[3007]Ma fille est au club, et toi t'as fichu le camp.
+[3008]T'as des blues ou des purples ? J'en ai cruellement besoin.
+[3009]Pas mal, hein ? A.C.
+[3010]J'ai besoin d'un service. Va à Northeast City.
+[3011]Il y a un petit souci à Southeast Bow. Règle-le.
+[3012]Tu as couvert ma famille de honte, voyou.
+[3013]Tu t'ennuies ? Tu te sens seul ? Isolé ? Non ? Alors arrête de lire ces conneries !
+[3014]C'était une gentille fille avant de te rencontrer !
+[3015]Va à Northeast Battersea, si t'es assez homme !
+[3016]Envie de faire un carton ? Va à Central Angel.
+[3296]À VOS MOTEURS !
+[3392]...................
+[3456]GO !
+[3501]VOUS AVEZ 100 SECONDES POUR CAUSER $5,000 DE DÉGÂTS. BOUGEZ-VOUS !
+[3502]...................
+[3828]COLLEZ-LEUR DES BAFFES !
+[3829]BONUS DE GIFLES !
+[3830]BONUS DE GIFLES... 50,000
+[3831]BONUS DE GIFLES... 40,000
+[3832]BONUS DE GIFLES... 30,000
+[3833]BONUS DE GIFLES... 25,000
+[3834]BONUS DE GIFLES... 20,000
+[3835]BONUS DE GIFLES... 15,000
+[3836]BONUS DE GIFLES... 10,000
+[3846]BONUS CAMP D'ENTRAÎNEMENT !
+[4000]C'EST À TOI !
+[4001]CARNAGE RÉUSSI !
+[4002]BONUS BYE BYE !
+[4003]VOUS ÊTES ARRÊTÉ !
+[4004]VOUS ÊTES MORT !
+[4005]BOUGE ! BOUGE ! BOUGE !
+[colour]Votre couleur : %s
+[red]Rouge
+[yellow]Jaune
+[green]Vert
+[blue]Bleu
+[paused]Jeu en pause
+[lives]Vies :
+[target_score]Score cible :
+[target_miss]Missions cibles :
+[secrets_found]Secrets trouvés :
+[8787]GARDEZ LONDRES PROPRE !
+[kill]Tuer
+[frenzy]Carnage !
+[pistol]Pistolet
+[machine-gun]Mitraillette
+[rocket]Lance-roquettes
+[flame]Lance-flammes
+[petrol]Cocktail Molotov
+[speed+]Vitesse +
+[car-speed+]Vitesse voiture +
+[bribe]Pot-de-vin à la police
+[armour]Armure
+[multiplier+]Multiplicateur + !
+[jail-free]Carte sortie de prison
+[life+]Vie supplémentaire
+[lives_left]Il reste %d vies !
+[life_left]Il reste une vie !
+[no_life]Plus de vies !
+[you-kill]Vous avez pulvérisé %s
+[kill-by]Pulvérisé par %s
+[speed-limit-on]Limiteur de fréquence d'images ACTIVÉ
+[speed-limit-off]Limiteur de fréquence d'images DÉSACTIVÉ
+[1st_over_checkpoint]Bien joué, leader ! Garde le pied au plancher !
+[second_checkpoint]Allez, espèce de limace ! Écrase l'accélérateur !
+[win_race]VOUS GAGNEZ !
+[lost_race]VOUS PERDEZ ! Pas de chance, minable !
+[bomb_bus]Merde ! Ce bus est piégé avec 500 livres d'explosif plastique.
+[lucky_son]Sacré petit fils de pute veinard !
+[bomb_blows]Eh ben, ça nous évite de nettoyer le bordel du siècle !
+[car0]Ferocious GTO
+[car1]Bug
+[car2]Jug MkII
+[car3]Moto
+[car4]Flic
+[car5]Ambulance
+[car6]Ranger
+[car9]Bus à impériale
+[car10]Dépanneuse
+[car11]ICBM
+[car13]Bateau
+[car14]S-Cart
+[car17]Fat
+[car18]Beagle 3
+[car19]Myni
+[car21]Abri de jardin
+[car22]Taxi londonien
+[car25]James Bomb
+[car26]Jugular E
+[car27]Camionnette de bonbons
+[car28]Crapi
+[car29]Squealey
+[car31]Locust
+[car34]Reno 17TL
+[car35]Bus touristique
+[car37]Royal Pain
+[car41]Scooter mod
+[car42]Camion de pompiers
+[car43]Royal Stretch
+[car44]Camion-citerne
+[car45]Plateau
+[car46]Camping-car
+[car47]Fauteuil roulant
+[car58]Harold
+[car70]Raver
+[car71]Monster Bug
+[car72]MC Hamper
+[car76]Mangler
+[car79]Stinger Z29
+[car80]Jug Swinger
+[car88]Autocar
+[quit1]Vous voulez quitter ?
+[quit2]Appuyez sur ENTRÉE pour confirmer
+[quit3]ou sur ÉCHAP pour annuler
+[on_foot]à pied
+[bytrain]en train
+[bycar]en voiture
+[kidgets]ou le gamin y passe
+[yousorry]ou tu vas le regretter
+[buttto]pour filer jusqu'à
+[assto]pour tracer jusqu'à
+[getto]pour aller à
+[in]dans
+[secs]%d secondes
+[mins]%d minutes
+[minsecs]%d minutes %d secondes
+[vfew]une poignée de secondes
+[bomb_added]La voiture a été piégée !
+[bomb_cost]Ça vous fera $%s.
+[no_respray]Reviens quand t'auras le fric !
+[no_emerg_respray]Je touche pas à ça ! Dégage d'ici !
+[no_modelcar_respray]Sors-moi ce jouet d'ici !
+[no_tank_respray]J'ai l'air d'être l'armée ? Va te faire voir !
+[resray_done]Et voilà ! Comme neuve !
+[clean_done]C'est propre. Les plaques ont été changées.
+[all_your]Ça t'a coûté TOUT ton fric.
+[bomb_on]BOMBE ARMÉE !
+[bomb_off]BOMBE DÉSAMORCÉE !
+[bomb_set]Détonation dans...
+[reload]Rechargement...
+[entry]Écran d'accueil
+[space]Appuyez sur ESPACE pour continuer
+[pol_act]Police activée
+[pol_inact]Police désactivée
+[stanmode]Mode d'écran standard
+[hi34mode]Mode écran haute résolution 3/4
+[himode]Mode écran pleine haute résolution
+[320mode32]Mode 320 x 200 x 32 bits
+[640mode32]Mode 640 x 400 x 32 bits
+[800mode32]Mode 800 x 600 x 32 bits
+[640480mode32]Mode 640 x 480 x 32 bits
+[lozoom]Mode zoom faible
+[hizoom]Mode zoom élevé
+[vhizoom]Mode zoom très élevé
+[discon]%s s'est déconnecté
+[connlost]Échec de la connexion à %s
+[sync-error]Échec de synchronisation avec %s - connexion terminée
+[n]Nord
+[s]Sud
+[e]Est
+[w]Ouest
+[c]Centre
+[se]Sud-est
+[sw]Sud-ouest
+[ne]Nord-est
+[nw]Nord-ouest
+[001area002]Angel
+[001area003]Mile End
+[001area004]Bow
+[001area005]City
+[001area006]Soho
+[001area007]Chelsea
+[001area008]Westminster
+[001area009]Battersea
+[001area010]Brixton
+[001area011]Camberwell
+[001area012]Southwark
+[001area013]Bermondsey
+[001area015]Camden Town
+[001area016]Hyde Park
+[002area001]Telephone Hill
+[002area002]Wood Hill
+[002area003]Soviet Hill
+[002area004]Sunrise
+[002area005]Richman
+[002area006]Atlantic Heights
+[002area007]Aye Valley
+[002area008]Chinatown
+[002area009]Eagleside
+[002area010]Woodside
+[002area011]Potato
+[002area012]Excalibur
+[002area013]Glen Wood
+[002area014]Market
+[002area015]Marina
+[002area016]Sailors Wharf
+[002area017]Sunview
+[003area001]Vice Beach
+[003area002]Banana Grove
+[003area003]Felicity
+[003area004]Richman Heights
+[003area005]Little Bogota
+[003area006]Greek Heights
+[003area007]Little Dominica
+[003area008]Coral City
+[003area009]Miramire
+[003area010]Vice Shores
+[003area011]Vice City
+[ipxnotinstalled]IPX non installé
+[uartnotresponding]UART ne répond pas sur COM%d
+[warning]Avertissement
+[networkoff]Partie réseau impossible
+[duplicate_model]Encore une ? T'as aucune imagination, poseur ?
+[duplicate_models]J'en ai qui me sortent par le cul ! Essaie autre chose la prochaine fois !
+[crane_nobomb]Tu crois vraiment que je veux une putain de bombe dans mon dépôt ? Dégage.
+[crane_long]Ça ne rentrera pas ici. Débarrasse-t'en !
+[crane_screwed]Je suis hors service. Essaie une autre grue !
+[crane_wreck]Je suis pas Emmaüs ! Sors-moi cette vieille épave de mon terrain !
+[crane0]Sors ton joli petit cul de là, je le soulève !
+[crane1]Je suis plein à craquer pour l'instant ! Emmène ça ailleurs !
+[crane2]C'est quoi cette putain de précipitation ? Donne-moi une seconde !
+[crane3]Ces flammes sont très éclairantes, mais je touche pas à ce feu d'artifice !
+[crane4]Hors de question, gamin ! C'est trop chaud pour moi !
+[crane5]Y a pas beaucoup de demande pour ça... mais je vais voir ce que je peux faire.
+[crane_nopolice]Je prends pas ça ! Tu essaies de me piéger, gamin ?
+[crane-excellent]Excellent état. Je vous en donne $%d.
+[cranecar0]Belle caisse, une seule propriétaire, hein ? Je vous en donne $%d.
+[cranecar1]Pas trop mal. Que dites-vous de $%d ?
+[cranecar2]Elle a pris quelques chocs, celle-là... Je peux vous en donner seulement $%d.
+[cranecar3]Quelle épave ! Vous aurez $%d et pas un sou de plus !
+[m22dead]Mort comme un clou !
+[m22failed]On n'est pas ravis de tes progrès. Un peu lent, non ? T'as de la chance de respirer encore ; continue comme ça et ce ne sera plus le cas.
+[m22arrest]Tu croyais qu'on te sortirait de là, hein ? Eh ben, t'as eu ce que tu méritais pour ta foutue incompétence.
+[m22success]Bon effort ! On est aux anges avec toi, mon gars.
+[m22incomplete]T'en as déjà assez, on dirait ?
+[m22timeout]Espèce de crétin ! Des guerres se sont faites en moins de temps ! On n'est pas contents.
+[m22timeover]TEMPS ÉCOULÉ ! %s GAGNE avec un énorme $%d, %s arrive deuxième avec un plus modeste %d !
+[m22score]%s ATTEINT L'OBJECTIF ! Le score gagnant est de %d !
+[m22cannon]%s GAGNE LA COURSE !
+[m22demo]Temps écoulé, bébé ! T'en veux encore ? Achète la vraie version.
+[Nodes]Noeuds
+[City]Ville
+[Mission]Mission
+[Control]Contrôle
+[Keyboard]Clavier
+[Joystick]Joystick
+[Sound]Son
+[Music]Musique
+[Rating]Classement
+[Score]Score
+[Cancel]Annuler
+[Reset]Réinitialiser
+[rename]Renommer
+[menu]Menu
+[Play]Jouer
+[GatherNetwork]Héberger partie réseau
+[JoinNetwork]Rejoindre réseau
+[Options]Options
+[Loading]Chargement...
+[LoadingDemo]Chargement de la démo...
+[loading-replay]Chargement de l'Action Replay...
+[crimes]Crimes
+[crimeRTA]Accrochages
+[crimeHAR]Homicides routiers
+[crimeHIJ]Détournements
+[crimeCAR]Car-jacking
+[crimeGTA]GTA
+[crimeSHO]Infractions aux armes à feu
+[crimeMUR]Meurtre avec préméditation
+[crimeBAN]Braquages de banque
+[Text]Texte
+[Off]Désactivé
+[On]Activé
+[Slow]Lent
+[Normal]Normal
+[Fast]Rapide
+[status]Statut
+[connecting]Connexion
+[idle]Inactif
+[dialling]Composition de %s
+[redialling]Nouvelle tentative de %s
+[redialagain]Nouvelle tentative de %s encore
+[waitcall]En attente d'appel
+[disconnecting]Déconnexion
+[unknownspeed]Vitesse inconnue
+[baud]Baud
+[failed]Échec
+[connectat]Connexion à %s
+[join]Rejoindre
+[gather]Héberger
+[ipx]IPX
+[serial]Série
+[modem]Modem
+[version-checking]Vérification de version
+[initialising]Initialisation
+[joining]Connexion...
+[gathering]Hébergement...
+[spc-key]Espace
+[story]Cinématique
+[esc-key]Échap
+[rtn-key]Entrée
+[del-key]Suppr
+[r-key]R
+[Quit]Quitter
+[foundgather]Hébergeur trouvé
+[found1join]1 joueur trouvé
+[foundnjoin]%d joueurs trouvés
+[startgame]Et c'est parti...
+[commsfail]Oh mince - Échec des communications
+[svgaerror]Bah ! Aucun mode SuperVGA ne fonctionne
+[3dfxerror]Quelle carte 3DFX ?
+[commsversionerror]Tch ! Versions de GTA incompatibles
+[mission1]Les garçons seront des voleurs
+[mission2]Mods et autres idiots
+[mission3]Sourire de Chelsea
+[mission4]Certitude de mort
+[city0]Londres
+[city1]Londres
+[city2]Londres
+[city3]Londres
+[mission1001]Match à mort
+[mission1002]Cannonball Run 1
+[mission1003]Cannonball Run 2
+[mission1004]Cannonball Run 3
+[chapter:]%s Chapitre %d :
+[dscolon]%d: %s
+[sdcolon]%s: %d
+[sscolon]%s: %s
+[trans-effects]Effets de transparence
+[music-mode]Mode musique
+[constant]Constant
+[radio]Radio
+[high-scores]Ennemis publics
+[scores]Scores
+[crimes]Crimes
+[shighest]Meilleur %s
+[police]Police
+[end-game]Fin de partie
+[end-score]Score final
+[end-kills]Victimes finales
+[kills]Victimes
+[multi-options]Options multijoueur
+[save]Sauvegarder
+[win-score]Pour gagner : atteindre $%d
+[win-kills]Pour gagner : %d victimes !
+[win-race]Pour gagner : finir premier !
+[did-not-finish]Échec de l'arrivée
+[finish]Arrivée
+[missions-comp]Missions réussies :
+[race-results]Résultats de la course
+[winner]Le champion !
+[loser] Perdant !
+[no-win]Appelons ça un match nul !
+[abandon]Partie abandonnée !
+[final-scores]Scores finaux
+[9000]OK, encore une et ça devrait le faire !
+[9001]Ça, c'est vraiment génial, mec !
+[cd-warning]CD indisponible ou déjà utilisé. GTA fonctionnera sans audio CD.
+[cut00]Écoute bien. On cherche un gars qui sait y faire.
+[cut01]J'ai entendu dire que t'avais du talent ; pas de conneries ou tu prends une baffe.
+[cut02]Souviens-toi, c'est moi le singe et toi la râpe à fromage.
+[cut03]Alors pas de conneries.
+
+[cut10]T'es juste un peu fier de toi, hein ? Et à juste titre, à juste titre.
+[cut11]T'es en train de devenir quelqu'un dans ce cloaque infect.
+[cut12]Tu m'as rendu quelques services, alors je vais t'en rendre un très grand.
+[cut13]T'es avec moi maintenant et les jumeaux Crisp commencent à se faire vieux.
+[cut14]Dans quelques années, c'est moi qui contrôlerai toute la boutique.
+[cut15]Et si t'as ce petit quelque chose de spécial, toi aussi.
+[cut16]Alors arrête de traîner comme une miche de pain et va bosser.
+
+[cut20]Très bien, mon garçon.
+[cut21]Joli petit morceau, hein ?
+[cut22]Et on veut te garder comme ça.
+[cut23]Les choses deviennent incontrôlables et on a besoin de toi 
+[cut24]pour réparer quelques tuyaux cassés.
+[cut25]Corriger quelques petits ingrats.
+[cut26]Sinon Archie va perdre son calme et personne n'en sera content.
+[cut30]Gordon Bennett, quel feu d'artifice.
+[cut31]Écoute...
+[cut32]Il a dû y avoir une erreur, ma jolie.
+[cut33]Enfin écoute...
+[cut34]Juste pour que tu nous balances pas une foutue bombe A la prochaine fois.
+[cut35]On se tire d'ici.
+[cut36]Archie file dans le Devon,
+[cut37]et moi je quitte le pays.
+[cut38]Direction la Thaïlande, en fait...
+[cut39]Très chic. 
+[linear-modes]Utiliser uniquement les modes DirectDraw
+[cd-title]Avertissement CD !
+[cd-text]Le CD de Grand Theft Auto n'est pas présent.@@Seules les parties réseau peuvent être rejointes.@@Relancez Grand Theft Auto avec le CD inséré pour jouer normalement.
+[cd-message]Version réseau uniquement
+[demo-message]Version démo aguicheuse
+[fix1]Choisissez une connexion
+[fix2]Aucune connexion disponible
+[fix3]Choisissez une session
+[fix4]Aucune session disponible
+[fix5]Créer une nouvelle session
+
+[2300]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2301]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2302]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2303]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2304]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2305]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2306]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2307]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2308]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2309]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2310]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2311]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2312]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2313]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2314]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2315]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2316]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2317]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2318]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+[2319]Salut, beauté. Harold a dit que tu devais parler à Keith. Ce sera ton contact pour celle-là. Il traîne à Northwest Bow.
+
+
+[]

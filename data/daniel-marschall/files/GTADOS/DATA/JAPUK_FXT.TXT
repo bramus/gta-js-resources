@@ -1,0 +1,285 @@
+﻿[main0]スタート
+[main1]ネットワーク設定
+[main2]サウンド設定
+[main3]コントローラ設定
+[main4]ジョイスティック調整
+[main5]言語選択
+[main6]終了
+[net0]ネットワークなし
+[net1]シリアル接続
+[net2]ＩＰＸ接続
+[net3]モデム接続
+[net4]シリアル・ポートＣＯＭ選択
+[net5]電話番号の変更
+[net6]モデムコマンドの変更
+[net7]呼び出し待機
+[net8]ソケットの変更
+[net9]決定
+[net10]キャンセル
+[net11]ソケット番号(0-65535)を入力して下さい。
+[net12]入力ＯＫ！
+[net13]シリアルポート番号(1-4)を入力して下さい。
+[net14]ネットワークタイプの選択
+[net15]電話番号を入力して下さい。
+[net16]シリアル接続設定
+[net17]無効な値が入力されました。
+[net18]モデム接続設定
+[net19]ＩＰＸ接続設定
+[net20]ネットワークなし
+[cont0]キーボード初期設定
+[cont1]ジョイスティック１
+[cont2]ジョイスティック２
+[cont3]カスタム設定
+[cont4]決定
+[cont5]キャンセル
+[cont6]コントローラの選択
+[cust0]左折
+[cust1]右折
+[cust2]前進
+[cust3]後退
+[cust4]ブレーキ
+[cust5]乗車・降車
+[cust6]攻撃
+[cust7]次の武器
+[cust8]前の武器
+[cust9]スペシャル
+[cust10]決定
+[cust11]キャンセル
+[cust12]変更するものを選んで下さい。
+[cust13]変更後のキーを押して下さい。
+[cust14]このキーはすでに使われています。
+[cust15]設定が変更されました。
+[cust16]このキーは使えません。
+[cust17]カスタム設定
+[joy0]ジョイスティックのキャリブレーション
+[joy1]決定
+[joy2]キャンセル
+[joy3]ジョイスティックを最大限に動かして下さい。
+[joy4]どれかキーを押して下さい。
+[joy5]新しい値が入力されました。
+[joy6]ジョイスティック１
+[joy7]ジョイスティック２
+[joy8]ジョイスティックのキャリブレーションが行なわれていません。
+[joy9]キャリブレーションがキャンセルされました。
+[sound0]サウンドカードの設定
+[sound1]音量調整
+[sound2]決定
+[sound3]キャンセル
+[sound4]サウンド設定
+[lang0]英語
+[lang1]フランス語
+[lang2]ドイツ語
+[lang3]イタリア語
+[lang4]日本語
+[lang5]英語
+[lang6]フランス語
+[lang7]ドイツ語
+[lang8]イタリア語
+[lang9]日本語
+[mode0]モデム・リセット
+[mode1]モデム・ダイアル
+[mode2]モデム回線切断
+[mode3]モデム初期化
+[mode4]モデム自動受信
+[mode5]決定
+[mode6]キャンセル
+[mode7]コマンドの入力
+[mode8]コマンドの変更
+[run0]低解像度モード
+[run1]高解像度モード
+[run2]3DFXモード
+[run3]キャンセル
+[run4]プレイするモードを選んで下さい。
+[run5]3DFXモードでは3DFXカードが必要です。
+[run6]DUMMY!!
+[misc0]どれかキーを押して下さい。
+[misc1]
+[misc2]コントローラ： キーボード
+[misc3]コントローラ： ジョイスティック
+[misc4]コントローラ： ジョイスティック２
+[misc5]コントローラ： カスタム
+[misc6]Dummy
+[misc7]言語： 日本語
+[misc8]グランド・セフト・オート スタートアップ
+[misc9]DMAフォルダのパスを入力して下さい。
+[misc10]あるいは新しいパスを入力して下さい。
+[misc11]確認されました。
+[misc12]ファイルをインストール中です。
+[misc13]ハードディスク・インストール
+[misc14]インストール完了
+[misc15]無効なパスです。
+[misc16]オプションを選んで下さい。
+[misc17]言語を選んで下さい。
+[misc18]そのドライブの空き容量が足りません。
+[misc19]インストール先
+[misc20]実行して良いですか？
+[misc21]実行する場合は[Enter]を押して下さい。
+[misc22]キャンセルする場合はキーをどれか押して下さい。
+[misc23]インストール先
+[misc24]ハードディスクに最低80MBの空き容量が必要です。
+[detect-auto]サウンド・ドライバの自動設定
+[detect-manual]サウンド・ドライバの手動設定
+[detect-diff]他のドライバを選択
+[detect-help]ヘルプ
+[main-curr]現在のサウンド設定
+[main-midi]MIDIデバイス
+[main-none]なし
+[main-dig]デジタル・オーディオ
+[main-msel]MIDIデバイス・ドライバの選択
+[main-dsel]デジタル・オーディオ・ドライバの選択
+[no-midi]MIDIデバイスなし
+[no-dig]デジタル・オーディオなし
+[view-win]ウィンドウズ95の設定一覧
+[done]完了
+[main-opt]サウンド設定オプション
+[win-err]Windows 95 Configuration Utility エラー
+[win-nocard]サウンドカードが見つかりません。
+[win-mem]DOSメモリの割り当てエラー
+[win-help1]This option displays the current Windows 95 sound hardware configuration.
+[win-help2]It's handy when auto-detection has failed due to running in a Windows 95
+[win-help3]DOS box. In this environment, auto-detection doesn't always work because
+[win-help4]Windows 95 can configure your sound card to almost any possible hardware
+[win-help5]setting. So, if auto-detection fails, you should manually configure
+[win-help6]this utility with the IO port, IRQ, and DMA settings listed below.
+[win-return]前ページへ戻る。
+[copyright]%F Miles Sound System, (C)Copyright 1991-96 RAD Software Version
+[title]%F Sound System Configuration Utility
+[avail-midi]使用可能なMIDIドライバ
+[avail-dig]使用可能なデジタル・オーディオ・ドライバ
+[err-null]値を入力して下さい。
+[err-file]ファイルを開くことができません。
+[err-ornull]スペースが未入力になっています。
+[err-nodri]このディレクトリにはオーディオ・ドライバが存在しません。
+[err-nolist]MSSDRVR.LSTを開くことができませんでした。
+[err-crit]I/Oエラー
+[err-fail]サウンド・ハードウェア・エラー
+[err-check]ドライバの種類と設定をチェックして下さい。
+[err-nosave]コンフィギュレーション・ファイルを保存することができませんでした。
+[err-default]原因不明のシステム・エラーです。
+[error]エラーです。
+[try-again]キーをどれか押してから他のドライバを選んで下さい。
+[con-succ]デバイスが検出されました。
+[con-sel]どれかキーを押して下さい。
+[ok]OK
+[detect-title]サウンド・カードの検出
+[detect-help1]使用中のサウンドカードのI/O初期設定と競合する可能性のあ
+[detect-help2]る周辺機器を使用している場合は「自動検出をキャンセルし
+[detect-help3]てサウンド・ドライバを手動設定する」を選んで下さい。こ
+[detect-help4]れによりサウンドカードのI/Oパラメーターを入力すること
+[detect-help5]が可能になるため、サウンドカードの自動検出に失敗した
+[detect-help6]場合はこのオプションを選んで下さい。
+[detect-help7]
+[detect-help8]
+[detect-help9]
+[detect-help10]
+[detect-help11]
+[io-address]I/Oアドレス：
+[select-irq]IRQ設定：
+[select-dma]ﾀｸビットDMAチャネルを選択：
+[select-config]DMAチャネル設定：
+[select-16]16ビットDMAチャネルを選択：
+[io-request]I/Oアドレスを入力して下さい。
+[irq3]3
+[irq4]4
+[irq5]5
+[irq7]7
+[irq9]9
+[irq10]10
+[irq11]11
+[irq12]12
+[irq15]15
+[dma0]0
+[dma1]1
+[dma3]3
+[dmah5]5
+[dmah6]6
+[dmah7]7
+[dmah56]5/6
+[dmah67]6/7
+[dmah57]5/7
+[select-16]16ビットDMAチャネルを選択：
+[16-5]5
+[16-6]6
+[16-7]7
+[IWAV.DIG]InterWave(TM)オーディオ・プロセッサのサウンドカードを使用する場合はこのドライバを選んで下さい。Core Dynamic Cynasonix, Reveal Wave Extreme 32, STB SoundRage 32といったサウンドカードが該当します。また、コンパックやゲートウェイ2000のコンピュータの一部のモデルにもInterWave(TM)オーディオ・プロセッサを使用していますので各メーカーにお問い合わせ下さい。
+[NVDIG.DIG]Nvidia互換のマルチメディア・アクセラレータを使用している場合はこのドライバを選んでください。サウンドカードの検出がうまくいかない場合はメーカーからドライバのアップデート版を入手して下さい。
+[RAP10.DIG]注意！ Roland RAP-10カードの自動検出時、I/Oアドレスの320Hあるいは330HにRAP-10が存在することをドライバが確認します。この際、DMAチャネルやIRQ設定は確認されないため、RAP-10カードのIRQが9になっていない場合、またはDMAチャンネルの5と6が他のカード等に使用されている場合は、次のメニューで「自動検出をキャンセルしてドライバを手動設定する」を選び、正しいI/O設定を行なって下さい。
+[PROAUDIO.DIG]このドライバを使用するとMedia Vision Pro Audio Spectrumのすべてのバージョンによるステレオ・デジタル・オーディオを得ることができます。もし不具合が発生する場合は代わりにSound Blaster互換のドライバを選んで下さい。Media VisionユーティリティのMVSOUND.SYSがメモリにロードされていないとカードの検出が正常に行なわれません。
+[ULTRA.DIG]このドライバを使用する際は、SBOS、UltraMID、Mega-Em等のGravisユーティリティがオフになっていることを確認して下さい。UltraSoundシステム・ソフトウェアのバージョンは2.0以降でなければ正常に作動しません。
+[JAMMER.DIG]New Media CorporationのWaveJammerカードによりPCMCIAベースのコンピュータは高品質のサウンドを得ることが可能です。WaveJammerでFM音源を使用する場合はAd Lib(TM) Music Synthesizer Cardドライバを選んで下さい。
+[SNDSCAPE.DIG]Ensoniq SoundScape(TM)互換のオーディオカードを使用する場合はこのドライバを選んで下さい。
+[SNDSYS.DIG]Microsoft Windows Sound System互換のサウンドカードを使用する場合はこのドライバを選んで下さい。 Windows Sound Systemボード用にDMAチャネルの1が割り当てられない場合は他のDMAチャネルを設定するために「自動検出をキャンセルしてドライバを手動設定する」を選んで下さい。ウィンドウズ95上ではメインメニューの「ウィンドウズ95コンフィギュレーション」を選んでI/Oアドレス設定を確認して下さい。
+[ADRV688.DIG]ESS TechnologyのES688チップ使用のシステムの場合はこのドライバを選んで下さい。
+[SBLASTER.DIG]Sound Blaster、Sound Galaxy、Thuderboard、Pro Audio Spectrumアダプタを使用する場合はこのドライバを選んで下さい。ドライバ・エミュレーションやTSRが無くてもSound Blasterとの互換性が得られるサウンド・カードであれば上記以外のカードの場合でも正常な作動をすることがあります。
+[SBPRO.DIG]Sound Blaster Pro及び完全互換のアダプタを使用する場合はこのドライバを選んで下さい。Sound Blaster16及びAWE32の場合の使用は避けて下さい。
+[SB16.DIG]Sound Blaster16及びAWE32アダプタを使用する場合はこのドライバを選んで下さい。
+[MPU401.DIG]ほとんどのGeneral MIDIシンセサイザーはRoland MPU-401 MIDIハードウェア・インターフェイス規格と互換性があります。具体的な例としては、Roland Sound Canvas、RAP-10、Sound Blaster 16系の追加ボード類が含まれます。通常MPU-401デバイスにより最高の音質を得ることが可能ですが、Adaptec SCSIコントローラを使用する場合は次のメニューで「自動検出をキャンセルしてドライバを手動設定する」を選んでMPU-401の検出トラブルを回避して下さい。Creative LabsのAWE-32を使用する場合は「Creative Labs AWE-32(TM) General MIDI」を選んで下さい。
+[IWAV.MDI]InterWave(TM)オーディオ・プロセッサのサウンド・カードを使用する場合はこのドライバを選んで下さい。Core Dynamic Cynasonix, Reveal Wave Extreme 32, STB SoundRage 32といったサウンドカードが該当します。また、コンパックやゲートウェイ2000のコンピュータの一部のモデルにもInterWave(TM)オーディオ・プロセッサを使用していますので各メーカーにお問い合わせ下さい。不具合が発生する場合はRoland MPU-401ドライバを選んで下さい。
+[NVMPU.MDI]Nvidia互換のマルチメディア・アクセラレーターを使用する場合はこのドライバを選んで下さい。カードの検出がうまくいかない場合はメーカーからドライバのアップデート版を入手して下さい。
+[MPU-401.MDI]YamahaのGeneral MIDI/XGボード・アップグレード使用のCreative Labs Sound Blaster(TM)シリーズのカードを使用する場合はこのドライバを選んで下さい。 Adaptec SCSIコントローラを使用する場合は次のメニューで「自動検出をキャンセルしてドライバを手動設定する」を選んでMPU-401の検出トラブルを回避して下さい。
+[SNDSCAPE.MDI]Ensoniq SoundScape(TM)互換のオーディオカードを使用する場合はこのドライバを選んで下さい。
+[ULTRA.MDI]このドライバを使用する際は、SBOS、UltraMID、Mega-Em等のGravisユーティリティがオフになっていることを確認して下さい。UltraSoundシステム・ソフトウェアのバージョンは2.0以降でなければ正常に作動しません。
+[SBAWE32.MDI]このドライバとCreative Labs AWE-32カードによりウェーブテーブル・クォリティーのGeneral MIDIミュージック・シンセシスを得ることが可能です。デジタル・オーディオを得る場合は「Creative Labs Sound Blaster 16あるいはAWE32」用ドライバを選んで下さい。
+[PAS.MDI]初期のPro Audio Spectrumカード使用の場合のみこのドライバを選んで下さい。Media VisionユーティリティのMVSOUND.SYSがメモリにロードされていないとカードの検出が正常に行なわれません。
+[PASPLUS.MDI]Media Vision Pro Audio Spectrum PlusあるいはPro Audio Spectrum 16の場合はこのドライバを選んで下さい。 Media VisionユーティリティのMVSOUND.SYSがメモリにロードされていないとカードの検出が正常に行なわれません。
+[ADLIBG.MDI]Ad Lib Gold Music Synthesizerを４オペレータのＦＭモードで使用する場合はこのドライバを選んで下さい。
+[ADLIB.MDI]ソフトウェアTSR無しでAd LibＦＭ互換性を得られるAd Lib互換のＦＭ音源カードを使用する場合はこのドライバを選んで下さい。最新のGeneral MIDIカードの場合は、旧式のAd Lib OPL-2チップ使用のGeneral MIDIドライバに問題がある場合にのみこのドライバを選んで下さい。
+[OPL3.MDI]ESS TechnologyのES688チップ使用のシステムの場合はこのドライバを選んで下さい。
+[ESFM.MDI]ESS TechnologyのES1688、ES1788、ES1888チップ使用のシステムの場合はこのドライバを選んで下さい。問題が起きる場合は「ESS Technology ES688 FM Audio」ドライバを選んで下さい。
+[OPL3.MDI]Yamaha OPL-3ベースのＦＭミュージック・シンセサイザーを使用する場合はこのドライバを選んで下さい。
+[MT32MPU.MDI]Roland MT-32はGeneral MIDI対応ではありませんが、MPU-401ハードウェア・インターフェース規格に準拠しています。 Adaptec SCSIコントローラとMT-32を使用する場合は次のメニューで「自動検出をキャンセルしてドライバを手動設定する」を選んでMPU-401の検出トラブルを回避して下さい。
+[SBLASTER.MDI]ＴＳＲが無くてもSound Blaster FMとの互換性が得られるＦＭミュージック・シンセサイザー・カードを使用する場合はこのドライバを選んで下さい。最新のGeneral MIDIカードの場合は、旧式のSound Blaster OPL-2チップ使用のGeneral MIDIドライバに問題がある場合はSound Blasterドライバを選んで下さい。
+[SBPRO2.MDI]Wave Blaster等のGeneral MIDIボードが付いていないSound Blaster 16アダプターを使用する場合はこのドライバを選んで下さい。AWE-32もこのドライバで作動しますが、最高の音質を得るためには「Creative Labs Sound Blaster AWE32(TM)」用ドライバを選んで下さい。
+[SBPRO2.MDI]Yamaha OPL-3シンセサイザー装備の最新のSound Blaster Proを使用する場合、或いは他のSound Blaster Pro用ドライバで正常な音を得ることができない場合はこのドライバを選んで下さい。
+[SBPRO1.MDI]初期のSound Blaster Proの場合、このドライバで18ボイス、2オペレーターのステレオＦＭサウンドを得ることが可能です。但し、Sound Blaster 16を含む殆どのSound Blaster Pro互換のカードは、さらに高性能なOPL-3チップを使用しています。このような場合は代わりに「Creative Labs Sound Blaster Pro(TM) (new version)」ドライバを選んで下さい。
+[TANDY.MDI]このドライバでTandy 1000互換の3ボイスサウンドが得ることができます。
+[PCSPKR.MDI]このドライバでIBM PC内蔵スピーカー（1ボイス）より低音質のシンセサイザー・サウンドを得ることができます。
+[backspace]Backspace
+[tab]Tab
+[enter]Enter
+[ctrl]Ctrl(左)
+[rightctrl]Ctrl(右)
+[leftshift]Shift(左)
+[rightshift]Shift(右)
+[alt]Alt
+[space]スペース・キー
+[capslock]Caps Lock・英数
+[home]Home
+[pageup]Page Up
+[keypad-]テン・キー
+[up]テン・キー： 上(8)
+[left]テン・キー： 左(4)
+[right]テン・キー： 右(6)
+[down]テン・キー： 下(2)
+[cursor-up]カーソル移動： 上
+[cursor-left]カーソル移動： 左
+[cursor-right]カーソル移動： 右
+[cursor-down]カーソル移動： 下
+[keypad-enter]テン・キー： Enter
+[keypad5]テン・キー： 5
+[keypad+]テン・キー： +
+[end]End
+[pagedown]Page Down
+[insert]Insert
+[delete]Delete
+[escape]Esc
+[err0]致命的なエラー
+[err1]GTA.BATファイルが見つかりません。
+[comb0]キーボード初期設定
+[comb1]キーボード標準設定
+[comb2]ジョイスティック
+[comb3]左折
+[comb4]右折
+[comb5]前進
+[comb6]後退
+[comb7]ブレーキ
+[comb8]乗車・降車
+[comb9]攻撃
+[comb10]次の武器
+[comb11]前の武器
+[comb12]スペシャル
+[comb13]決定
+[comb14]キャンセル
+[comb15]変更後のキーを押して下さい。
+[]
+[]

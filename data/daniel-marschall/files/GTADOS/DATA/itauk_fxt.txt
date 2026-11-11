@@ -1,0 +1,287 @@
+﻿[main0]Esegui GTA London
+[main1]Configura gioco in rete
+[main2]Configura dettagli audio
+[main3]Scegli i comandi
+[main4]Calibra i Joystick
+[main5]Imposta la lingua
+[main6]Esci
+[net0]Nessuna rete
+[net1]Collegamento Seriale
+[net2]Rete IPX
+[net3]Collegamento via modem
+[net4]Scegli la porta seriale COM
+[net5]Chiama un altro numero
+[net6]Cambia stringhe del modem
+[net7]Attesa chiamata
+[net8]Cambia Socket di rete
+[net9]Accetta modifiche
+[net10]Annulla modifiche
+[net11]Inserisci nuovo numero Socket (0 - 65535)
+[net12]Immissione OK!
+[net13]Seleziona nuova porta seriale (1 - 4)
+[net14]Scegli tipo di rete
+[net15]Inserisci nuovo numero di telefono
+[net16]Configura collegamento seriale
+[net17]Inserito valore errato
+[net18]Configura collegamento modem
+[net19]Configura rete IPX
+[net20]Nessuna rete selezionata
+[cont0]Tastiera standard
+[cont1]Joystick 1
+[cont2]Joystick 2
+[cont3]Personalizzati
+[cont4]Accetta modifiche
+[cont5]Annulla modifiche
+[cont6]Scegli metodo di controllo
+[cust0]Gira a sinistra
+[cust1]Gira a destra
+[cust2]Avanti
+[cust3]Indietro
+[cust4]Frena
+[cust5]Entra/esce da veicolo
+[cust6]Attacco
+[cust7]Arma successiva
+[cust8]Arma precedente
+[cust9]Speciale
+[cust10]Accetta modifiche
+[cust11]Annulla modifiche
+[cust12]Scegli comando da cambiare
+[cust13]Quale tasto cambiare?
+[cust14]Questo tasto è giàin uso!
+[cust15]Comando cambiato!
+[cust16]Scelta tasto non ammessa
+[cust17]Comandi personalizzati
+[joy0]Calibra i Joystick
+[joy1]Accetta modifiche
+[joy2]Annulla modifiche
+[joy3]Muovi i joystick a fine corsa
+[joy4]Premi un tasto - o un pulsante
+[joy5]Nuovi dati accettati!
+[joy6]Joystick 1
+[joy7]Joystick 2
+[joy8]Joystick non calibrati!
+[joy9]Calibrazione annullata
+[sound0]Imposta scheda audio
+[sound1]Imposta volume CD
+[sound2]Accetta
+[sound3]Annulla
+[sound4]Configura Audio
+[lang0]Inglese
+[lang1]Francese
+[lang2]Tedesco
+[lang3]Italiano
+[lang4]Giapponese
+[lang5]Inglese
+[lang6]Francese
+[lang7]Tedesco
+[lang8]Italiano
+[lang9]Giapponese
+[mode0]Reimposta modem
+[mode1]Chiamata
+[mode2]Tentativo fallito
+[mode3]Inizial. modem
+[mode4]Risposta automatica
+[mode5]Accetta
+[mode6]Annulla
+[mode7]Inserisci nuovi dati
+[mode8]Cambia stringhe di comando del modem
+[run0]Esegui Low Color GTA
+[run1]Esegui High Color GTA
+[run2]Esegui 3DFX GTA
+[run3]Annulla
+[run4]Scegli versione da eseguire
+[run5]La versione 3DFx richiede una scheda 3DFx!
+[run6]IDIOTA!!
+[misc0]Premi un tasto
+[misc1]
+[misc2]Comando: Tastiera
+[misc3]Comando: Joystick
+[misc4]Comando: Joystick 2
+[misc5]Comandi: personalizzati
+[misc6]
+[misc7]Lingua: Italiano
+[misc8]Avvio di Grand Theft Auto London
+[misc9]Inserisci percorso della cartella GTA
+[misc10]---
+[misc11]Accettato
+[misc12]Sto installando i file
+[misc13]Installazione su hard disc
+[misc14]Installazione completata
+[misc15]Inserito percorso errato
+[misc16]Scegli un'opzione
+[misc17]Scegli la tua lingua
+[misc18]Spazio su disco insufficiente
+[misc19]Impossibile trovare GTA, reinserire il dato.
+[misc20]Sei sicuro?
+[misc21]"Invio" per accettare
+[misc22]Premi un altro tasto qualsiasi per annullare
+[misc23]Installazione su
+[misc24]Richiesti 80Mb di spazio libero su disco
+[detect-auto]Tentativo di configurazione automatica driver audio
+[detect-manual]Configurazione manuale del driver audio
+[detect-diff]Scegli un driver audio diverso
+[detect-help]Help
+[main-curr]Configurazione audio attuale
+[main-midi]Musica MIDI:
+[main-none]Nessuna
+[main-dig]Audio digitale:
+[main-msel]Seleziona driver musica MIDI
+[main-dsel]Seleziona driver audio digitale
+[no-midi]Nessuna musica MIDI
+[no-dig]Nessun audio Digitale
+[view-win]Vedi configurazione Windows 95
+[done]Fatto
+[main-opt]Opzioni configurazione audio
+[win-err]Errore nell'esecuzione della utility di configurazione Windows 95
+[win-nocard]Windows 95 chiede: dov'è la scheda audio?
+[win-mem]Errore nell'allocazione della memoria DOS per utility di configurazione Windows 95
+[win-help1]Questa opzione mostra l'attuale configurazione hardware audio di Windows 95
+[win-help2]ed è di aiuto quando l'autorilevamento fallisce a causa di esecuzione in Windows 95
+[win-help3]di una finestra DOS. In questo ambiente l'autorilevamento non sempre funziona perché
+[win-help4]Windows 95 è in grado di configurare la tua scheda audio con qualsiasi tipo di
+[win-help5]impostazione hardware. Quindi se l'autorilevamento fallisce devi configurare manualmente
+[win-help6]questa utility con la porta di I/O, l' IRQ e le impostazioni DMA indicate qui sotto.
+[win-return]Ritorna al menu precedente
+[copyright]%F Miles Sound System, (C) Copyright 1991-96 RAD Software Version
+[title]%F Utility di Configurazione Sistema Audio
+[avail-midi]Driver MIDI disponibili
+[avail-dig]Driver Audio Digitali disponibili
+[err-null]Inserisci un valore
+[err-file]Impossibile aprire il file
+[err-ornull]Devi specificare i valori!
+[err-nodri]Nessun driver audio rilevato nella directory corrente
+[err-nolist]Impossibile aprire MSSDRVR.LST
+[err-crit]Errore I/O
+[err-fail]Errore hardware audio
+[err-check]Verifica tipo di driver e configurazione
+[err-nosave]Impossibile salvare il file di configurazione
+[err-default]Errore di sistema sconosciuto
+[error]ERRORE!
+[try-again]Premi un tasto, poi scegli un altro driver
+[con-succ]Rilevamento dispositivo riuscito!
+[con-sel]Premi un tasto per salvare:
+[con-midi]Musica MIDI
+[con-dig]Audio Digitale
+[con-config]configurazione e
+[con-return]ritornare al menu principale.
+[ok]OK
+[detect-title]Rilevamento scheda audio
+[detect-help1]Scegli l'opzione 'Evita l'autorilevamento e configura i driver audio
+[detect-help2]manualmente' se il tuo PC dispone di periferiche che potrebbero entrare
+[detect-help3]in conflitto con le impostazioni I/O standard della scheda audio.
+[detect-help4]Questa opzione ti permetteràdi inserire i parametri della scheda audio
+[detect-help5]manualmente, il che può anche essere necessario qualora l'opzione
+[detect-help6]'Tentativo di configurazione automatica driver audio' non riuscisse a rilevare la
+[detect-help7]scheda audio correttamente.
+[detect-help8]Nella maggior parte dei casi dovresti provare per prima l'opzione 'Tentativo
+[detect-help9]di configurazione automatica driver audio'. Se il PC si blocca o se appare
+[detect-help10]il messaggio 'Hardware audio non trovato' dovrai invece usare l'opzione
+[detect-help11]'Evita l'autorilevamento e configura i driver audio manualmente'
+[io-address]Indirizzo I/O:
+[select-irq]Scegli l' IRQ
+[select-dma]Scegli il canale DMA a 8 bit
+[select-config]Configurazione canale DMA:
+[select-16]Scegli il canale DMA a 16 bit:
+[io-request]Inserisci l'indirizzo di I/O in esadecimale:
+[irq3]3
+[irq4]4
+[irq5]5
+[irq7]7
+[irq9]9
+[irq10]10
+[irq11]11
+[irq12]12
+[irq15]15
+[dma0]0
+[dma1]1
+[dma3]3
+[dmah5]5
+[dmah6]6
+[dmah7]7
+[dmah56]5/6
+[dmah67]6/7
+[dmah57]5/7
+[16-5]5
+[16-6]6
+[16-7]7
+[IWAV.DIG]Scegli questo driver per usare qualsiasi scheda audio basata su processore audio InterWave (TM). Esempi di queste schede sono la Core Dynamic Dynasonix, la Reveal WaveExtreme 32, e la STB SoundRage 32. Alcuni modelli di PC Compaq e Gateway 2000 usano anche la InterWave Audio Processor; consulta il produttore del tuo PC per maggiori informazioni.
+[NVDIG.DIG]Scegli questo driver se il tuo sistema è provvisto di un acceleratore multimediale compatibile Nvidia. Se il driver non riesce a identificare correttamente la tua scheda, consulta il venditore della scheda o del sistema per avere driver aggiornati.
+[RAP10.DIG]ATTENZIONE: durante l'autorilevamento della scheda Roland RAP-10, il driver verifica che la RAP-10 sia presente ad un indirizzo di I/O di 320H o330H. Non verificheràil canale DMA della scheda né le impostazioni IRQ. Se la tua scheda RAP-10 non è configurata per IRQ 9, o se i canali DMA 5 e 6 sono giàutilizzati da un'altra scheda del tuo sistema, devi selezionare l'opzione 'Evita l'autorilevamento e configura i driver audio manualmente' nel menu successivo ed inserire le esatte impostazioni di
+[PROAUDIO.DIG]L'audio stereo digitale con tutte le versioni del Media Vision Pro Audio Spectrum è accessibile usando questo driver. Se incontrassi dei problemi devi selezionare invece il driver Sound Blaster compatibile. La utility Media Vision MVSOUND.SYS deve essere caricata in memoria, altrimenti la tua scheda non verràrilevata.
+[ULTRA.DIG]Quando usi questo driver, assicurati che non siano attive utility Gravis quali SBOS, UltraMID o Mega-Em. Il tuo sistema software UltraSound dovrebbe essere la versione 2.0 o successiva.
+[JAMMER.DIG]La scheda WaveJammer di New Media Corporation garantisce un audio di alta qualitàper computer portatili con porta PCMCIA. Seleziona il driver della scheda Ad Lib(R) Music Synthesizer per riproduzione musicale FM con la WaveJammer.
+[SNDSCAPE.DIG]Usa questo driver se hai una scheda audio Ensoniq SoundScape(TM) o compatibile.
+[SNDSYS.DIG]Usa questo driver se hai una scheda audio compatibile con Microsoft Windows Sound System Se il canale 1 DMA non è disponibile per la scheda Windows Sound System, dovrai ricorrere all'opzione 'Evita l'autorilevamento e configura i driver audio manualmente' per selezionare un altro canale DMA. Se sei in ambiente Windows 95 può essere necessario ricorrere all'opzione "Vedi configurazione Windows 95" nel menu principale per verificare quale indirizzo I/O la tua scheda Windows Sound System sta usand
+[ADRV688.DIG]Questo driver supporta sistemi dotati di chipset ES688 della ESS Technology.
+[SBLASTER.DIG]Seleziona questo driver per uso con adattatori Sound Blaster, Sound Galaxy, Thunderboard, o Pro Audio Spectrum. Anche altre schede audio che non sono supportate direttamente possono funzionare con questo driver a patto che garantiscano una compatibilitàhardware con la Sound Blaster senza driver di emulazione o TSR.
+[SBPRO.DIG]Questo driver supporta tutte le versioni della Sound Blaster Pro e adattatori compatibili al 100%. Non ne è consigliato l'uso con la Sound Blaster 16 o la AWE32.
+[SB16.DIG]Scegli questo driver per audio digitale di alta qualitàcon l'adattatore Sound Blaster 16 o AWE32
+[MPU401.MDI]La maggior parte dei sintetizzatori General MIDI supportano standard di interfaccia hardware MIDI Roland MPU-401. Sono inclusi il Roland Sound Canvas, il RAP-10 e compatibili, nonché schede plug-in per la famiglia Sound Blaster 16. I dispositivi MPU-401 di solito offrono il più alto livello di performance e di qualitàdel suono, tuttavia chi usa dei controller Adaptec SCSI può ricorrere all'opzione 'Evita l'autorilevamento e configura i driver audio manualmente' al prossimo menu per ridurre il
+[IWAV.MDI]Seleziona questo driver per uso con qualsiasi scheda audio basata sul processore InterWave (TM) Audio Processor. Esempi di questo tipo di scheda sono la Core Dynamic Dynasonix, la Reveal WaveExtreme 32, e la STB SoundRage 32. Anche alcuni modelli di PC Compaq e Gateway 2000 usano il processore InterWave Audio; consulta il produttore per maggiori informazioni. Se incontri difficoltànella configurazione, scegli il driver Roland MPU-401
+[NVMPU.MDI]Scegli questo driver se il tuo sistema è fornito di un acceleratore multimediale Nvidia compatibile. Se il driver non riesce a individuare correttamente la tua scheda consulta il venditore della scheda o del sistema per maggiori informazioni.
+[SNDSCAPE.MDI]Scegli questo driver se hai una scheda audio Ensoniq SoundScape(TM) o compatibile.
+[ULTRA.MDI]Usando questo driver assicurati che non siano attive utility della Gravis quali SBOS, UltraMID o Mega-Em. La versione del tuo software di sistema UltraSound dovrebbe essere la 2.0 o successiva.
+[SBAWE32.MDI]Questo driver offre una sintesi musicale "wavetable" General MIDI con la scheda Creative Labs AWE-32. Il driver "Creative Labs Sound Blaster 16 or AWE32" dovrebbe essere selezionato per l'audio digitale.
+[PAS.MDI]Solo i possessori delle schede Pro Audio Spectrum meno recenti della Media Vision dovrebbero selezionare questo driver. La utility della Media Vision, MVSOUND.SYS, deve essere caricata in memoria, altrimenti la scheda non verràrilevata.
+[PASPLUS.MDI]Chi usa le schede Media Vision Pro Audio Spectrum Plus e Pro Audio Spectrum 16 dovrebbe scegliere questo driver. La utility della Media Vision, MVSOUND.SYS, deve essere caricata in memoria, altrimenti la scheda non verràrilevata.
+[ADLIBG.MDI]Questo driver supporta la scheda Gold Music Synthesizer della Ad Lib a 4 operatori in modalitàFM.
+[ADLIB.MDI]Questo driver può essere usato con qualsiasi scheda di sintesi musicale FM Ad Lib compatibile a patto che non necessiti di software TSR per compatibilitàcon AD Lib FM. Possessori di schede più sofisticate di tipo General MIDI dovrebbero usare il driver Ad Lib solo se sorgono dei problemi con il driver General MIDI della scheda, dato che il vecchio chip OPL-2 non offre la superiore qualitàaudio disponibile con dispositivi più moderni.
+[OPL3.MDI]Questo driver supporta sistemi provvisti del chip ES688 della ESS Technology.
+[ESFM.MDI]Questo driver supporta sistemi provvisti dei chip ES1688, ES1788, o ES1888 della ESS Technology. Con questo driver è possibile un'esecuzione ottimizzata di musica FM. Qualora sorgessero problemi scegli in alternativa il driver ES688 FM Audio della ESS Technology.
+[MT32MPU.MDI]Sebbene il Roland MT-32 non sia General MIDI compatibile, esso usa l'interfaccia hardware standard MPU-401 per comunicare con le applicazioni. Chi ha un MT-32 con controller Adaptec SCSI può ricorrere all'opzione 'Evita l'autorilevamento e configura i driver audio manualmente' al prossimo menu per ridurre il rischio di problemi di rilevamento del MPU-401.
+[SBLASTER.MDI]Questo driver può essere usato con qualsiasi scheda di sintesi musicale FM Sound Blaster compatibile che non usi il software TSR per ottenere la compatibilitàSound Blaster FM. Utenti di schede più sofisticate tipo General MIDI dovrebbero scegliere il driver Sound Blaster solo in caso di problemi con il driver General MIDI, dato che il vecchio chip Sound Blaster OPL-2 non offre la qualitàaudio superiore disponibile con dispositivi più moderni.
+[SBPRO2.MDI]Questo driver si usa con adattatori Sound Blaster 16 non provvisti di scheda plug-in General MIDI, quale la Wave Blaster. Sebbene la AWE-32 possa essere supportata dal driver della Sound Blaster 16, chi se ne serve dovrebbe scegliere il driver "Creative Labs AWE-32(R) General MIDI" per ottenere un audio ottimale.
+[SBPRO1.MDI]Chi usa le versioni meno recenti della scheda Sound Blaster Pro può ottenere un audio FM stereo a 18-voci, 2 operatori, musica stereo FM, selezionando questo driver. Tuttavia quasi tutte le Sound Blaster Pro e compatibili, inclusa la Sound Blaster 16 usano il più potente chip OPL-3. Con queste schede più recenti dovresti usare il driver Creative Labs Sound Blaster Pro(TM) (nuova versione).
+[TANDY.MDI]Un supporto musicale Tandy 1000 compatibile a 3 voci è disponibile con questo driver.
+[PCSPKR.MDI]Questo driver supporta l'audio per altoparlanti interni IBM PC ad una voce, che offrono un basso livello di sintesi musicale.
+[backspace]Backspace
+[tab]Tab
+[enter]Invio
+[ctrl]Ctrl sin
+[rightctrl]Ctrl des
+[leftshift]Maiusc sin
+[rightshift]Maiusc des
+[alt]Alt
+[space]Spazio
+[capslock]Blocco maiusc
+[home]Inizio
+[pageup]Pag su
+[keypad-]Keypad -
+[up]Keypad su
+[left]Keypad sin
+[right]Keypad des
+[down]Keypad giù
+[cursor-up]Su
+[cursor-left]Sin
+[cursor-right]Des
+[cursor-down]Giù
+[keypad-enter]Invio keypad
+[keypad5]Keypad 5
+[keypad+]Keypad +
+[end]Fine
+[pagedown]Pag Giù
+[insert]Ins
+[delete]Canc
+[escape]Esc
+[err0]Errore grave:
+[err1]File GTA.BAT non trovato!
+[comb0]Setup tastiera standard
+[comb1]Setup tastiera classica
+[comb2]Joystick
+[comb3]Gira a sin
+[comb4]Gira a des
+[comb5]Avanti
+[comb6]Indietro
+[comb7]Frena
+[comb8]Entra/esce da veicolo
+[comb9]Attacco
+[comb10]Arma successiva
+[comb11]Arma precedente
+[comb12]Speciale
+[comb13]Accetta modifiche
+[comb14]Annulla modifiche
+[comb15]Cambio su quale tasto?
+[test]MISSING TEXT
+[]
+[]
+[]

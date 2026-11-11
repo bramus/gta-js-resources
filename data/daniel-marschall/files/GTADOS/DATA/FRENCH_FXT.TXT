@@ -1,0 +1,289 @@
+﻿[main0]Lancer GTA
+[main1]Configurer jeu en réseau
+[main2]Configurer options sonores
+[main3]Sélectionner commandes
+[main4]Calibrer Joysticks
+[main5]Choisir la langue
+[main6]Quitter
+[net0]Pas de réseau
+[net1]Liaison série
+[net2]Réseau IPX
+[net3]Liaison Modem
+[net4]Choisir Port Série
+[net5]Modifier numéro
+[net6]Changer chaîne d'initialisation
+[net7]En attente d'appel
+[net8]Changer socket du réseau
+[net9]Accepter changements
+[net10]Annuler changements
+[net11]Entrer nouveau numéro de socket (0 - 65535)
+[net12]Confirmer
+[net13]Entrer nouveau port série (1 - 4)
+[net14]Choisir type de réseau
+[net15]Entrer nouveau numéro de téléphone
+[net16]Configurer liaison série
+[net17]Valeur entrée incorrecte
+[net18]Configurer liaison modem
+[net19]Configurer réseau IPX
+[net20]Pas de réseau sélectionné
+[cont0]Configuration clavier par défaut
+[cont1]Joystick 1
+[cont2]Joystick 2
+[cont3]Personnalisée
+[cont4]Accepter changements
+[cont5]Annuler changements
+[cont6]Choisir méthode de contrôle
+[cust0]Gauche
+[cust1]Droite
+[cust2]Avancer
+[cust3]Reculer
+[cust4]Freiner
+[cust5]Entrer/sortir du véhicule
+[cust6]Attaquer
+[cust7]Arme suivante
+[cust8]Arme précédente
+[cust9]Spécial
+[cust10]Accepter changements
+[cust11]Annuler changements
+[cust12]Commande à modifier
+[cust13]Changer pour quelle touche?
+[cust14]Cette touche est déjà utilisée!
+[cust15]Contrôle modifié!
+[cust16]Touche non utilisable
+[cust17]Contrôles personnalisés
+[joy0]Calibrer Joysticks
+[joy1]Accepter modifications
+[joy2]Annuler modifications
+[joy3]Joystick: mouvements maximum
+[joy4]Appuyez sur une touche/bouton
+[joy5]Nouvelles valeurs acceptées!
+[joy6]Joystick 1
+[joy7]Joystick 2
+[joy8]Joysticks non calibrés
+[joy9]Calibrage annulé
+[sound0]Paramétrer carte sonore
+[sound1]Volume du CD
+[sound2]Accepter
+[sound3]Annuler
+[sound4]Configurer son
+[lang0]Anglais
+[lang1]Français
+[lang2]Allemand
+[lang3]Italien
+[lang4]Japonais
+[lang5]Anglais
+[lang6]Français
+[lang7]Allemand
+[lang8]Italien
+[lang9]Japonais
+[mode0]Reset modem
+[mode1]Appel modem
+[mode2]Ligne raccrochée
+[mode3]Initialisation modem
+[mode4]Réponse automatique
+[mode5]Accepter
+[mode6]Annuler
+[mode7]Entrer nouvelle chaîne
+[mode8]Modifier chaîne de commande
+[run0]Couleurs limitées
+[run1]Couleurs maximum
+[run2]Lancer GTA 3DFX
+[run3]Annuler
+[run4]Choisir une version
+[run5]La version 3DFX nécessite une carte 3DFX
+[run6]Imbécile!!
+[misc0]Appuyez sur 1 touche
+[misc1]
+[misc2]Contrôle: clavier
+[misc3]Contrôle: Joystick
+[misc4]Contrôle: Joystick 2
+[misc5]Contrôle: personnalisé
+[misc6]
+[misc7]Langue: Français
+[misc8]Lancement Grand Theft Auto
+[misc9]Entrer le chemin d'accès du répertoire DMA.
+[misc10]Ou entrer un nouveau chemin d'accès
+[misc11]Accepté
+[misc12]Installation des fichiers en cours
+[misc13]Installation sur disque dur
+[misc14]Installation terminée
+[misc15]Chemin d'accès incorrect
+[misc16]Choisir une option
+[misc17]Choisissez la langue
+[misc18]Espace disque insuffisant
+[misc19]Installer dans
+[misc20]Vous confirmez?
+[misc21]'Entrée' pour confirmer
+[misc22]Appuyez sur 1 autre touche pour annuler
+[misc23]Installer dans
+[misc24]80 Mo d'espace libre nécessaires
+[detect-auto]Essai de configuration sonore automatique
+[detect-manual]Configuration sonore manuelle
+[detect-diff]Choisissez un autre gestionnaire sonore
+[detect-help]Aide
+[main-curr]Configuration sonore actuelle
+[main-midi]Musique MIDI:
+[main-none]Aucune
+[main-dig]Audio numérique:
+[main-msel]Choisir gestionnaire musique MIDI
+[main-dsel]Choisir gestionnaire Audio numérique
+[no-midi]Pas de musique MIDI
+[no-dig]Pas de son numérique
+[view-win]Voir configuration Windows 95
+[done]Terminé
+[main-opt]Options de configuration sonore
+[win-err]Erreur de lecture de l'utilitaire de configuration Windows 95
+[win-nocard]Windows 95 ne trouve pas la carte sonore
+[win-mem]Erreur d'allocation de mémoire DOS pour l'utilitaire de configuration Windows 95
+[win-help1]Cette option affiche la configuration sonore Windows 95 actuelle, elle est
+[win-help2]utile si l'auto-détection a échoué parce que vous utilisez une fenêtre DOS
+[win-help3]sous Windows 95. L'auto-détection échoue dans cet environnement car
+[win-help4]Windows 95 peut configurer votre carte sonore avec la plupart des matériels
+[win-help5]existants. Si l'auto-détection échoue, configurez manuellement votre carte
+[win-help6]en fonction du Port , de l'IRQ et du canal DMA indiqués ci-dessous.
+[win-return]Retour au menu précédent
+[copyright]%F Miles Sound System, (C) Copyright 1991-96 RAD Software Version
+[title]Utilitaire de configuration sonore %F
+[avail-midi]Gestionnaires MIDI disponibles
+[avail-dig]Gestionnaires Audio disponibles
+[err-null]Entrez une valeur
+[err-file]Impossible d'ouvrir le fichier
+[err-ornull]Les 2 champs ne peuvent pas rester vides
+[err-nodri]Pas de gestionnaires audio trouvés dans ce répertoire
+[err-nolist]Impossible d'ouvrir MSSDRVR.LST
+[err-crit]Erreur E/S
+[err-fail]Erreur de configuration matérielle
+[err-check]Vérifiez le type et la configuration du gestionnaire
+[err-nosave]Sauvegarde de la configuration impossible
+[err-default]Erreur système inconnue
+[error]Erreur
+[try-again]Appuyez sur une touche et choisissez un autre gestionnaire
+[con-succ]Périphérique détecté
+[con-sel]Appuyez sur une touche pour sauvegarder votre nouvelle
+[con-midi]Musique MIDI
+[con-dig]Audio numérique
+[con-config]configuration et
+[con-return]revenir au menu principal
+[ok]OK
+[detect-title]Détection carte sonore
+[detect-help1]Choisissez l'option 'Ignorer l'auto-détection et configurer manuellement
+[detect-help2]la carte sonore' si votre PC est équipé de périphériques qui risquent
+[detect-help3]d'entrer en conflit avec le port E/S par défaut de votre carte sonore.
+[detect-help4]Cette option vous permet d'entrer manuellement les paramètres E/S
+[detect-help5]de votre carte, ce qui est utile si l'option 'Essai de configuration
+[detect-help6]automatique' n'a pas réussi à détecter votre carte
+[detect-help7]sonore.
+[detect-help8]Essayez d'abord l'option 'Essai de configuration automatique du son', si
+[detect-help9]votre PC se bloque ou si le message 'Matériel sonore introuvable'
+[detect-help10]apparaît. Dans ce cas, choisissez l'option 'Ignorer l'auto-détection et
+[detect-help11]configurer manuellement la carte sonore'.
+[io-address]Adresse E/S
+[select-irq]Choisir IRQ
+[select-dma]Choisir canal DMA 8 bits:
+[select-config]Configuration canal DMA:
+[select-16]Choisir canal DMA 16 bits:
+[io-request]Entrer adresse E/S en hexadécimal:
+[irq3]3
+[irq4]4
+[irq5]5
+[irq7]7
+[irq9]9
+[irq10]10
+[irq11]11
+[irq12]12
+[irq15]15
+[dma0]0
+[dma1]1
+[dma3]3
+[dmah5]5
+[dmah6]6
+[dmah7]7
+[dmah56]5/6
+[dmah67]6/7
+[dmah57]5/7
+[select-16]Choisir canal DMA 16 bits:
+[16-5]5
+[16-6]6
+[16-7]7
+[IWAV.DIG]Sélectionnez ce gestionnaire si votre carte sonore fonctionne avec un processeur audio InterWave (TM). C'est le cas des cartes Core Dynamic Dynasonix, Reveal WaveExtreme 32 et de la STB SoundRage 32. Certains ordinateurs Compaq et Gateway 2000 utilisent également le processeur audio InterWave. Pour plus d'informations, consultez le fabricant.
+[NVDIG.DIG]Choisissez ce gestionnaire si votre système est équipé d'un accélérateur multimédia compatible NVidia. Si le gestionnaire ne parvient pas à détecter votre carte, contactez le revendeur de votre système ou de votre carte pour obtenir une version plus récente du gestionnaire.
+[RAP10.DIG]Attention: pendant la détection automatique de la carte Roland RAP-10, le gestionnaire vérifie que la carte RAP-10 est présente à l'adresse 320H ou 330H. Il ne contrôle pas le canal DMA ou les paramètres IRQ de la carte. Si votre carte RAP-10 n'est pas configurée sur l'IRQ 9 ou si les canaux DMA 5 et 6 sont déjà utilisés par une autre carte sur votre système, vous devez choisir l'option 'Ignorer l'auto-détection et configurer manuellement la carte sonore' dans le menu suivant. Il faudra ensuite entrer les paramètres de port de votre carte. Si vous n'effectuez pas ces changements, l'ordinateur risque de se bloquer et les sons irréguliers.
+[PROAUDIO.DIG]Ce gestionnaire permet d'obtenir un son numérique stéréo avec toutes les versions de la carte Pro Audio Spectrum de Media Vision. Si vous avez un problème, sélectionnez le gestionnaire compatible Sound Blaster. L'utilitaire MVSOUND.SYS de Media Vision doit être chargé en mémoire, sinon votre carte ne sera pas détectée.
+[ULTRA.DIG]Lorsque vous utilisez ce gestionnaire, assurez-vous que les utilitaires Gravis comme SBOS, UltraMID, ou Mega-Em ne sont pas actifs. Vous devez posséder la version 2.0, ou plus du logiciel UltraSound system.
+[JAMMER.DIG]La carte WaveJammer de New Media Corporation permet d'obtenir un son de haute-qualité sur les ordinateurs portables à cartes PCMCIA. Choisissez le gestionnaire de la carte sonore Ad Lib(R) Music Synthesizer pour un son FM avec une carte WaveJammer..
+[SNDSCAPE.DIG]Choisissez ce gestionnaire si vous avez une carte sonore compatible Ensoniq SoundScape(TM).
+[SNDSYS.DIG]Choisissez ce gestionnaire si votre carte sonore est compatible avec le Microsoft Windows Sound System. Si le canal DMA 1 n'est pas utilisable par votre carte Windows Sound System, vous devez choisir l'option 'Ignorer l'auto-détection et configurer manuellement la carte et sélectionner un autre canal DMA. Si vous êtes sous Windows 95, utilisez l'option 'Voir configuration Windows 95' dans le menu principal, pour connaître l'adresse du système sonore de Windows.
+[ADRV688.DIG]This driver supports systems equipped with ESS Technology's ES688 chipset.
+[this is a set of micro-chips which manyy manufacturers use as a standard]
+[SBLASTER.DIG]Choisissez ce gestionnaire si vous avez une carte Sound Blaster, Sound Galaxy, Thunderboard, ou un adaptateur Pro Audio Spectrum. Les cartes sonores qui ne sont pas directement reconnues peuvent également fonctionner avec ce gestionnaire si elles sont compatibles Sound Blaster sans gestionnaires d'émulation ou résidents (TSR).
+[SBPRO.DIG]Ce gestionnaire reconnaît toutes les versions de la carte Sound Blaster Pro et les cartes 100% compatibles. Toutefois, il n'est pas recommandé pour la Sound Blaster 16 ou la AWE32.
+[SB16.DIG]Pour obtenir un son numérique de haute-qualité avec votre Sound Blaster 16 ou votre AWE32, choisissez ce gestionnaire.
+[MPU401.MDI]La plupart des synthétiseurs General MIDI reconnaissent l'interface MIDI MPU-401 de Roland. C'est le cas des cartes Roland Sound Canvas, RAP-10 et compatibles et des cartes Sound Blaster 16. Les cartes MPU-401 ont généralement les meilleures performances sonores, mais les utilisateurs de contrôleurs SCSI Adaptec doivent choisir l'option 'Ignorer l'auto-détection et configurer manuellement la carte sonore' dans le menu suivant, pour limiter les problèmes liés à la détection MPU-401. Si vous avez une carte Creative Labs AWE-32, choisissez l'option "Creative Labs AWE-32(TM) General MIDI".
+[IWAV.MDI]Sélectionnez ce gestionnaire si votre carte sonore fonctionne avec un processeur audio InterWave (TM). C'est le cas des cartes Core Dynamic Dynasonix, Reveal WaveExtreme 32 et STB SoundRage 32. Certains ordinateurs Compaq et Gateway 2000 utilisent également le processeur audio InterWave. Pour plus d'informations, consultez le fabricant de votre matériel. Si vous avez des problèmes de configuration, choisissez le gestionnaire Roland MPU-401.
+[NVMPU.MDI]Choisissez ce gestionnaire si votre système est équipé d'une carte accélératrice multimédia compatible NVidia. Si le gestionnaire ne parvient pas à détecter votre carte, contactez le fabricant de votre système ou de votre carte pour obtenir une version plus récente des gestionnaires.
+[MPU401.MDI]Choisissez ce gestionnaire si votre carte Creative Labs Sound Blaster(TM) est équipée d'une carte annexe General MIDI/XG Yamaha. Les utilisateurs de contrôleurs SCSI Adaptec doivent choisir l'option 'Ignorer l'auto-détection et configurer manuellement la carte sonore' dans le menu suivant pour limiter les problèmes liés à la détection MPU-401.
+[SNDSCAPE.MDI]Choisissez ce gestionnaire si vous avez une carte audio Ensoniq SoundScape(TM) ou compatible.
+[ULTRA.MDI]Lorsque vous utilisez ce gestionnaire, assurez-vous que les utilitaires Gravis comme SBOS, UltraMID, ou Mega-Em ne sont pas en mémoire. La version du logiciel UltraSound nécessaire est la 2.0 ou plus.
+[SBAWE32.MDI]Ce gestionnaire permet d'obtenir une qualité General MIDI avec une carte Creative Labs AWE-32. Sélectionnez le gestionnaire 'Creative Labs Sound Blaster 16 ou AWE32'.
+[PAS.MDI]Seuls les utilisateurs des premières versions de la carte Pro Audio Spectrum de Media Vision doivent choisir ce gestionnaire. L'utilitaire MVSOUND.SYS de Media Vision doit être chargé en mémoire pour que votre carte sonore soit détectée.
+[PASPLUS.MDI]Les utilisateurs de la carte Media Vision Pro Audio Spectrum Plus et de la Pro Audio Spectrum 16 doivent utiliser ce gestionnaire. Attention: votre carte ne sera pas détectée si l'utilitaire MVSOUND.SYS de Media Vision n'est pas chargé en mémoire.
+[ADLIBG.MDI]Ce gestionnaire reconnaît la carte Ad Lib Gold Music Synthesizer en mode FM 4 opérateurs.
+[ADLIB.MDI]Ce gestionnaire peut être utilisé avec toutes les cartes à synthèse FM compatibles Ad Lib, si leur compatibilité n'est pas émulée avec un programme résident (TSR). Les joueurs qui possèdent des cartes General MIDI plus évoluées ne doivent sélectionner le gestionnaire Ad Lib que si des problèmes surviennent avec le gestionnaire General MIDI (les anciens processeurs Ad Lib OPL-2 n'étant pas de très bonne qualité).
+[OPL3.MDI]Ce gestionnaire reconnaît les systèmes équipés d'un processeur ES688 d'ESS Technology.
+[ESFM.MDI]Ce gestionnaire reconnaît les systèmes équipés d'un processeur ES688, ES1788, ou ES1888 d'ESS Technology. Une meilleure qualité FM est accessible avec ce gestionnaire. Si des problèmes surviennent, sélectionnez le gestionnaire 'ESS Technology ES688 FM Audio'.
+[OPL3.MDI]Ce gestionnaire est à utiliser avec toutes les cartes à synthèse FM Yamaha OPL-3, y compris celles qui ne sont reconnues par aucun autre gestionnaire de la liste.
+[MT32MPU.MDI]Bien que la Roland MT-32 ne soit pas compatible General Midi, elle utilise l'interface MPU-401 pour communiquer avec d'autres applications. Les possesseurs de MT-32 qui utilisent des contrôleurs SCSI Adaptec doivent choisir l'option 'Ignorer l'auto-détection et configurer manuellement la carte sonore' dans le menu suivant pour limiter les problèmes liés à la détection MPU-401.
+[SBLASTER.MDI]Ce gestionnaire peut être utilisé avec toutes les cartes à synthèse FM compatibles Sound Blaster, si leur compatibilité n'est pas émulée par un programme résident (TSR). Les joueurs qui possèdent des cartes General MIDI plus évoluées ne doivent sélectionner le gestionnaire Sound Blaster que si des problèmes surviennent avec le gestionnaire General MIDI (les anciens processeurs Sound BlasterOPL-2 n'étant pas d'excellente qualité).
+[SBPRO2.MDI]Ce gestionnaire doit être utilisé avec des cartes Sound Blaster 16 qui ne sont pas équipées de cartes annexes General Midi comme la Wave Blaster. Bien que le gestionnaire Sound Blaster 16 reconnaisse la carte AWE-32, les possesseurs de cartes AWE-32 doivent choisir le gestionnaire 'Creative Labs AWE-32(TM) General MIDI' pour obtenir le meilleur son possible.
+[SBPRO2.MDI]Choisissez cette option si votre carte Sound Blaster Pro est récente et à synthèse FM Yamaha OPL-3 ou si la musique n'est pas de bonne qualité avec l'autre gestionnaire Sound Blaster Pro.
+[SBPRO1.MDI]Les utilisateurs d'anciennes versions de la Sound Blaster Pro doivent choisir ce gestionnaire pour bénéficier de 18 voix, 2 opérateurs, et d'une musique en stéréo. Ceci dit, la plupart des cartes compatibles Sound Blaster Pro (y compris la Sound Blaster 16) utilisent le puissant processeur OPL-3. Pour ces cartes plus récentes, sélectionnez le gestionnaire 'Creative Labs Sound Blaster Pro(TM) (nouvelle version)'.
+[TANDY.MDI]Ce gestionnaire reconnaît les cartes Tandy 1000 3 voies et compatibles.
+[PCSPKR.MDI]Ce gestionnaire reconnaît le haut-parleur interne d'un IBM PC (1 voie) qui est très mauvaise qualité.
+[backspace]Retour arrière
+[tab]Tab
+[enter]Entrée
+[ctrl]Ctrl gauche
+[rightctrl]Ctrl droit
+[leftshift]Maj. gauche
+[rightshift]Maj. droite
+[alt]Alt
+[space]Espace
+[capslock]Verr maj.
+[home]Début
+[pageup]Page précédente
+[keypad-]'-' pavé num.
+[up]'Haut' pavé num.
+[left]'Gauche' pavé num.
+[right]'Droit' pavé num.
+[down]'Bas' pavé num.
+[cursor-up]Haut
+[cursor-left]Gauche
+[cursor-right]Droit
+[cursor-down]Bas
+[keypad-enter]'Entrée' pavé num.
+[keypad5]'5' pavé num.
+[keypad+]'+' pavé num.
+[end]Fin
+[pagedown]Page suivante
+[insert]Inser
+[delete]Suppr
+[escape]Echap
+[err0]Erreur fatale:
+[err1]Fichier GTA.BAT introuvable
+[comb0]Configuration clavier par défaut
+[comb1]Configuration clavier normale
+[comb2]Joystick
+[comb3]Tourner à gauche
+[comb4]Tourner à droite
+[comb5]Avancer
+[comb6]Reculer
+[comb7]Freiner
+[comb8]Entrer/Sortir du véhicule
+[comb9]Attaquer
+[comb10]Arme suivante
+[comb11]Arme précédente
+[comb12]Spécial
+[comb13]Accepter changements
+[comb14]Annuler changements
+[comb15]Changer pour quelle touche?
+[]

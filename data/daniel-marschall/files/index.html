@@ -1,0 +1,1806 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="de" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>GTA 1 Data File Analysis</title>
+<style type="text/css">
+.auto-style1 {
+	color: #FF0000;
+}
+.auto-style2 {
+	border-style: solid;
+	border-width: 1px;
+}
+.auto-style3 {
+	border-color: #000000;
+	border-width: 0;
+}
+.auto-style4 {
+	border-width: 1px;
+}
+.auto-style6 {
+	background-color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+
+<h1>GTA 1 Data File Analysis</h1>
+<p><a href="../index.html">Back to main page</a></p>
+<h2>GTA 1 Retail - Data Files</h2>
+<table style="width: 100%" class="auto-style2" border="1">
+	<tr>
+		<td class="auto-style4" valign="top"><strong>File Name (link = converted to modern format)</strong></td>
+		<td class="auto-style4" valign="top"><strong>Description</strong></td>
+		<td class="auto-style4" valign="top"><strong>Format / Data Structure</strong></td>
+	</tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/0_WAV.mp3">GTADATA\AUDIO\0.WAV</a></td>
+		<td class="auto-style4" valign="top">Cutscene 1 Speech</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_wav.html">RIFF Wave</a>, PCM format, 2 
+		channels, 22.050 kHz, 16 Bit</td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/1_WAV.mp3">GTADATA\AUDIO\1.WAV</a></td>
+		<td class="auto-style4" valign="top">Cutscene 2 Speech</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_wav.html">RIFF Wave</a>, PCM format, 2 
+		channels, 22.050 kHz, 16 Bit</td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/2_WAV.mp3">GTADATA\AUDIO\2.WAV</a></td>
+		<td class="auto-style4" valign="top">Cutscene 3 Speech</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_wav.html">RIFF Wave</a>, PCM format, 2 
+		channels, 22.050 kHz, 16 Bit</td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/3_WAV.mp3">GTADATA\AUDIO\3.WAV</a></td>
+		<td class="auto-style4" valign="top">Cutscene 4 Speech</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_wav.html">RIFF Wave</a>, PCM format, 2 
+		channels, 22.050 kHz, 16 Bit</td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/4_WAV.mp3">GTADATA\AUDIO\4.WAV</a></td>
+		<td class="auto-style4" valign="top">Cutscene 5 Speech</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_wav.html">RIFF Wave</a>, PCM format, 2 
+		channels, 22.050 kHz, 16 Bit</td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/5_WAV.mp3">GTADATA\AUDIO\5.WAV</a></td>
+		<td class="auto-style4" valign="top">Cutscene 6 Speech</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_wav.html">RIFF Wave</a>, PCM format, 2 
+		channels, 22.050 kHz, 16 Bit</td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/LEVEL000.zip">GTADATA\AUDIO\LEVEL000.RAW</a></td>
+		<td class="auto-style4" valign="top">
+		Menu Sound Effects (3 stereo sounds, followed by 13 mono sounds)</td>
+		<td class="auto-style4" valign="top">
+		Raw audio data, PCM format, 1-2 channels (mixed), various bitrates, 16 
+		bits per sample</td></tr>
+	<tr><td class="auto-style4" valign="top">GTADATA\AUDIO\LEVEL000.SDT</td>
+		<td class="auto-style4" valign="top">(Sound index file)</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/LEVEL001.zip">GTADATA\AUDIO\LEVEL001.RAW</a></td>
+		<td class="auto-style4" valign="top">
+		Area 1 (Liberty City) Sound Effects (131 mono sounds)</td>
+		<td class="auto-style4" valign="top">Raw audio data, PCM 
+		format, 1 channel, various bitrates, 8 bits per sample</td></tr>
+	<tr><td class="auto-style4" valign="top">GTADATA\AUDIO\LEVEL001.SDT</td>
+		<td class="auto-style4" valign="top">(Sound index file)</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/LEVEL002.zip">GTADATA\AUDIO\LEVEL002.RAW</a></td>
+		<td class="auto-style4" valign="top">
+		Area 2 (San Andreas) Sound Effects (131 mono sounds)</td>
+		<td class="auto-style4" valign="top">Raw audio data, PCM 
+		format, 1 channel, various bitrates, 8 bits per sample</td></tr>
+	<tr><td class="auto-style4" valign="top">GTADATA\AUDIO\LEVEL002.SDT</td>
+		<td class="auto-style4" valign="top">(Sound index file)</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/LEVEL003.zip">GTADATA\AUDIO\LEVEL003.RAW</a></td>
+		<td class="auto-style4" valign="top">
+		Area 3 (Vice City) Sound Effects (131 mono sounds)</td>
+		<td class="auto-style4" valign="top">Raw audio data, PCM 
+		format, 1 channel, various bitrates, 8 bits per sample</td></tr>
+	<tr><td class="auto-style4" valign="top">GTADATA\AUDIO\LEVEL003.SDT</td>
+		<td class="auto-style4" valign="top">(Sound index file)</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/MISBRIEF.zip">GTADATA\AUDIO\MISBRIEF.RAW</a></td>
+		<td class="auto-style4" valign="top">
+		Powerup Sound Effects (10 mono sounds)</td>
+		<td class="auto-style4" valign="top">Raw audio data, PCM 
+		format, 1 channel, various bitrates, 8 bits per sample</td></tr>
+	<tr><td class="auto-style4" valign="top">GTADATA\AUDIO\MISBRIEF.SDT</td>
+		<td class="auto-style4" valign="top">(Sound index file)</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/AUDIO/VOCALCOM.zip">GTADATA\AUDIO\VOCALCOM.RAW</a></td>
+		<td class="auto-style4" valign="top">
+		Narrator and Pedestrian Sound Effects (71 mono sounds)</td>
+		<td class="auto-style4" valign="top">Raw audio 
+		data, PCM format, 1 channel, various bitrates, 8 bits per sample</td></tr>
+	<tr><td class="auto-style4" valign="top">GTADATA\AUDIO\VOCALCOM.SDT</td>
+		<td class="auto-style4" valign="top">(Sound index file)</td>
+		<td class="auto-style4" valign="top">
+		<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/1.REP">GTADATA\1.REP</a>
+	<span class="auto-style1">(leftover from development?)</span></td>
+		<td class="auto-style4" valign="top">
+		Something related to Liberty City #1 (Mission.ini ID "1")?<br />
+		Maybe Replay.rep (Debug?) had the Level ID in its name back then?</td>
+		<td class="auto-style4" valign="top">
+		Replay???</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/102.REP">GTADATA\102.REP</a>
+	<span class="auto-style1">(leftover from development?)</span></td>
+	<td class="auto-style4" valign="top">
+	Something related to San Andreas #1 (Mission.ini ID "102")?<br />
+	Maybe Replay.rep (Debug?) had the Level ID in its name back then?</td>
+	<td class="auto-style4" valign="top">
+	Replay???</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/202.REP">GTADATA\202.REP</a>
+	<span class="auto-style1">(leftover from development?)</span></td>
+	<td class="auto-style4" valign="top">
+	Something related to Vice City #1 (Mission.ini ID "202")?<br />
+	Maybe Replay.rep (Debug?) had the Level ID in its name back then?</td>
+	<td class="auto-style4" valign="top">
+	Replay???</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/BIG1_FON.png">GTADATA\BIG1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/BIG2_FON.png">GTADATA\BIG2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/C_ALLEY0_FON.png">GTADATA\C_ALLEY0.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top">GTADATA\CONFIG.INI</td>
+	<td class="auto-style4" valign="top">(Can be used for debugging. Not in 
+	the release files.)</td><td valign="top">
+	<span class="auto-style6">More information </span><a href="../misc.html">
+	<span class="auto-style6">here</span></a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT0.ACT">GTADATA\CUT0.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 1, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT0_RAT.png">GTADATA\CUT0.RAT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 1, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT0_RAW.png">GTADATA\CUT0.RAW</a></td>
+	<td class="auto-style4" valign="top">Cutscene 1, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT00_FON.png">GTADATA\CUT00.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	1, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT00T_FON.png">GTADATA\CUT00T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	1, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT01_FON.png">GTADATA\CUT01.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	1, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT01T_FON.png">GTADATA\CUT01T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	1, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT1.ACT">GTADATA\CUT1.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 2, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT1_RAT.png">GTADATA\CUT1.RAT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 2, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT1_RAW.png">GTADATA\CUT1.RAW</a></td>
+	<td class="auto-style4" valign="top">Cutscene 2, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT10_FON.png">GTADATA\CUT10.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	2, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT10T_FON.png">GTADATA\CUT10T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	2, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT11_FON.png">GTADATA\CUT11.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	2, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT11T_FON.png">GTADATA\CUT11T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	2, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT12_FON.png">GTADATA\CUT12.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	2, window lights</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT12T_FON.png">GTADATA\CUT12T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	2, window lights</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT13_FON.png">GTADATA\CUT13.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	2, cigarette lights</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT13T_FON.png">GTADATA\CUT13T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	2, cigarette lights</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT2.ACT">GTADATA\CUT2.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT2_RAT.png">GTADATA\CUT2.RAT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT2_RAW.png">GTADATA\CUT2.RAW</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT20_FON.png">GTADATA\CUT20.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	3, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT20T_FON.png">GTADATA\CUT20T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	3, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT21_FON.png">GTADATA\CUT21.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	3, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT21T_FON.png">GTADATA\CUT21T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	3, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT22_FON.png">GTADATA\CUT22.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	3, window lights</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT22T_FON.png">GTADATA\CUT22T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	3, window lights</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT3.ACT">GTADATA\CUT3.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 4, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT3_RAT.png">GTADATA\CUT3.RAT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 4, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT3_RAW.png">GTADATA\CUT3.RAW</a></td>
+	<td class="auto-style4" valign="top">Cutscene 4, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT30_FON.png">GTADATA\CUT30.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	4, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT30T_FON.png">GTADATA\CUT30T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	4, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT31_FON.png">GTADATA\CUT31.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	4, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT31T_FON.png">GTADATA\CUT31T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	4, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT32_FON.png">GTADATA\CUT32.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	4, candle lights</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT32T_FON.png">GTADATA\CUT32T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	4, candle lights</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT4.ACT">GTADATA\CUT4.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 5, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT4_RAT.png">GTADATA\CUT4.RAT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 5, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT4_RAW.png">GTADATA\CUT4.RAW</a></td>
+	<td class="auto-style4" valign="top">Cutscene 5, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT40_FON.png">GTADATA\CUT40.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	5, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT40T_FON.png">GTADATA\CUT40T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	5, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT41_FON.png">GTADATA\CUT41.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	5, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT41T_FON.png">GTADATA\CUT41T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	5, moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT5.ACT">GTADATA\CUT5.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 6, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT5_RAT.png">GTADATA\CUT5.RAT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 6, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT5_RAW.png">GTADATA\CUT5.RAW</a></td>
+	<td class="auto-style4" valign="top">Cutscene 6, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT50_FON.png">GTADATA\CUT50.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	6, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT50T_FON.png">GTADATA\CUT50T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	6, moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT51_FON.png">GTADATA\CUT51.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	6, moving eyes (only 1 frame. hide to "open" eyes)</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT51T_FON.png">GTADATA\CUT51T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	6, moving eyes (only 1 frame. hide to "open" eyes)</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT52_FON.png">GTADATA\CUT52.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	6, moving hand</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT52T_FON.png">GTADATA\CUT52T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	6, moving hand</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT53_FON.png">GTADATA\CUT53.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	6, cigarette smoke</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUT53T_FON.png">GTADATA\CUT53T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 
+	6, cigarette smoke</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/CUTTEXT_FON.png">GTADATA\CUTTEXT.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene texts</td><td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/ENGLISH_FXT.TXT">GTADATA\ENGLISH.FXT</a></td>
+	<td class="auto-style4" valign="top">English Language Texts</td>
+	<td class="auto-style4" valign="top"><a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/EXPSCOR1_FON.png">GTADATA\EXPSCOR1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/EXPSCOR2_FON.png">GTADATA\EXPSCOR2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/EXPSCOR8_FON.png">GTADATA\EXPSCOR8.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_BMG_RAT.png">GTADATA\F_BMG.RAT</a></td>
+	<td class="auto-style4" valign="top">BMG Logo, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 100x50, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_BMG_RAW.png">GTADATA\F_BMG.RAW</a></td>
+	<td class="auto-style4" valign="top">BMG Logo, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 100x50, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_CITY1_FON.png">GTADATA\F_CITY1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_CITY2_FON.png">GTADATA\F_CITY2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+		<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 FON Format</a></td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_CITY3_FON.png">GTADATA\F_CITY3.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+		<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 FON Format</a></td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_CITY4_FON.png">GTADATA\F_CITY4.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_DMA_RAT.png">GTADATA\F_DMA.RAT</a></td>
+	<td class="auto-style4" valign="top">DMA Logo, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 78x109, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_DMA_RAW.png">GTADATA\F_DMA.RAW</a></td>
+	<td class="auto-style4" valign="top">DMA Logo, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 78x109, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_KEY_FON.png">GTADATA\F_KEY.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO0_RAT.png">GTADATA\F_LOGO0.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 1 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO0_RAW.png">GTADATA\F_LOGO0.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 1 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO1_RAT.png">GTADATA\F_LOGO1.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 2 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO1_RAW.png">GTADATA\F_LOGO1.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 2 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO2_RAT.png">GTADATA\F_LOGO2.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 3 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO2_RAW.png">GTADATA\F_LOGO2.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 3 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO3_RAT.png">GTADATA\F_LOGO3.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 4 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO3_RAW.png">GTADATA\F_LOGO3.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 4 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO4_RAT.png">GTADATA\F_LOGO4.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 5 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO4_RAW.png">GTADATA\F_LOGO4.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 5 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO5_RAT.png">GTADATA\F_LOGO5.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 6 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO5_RAW.png">GTADATA\F_LOGO5.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 6 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO6_RAT.png">GTADATA\F_LOGO6.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 7 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO6_RAW.png">GTADATA\F_LOGO6.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 7 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO7_RAT.png">GTADATA\F_LOGO7.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 8 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOGO7_RAW.png">GTADATA\F_LOGO7.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 8 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOWER0_RAT.png">GTADATA\F_LOWER0.RAT</a></td>
+	<td class="auto-style4" valign="top">Menu Background with map, 8 Bit Color</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 1 channel with palette in file F_PAL.RAW</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOWER0_RAW.png">GTADATA\F_LOWER0.RAW</a></td>
+	<td class="auto-style4" valign="top">Menu Background with map, 24 Bit Color</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOWER1_RAT.png">GTADATA\F_LOWER1.RAT</a></td>
+	<td class="auto-style4" valign="top">Menu Background bright, 8 Bit Color</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 1 channel with palette in file F_PAL.RAW</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_LOWER1_RAW.png">GTADATA\F_LOWER1.RAW</a></td>
+	<td class="auto-style4" valign="top">Menu Background bright, 24 Bit Color</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_MHEAD_FON.png">GTADATA\F_MHEAD.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_MMISS_FON.png">GTADATA\F_MMISS.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F_MTEXT_FON.png">GTADATA\F_MTEXT.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PAL.ACT">GTADATA\F_PAL.RAW</a></td>
+		<td class="auto-style4" valign="top">Palette for menu</td>
+		<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY1_RAT.png">GTADATA\F_PLAY1.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 1 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY1_RAW.png">GTADATA\F_PLAY1.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 1 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY2_RAT.png">GTADATA\F_PLAY2.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 2 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY2_RAW.png">GTADATA\F_PLAY2.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 2 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY3_RAT.png">GTADATA\F_PLAY3.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 3 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY3_RAW.png">GTADATA\F_PLAY3.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 3 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY4_RAT.png">GTADATA\F_PLAY4.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 4 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY4_RAW.png">GTADATA\F_PLAY4.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 4 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY5_RAT.png">GTADATA\F_PLAY5.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 5 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY5_RAW.png">GTADATA\F_PLAY5.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 5 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY6_RAT.png">GTADATA\F_PLAY6.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 6 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY6_RAW.png">GTADATA\F_PLAY6.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 6 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY7_RAT.png">GTADATA\F_PLAY7.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 7 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY7_RAW.png">GTADATA\F_PLAY7.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 7 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY8_RAT.png">GTADATA\F_PLAY8.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 8 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAY8_RAW.png">GTADATA\F_PLAY8.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 8 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAYN_RAT.png">GTADATA\F_PLAYN.RAT</a></td>
+		<td class="auto-style4" valign="top">Player Name Box, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 180x50, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_PLAYN_RAW.png">GTADATA\F_PLAYN.RAW</a></td>
+		<td class="auto-style4" valign="top">Player Name Box, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 180x50, 3 channels, interleaved</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_UPPER_RAT.png">GTADATA\F_UPPER.RAT</a></td>
+		<td class="auto-style4" valign="top">Menu Background Upper Part</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/F_UPPER_RAW.png">GTADATA\F_UPPER.RAW</a></td>
+		<td class="auto-style4" valign="top">Menu Background Upper Part</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels, interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F8_CITY1_FON.png">GTADATA\F8_CITY1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F8_CITY2_FON.png">GTADATA\F8_CITY2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F8_CITY3_FON.png">GTADATA\F8_CITY3.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/F8_CITY4_FON.png">GTADATA\F8_CITY4.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/FRENCH_FXT.TXT">GTADATA\FRENCH.FXT</a></td>
+	<td class="auto-style4" valign="top">French Language Texts</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/GERMAN_FXT.TXT">GTADATA\GERMAN.FXT</a></td>
+	<td class="auto-style4" valign="top">German Language Texts</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/JAPANESE_FXT.TXT">
+	GTADATA\JAPANESE.FXT</a></td>
+	<td class="auto-style4" valign="top">Japanese Language Texts (Not part of 
+	European version)</td><td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/ITALIAN_FXT.TXT">GTADATA\ITALIAN.FXT</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/KANJI_BIT.PNG">
+	GTADATA\KANJI.BIT</a><br />
+	(your browser might render this large PNG file wrong)</td><td class="auto-style4" valign="top">
+	Japanese Kanji Glyph Data (Not part of European version)</td><td class="auto-style4" valign="top">
+	Raw graphics data, 1 channels with 1 bit per pixel. 16x80640 pixels.<br />
+	(5,040 characters. 32 bytes give 1 character.)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/KANJI.IDX">
+	GTADATA/KANJI.IDX</a></td><td class="auto-style4" valign="top">Mapping from 
+	Japanese.fxt to Japanese.bit (Not part of European version)</td><td class="auto-style4" valign="top">
+	Int16-Int16 Lookup Table, Binary</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/MIAMI.CMP">GTADATA\MIAMI.CMP</a></td>
+	<td class="auto-style4" valign="top">Area 3 (Vice City) City Map</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 CMP 
+	Map Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/MISSION_INI.TXT">GTADATA\MISSION.INI</a></td>
+	<td class="auto-style4" valign="top">
+	Mission INI</td><td class="auto-style4" valign="top"><a href="../mission_ini.html">GTA1 Mission.ini Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/MISSMUL1_FON.png">GTADATA\MISSMUL1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/MISSMUL2_FON.png">GTADATA\MISSMUL2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/MISSMUL8_FON.png">GTADATA\MISSMUL8.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/MOVIE_SMK.MP4">GTADATA\MOVIE.SMK</a><!--
+
+File Name                       : MOVIE.SMK
+File Size                       : 1637 kB
+-----
+MOVIE.SMK: RAD Game Tools Smacker Multimedia version 2, 320 x 200, 415 frames
+MOVIE.SMK: application/octet-stream; charset=binary
+-----
+Input #0, smk
+  Duration: 00:00:16.60, start: 0.000000, bitrate: 807 kb/s
+    Stream #0:0: Video: smackvideo (SMK2 / 0x324B4D53), pal8, 320x200, 25 tbr, 25 tbn, 25 tbc
+    Stream #0:1: Audio: smackaudio (SMKA / 0x414B4D53), 44100 Hz, mono, s16
+
+--></td><td class="auto-style4" valign="top">Intro movie</td>
+	<td class="auto-style4" valign="top">Smacker File Format</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/NYC.CMP">GTADATA\NYC.CMP</a></td>
+	<td class="auto-style4" valign="top">Area 1 (Liberty City) City Map</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 CMP 
+	Map Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/PAGER1_FON.png">GTADATA\PAGER1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/PAGER2_FON.png">GTADATA\PAGER2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/PLAYER_A.DAT">GTADATA\PLAYER_A.DAT</a></td>
+	<td class="auto-style4" valign="top">Savegame</td>
+	<td class="auto-style4" valign="top">
+	<a href="../savegame.html">GTA1 Savegame Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/REPLAY.REP">GTADATA\REPLAY.REP</a></td>
+	<td class="auto-style4" valign="top">??? (Gets 
+	created during gameplay)</td><td class="auto-style4" valign="top">Replay???</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/SANB.CMP">GTADATA\SANB.CMP</a></td>
+	<td class="auto-style4" valign="top">Area 2 (San Andreas) City Map</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 CMP 
+	Map Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/SCORE1_FON.png">GTADATA\SCORE1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/SCORE2_FON.png">GTADATA\SCORE2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/SCORE8_FON.png">GTADATA\SCORE8.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/SPECIAL_FXT.TXT">GTADATA\SPECIAL.FXT</a></td>
+	<td class="auto-style4" valign="top">"Special" 
+	(Vulgar) Language Texts</td><td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/STREET1_FON.png">GTADATA\STREET1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/STREET2_FON.png">GTADATA\STREET2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">
+	GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/STYLE001.G24">GTADATA\STYLE001.G24</a></td>
+	<td class="auto-style4" valign="top">Area 1 
+	(Libtery City) City Style, 8 bits</td><td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 Map Style Format, 24 bits</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/STYLE001.GRY">GTADATA\STYLE001.GRY</a></td>
+	<td class="auto-style4" valign="top">Area 1 
+	(Liberty City) City Style, 8 bits</td><td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 Map Style Format, 8 bits</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/STYLE002.G24">GTADATA\STYLE002.G24</a></td>
+	<td class="auto-style4" valign="top">Area 2 
+	(San Andreas) City Style, 8 bits</td><td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 Map Style Format, 24 bits</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/STYLE002.GRY">GTADATA\STYLE002.GRY</a></td>
+	<td class="auto-style4" valign="top">Area 2 
+	(San Andreas) City Style, 8 bits</td><td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 Map Style Format, 8 bits</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/STYLE003.G24">GTADATA\STYLE003.G24</a></td>
+	<td class="auto-style4" valign="top">Area 3 
+	(Vice City) City Style, 24 bits</td><td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 Map Style Format, 24 bits</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/STYLE003.GRY">GTADATA\STYLE003.GRY</a></td>
+	<td class="auto-style4" valign="top">Area 3 
+	(Vice City) City Style, 8 bits</td><td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 Map Style Format, 8 bits</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/SUB1_FON.png">GTADATA\SUB1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/SUB2_FON.png">GTADATA\SUB2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/ENGLISH_FXT.TXT">GTADOS\DATA\ENGLISH.FXT</a></td>
+	<td class="auto-style4" valign="top">DOS Menu English Language Texts</td>
+	<td class="auto-style4" valign="top"><a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/F_KEY_FON.png">GTADOS\DATA\F_KEY.FON</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Cursor</td><td class="auto-style4" valign="top">
+	<a href="../format_fon.html">GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/F_MMISS_FON.png">GTADOS\DATA\F_MMISS.FON</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Small Text</td><td class="auto-style4" valign="top">
+	<a href="../format_fon.html">GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/F_MTEXT_FON.png">GTADOS\DATA\F_MTEXT.FON</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Large Text</td><td class="auto-style4" valign="top">
+	<a href="../format_fon.html">GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/FLAG2_RAW.png">GTADOS\DATA\FLAG2.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Language Flags</td><td class="auto-style4" valign="top">Raw graphics data, 60x200, 1 channel,
+	<a href="GTADOS/DATA/__dos_pal.act">same palette</a> as screen (e.g. F_KEY.FON)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/FRENCH_FXT.TXT">GTADOS\DATA\FRENCH.FXT</a></td>
+	<td class="auto-style4" valign="top">DOS Menu French Language Texts</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/GERMAN_FXT.TXT">GTADOS\DATA\GERMAN.FXT</a></td>
+	<td class="auto-style4" valign="top">DOS Menu German Language Texts</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/GTA_PCX.png">GTADOS\DATA\GTA.PCX</a></td>
+	<td class="auto-style4" valign="top">DOS 
+	Menu Background</td><td class="auto-style4" valign="top">PCX Graphics Format</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/ITALIAN_FXT.TXT">GTADOS\DATA\ITALIAN.FXT</a></td>
+	<td class="auto-style4" valign="top">DOS Menu Italian Language Texts</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/JAPAN_FXT.TXT">GTADOS\DATA\JAPAN.FXT</a> 
+	(sic)</td>
+	<td class="auto-style4" valign="top">DOS Menu Japanese Translation (Not part 
+	of European version)</td><td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/JOY_RAW.png">GTADOS\DATA\JOY.RAW</a></td>
+	<td class="auto-style4" valign="top">DOS 
+	Menu Joystick Point</td><td class="auto-style4" valign="top">Raw graphics data, 19x18, 1 channel,
+	<a href="GTADOS/DATA/__dos_pal.act">same palette</a> as screen (e.g. F_KEY.FON)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/JOYBOX_RAW.png">GTADOS\DATA\JOYBOX.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Joystick Box</td><td class="auto-style4" valign="top">Raw graphics data, 126x123, 1 channel,
+	<a href="GTADOS/DATA/__dos_pal.act">same palette</a> as screen (e.g. F_KEY.FON)</td></tr>
+<tr><td class="auto-style4" valign="top">GTADOS\STARTUP.INI</td>
+	<td class="auto-style4" valign="top">
+	(Will be generated by DOS Launcher. 
+	Defines things <a href="../misc.html">like language</a>. Not in 
+	the release files.)</td><td class="auto-style4" valign="top">
+	<span class="auto-style6">More information </span><a href="../misc.html">
+	<span class="auto-style6">here</span></a></td></tr>
+</table>
+
+<h2>GTA 1 London 1969 - Data Files</h2>
+<table style="width: 100%" border="1">
+	<tr>
+		<td class="auto-style4" valign="top"><strong>File Name (link = converted to modern format)</strong></td>
+		<td class="auto-style4" valign="top"><strong>Description</strong></td>
+		<td class="auto-style4" valign="top"><strong>Format / Data Structure</strong></td>
+	</tr>
+	<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/0.PK">GTADATA\UK\AUDIO\0.PK</a>
+		<span class="auto-style1">(leftover from development)</span></td>
+		<td class="auto-style4" valign="top">Cutscene 1 Speech, Audition Peak File 
+		(temporary)</td><td class="auto-style4" valign="top">&nbsp;</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/0_WAV.mp3">GTADATA\UK\AUDIO\0.WAV</a></td>
+	<td class="auto-style4" valign="top">Cutscene 1 Speech</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_wav.html">RIFF Wave</a>, PCM format, 1 channel, 44.100kHz, 16 bit</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/1.PK">GTADATA\UK\AUDIO\1.PK</a>
+	<span class="auto-style1">(leftover from development)</span></td>
+	<td class="auto-style4" valign="top">Cutscene 2 Speech, Audition Peak File 
+	(temporary)</td><td class="auto-style4" valign="top">&nbsp;</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/1_WAV.mp3">GTADATA\UK\AUDIO\1.WAV</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 2 Speech</td><td class="auto-style4" valign="top"><a href="../format_wav.html">RIFF Wave</a>, PCM 
+	format, 1 channel, 44.100kHz, 16 bit</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/2_WAV.mp3">GTADATA\UK\AUDIO\2.WAV</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 3 Speech</td><td class="auto-style4" valign="top"><a href="../format_wav.html">RIFF Wave</a>, PCM 
+	format, 1 channel, 44.100kHz, 16 bit</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/3_WAV.mp3">GTADATA\UK\AUDIO\3.WAV</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 4 Speech</td><td class="auto-style4" valign="top"><a href="../format_wav.html">RIFF Wave</a>, PCM 
+	format, 1 channel, 44.100kHz, 16 bit</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/LEVEL000.zip">GTADATA\UK\AUDIO\LEVEL000.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Menu Sound Effects (3 stereo sounds, followed by 13 mono sounds)</td>
+	<td class="auto-style4" valign="top">Raw 
+	audio data, PCM format, 1-2 channels (mixed), various bitrates, 16 bits per 
+	sample</td></tr>
+<tr><td class="auto-style4" valign="top">GTADATA\UK\AUDIO\LEVEL000.SDT</td>
+	<td class="auto-style4" valign="top">(Sound index file)</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/LEVEL001.zip">GTADATA\UK\AUDIO\LEVEL001.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Level 1 Sound Effects (131 mono sounds)</td>
+	<td class="auto-style4" valign="top">Raw audio data, PCM format, 
+	1 channel, various bitrates, 8 bits per sample</td></tr>
+<tr><td class="auto-style4" valign="top">GTADATA\UK\AUDIO\LEVEL001.SDT</td>
+	<td class="auto-style4" valign="top">(Sound index file)</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/LEVEL002.zip">GTADATA\UK\AUDIO\LEVEL002.RAW</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">
+	(GTA1 Sound. Do NOT belong to LONDON.)</td>
+	<td class="auto-style4" valign="top">Raw audio data, PCM format, 1 
+	channel, various bitrates, 8 bits per sample</td></tr>
+<tr><td class="auto-style4" valign="top">GTADATA\UK\AUDIO\LEVEL002.SDT <span class="auto-style1">(useless, not 
+	London)</span></td><td class="auto-style4" valign="top">(GTA1 Sound. Do NOT belong to 
+	LONDON.)</td><td class="auto-style4" valign="top"><a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/LEVEL003.zip">GTADATA\UK\AUDIO\LEVEL003.RAW</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">
+	(GTA1 Sound. Do NOT belong to LONDON.)</td>
+	<td class="auto-style4" valign="top">Raw audio data, PCM format, 1 
+	channel, various bitrates, 8 bits per sample</td></tr>
+<tr><td class="auto-style4" valign="top">GTADATA\UK\AUDIO\LEVEL003.SDT <span class="auto-style1">(useless, not 
+	London)</span></td><td class="auto-style4" valign="top">(GTA1 Sound. Do NOT belong to 
+	LONDON.)</td><td class="auto-style4" valign="top"><a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/MISBRIEF.zip">GTADATA\UK\AUDIO\MISBRIEF.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Powerup Sound Effects (10 mono sounds)</td>
+	<td class="auto-style4" valign="top">Raw audio data, PCM format, 1 
+	channel, various bitrates, 8 bits per sample</td></tr>
+<tr><td class="auto-style4" valign="top">GTADATA\UK\AUDIO\MISBRIEF.SDT</td>
+	<td class="auto-style4" valign="top">(Sound index file)</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/VOCALCOM.zip">GTADATA\UK\AUDIO\VOCALCOM.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Narrator and Pedestrian Sound Effects (71 mono sounds)</td>
+	<td class="auto-style4" valign="top">Raw audio 
+	data, PCM format, 1 channel, various bitrates, 8 bits per sample</td></tr>
+<tr><td class="auto-style4" valign="top">GTADATA\UK\AUDIO\VOCALCOM.SDT</td>
+	<td class="auto-style4" valign="top">(Sound index file)</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_sdt.html">GTA1 Sound index file</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/4.REP">GTADATA\UK\4.REP</a>
+	<span class="auto-style1">(leftover from development?)</span></td>
+	<td class="auto-style4" valign="top">
+	Something related to London #4 (Mission.ini ID "4")?<br />
+	Maybe Replay.rep (Debug?) had the Level ID in its name back then?</td>
+	<td class="auto-style4" valign="top">
+	Replay???</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/BIG1_FON.png">GTADATA\UK\BIG1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/BIG2_FON.png">GTADATA\UK\BIG2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CARNAME1_FON.png">GTADATA\UK\CARNAME1.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CARNAME2_FON.png">GTADATA\UK\CARNAME2.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top">GTADATA\UK\CONFIG.INI</td>
+	<td class="auto-style4" valign="top">(Can be used for debugging. Not in 
+	the release files.)</td><td valign="top">
+	<span class="auto-style6">More information </span><a href="../misc.html">
+	<span class="auto-style6">here</span></a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT0.ACT">GTADATA\UK\CUT0.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 1,, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT0_RAT.png">GTADATA\UK\CUT0.RAT</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT0_RAW.png">GTADATA\UK\CUT0.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT00_FON.png">GTADATA\UK\CUT00.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1, Moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT00T_FON.png">GTADATA\UK\CUT00T.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1, Moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT01_FON.png">GTADATA\UK\CUT01.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1, Moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT01T_FON.png">GTADATA\UK\CUT01T.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1, Moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT1.ACT">GTADATA\UK\CUT1.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 2, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT1_RAT.png">GTADATA\UK\CUT1.RAT</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 2, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT1_RAW.png">GTADATA\UK\CUT1.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 2, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT10_FON.png">GTADATA\UK\CUT10.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 2, 
+	Moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT10T_FON.png">GTADATA\UK\CUT10T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 2, 
+	Moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT11_FON.png">GTADATA\UK\CUT11.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 2, 
+	Moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT11T_FON.png">GTADATA\UK\CUT11T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 2, 
+	Moving eyes</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT12_FON.png">GTADATA\UK\CUT12.FON</a></td>
+	<td class="auto-style4" valign="top">(Belongs to GTA1, not UK!)</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT12T_FON.png">GTADATA\UK\CUT12T.FON</a></td>
+	<td class="auto-style4" valign="top">(Belongs to GTA1, not UK!)</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT13_FON.png">GTADATA\UK\CUT13.FON</a></td>
+	<td class="auto-style4" valign="top">(Belongs to GTA1, not UK!)</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT13T_FON.png">GTADATA\UK\CUT13T.FON</a></td>
+	<td class="auto-style4" valign="top">(Belongs to GTA1, not UK!)</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT2.ACT">GTADATA\UK\CUT2.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT2_RAT.png">GTADATA\UK\CUT2.RAT</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 3, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT2_RAW.png">GTADATA\UK\CUT2.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 3, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT20_FON.png">GTADATA\UK\CUT20.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, 
+	Moving eyes #1</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT20T_FON.png">GTADATA\UK\CUT20T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, 
+	Moving eyes #1</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT21_FON.png">GTADATA\UK\CUT21.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, 
+	Moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT21T_FON.png">GTADATA\UK\CUT21T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, 
+	Moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT22_FON.png">GTADATA\UK\CUT22.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, 
+	Moving eyes #2</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT22T_FON.png">GTADATA\UK\CUT22T.FON</a></td>
+	<td class="auto-style4" valign="top">Cutscene 3, 
+	Moving eyes #2</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT3.ACT">GTADATA\UK\CUT3.ACT</a></td>
+	<td class="auto-style4" valign="top">Cutscene 4, Palette for 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT3_RAT.png">GTADATA\UK\CUT3.RAT</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 4, Background, 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT3_RAW.png">GTADATA\UK\CUT3.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 4, Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT30_FON.png">GTADATA\UK\CUT30.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 4, Moving eyes #1</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT30T_FON.png">GTADATA\UK\CUT30T.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 4, Moving eyes #1</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT31_FON.png">GTADATA\UK\CUT31.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 4, Moving eyes #2</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT31T_FON.png">GTADATA\UK\CUT31T.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 4, Moving eyes #2</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT32_FON.png">GTADATA\UK\CUT32.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 4, Moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT32T_FON.png">GTADATA\UK\CUT32T.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 4, Moving mouth</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT4.ACT">GTADATA\UK\CUT4.ACT</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top">
+	256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT4_RAW.png">GTADATA\UK\CUT4.RAW</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT40_FON.png">GTADATA\UK\CUT40.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT40T_FON.png">GTADATA\UK\CUT40T.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT41_FON.png">GTADATA\UK\CUT41.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT41T_FON.png">GTADATA\UK\CUT41T.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT5.ACT">GTADATA\UK\CUT5.ACT</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top">
+	256 colors (Photoshop ACT Format)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT5_RAW.png">GTADATA\UK\CUT5.RAW</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT50_FON.png">GTADATA\UK\CUT50.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT50T_FON.png">GTADATA\UK\CUT50T.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT51_FON.png">GTADATA\UK\CUT51.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT51T_FON.png">GTADATA\UK\CUT51T.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT52_FON.png">GTADATA\UK\CUT52.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT52T_FON.png">GTADATA\UK\CUT52T.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT53_FON.png">GTADATA\UK\CUT53.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUT53T_FON.png">GTADATA\UK\CUT53T.FON</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">(GTA 1 Cutscene, NOT PART OF 
+	GTA LONDON)</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUTTEXT_FON.png">GTADATA\UK\CUTTEXT.FON</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene Text</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUTTEXT_TGA.png">GTADATA\UK\CUTTEXT.TGA</a>
+	<span class="auto-style1">(leftover from development)</span></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top">Targa graphics format</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUTTEXT8_FON.png">GTADATA\UK\CUTTEXT8.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUTTEXTA_FON.png">GTADATA\UK\CUTTEXTA.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUTTEXTB_FON.png">GTADATA\UK\CUTTEXTB.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/CUTTEXTC_FON.png">GTADATA\UK\CUTTEXTC.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/ENGUK_FXT.TXT">GTADATA\UK\ENGUK.FXT</a></td>
+	<td class="auto-style4" valign="top">English Language Texts</td>
+	<td class="auto-style4" valign="top"><a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/ENGUK.TXT">GTADATA\UK\ENGUK.TXT</a>
+	<span class="auto-style1">(leftover from development)</span></td>
+	<td class="auto-style4" valign="top">It 
+	contains old texts from 18/02/1999. The final FXT is dated 28/03/1999.</td>
+	<td class="auto-style4" valign="top">Plain text file</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/EXPSCOR1_FON.png">GTADATA\UK\EXPSCOR1.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/EXPSCOR2_FON.png">GTADATA\UK\EXPSCOR2.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/EXPSCOR8_FON.png">GTADATA\UK\EXPSCOR8.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_BMG_RAT.png">GTADATA\UK\F_BMG.RAT</a></td>
+	<td class="auto-style4" valign="top">
+	Rockstar Logo (not BMG), 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 75x90, 1 channel with palette in file F_PAL.RAW</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_BMG_RAW.png">GTADATA\UK\F_BMG.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Rockstar Logo (not BMG), 24 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 75x90, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_CITY1_FON.png">GTADATA\UK\F_CITY1.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_CITY2_FON.png">GTADATA\UK\F_CITY2.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_CITY3_FON.png">GTADATA\UK\F_CITY3.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_CITY4_FON.png">GTADATA\UK\F_CITY4.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_DMA_RAT.png">GTADATA\UK\F_DMA.RAT</a></td>
+	<td class="auto-style4" valign="top">
+	Copyright text (not DMA Logo), 8 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 225x38, 1 channel with palette in file F_PAL.RAW</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_DMA_RAW.png">GTADATA\UK\F_DMA.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	Copyright text (not DMA Logo), 24 Bit Color Mode</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 225x38, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_KEY_FON.png">GTADATA\UK\F_KEY.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO0_RAT.png">GTADATA\UK\F_LOGO0.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 1 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO0_RAW.png">GTADATA\UK\F_logo0.raw</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 1 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO1_RAT.png">GTADATA\UK\F_LOGO1.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	2 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO1_RAW.png">GTADATA\UK\F_LOGO1.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	2 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO2_RAT.png">GTADATA\UK\F_LOGO2.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	3 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO2_RAW.png">GTADATA\UK\F_LOGO2.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	3 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO3_RAT.png">GTADATA\UK\F_LOGO3.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	4 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO3_RAW.png">GTADATA\UK\F_LOGO3.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	4 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO4_RAT.png">GTADATA\UK\F_LOGO4.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	5 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO4_RAW.png">GTADATA\UK\F_LOGO4.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	5 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO5_RAT.png">GTADATA\UK\F_LOGO5.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	6 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO5_RAW.png">GTADATA\UK\F_LOGO5.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	6 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO6_RAT.png">GTADATA\UK\F_LOGO6.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	7 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO6_RAW.png">GTADATA\UK\F_LOGO6.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	7 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO7_RAT.png">GTADATA\UK\F_LOGO7.RAT</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	8 in 8 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOGO7_RAW.png">GTADATA\UK\F_LOGO7.RAW</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	8 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER0_RAT.png">GTADATA\UK\F_LOWER0.RAT</a></td>
+	<td class="auto-style4" valign="top">Menu Background Lower Side, 8 Bit Color</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 1 channel with palette in file F_PAL.RAW</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER0_RAW.png">GTADATA\UK\F_LOWER0.RAW</a></td>
+	<td class="auto-style4" valign="top">Menu Background 
+	Lower Side, 24 Bit Color</td><td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER1_RAT.png">GTADATA\UK\F_LOWER1.RAT</a></td>
+	<td class="auto-style4" valign="top">Menu Background Level 1, 8 Bit Color</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 1 channel with palette in file F_PAL.RAW</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER1_RAW.png">GTADATA\UK\F_LOWER1.RAW</a></td>
+	<td class="auto-style4" valign="top">Menu Background 
+	Level 1, 24 Bit Color</td><td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER2_RAT.png">GTADATA\UK\F_LOWER2.RAT</a></td>
+	<td class="auto-style4" valign="top">Menu Background Level 2, 8 Bit Color</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 1 channel with palette in file F_PAL.RAW</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER2_RAW.png">GTADATA\UK\F_LOWER2.RAW</a></td>
+	<td class="auto-style4" valign="top">Menu Background 
+	Level 2, 24 Bit Color</td><td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER3_RAT.png">GTADATA\UK\F_LOWER3.RAT</a></td>
+	<td class="auto-style4" valign="top">Menu Background Level 3, 8 Bit Color</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 1 channel with palette in file F_PAL.RAW</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER3_RAW.png">GTADATA\UK\F_LOWER3.RAW</a></td>
+	<td class="auto-style4" valign="top">Menu Background 
+	Level 3, 24 Bit Color</td><td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER4_RAT.png">GTADATA\UK\F_LOWER4.RAT</a></td>
+	<td class="auto-style4" valign="top">Menu Background Level 4, 8 Bit Color</td>
+	<td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 1 channel with palette in file F_PAL.RAW</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_LOWER4_RAW.png">GTADATA\UK\F_LOWER4.RAW</a></td>
+	<td class="auto-style4" valign="top">Menu Background 
+	Level 4, 24 Bit Color</td><td class="auto-style4" valign="top">Raw graphics data, 
+	640x312, 3 channels interleaved</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_MHEAD_FON.png">GTADATA\UK\F_MHEAD.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_MMISS_FON.png">GTADATA\UK\F_MMISS.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_MTEXT_FON.png">GTADATA\UK\F_MTEXT.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PAL.ACT">GTADATA\UK\F_PAL.RAW</a></td>
+	<td class="auto-style4" valign="top">Menu 
+	Palette for 8 Bit Color Mode</td><td class="auto-style4" valign="top">256 colors, Photoshop ACT Format</td></tr>
+<tr><td style="height: 22px" class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY1_RAT.png">GTADATA\UK\F_PLAY1.RAT</a></td>
+		<td style="height: 22px" class="auto-style4" valign="top">Player 1 Portrait, 8 Bit Color</td>
+		<td style="height: 22px" class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY1_RAW.png">GTADATA\UK\F_PLAY1.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 1 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY1A_RAW.png">GTADATA\UK\F_PLAY1A.RAW</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top">&nbsp;</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY2_RAT.png">GTADATA\UK\F_PLAY2.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 2 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_play2_RAW.png">GTADATA\UK\F_play2.raw</a></td>
+		<td class="auto-style4" valign="top">Player 2 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY3_RAT.png">GTADATA\UK\F_PLAY3.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 3 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY3_RAW.png">GTADATA\UK\F_PLAY3.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 3 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY4_RAT.png">GTADATA\UK\F_PLAY4.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 4 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY4_RAW.png">GTADATA\UK\F_PLAY4.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 4 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY5_RAT.png">GTADATA\UK\F_PLAY5.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 5 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY5_RAW.png">GTADATA\UK\F_PLAY5.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 5 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY6_RAT.png">GTADATA\UK\F_PLAY6.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 6 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY6_RAW.png">GTADATA\UK\F_PLAY6.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 6 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY7_RAT.png">GTADATA\UK\F_PLAY7.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 7 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY7_RAW.png">GTADATA\UK\F_PLAY7.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 7 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY8_RAT.png">GTADATA\UK\F_PLAY8.RAT</a></td>
+		<td class="auto-style4" valign="top">Player 8 Portrait, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAY8_RAW.png">GTADATA\UK\F_PLAY8.RAW</a></td>
+		<td class="auto-style4" valign="top">Player 8 Portrait, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 102x141, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAYN_RAT.png">GTADATA\UK\F_PLAYN.RAT</a></td>
+		<td class="auto-style4" valign="top">Player Name Box, 8 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 180x50, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_PLAYN_RAW.png">GTADATA\UK\F_PLAYN.RAW</a></td>
+		<td class="auto-style4" valign="top">Player Name Box, 24 Bit Color</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 180x50, 3 channels, interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_UPPER_RAT.png">GTADATA\UK\F_UPPER.RAT</a></td>
+		<td class="auto-style4" valign="top">Menu Background Upper Part</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 1 channel with palette in file F_PAL.RAW</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F_UPPER_RAW.png">GTADATA\UK\F_UPPER.RAW</a></td>
+		<td class="auto-style4" valign="top">Menu Background Upper Part</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels, interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F8_CITY1_FON.png">GTADATA\UK\F8_CITY1.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F8_CITY2_FON.png">GTADATA\UK\F8_CITY2.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F8_CITY3_FON.png">GTADATA\UK\F8_CITY3.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F8_CITY4_FON.png">GTADATA\UK\F8_CITY4.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F8_KEY_FON.png">GTADATA\UK\F8_KEY.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F8_MHEAD_FON.png">GTADATA\UK\F8_MHEAD.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F8_MMISS_FON.png">GTADATA\UK\F8_MMISS.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/F8_MTEXT_FON.png">GTADATA\UK\F8_MTEXT.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/FREUK_FXT.TXT">GTADATA\UK\FREUK.FXT</a></td>
+	<td class="auto-style4" valign="top">French Language Texts</td>
+	<td class="auto-style4" valign="top"><a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/GERUK_FXT.TXT">GTADATA\UK\GERUK.FXT</a></td>
+	<td class="auto-style4" valign="top">German Language Texts</td>
+	<td class="auto-style4" valign="top"><a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/ITAUK_FXT.TXT">GTADATA\UK\ITAUK.FXT</a></td>
+	<td class="auto-style4" valign="top">Italian Language Texts</td>
+	<td class="auto-style4" valign="top"><a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/JAPUK_FXT.TXT">
+	GTADATA\UK\JAPUK.FXT</a></td>
+	<td class="auto-style4" valign="top">Japanese language Texts (Not part of 
+	European version)</td>
+	<td class="auto-style4" valign="top"><a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/MAINPAL.ACT">GTADATA\UK\MAINPAL.ACT</a></td>
+	<td class="auto-style4" valign="top">???</td>
+	<td class="auto-style4" valign="top">256 colors, Photoshop ACT Format</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/MISSMUL1_FON.png">GTADATA\UK\MISSMUL1.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/MISSMUL2_FON.png">GTADATA\UK\MISSMUL2.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/MISSMUL8_FON.png">GTADATA\UK\MISSMUL8.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/MISSUK_INI.TXT">GTADATA\UK\MISSUK.INI</a></td>
+	<td class="auto-style4" valign="top">
+	Mission INI</td><td class="auto-style4" valign="top"><a href="../mission_ini.html">GTA1 Mission.ini Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/MOVIE_SMK.MP4">GTADATA\UK\MOVIE.SMK</a><!--
+
+File Name                       : MOVIE.SMK
+File Size                       : 2.6 MB
+-----
+MOVIE.SMK: RAD Game Tools Smacker Multimedia version 2, 320 x 200, 314 frames
+MOVIE.SMK: application/octet-stream; charset=binary
+-----
+Input #0, smk
+  Duration: 00:00:10.47, start: 0.000000, bitrate: 2113 kb/s
+    Stream #0:0: Video: smackvideo (SMK2 / 0x324B4D53), pal8, 320x200, 30 tbr, 30 tbn, 30 tbc
+    Stream #0:1: Audio: smackaudio (SMKA / 0x414B4D53), 44100 Hz, stereo, s16
+    
+--></td><td class="auto-style4" valign="top">Intro movie</td>
+	<td class="auto-style4" valign="top">Smacker File Format</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/PAGER1_FON.png">GTADATA\UK\PAGER1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/PAGER2_FON.png">GTADATA\UK\PAGER2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/PLAYER_A.DAT">GTADATA\UK\PLAYER_A.DAT</a></td>
+	<td class="auto-style4" valign="top">Savegame</td>
+	<td class="auto-style4" valign="top">
+	<a href="../savegame.html">GTA1 Savegame Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/SCORE1_FON.png">GTADATA\UK\SCORE1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/SCORE2_FON.png">GTADATA\UK\SCORE2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/SCORE8_FON.png">GTADATA\UK\SCORE8.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/SPEUK_FXT.TXT">GTADATA\UK\SPEUK.FXT</a>
+	<span class="auto-style1">(useless, not London)</span></td>
+	<td class="auto-style4" valign="top">These are the vulgar language text from 
+	GTA1.<br />
+	The London texts were never translated to "special" language;<br />
+	this is the reason why no such cheat code exist.</td><td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/STREET1_FON.png">GTADATA\UK\STREET1.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/STREET2_FON.png">GTADATA\UK\STREET2.FON</a></td>
+	<td class="auto-style4" valign="top">
+	&nbsp;</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/Style001.g24">GTADATA\UK\Style001.g24</a></td>
+	<td class="auto-style4" valign="top">
+	London 1969 City Style, 24 bits</td><td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 Map Style Format, 24 bits</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/Style001.gry">GTADATA\UK\Style001.gry</a></td>
+	<td class="auto-style4" valign="top">
+	London 1969 City Style, 8 bits</td><td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 Map Style Format, 8 bits</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/SUB1_FON.png">GTADATA\UK\SUB1.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/SUB2_FON.png">GTADATA\UK\SUB2.FON</a></td>
+	<td class="auto-style4" valign="top">&nbsp;</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/UK.CMP">GTADATA\UK\UK.CMP</a></td>
+	<td class="auto-style4" valign="top">London 1969 City Map</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 CMP Map Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/UK.MAP">GTADATA\UK\UK.MAP</a>
+	<span class="auto-style1">(leftover from development)</span></td>
+	<td class="auto-style4" valign="top">London 1969 City Map, uncompressed</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA 1 Uncompressed Map File</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/enguk_fxt.txt">GTADOS\DATA\enguk.fxt</a></td>
+	<td class="auto-style4" valign="top">DOS Menu English Language Texts</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/F_KEY_UK_FON.png">GTADOS\DATA\F_KEY_UK.FON</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Cursor</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/F_MM_UK_FON.png">GTADOS\DATA\F_MM_UK.FON</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Small Text</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/F_MT_UK_FON.png">GTADOS\DATA\F_MT_UK.FON</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Large Text</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/Flag_uk_raw.png">GTADOS\DATA\Flag_uk.raw</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Language Flags</td><td class="auto-style4" valign="top">Raw graphics data, 60x200, 1 channel,
+	<a href="GTADOS/DATA/__dos_pal_uk.act">same palette</a> as screen (e.g. F_KEY_UK.FON)</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/freuk_fxt.txt">GTADOS\DATA\freuk.fxt</a></td>
+	<td class="auto-style4" valign="top">DOS Menu French Language Texts</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/geruk_fxt.txt">GTADOS\DATA\geruk.fxt</a></td>
+	<td class="auto-style4" valign="top">DOS Menu German Language Texts</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/Gta_uk_pcx.png">GTADOS\DATA\Gta_uk.pcx</a></td>
+	<td class="auto-style4" valign="top">
+	DOS Menu Background</td><td class="auto-style4" valign="top">PCX Graphics Format</td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADOS/DATA/itauk_fxt.txt">GTADOS\DATA\itauk.fxt</a></td>
+	<td class="auto-style4" valign="top">DOS Menu Italian Language Texts</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+	<tr>
+		<td class="auto-style4" valign="top">
+		<a href="GTADOS/DATA/JAPUK_FXT.TXT">GTADOS\DATA\JAPUK.FXT</a></td>
+		<td class="auto-style4" valign="top">DOS Menu Japanese Translation&nbsp; 
+		(Not part of European version)</td>
+		<td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADOS/DATA/JOY__uk_palette.png">GTADOS\DATA\JOY.RAW</a></td>
+		<td class="auto-style4" valign="top">DOS 
+	Menu Joystick Point (reused from GTA1, with different palette)</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 19x18, 1 channel,
+		<a href="GTADOS/DATA/__dos_pal_uk.act">same palette</a> as screen (e.g. F_KEY_UK.FON)</td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADOS/DATA/JOYBOX__uk_palette.png">GTADOS\DATA\JOYBOX.RAW</a></td>
+		<td class="auto-style4" valign="top">
+	DOS Menu Joystick Box (reused from GTA1, with different palette)</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 126x123, 1 channel,
+		<a href="GTADOS/DATA/__dos_pal_uk.act">same palette</a> as screen (e.g. F_KEY_UK.FON)</td>
+	</tr>
+</table>
+
+<h2>GTA 1 London 1961 - Data Files</h2>
+
+<table style="width: 100%" class="auto-style3" border="1">
+	<tr>
+		<td class="auto-style4" valign="top"><strong>File Name (link = converted to modern format)</strong></td>
+		<td class="auto-style4" valign="top"><strong>Description</strong></td>
+		<td class="auto-style4" valign="top"><strong>Format / Data Structure</strong></td>
+	</tr>
+	<tr>
+		<td class="auto-style4" valign="top"><a href="GTADATA/UK/AUDIO/0e_WAV.mp3">GTADATA\UK\AUDIO\0e.wav</a></td>
+		<td class="auto-style4" valign="top">
+		Cutscene 1 Speech</td><td class="auto-style4" valign="top"><a href="../format_wav.html">RIFF Wave</a>, PCM 
+		format, 2 channels, 44.100kHz, 16 bit</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/cut00e_FON.png">GTADATA\UK\cut00e.fon</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1 Moving eyes of man</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/cut01e_FON.png">GTADATA\UK\cut01e.fon</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1 Moving mouth of man</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/cut02e_FON.png">GTADATA\UK\cut02e.fon</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1 Moving eyes of woman</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/cut03e_FON.png">GTADATA\UK\cut03e.fon</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1 Moving mouth of woman</td><td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/cut04e_FON.png">GTADATA\UK\cut04e.fon</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1 Moving cigarette of woman</td>
+	<td class="auto-style4" valign="top"><a href="../format_fon.html">GTA1 
+	FON Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/cut0e_RAW.png">GTADATA\UK\cut0e.raw</a></td>
+	<td class="auto-style4" valign="top">
+	Cutscene 1 Background, 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x480, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/enguke_fxt.txt">GTADATA\UK\enguke.fxt</a></td>
+	<td class="auto-style4" valign="top">
+	English Language Texts</td><td class="auto-style4" valign="top">
+	<a href="../format_fxt.html">GTA1 FXT Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/f_logoe0_raw.png">GTADATA\UK\f_logoe0.raw</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 1 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/f_logoe1_raw.png">GTADATA\UK\f_logoe1.raw</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	2 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/f_logoe2_raw.png">GTADATA\UK\f_logoe2.raw</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	3 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/f_logoe3_raw.png">GTADATA\UK\f_logoe3.raw</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	4 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/f_logoe4_raw.png">GTADATA\UK\f_logoe4.raw</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	5 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/f_logoe5_raw.png">GTADATA\UK\f_logoe5.raw</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	6 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/f_logoe6_raw.png">GTADATA\UK\f_logoe6.raw</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	7 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/f_logoe7_raw.png">GTADATA\UK\f_logoe7.raw</a></td>
+	<td class="auto-style4" valign="top">GTA Logo Animation Frame 
+	8 in 24 Bit Color Mode</td>
+		<td class="auto-style4" valign="top">Raw graphics data, 640x168, 3 channels interleaved</td>
+	</tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/MC.CMP">GTADATA\UK\MC.CMP</a></td>
+	<td class="auto-style4" valign="top">Manchester City Map (for deathmatch)</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 CMP Map 
+	Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/MC.MAP">GTADATA\UK\MC.MAP</a>
+	<span class="auto-style1">(leftover from development)</span></td>
+	<td class="auto-style4" valign="top">Manchester City Map (for deathmatch), 
+	uncompressed</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA 1 Uncompressed Map File</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/missuke_ini.txt">GTADATA\UK\missuke.ini</a></td>
+	<td class="auto-style4" valign="top">
+	Mission INI</td><td class="auto-style4" valign="top">
+	<a href="../mission_ini.html">GTA1 Mission.ini Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/PLAYER_E.DAT">GTADATA\UK\PLAYER_E.DAT</a></td>
+	<td class="auto-style4" valign="top">Savegame</td>
+	<td class="auto-style4" valign="top">
+	<a href="../savegame.html">GTA1 Savegame Format</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/Sty001.g24">GTADATA\UK\Sty001.g24</a></td>
+	<td class="auto-style4" valign="top">London 
+	1961 City Style, 24 bits</td><td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 Map Style Format, 24 bits</a></td></tr>
+<tr><td class="auto-style4" valign="top"><a href="GTADATA/UK/uke.cmp">GTADATA\UK\uke.cmp</a></td>
+	<td class="auto-style4" valign="top">London 1961 City Map</td>
+	<td class="auto-style4" valign="top">
+	<a href="../format_city.html">GTA1 CMP Map Format</a></td></tr>
+	</table>
+
+<p><strong>Annotations:</strong></p>
+<ul>
+	<li><strong>misse8.ini </strong>and <strong>enge8.fxt</strong> are used in the 
+"GTA Max" hack, to enable 8 bit mode for London 1961 (which does only support 24 
+bit and 3dfx modes for DOS, besides Windows of course).<br />The trick was to use gta8_uk.exe (London 1969 DOS), rename it to gta8_61.exe, 
+and change file paths inside the EXE file.<br />Since the string sizes cannot change, the filenames had to change to make them 
+fit: "uke" became "e8".<br />However, this will not fully work, because the mission commands 
+"PLAYER_DRIVE_BY" and "PLAYER_DRIVE_BY_OFF" are new in UKE and not implemented 
+in UK!</li>
+	<li>To play the game with German, Italian, French environment, copy 
+	enguke.fxt and rename it to geruke.fxt (German), itauke.fxt (Italien), 
+	freuke.fxt (France).</li>
+</ul>
+<p><br />
+</p>
+
+</body>
+
+</html>

@@ -6,12 +6,14 @@ Note: Assets marked with _(*)_ can be found in the `./data` subfolder
   - General: https://www.youtube.com/watch?v=Akmg6dUkwKc
   - Kill Frenzy Missions: https://www.youtube.com/watch?v=Cn2eigBcV_0
 - GTA Web GL:
-  - Orignal: https://github.com/niklasvh/WebGL-GTA
-  - Fork that seems to have advanced quite a bit: https://github.com/GiovanniNery/WebGL-GTA
-  - Very advanced edition: https://github.com/VBGAMER45/gta1-webedition
+  - https://github.com/niklasvh/WebGL-GTA (Original)
+  - https://github.com/GiovanniNery/WebGL-GTA (Continuation of Original, has cars and stuff but buggy)
+  - https://github.com/VBGAMER45/gta1-webedition (Sports multiple maps, but has render bugs and weird controls)
 - C++ GTA Clones:
   - https://github.com/madebr/OpenGTA
   - https://github.com/codenamecpp/carnage3d/
+- Amiga Clone:
+  - https://github.com/angree/AmiGTA1/
 - MISSION.INI
   - “Mission Template Description” `mtd.doc` (GTA1 mission.ini documentation (must read for GTA1 mission makers): https://web.archive.org/*/https://gtamp.com/dl/file.php?id=52 _(* also available as Markdown file)_
   - Smallest `MISSION.INI`: https://projectcerbera.com/gta/1/tutorials/smallest _(*)_
@@ -28,6 +30,8 @@ Note: Assets marked with _(*)_ can be found in the `./data` subfolder
   - Gourange Missions and Guides: https://web.archive.org/web/20050407123226/http://missions.gouranga.com/index.shtml _(* Multiple files, saved in `data/gouranga-missions`)_
   - Description of RAW and RAT files: https://web.archive.org/web/20000622011740/http://www.multimania.com/dolmen/gta/raw.html
   - NPC Dialog index https://web.archive.org/web/20001205131800/http://www.gouranga.com/nf-info-gta.htm _(* Saved as `data/dialog.txt`)_
+  - https://gta.rdy.jp/gta1/ contains a lot of info (in Japanese) such as a car database, how the wanted levels work, etc. _(* Multiple files, saved in `data/gta-rdy-jp/gta1/`)_
+  - https://misc.daniel-marschall.de/spiele/gta1/ — Grand Theft Auto 1 & Grand Theft Auto London Technical Analysis and Patches by Daniel Marschall _(* Multiple files, saved in `data/daniel-marschall/`)_
 - Other tools (open source)
   - File format extractors for g24 and fxt in python: https://github.com/VBGAMER45/gta-g24-fxt-extractors
 - Other tools (closed source)
@@ -47,8 +51,15 @@ Note: Assets marked with _(*)_ can be found in the `./data` subfolder
     - `reference-object.txt`: Using dynamic objects, such as potted trees and bollards _(*)_
     - `reference-ped.txt`: Ped remaps, AI types and relevant commands _(*)_
     - `reference-powerup.txt`: Complete list of all valid powerups _(*)_
-
-- Full GTA Data files
-  - https://archive.org/download/grand-theft-auto-1997-dma-design/Grand%20Theft%20Auto%20%281997%29%28DMA%20Design%29.zip
+  - https://patkerr.co.uk/2d-vehicles/ is a JavaScript recreation of a 2D physics simulation which later became the basis of the vehicle system, authored by the original author Pat Kerr.
+  - https://web.archive.org/web/20010307124036fw_/http://www.garson.clara.net/gta_tanks/gtatanks.html Information about the tanks in the game _(* saved as `data/gtatanks.html`)_
+- GTA Data files
+  - Full Game
+    - https://archive.org/details/grandtheftauto1997rockstargames
+    - https://archive.org/download/grand-theft-auto-1997-dma-design/Grand%20Theft%20Auto%20%281997%29%28DMA%20Design%29.zip
+  - Full game mission.ini: https://misc.daniel-marschall.de/spiele/gta1/files/GTADATA/MISSION_INI.TXT _(* Saved as `data/daniel-marschall/files/GTADATA/MISSION_INI.TXT`)_
+  - Demo
+    - https://archive.org/details/GrandTheftAutoDemo
 - DOSBOX Game:
   - https://archive.org/details/grand-theft-auto-1997-dma-design (Hit the screen on the page)
+  - https://www.playdosgames.com/play/grand-theft-auto/ (The demo, with a time limit)

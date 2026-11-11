@@ -1,0 +1,1810 @@
+﻿[1001]Va au téléphone de South Park pour obtenir une mission. On a du boulot pour toi, mais si tu foires, t'es mort!
+[1002]Crazy Jimmy a abandonné sa caisse à North East Park. Trouve-la avant les flics.
+[1003]Amène la voiture au garage de Dulli à West Park. Et vite! On a du pognon frais pour toi, coco.
+[1004]Jimmy a besoin d'un chauffeur. Il t'appellera au téléphone du métro de South West Park.
+[1005]Il y a un taxi avec de fausses plaques d'immatriculation à South East Island City. Viens me chercher avec à la banque de South Park.
+[1006]Bubby a un petit nid d'amour à South Island Heights. Emmène-moi.
+[1007]Mais à quoi tu joues, crétin?! Apporte-moi la caisse de Jimmy.
+[1008]Tu es trop lent, minable! Si tu foires encore une fois, je te ferai avaler tes intestins.
+[1009]Pas mal, petit! Je n'oublierai pas de te filer ta part. Tu as le temps de prendre un café?
+[1010]Tu devais prendre la voiture, pas la bousiller, pauvre débile!
+[1011]Où est le taxi, mec? Allez, casse-toi!
+[1012]Tu as bousillé ma voiture, mongol! Je vais te défoncer la tronche!
+[1013]Jimmy est mort, et Bubby veut ta peau!
+[1014]Tu nous a fait perdre plus de 3 millions et les flics ont arrêté Jimmy. Tu n'as plus longtemps à vivre, mec.
+[1015]Tu as foiré lamentablement, imbécile! Tu as fait perdre plus de 3 millions à Bubby! On ne veut plus te voir dans le coin!
+[1016]La voiture est en règle, alors utilise-la. Dulli compte sur toi pour ce coup.
+[1017]Mais qu'est-ce que tu fous, bon sang? Prends le taxi, sinon les flics vont te sauter dessus!
+[1018]Reviens ici, sale poule mouillée!
+[1019]Je ne veux pas de ça, minable! Tire-toi avant que je te casse la tête!
+[1020]Les Hell's Angels ont buté un de nos dealers et piqué la drogue. Bubby veut la récupérer.
+[1021]La drogue est dans le réservoir de la moto. Amène la bécane à Diego, à North East Hackenslash.
+[1022]La drogue appartient à Tony Dio. Il veut la récupérer. Va au téléphone de North Fort Law.
+[1023]Hé, mec, laisse la drogue dans le parc à South East Hackenslash.
+[1024]Tony arrive. Assure-toi qu'il emporte bien la drogue.
+[1025]Où tu étais? Tu as manqué Tony. Maintenant, il faut qu'on lui rembourse la drogue!
+[1026]Bien joué. Tony te dit salut, et il t'a laissé un sandwich grec.
+[1027]Où est la drogue, mec? Tu t'es trompé de moto, pauvre minable!
+[1028]Tu as bousillé la moto et perdu la drogue, abruti! Tu ferais bien de prendre des vacances!
+[1029]Tony est mort est la drogue est foutue! Tu viens de déclencher une vraie guerre!
+[1030]Tony est mort. C'est la vie. On a récupéré la drogue et on s'est fait un max de blé. Bien joué!
+[1031]Où crois-tu aller comme ça, pauvre trouillard?
+[1035]Le chef de la police veut une plus grosse part du gâteau. Bubby veut sa peau. Tue-le avec le camion à South Nixon Island.
+[1036]Va au commissariat de South No Law. La bombe s'enclenchera quand tu y seras.
+[1037]Fiche le camp avant que ça explose!
+[1038]Ça sent le porc grillé, hein? Tommy t'attend à South East Hackenslash.
+[1039]On m'a dit que tu avais fait du beau boulot, l'ami. Voilà ta part, comme prévu.
+[1040]Merde! L'avocat de Sonetti! Suis-le. S'il rencontre ses hommes, tue-les tous!
+[1041]Pas de survivants! Il ne faut pas qu'ils s'échappent!
+[1042]Voilà qui devrait donner une leçon à ce minable de Sonetti! Bien joué, petit!
+[1043]Bien vu, idiot! Ça a pété partout dans la boutique! Bubby va t'étriper!
+[1044]Imbécile! Tu as fait exploser le camion devant une maternelle! Bubby est fou furieux!
+[1045]Mais à quoi tu joues, bon sang? Tu comptes faire exploser une bombe sans explosif?
+[1046]Tony est mort à cause de toi. Sa mère va te découper en rondelles!
+[1047]Tu as tout raté, abruti!
+[1048]Tu devais buter l'avocat APRES l'avoir suivi jusqu'à ses potes, imbécile!
+[1049]Tu devais les tuer tous, pauvre débile! Ne recommence pas ce genre d'erreur!
+[1050]Tu as refroidi Tommy! Tu as intérêt à disparaître, et vite!
+[1051]Remonte dans ce camion et bouge-toi les fesses, sinon ça va mal finir!
+[1052]On a besoin de 2 taxis jaunes pour faire un casse. Amène-les aux Docks de New Guernsey.
+[1053]Il faut que je me tire, mec! Va au téléphone de North West New Guernsey.
+[1054]Mon frère a découvert que je couchais avec sa femme. Tue ce minable avant qu'il ne me retrouve.
+[1055]Il a disparu depuis longtemps. Tu sais que tu viens de me gâcher mon week-end, abruti?
+[1056]Bien joué. Je t'en dois une, mon pote!
+[1060]Skye, la femme de Bubby, a vu un type à Central Estoria. Passe la prendre.
+[1061]Hé, beau gosse! Emmène-moi à l'hôtel Mon Signor, à Central Kings!
+[1062]Mon, heu... mon masseur m'attend à South East Brocklyn. On peut passer le prendre, mon chou?
+[1063]Salut, beau gosse! Je t'ai manqué? Ramène-nous à l'hôtel de Central Kings, mais pas trop vite.
+[1064]Merci, chéri! Ce sera notre petit secret, d'accord? Tu verras, tu ne le regretteras pas!
+[1065]Non mais, tu te prends pour qui? Fous le camp, et vite!
+[1066]Le taxi est en miettes, et Skye s'est tirée avec un camionneur! Je vais te crever!
+[1067]Skye est à l'hôpital! Et toi, tu vas finir à la morgue! Cache-toi jusqu'à ce que Bubby se calme.
+[1068]Skye est à l'hôpital, minable! Le taxi a explosé et elle a failli y passer!
+[1069]Skye est morte et Bubby veut te passer au broyeur! Un bon conseil: ne croise pas son chemin!
+[1070]Merde! Brad est mort! Qu'est-ce que je fais faire, surtout que le type de la piscine est en congé aujourd'hui!
+[1071]Tu l'as abandonnée dans la rue? Hola, elle ne va pas apprécier! Et maintenant, tire-toi!
+[1072]Désolé, mais ce véhicule n'est pas autorisé. Seuls les clients de l'hôtel et certains taxis peuvent passer.
+[1075]Deux types ont semé la panique au Cat House de South Island City. Ils ont même cogné les filles. Bubby veut leur peau.
+[1076]Un fumier a appelé les flics. Va voir Seymour Reamer à Brocklyn Docks.
+[1077]Encore un truand! Laisse la voiture et tire-toi avant que j'appelle les flics!
+[1078]Pablo a besoin de nous, et fissa! Prends la voiture de police qu'on t'a laissée à South West Park.
+[1079]Pablo t'attend devant la boutique d'un bijoutier à South Island City.
+[1080]Merde! C'était un piège! Ramène-moi chez moi à South East Tellburg.
+[1081]Merci, mec! Ecoute bien ce que disent les gens. Si tu entends parler d'un certain Cabot, appelle-moi.
+[1082]Comment veux-tu qu'on se serve de cette poubelle, pauvre débile?
+[1083]Tu as foutu en l'air la bagnole de flics! Qu'est-ce qu'on va faire, maintenant, hein?
+[1084]C'est foutu pour Pablo. On va t'éclater si tu ne fais pas plus attention!
+[1085]Ecoute, petit. J'ai pas ta voiture sur ma liste, alors dégage!
+[1086]Pablo a eu un sale accident! Tu as de la chance qu'il soit encore en vie, minable!
+[1087]Les flics ont chopé Pablo et les diamants! Bubby va te laminer!
+[1088]Bubby te fais savoir que tu as foutu en l'air plusieurs mois de travail! Tu vas morfler, mon pote!
+[1095]On vient de m'appeler pour faire vite disparaître une bagnole à West Kings. Vas-y, et grouille!
+[1096]Tous les flics recherchent ta caisse, mec. Va au garage de Lafferty, à South Kings.
+[1097]Cette couleur est nulle! Va chez Dalgetti, à North Kings.
+[1098]Cette caisse ne vaut pas un clou. Tire-toi, minable.
+[1099]Je vais aller parler à ce type. Seul... Va répondre au téléphone à South East Kings.
+[1100]Tout va bien. J'ai dit à ce tocard de la fermer définitivement. Repars là-bas.
+[1101]Hé! Tu veux une belle chaîne en or? Une bague? Cet abruti n'en a plus besoin.
+[1102]Trop tard, gros débile! Dalgetti a eu les jetons. Balance la voiture quelque part où on ne la retrouvera pas.
+[1103]Je ne sais pas qui tu es, mais tu as 5 secondes pour déguerpir avant que j'appelle les flics.
+[1104]Les téléphones portables ne sont pas fiables. Je t'appellerai à North East Kings.
+[1105]Bon sang, tu n'as jamais pu conduire une caisse sans percuter quelque chose?
+[1106]Ce n'est pas la voiture dont parlait Jimmy. Tu es sûr d'avoir la bonne?
+[1110]C'est un piège! Sonetti a planqué une bombe dans le bus! Elle explosera si on roule à moins de 50 miles à l'heure! Alors fonce!
+[1111]Le détonateur radio de la bombe est désactivé. Gare-toi. Bubby a besoin de 2 bagnoles, des Mundanos, aux docks d'Ardler.
+[1112]Bien joué, mec! Bubby te remercie. Le fric est sur ton compte en banque.
+[1113]Tu as mal? J'espère que oui! Tu conduis comme ma grand-mère... et elle est morte depuis un siècle!
+[1115]Ce camion appartient à un sale facho et il est bourré d'explosifs. Va au Pool Hall, la salle de billard de Central Kings.
+[1116]Gare-toi et bénis le ciel d'être encore en vie. On a branché le détonateur radio sur Head FM!
+[1117]Merde alors! Tu as failli faire sauter la ville et tu t'en sors sans une égratignure!
+[1118]C'était vraiment le moment de te faire arrêter. Maintenant, tu as les flics aux fesses!
+[1125]Sonetti achemine de la drogue par le métro et Bubby n'aime pas ça. Apporte cette mallette à la station de South East Guernsey.
+[1126]Débarrasse-toi de la mallette! Vite!
+[1127]Trop tard, minable! Tu as manqué le train!
+[1128]Il y a 127 morts, 220 blessés et ils n'ont pas fini de compter! Bravo, mec!
+[1129]Tu devais SAUTER du train! Ton bonus servira à payer l'hôpital!
+[1130]Prends le prochain train. La drogue de Sonetti est dedans.
+[1135]Une prostituée de Central Park a volé le portefeuille du boss hier soir. Liquide-la!
+[1136]Un des hommes de Don Sonetti veut te voir. Va dans l'allée derrière la boîte de strip-tease de North West Park.
+[1137]Ok, petit, sors gentiment de la voiture...
+[1138]Tu as buté le bras droit de Sonetti! Tu as intérêt à t'expliquer, et vite!
+[1200]Un enfoiré a kidnappé ma chienne, Sasha! Il va appeler au téléphone de North West Ardler! Vas-y et sauve-la! Vite!
+[1201]OK, mec, si tu fais un mauvais plan, le clébard y passe! Tu as 30 secondes pour rejoindre le téléphone de Central Estoria!
+[1202]Tu as la forme toi, hein? Apporte le fric à Law Island Bridge et pas d'arnaque, compris?
+[1203]Merci, mon prince. J'ai laissé le clebs dans le coffre d'une bagnole à East Eaglewood.
+[1204]Les flics ont ramené Sasha. Heureusement, quelqu'un l'a entendu aboyer dans une voiture!
+[1205]Arrête tes conneries! Va chercher ma chienne! Et s'il lui manque un seul poil, t'es mort!
+[1206]Tu l'as? Elle va bien? Amène-la au Splendido Hotel, à North Island City.
+[1207]C'était bien joué, petit. Je ne l'oublierai pas. Tiens, va t'acheter une pizza.
+[1208]Tu as tué la chienne, taré! On a racheté un clebs au patron, mais ce n'est pas pareil. Bubby va te laminer, mon pote!
+[1209]Laisse le chien. On se souviendra de toi. Tu auras peut-être même une image...
+[1215]Tu veux toucher un peu du fric d'un hold-up? Va chercher une bagnole de flics à Guernsey City.
+[1216]Fais gaffe avec cette caisse, mec, elle est bourrée d'explosifs. Amène-la à la banque de North West Fort Law.
+[1217]Halte! Contrôle d'identité! Je peux voir votre badge? OK, c'est bon.
+[1218]Ce n'est pas le bon badge! Restez dans votre véhicule. Les mains sur le volant. La police va arriver.
+[1219]Une voiture de flics t'attend à North West Hackenslash. Va chercher Tommy avec.
+[1220]Ces flics sont vraiment nuls! Va chercher mon pote à la banque, et pas d'entourloupettes, OK?
+[1221]Un conseil, petit. Si un mec se prend pour Stallone, faut pas finasser. Casse-lui la tête, c'est tout!
+[1222]Je ne te connais pas, mec, mais pas question que je te laisse passer avec cette poubelle!
+[1223]Merci, mec. Si tu as envie de ma sÂœur, dis-le moi. C'est une bonne affaire, tu sais?
+[1224]Abruti! C'est pas ça qu'on voulait! Fous le camp!
+[1225]Tu devais seulement faire sauter la porte de cette foutue banque! Casse-toi!
+[1226]Tu sais combien j'ai payé pour cette bagnole de flics? Tu vas la rembourser!
+[1227]Tommy a failli crever et les flics l'ont chopé! Je veux plus te voir, minable!
+[1228]Tu as bousillé la caisse et les flics ont chopé Tommy! Dégage, minable!
+[1229]Tommy est mort! Tout a foiré! Casse-toi, je ne veux plus te voir!
+[1230]Si tu foires ce job, je vais te découper en tranches. Tu as intérêt à assurer!
+[1231]Qu'est-ce que tu fous, bon sang! Tommy t'attend à la banque. Tu veux qu'il prenne le bus ou quoi? File là-bas et vite!
+[1232]Hé! Où tu crois aller comme ça? Reviens ici!
+[1235]J'ai un boulot pour toi! Une camionnette t'attend à North Guernsey.
+[1236]Tu dois faire sauter une bagnole de sport avec cette voiture télécommandée bourrée d'explosifs!
+[1237]C'est raté! Ma mère me court toujours aux fesses pour que je lui paye mon loyer!
+[1238]Adios, maman! Ça t'apprendra à m'emmerder pour le loyer!
+[1239]La camionnette est foutue! Ma mère va m'étriper si je ne paye pas le loyer maintenant!
+[1240]La camionnette est foutue, et je vais devoir payer le loyer. Merci pour tout, super-tocard!
+[1241]Espèce de minable! Si tu me refais ce coup là, je t'étrangle!
+[1245]Sonetti a reçu une cargaison de drogue. Elle doit être dans une camionnette à West Guernsey City.
+[1246]C'est un traquenard! La camionnette est piégée! Amène-la à Vesuvio, à North West Hackenslash.
+[1247]Tu as une sacré veine, toi! Encore une explosion, et on t'enterrait dans une boîte d'allumettes!
+[1248]Amène ça chez Seymour Reamer, à West Guernsey City.
+[1249]Ah, pas question! Je ne veux plus de ce genre de trucs! Casse-toi, et vite!
+[1250]Ce fumier de Seymour m'a appelé. Va chez Crazy Bob, à East Hackenslash.
+[1251]Débarrasse-moi de cet enfoiré de Reamer. Retourne à Hackenslash, compris?
+[1252]Ne laisse pas cet abruti s'échapper!
+[1253]Un emmerdeur de moins sur terre... Merci, petit. Tu veux dîner avec moi un soir?
+[1254]Ecoute, gros débile, ce n'est pas la camionnette que j'attendais, alors casse-toi!
+[1255]Ce n'est pas toi que j'attendais! Alors remonte sur ton cheval et dégage, cow-boy!
+[1256]Abruti! Je ne voulais pas cette camionnette! Fous le camp, et ne reviens pas!
+[1257]Merci, gros nul! Tu me dois un camion!
+[1258]Mon pote s'est fait buter! Tu t'es mis dans une sacrée galère, minable!
+[1259]Les flics ont la camionnette et il y a tes empreintes partout dedans!
+[1260]C'est ça, laisse la camionnette! Tu as pensé aux empreintes qu'il y a partout, pauvre débile?
+[1261]Tu ferais mieux de retourner à la camionnette, sauf si tu as un besoin pressant...
+[1262]Retourne dans la camionnette, minable, sinon tu vas mourir très bientôt!
+[1263]Sonetti prépare un mauvais coup à South East Estoria. Liquide-les tous!
+[1264]Hé, minable! Retourne immédiatement chez Vega à South West Brocklyn.
+[1265]Bubby a envie de conter fleurette à notre jolie maire. Va donc la chercher avec la limousine qui est à North Island City.
+[1266]Notre maire en jupons inaugure quelque chose à North East New Guernsey. Va la chercher, Bubby commence à s'exciter.
+[1267]Tu travailles pour Bubby! Génial! J'ai envie de délirer cette nuit! On va à South East Fort Law. VITE!
+[1268]Merci. Tu devras peut-être nettoyer la voiture quand j'aurai terminé.
+[1269]Désolée, mais ce n'est pas toi que j'attendais. Dégage avant que je m'énerve...
+[1270]Ce n'est pas la bonne bagnole. Tu comptes finir ce jeu en six mois?
+[1271]Cette limousine appartenait au Pape. Tu l'as bousillée, et tu vas avoir de gros ennuis!
+[1272]Merde, tu as fait mal à notre maire! Bubby est vraiment furax!
+[1273]Notre maire est morte, mais Bubby ne veut pas de son cadavre! C'est ta peau qu'il veut!
+[1274]N'abandonne pas la limousine! Notre maire déteste rester seule.
+[1275]Hé, où tu vas? Reviens ici immédiatement et amène-moi chez Bubby. Vite!
+[1280]Ma femme a été kidnappée! Je dois la retrouver à tout prix! Va au téléphone de North West Hackenslash.
+[1281]Apporte l'argent au téléphone de South East Hackenslash immédiatement.
+[1282]OK, minable, North East Brix. Vite!
+[1283]Bravo! Fonce au pont d'Eaglewood et balance le fric sur le bateau que tu y trouveras.
+[1284]Ma femme a échappé à ses ravisseurs. Maintenant, elle veut se faire refaire les seins! Où est mon fric?
+[1285]Ma femme est saine et sauve! Mais elle veut se faire refaire les seins. Encore 10 briques de foutues!
+[1286]Le procureur est à l'hôpital de West Eaglewood. Bubby veut lui parler. Trouve une ambulance quelque part.
+[1287]Amène ce minable à l'entrepôt de viandes de Central Brix.
+[1288]Débarrasse-moi de ce minable! Non, pas toi, petit. Toi, je veux que tu ailles chercher une voiture à South West Estoria.
+[1289]Liquide-le, c'est tout. Bon, qu'est-ce que je disais? Ah oui... Amène cette voiture aux bureaux de North East Island City.
+[1290]Bien joué. Je rêve de voir tous les procureurs de cette ville au cimetière.
+[1291]Désolé, monsieur... Mais je ne peux pas vous laisser entrer sans autorisation. Bonne journée, tout de même.
+[1292]C'est foiré pour le procureur. Comment je vais pouvoir découvrir ce qu'il savait, maintenant?
+[1293]Tu as déjà gardé une seule voiture intacte dans ta vie, tête de noeud? Comment tu vas finir ton job, maintenant?
+[1294]Où est le procureur? Si tu l'as perdu, je vais te défoncer la tronche!
+[1295]Fais gaffe à cette bagnole. Elle contient assez d'explosifs pour t'envoyer sur la lune, mon pote!
+[1300]Les Hell's Angels ont piqué une voiture du patron et il y avait des cassettes vidéos, heu... privées... de Bubby dedans! Retrouve-les.
+[1301]Vas à l'hôtel de North East Tellburg. Hé, on peut peut-être mater les cassettes avant de les rendre...
+[1302]Tu as rendu un fier service à Bubby, mec. Cabot vient en ville pour voir Sonetti, suis Cabot et débarrasse-nous de ces deux minables.
+[1303]Il y a une voiture pleine d'explosifs à Central Hackenslash. Va la chercher.
+[1304]Retourne chez Sonetti. Le vieux chauve est chez lui avec Eddie et Joe.
+[1305]C'est raté! Espèce d'incapable! Je vais envoyer Fisty Morgan chez ta mère!
+[1306]C'est ce qu'il méritait! Violentes et mortelles... c'est comme ça que j'aime les explosions!
+[1307]Quoi? Tu n'as pas eu Sonetti? Au moins, le gros Joe et Eddie l'abruti ont eu leur compte!
+[1308]Ce n'est pas la bonne caisse! Dégage!
+[1309]Tu as tout fait foirer! Je ne verrai jamais les cassettes porno du patron, maintenant!
+[1310]C'est la seule caisse qu'on avait! Impossible de faire sauter Sonetti, maintenant!
+[1311]Il y a une cargaison de drogues dans le coffre d'une bagnole à South East Hackenslash. Vas-y.
+[1312]Amène la voiture chez Coffey à South West Brix, et ne t'occupe pas de la drogue.
+[1313]Les flics ont chopé Pablo. Ils sont à South East Estoria en ce moment. Ramène-le vivant!
+[1314]Enfin, te voilà. J'en ai marre de tout ça. Je vais me casser dans un coin cool comme Vice City.
+[1315]Secoue-toi, mec! Rapporte la bagnole et la drogue ici!
+[1316]Il y avait plus d'un million de dollars de drogue dans cette bagnole! Je vais te crever!
+[1317]Pablo est mort, minable! Je ne veux plus jamais revoir ta face de rat!
+[1318]Jimmy a besoin d'un bon chauffeur. Une voiture t'attend sur les docks de South Brocklyn.
+[1319]Allez! File prendre Jimmy! Il est à la National Reserve Bank de South Ardler.
+[1320]Ça va, mec? Allez, on se casse! Direction l'appartement de Bubby, à North West Kings.
+[1321]Incroyable! Ma femme vient d'assassiner notre femme de ménage! Elle devait encore s'envoyer en l'air avec le type de la piscine! Son cadavre est dans une voiture à Central Kings.
+[1322]Amène la bagnole chez Reeve à North East Estoria. Fais gaffe aux flics.
+[1323]Un tueur débile du nom de Dumb Kurt est en ville. Liquide-le avec une bagnole piégée.
+[1324]Tu as liquidé Dumb Kurt? Je suis fier de toi.
+[1325]Imbécile! Je vais devoir payer une fortune pour l'éliminer!
+[1326]Je préférerais encore prendre le bus! Cette épave est inutilisable!
+[1327]Où est Jimmy? Ecoute mec, encore une erreur et tu y passes, compris?
+[1328]La bagnole est vide! Tu t'es trompé de voiture, pauvre mongol!
+[1329]Comment tu as fait pour te faire arrêter? La prochaine fois, je te laisse crever en taule!
+[1330]La prochaine fois que tu foires une mission, tu finiras à la morgue, pas à l'hôpital.
+[1331]Tu crois que j'imprime des billets ou quoi? Arrête de bousiller mes bagnoles!
+[1332]Incroyable! Tu as complètement bousillé ma caisse ET Jimmy!
+[1333]Jimmy et la bagnole sont foutus! Et les flics ont l'argent du casse! Tu es un homme mort!
+[1334]T'as fichu en l'air la bagnole avec le macchabée dedans? Ma femme va m'égorger pour ça!
+[1335]Les flics te recherchent. Il y a une voiture pour toi à l'hôpital de Central Brix.
+[1336]Apporte la caisse à l'atelier de Mel, à Central Brocklyn, pour la repeindre.
+[1337]Amène la caisse aux docks de Brocklyn, et fais gaffe! J'ai un boulot pour toi.
+[1338]Il y a une voiture de flics à South West Hackenslash. Prends-la, elle est OK.
+[1339]Va à la base militaire de North Fort Law. Un pote à moi a des trucs à me remettre.
+[1340]Ouah! Ces dossiers sont du tonnerre. Les extra-terrestres... Kennedy! Tirons-nous vite!
+[1341]Bon, tu as les infos? Génial! Tu veux manger chez moi ce soir?
+[1342]Tu ne voudrais pas finir comme la bagnole, petit? Alors arrête tes conneries!
+[1343]Ce n'est pas la bagnole que tu devais prendre, minable! Casse-toi, et vite!
+[1344]Tu crois que c'est facile à trouver, les bagnoles de flics? Tu es vraiment trop nul!
+[1345]Tu as amoché la bagnole et mon pote Mason! Je vais te clouer sur place, minable!
+[1346]Il est mort à cause de toi! Maintenant, je ne saurai jamais la vérité sur les affaires louches!
+[1347]C'est vraiment la dernière fois que je te sors de taule! La prochaine fois, je te bute!
+[1348]La prochaine fois, c'est directement à la morgue, mon gros!
+[1349]Hé, ce n'est pas la bagnole dont Bubby m'a parlé! Casse-toi!
+[1350]Hé, où est le mec que je t'ai envoyé chercher? Plus nul que toi, tu meurs!
+[1351]Mason est mort! Tu sais depuis combien de temps j'étais sur ce coup?
+[1352]Ce n'est pas la bagnole que je voulais, minable!
+[1355]Tu veux te faire du fric? J'ai un pote qui veut deux camionnettes aux docks d'Island View.
+[1356]Il y a un type à North East Guernsey City qui refuse de me payer. Liquide-le.
+[1357]Ça lui fera les pieds. Hé, tu sais que tu tournes pas rond, toi? Bon, reviens ici presto!
+[1358]Sonetti est en train de vendre une cargaison à des gosses à la station de métro de Guernsey. Récupère la bagnole et la drogue.
+[1359]Sonetti vient de buter trois de ses hommes! Amène la caisse chez Chink.
+[1360]Bubby veut que tu amènes la voiture chez Shitter à South New Guernsey. Et ne te fais pas arrêter!
+[1361]Génial! Laisse la bagnole ici. Et prends un peu de drogue, si ça te chante...
+[1362]Primo, je ne te connais pas. Deuzio, ce n'est pas la bonne caisse. Dégage!
+[1363]Tu devais ramener la voiture avec la drogue, minable!
+[1364]La voiture est partie en fumée. Et la drogue aussi. Aspire à pleins poumons et casse-toi!
+[1370]Il est temps que le monde comprenne qui le vrai maître. Prends le prochain train à la station d'Island Heights.
+[1371]Le train est bourré d'explosifs. Je te dis adieu...
+[1372]Le jour du Jugement Dernier est arrivé. Le sang des innocents va couvrir les murs de la ville. Ne bouge pas... et meurs en paix!
+[1373]Excuse-moi, petit, j'étais un peu trop défoncé... C'était vraiment impressionnant.
+[1374]Seuls les justes seront épargnés! Toi, le roi des losers, tu vas direct en enfer!
+[1375]La trouille est un péché mortel! Je vais t'écorcher vif et envoyer tes ossements en enfer!
+[1380]Pablo a vu sortir ma femme de l'hôtel d'Island View avec un type! Liquide Skye et ce salaud!
+[1381]C'était du beau boulot, fiston. Rejoins-moi à mon bureau de North East Park.
+[1400]Il y a un taxi pour toi devant la boîte de strip-tease de North West Park.
+[1401]Il y a une superbe bagnole de sport Beast GTS à South West Island Heights.
+[1402]La Silver Bulldog de ma femme est garée à South Tellburg. Va savoir pourquoi?
+[1403]Il y a un bus près de la station de métro de North East Fort Law...
+[1404]Jette un coup d'Âœil à la bagnole qui est devant le bar de East Guernsey City.
+[1405]Il y a une bagnole de flic en civil devant le cinéma de North Hackenslash. Vole-la.
+[1406]Hé, mate un peu la belle caisse à South East Brix.
+[1407]Ma voiture est à West Hackenslash. Sois gentil, va la chercher. Bisous, Skye.
+[1408]Le procureur est chez une prostituée de South West Kings. Sa voiture n'est pas loin.
+[1409]Tu as vu ce 4x4 génial sur les docks de New Guernsey?
+[1410]Tu veux retourner travailler pour Pizza Shed? Appelle-moi. Chad.
+[1411]Mon chéri, viens manger pendant que c'est chaud. Maman.
+[1412]C'était torride cette nuit, hein? Appelle-moi! Lara.
+[1413]Arrête de remplir mon répondeur de messages débiles. Sarah.
+[1414]Hamilton fudge factory... La qualité n'a pas de prix.
+[1415]Il y a une drôle de bagnole garée à South West Estoria.
+[1416]Ton caleçon est toujours ici. Grosse bise, Pam.
+[1417]Résultats sportifs: Jets 38, Cowboys 7... Packers 27, Géants 20... Dauphins 34, Béliers 23.
+[1418]Ta mère est une grosse vache! A plus. Papa.
+[1419]Votre commande est arrivée. Erocuirs SARL.
+[1420]Ton job est toujours disponible. Chad.
+[1421]Epicerie Fine Fauché- La qualité hors de prix!
+[1422]Va voir la voiture derrière le cinéma de West No Law.
+[1423]Ma voiture est à North East Island City, tu peux la ramener? Baby.
+[1424]Il y a une belle voiture de sports sous la voie ferrée de West Fort Law
+[1425]Amasse 3000 points dans les temps et ramasse un méga-bonus!
+[1426]Amasse 1000 points dans les temps et ramasse un super bonus!
+[1427]Va voir le camion à Law Island.
+[1430]Tu peux commencer à chercher un autre job.
+[1431]Ne rate pas une occasion de te faire du fric, fiston.
+[1432]Ces messages sont très pratiques pour trouver du boulot.
+[1433]Si tu cherches du boulot, jette un coup d'Âœil aux voitures bizarres garées en ville.
+[1434]Il y a du boulot partout, mais il faut savoir le trouver.
+[1435]A toi de trouver tes propres missions. Bonne chance.
+[1440]Ramène-toi aux téléphones de North East Park. J'ai un job pour toi.
+[1441]J'ai une mission pour toi. Si tu n'en veux pas, casse-toi de ma voiture, minable!
+[1442]Bubby a quelque chose pour toi. Va au téléphone de Fort Law Park.
+[1443]Le premier point de contrôle est à North Brix.
+[1444]Le premier point de contrôle est à North West Kings
+[1445]Le premier point de contrôle est à North West Island City
+[1446]J'ai une mission à te proposer. Si tu n'en veux pas, sors de mon bus en vitesse!
+[1447]J'ai un job à te proposer. Si tu n'en veux pas, sors de mon camion immédiatement, minable!
+[1500]Il reste...
+[1501]J'ai besoin de ce taxi, débile! Retourne là-bas et va chercher Skye!
+[1502]Où tu vas comme ça? Je dois aller à l'hôtel fissa! Reviens ici immédiatement!
+[1503]Reviens ici, pauvre type! Mon petit copain n'aime pas attendre!
+[1504]Tu crois que c'est facile de négocier une voiture de flics? Va chercher Pablo! Et vite!
+[1505]Hé, tu as peur ou quoi? Pas question que tu me plantes là avec ce que j'ai sur moi!
+[1506]Tu as la trouille pour une petite mission comme ça? Allez viens, c'est l'heure de ton biberon!
+[1507]L'alerte est terminée, et toi tu abandonnes la caisse comme un abruti! Ramène cette bagnole ici, et vite!
+[1508]Ecoute, je peux te payer le double de ce que tu touches. Ne m'abandonne pas comme ça! Au secours!
+[1509]Où tu vas comme ça? J'ai besoin de cette caisse, moi! Sale trouillard!
+[1510]On a dépensé du temps et de l'argent pour piéger cette bagnole! Retourne dedans tout de suite!
+[1511]Tu veux que je te coupe les doigts? Va chercher la bagnole avant que je m'énerve!
+[1512]Qu'est-ce que tu fais? Ne laisse pas la bagnole comme ça! On en a besoin pour le casse!
+[1513]Hé, où tu vas? Si tu me laisses, les flics vont me choper, c'est sûr...
+[1514]Qu'est-ce tu fais? J'ai besoin de cette bagnole. Si je ne l'ai pas, je vais t'éclater la tête!
+[1515]Le plus dur est fait. Ne fais pas le malin, maintenant. Termine ta mission et tu seras plein aux as.
+[1516]Tu as mieux à faire ou quoi? Allez, va à la base militaire! Vite!
+[1517]Ecoute, mec. Si tu me lâches maintenant, tu ne vivras pas longtemps!
+[1518]N'abandonne pas la voiture! Amène-la au garage pour la repeindre!
+[1519]Tu fais quoi, bon sang? Je t'ai dit de prendre la voiture et de l'amener ici!
+[1520]Je t'attends toujours dans l'allée, petit. Grouille!
+[1522]
+[DEMARRAGE RAPIDE!]
+[1523]
+[SCORE!]
+[1524]
+[PAS DE MISSION!]
+[1525]
+[PREMIERE CONFIGURATION!]
+[1526]
+[MISSION EN COURS!]
+[1527]Tire-toi! Ça va péter!
+[1528]Reste dans la voiture. Je vais régler ça.
+[1529]Bon, on n'a pas le temps de rigoler. Ramène la bagnole au garage.
+[1530]GO!
+[help1]Entre dans un wagon comme dans une voiture. Attention à la marche et aux fils électriques.
+[help2]Le train est utile pour se déplacer en ville. Entre dans un wagon comme dans une voiture.
+[help3]Laisse ta voiture sous la grue de n'importe quel dock pour obtenir un bonus.
+[help4]Il y a quatre docks dans cette ville. Fait ramasser ta voiture par la grue et tu gagneras un bonus
+[help5]Si les flics te recherchent, fais repeindre ta voiture dans un atelier et change les plaques d'immatriculation.
+[help6]Les ateliers de peinture te permettent de changer les plaques et de repeindre un véhicule.
+[help7]Dans une Bomb Shop tu pourras faire piéger ton véhicule. La touche d'attaque permet d'activer la bombe. Attention aux dégâts!
+[help8]Les Bomb Shops permettent de piéger un véhicule. C'est payant mais efficace. La touche d'attaque arme la bombe.
+[help9]Installe une bombe sur ton véhicule dans n'importe quelle Bomb Shop. La touche d'attaque permet d'activer la bombe.
+[help10]Certaines cours cachent de bonnes surprises dans certains immeubles. Cherche-les.
+[help11]Si tu as le temps, va jeter un coup d'Âœil à la voiture sous la voie ferrée de West Fort Law
+[help12]Tu es bloqué? Il y a un camion abandonné à Law Island...
+[help13]Les véhicules piégés explosent s'ils sont trop endommagés ou s'ils roulent en dessous d'une certaine vitesse.
+[help14]N'oublie pas ton pager. Le Boss aime bien donner des informations avec.
+[help15]Le Boss adore proposer des nouvelles missions sur le pager.
+[help16]Pour éviter les flics, mieux vaut faire repeindre sa voiture dans un atelier.
+[help17]La flèche indique la destination générale, mais pas le chemin à prendre.
+[help18]Tu dois attendre que la porte du garage s'ouvre avant d'essayer d'entrer dans l'immeuble.
+[help19]Ding, dang, ding, dong.
+[help20]Quand tu voles une voiture, les flics s'intéressent en général à toi.
+[help21]Pour ramasser quelqu'un, roule près de lui avec le véhicule convenu.
+[help22]Tu dois améliorer ton score d'un million de points.
+[help23]Si tu voles une moto, attends-toi à une course-poursuite. Les Hell's Angels n'aiment pas ça.
+[help24]Repère les ateliers où tu peux faire repeindre ton véhicule. C'est essentiel pour semer les flics.
+[help25]Vas-y, mon poulet. Oh vas-y, c'est bon, c'est bon! Oh, Frankie, vas-y!
+[help26]Parfois, mieux vaut agir de façon imprévisible plutôt que de suivre bêtement les ordres.
+[help27]Attention aux véhicules piégés! Trop de bosses et c'est la mort assurée!
+[help28]Gare-toi au milieu du commissariat pour causer un maximum de dégâts.
+[help29]Rien ne vaut une arme automatique pour éliminer un gang rival. Mais fais vite!
+[help30]Pour activer une grue, il faut rouler dessous. Ça rapporte de l'argent. Mais ne reste pas dans le véhicule!
+[help31]Mon chéri, je t'ai déjà dit à quel point je t'aimais? Mais n'oublie pas d'effacer ce message, hein, mon lapin? Nous deux, c'est pour la vie.
+[help32]Il y a plein de truands armés jusqu'aux dents dans le coin. Fais gaffe!
+[ENDS]
+[2500]MISSION ACCOMPLIE!
+[2501]MISSION ECHOUEE!
+[2502]............................
+[2503]CARNAGE!
+[2504]CARNAGE RATE!
+[2505]BONUS POINTS DE VIE!
+[2506]TU DOIS FAIRE 5000 $ DE DEGATS EN 3 MINUTES! GO!
+[2507]BRAVO! Tu es notre GRAND GAGNANT du jour! Ton prix t'attend au Market!
+[help2508]'Les portes de la destruction sont ouvertes'
+[2509]TU DOIS FAIRE 10000 $ DE DEGATS EN 3 MINUTES! FONCE!
+[2510]TU DOIS FAIRE 5000 $ de dégâts EN 2 MINUTES! BOUGE-TOI!
+[2511]TU DOIS FAIRE 10000 $ de dégâts EN 2 MINUTES! ALLEZ!
+[2512]TU DOIS FAIRE 15000 $ DE DEGATS EN 2 MINUTES! REMUE-TOI!
+[2513]TU DOIS FAIRE 15000 $ DE DEGATS EN 2 MINUTES! VITE!
+[2514]BONUS SAUT DE LA MORT!
+[2515]GO!
+[2516]BONUS VIOLENCE GRATUITE!
+[2517]BONUS DU MAUVAIS PERDANT!
+[2600]SALUT LA PLANETE!
+[2601]LAISSE TOMBER. C'EST PAS INTERESSANT...
+[2602]C'EST LA SEMAINE DE LA SECURITE ROUTIERE...
+[2603]SI TU PEUX LIRE CA, C'EST QUE TU NE REGARDES PAS LA ROUTE.
+[2604]ATTENTION! HEU, NON... RIEN, FINALEMENT...
+[2605]SALUT, BEAU GOSSE. JE FILE AU PEROU. JE T'APPELLERAI D'IMPELTEPEC. LARA.
+[2606]CHIEN MECHANT!
+[2607]NOTRE DERNIERE NUIT MERITAIT UN HOT D'OR! IL FAUT QU'ON RECOMMENCE. A PLUS. DANA.
+[2608]HE! TU ME DOIS TOUJOURS 20 DOLLARS! REMBOURSE-MOI OU JE TE CASSE LES DENTS. JACK.
+[2609]ÇA RECOMMENCE...
+[2610]AUX INFOS CE SOIR: UN HOMME MANGE SON COEUR. SA FEMME A LES FOIES.
+[2611]ENFIN, UN HOMME QUI EN A... TU AS ETE SUPER, MON LOULOU. TERI.
+[2612]CHEAT-MODE ACTIF
+[2613]LE NUMERO GAGNANT EST LE 9424047
+[2614]IGNOREZ CE MESSAGE.
+[2615]MODE 'DIEU' ACTIF
+[2616]SANG POUR SANG ECOEURANT , VIOLENCE GRATUITE ET FILM PAYANT, A 23H00 CE SOIR.
+[2617]LE DRAGON RASSIS, RESTAURATION ASIATIQUE A DOMICILE - 555-597845
+[2618]QUELQU'UN A DEJA LU ÇA?
+[2619]ALORS, VOTRE AVIS?
+[2620]JE DETESTE CES MESSAGES DEBILES! MOI, JE VOULAIS ETRE BUCHERON!
+[2621]ET MES 20 DOLLARS? SI JE TE TROUVE, JE T'ETRIPE. JACK.
+[2622]JE SERAI AU BAR DU RED CLAM CETTE NUIT. SI TU VENAIS ME VOIR? BURRO.
+[2623]TU SAIS QUE JE T'AIME, TOI? BURRO.
+[2624]UNE PARTIE DE JAMBES EN L'AIR CE SOIR, ÇA TE DIT? BURRO.
+[2625]SALUT, MON GROS LOUP... TU ME MANQUES. BURRO.
+[2626]SI J'AI PAS MES 20 DOLLARS CE SOIR, TU VAS COMPRENDRE TA DOULEUR, FUMIER! JACK.
+[2627]J'ESPERE QUE TU ES BIEN ASSURE! 20 DOLLARS! AVANT CE SOIR! JACK.
+[2628]SEIGNEUR... QUE C'EST BEAU.
+[2629]NE FAIS PAS DE GRABUGE, PETIT. TA MAMAN S'INQUIETE. PERE O'MALLEY.
+[2630]KEITH TE DIT: ROULE PAS TROP VITE, MON GARS!
+[2631]J'AI ENVIE DE TOI... APPELLE-MOI! BURRO.
+[2632]KEITH TE DIT: RESPECTE LE CODE DE LA ROUTE!
+[2633]TOUCHE PAS A MA POULE. SINON JE TE RATATINE. FOX.
+[2634]JE T'AI DIT QUE JE NE FAISAIS PAS CE GENRE DE TRUCS! LOUISE.
+[2635]LACHE-MOI UN PEU, GROS PERVERS! SARAH.
+[2636]AUX INFOS CE SOIR: LE PRESIDENT PREND FEU. LA CIA DIT QUE CE N'EST PAS DE SA FAUTE.
+[2637]AUX INFOS CE SOIR: LA PRESIDENTE AVOUE PRENDRE 5 KILOS DE DROGUE PAR JOUR. LA CIA DIT QUE CE N'EST PAS DE SA FAUTE
+[2638]UN JOUR TU N'AURAS PLUS DE KRYPTONITE, ET LA, ÇA VA BARDER! S.
+[2639]J'AI LAISSE MON COEUR A SAN ANDREAS.
+[2001]Si tu veux un autre boulot, va près des téléphones de Central Market.
+[2002]On a besoin de toi. Viens à Chinatown. On te recontactera quand tu y seras.
+[2003]Hung Well a laissé sa voiture à South Potato. Récupère-la avant les flics.
+[2004]Bien joué. Oncle Fu sera content. Maintenant, ramène la voiture en état.
+[2009]C'est du beau boulot. Oncle Fu va apprécier. Tu fais honneur à la famille.
+[2010]Ce n'est pas cette voiture qu'on veut, crétin! Va chercher la bonne, et vite!
+[2005]Oncle Fu n'est pas patient. Retourne chercher la voiture immédiatement.
+[2006]Imbécile, les pâtés impériaux d'Oncle Fu étaient dans cette voiture! Il sera furieux!
+[2007]Si tu échoues encore, tu vas finir en chair à pâté!
+[2008]Tu es trop lent! La grand-mère d'Oncle Fu aurait mieux fait... et elle est morte depuis un siècle!
+[2011]Pu Ling s'est payé une voiture rouge, mais Oncle Fu dit que cette couleur porte malheur. Repeins-la... et vite!
+[2012]Repeins cette voiture en bleu. Dépêche-toi, Oncle Fu en a besoin!
+[2014]Ça y est? La voiture est repeinte? Parfait, ramène-la en quatrième vitesse.
+[2015]Je suis content. Tu as été utile à Oncle Fu. Il te récompensera généreusement.
+[2013]Qu'est-ce que tu fais? Retourne à ton travail immédiatement!
+[2016]Quelle insolence! Fais ce qu'on t'a dit de faire, tête de bois!
+[2017]Qu'est-ce que tu as fait? La voiture est fichue! C'est intolérable!
+[2018]Ne t'avise pas de détruire encore une des voitures d'Oncle Fu, sinon Long Wang et son couteau viendront te rendre visite!
+[2019]Tu es encore plus lent qu'une tortue unijambiste! Fais un effort, et vite!
+[2020]Pu Ling est à la Marina. Il t'attend dans une voiture avec de fausses plaques d'immatriculation.
+[2021]File à la banque de Sunview. Chu Ying t'attend pour faire un retrait d'argent qui ne lui appartient pas!
+[2023]Hum, c'est délicieux... Bon, on y va. Et en douceur!
+[2027]Tu n'es pas là pour rigoler! Monte dans la voiture et va chercher Chu Ying!
+[2028]Misérable abruti, tu as tué Chu Ying et réduit la voiture en miettes!
+[2029]Qu'est-ce que tu fais? Reviens ici, sale voleur! C'est une honte!
+[2030]Tu as tué Pu Ling! Misérable, tu finiras par rôtir en enfer!
+[2025]Non! La voiture! Espèce d'imbécile! Je ne veux plus jamais te revoir!
+[2026]Tu as tué Chu Ying! Tu finiras carbonisé en enfer, misérable traître!
+[2024]Merci. Oncle Fu sera informé de ta réussite. Tiens, prends une chips au crabe.
+[2031]Oncle Fu a besoin de toi. Mais il y a trop de monde ici. Va à Aye Valley et attends mon coup de fil.
+[2032]Tu dois collecter les paiements des restaurants que nous 'protégeons'.
+[2042]Oncle Fu est très content. Puissent les 10 vierges du Lotus te couvrir de présents.
+[2033]Pu Ping, le gérant du Dragon Rassis, à Glenwood, doit te payer en premier.
+[2034]Voilà la somme. Oncle Fu est puissant et valeureux. Nous le remercions.
+[2035]Maintenant, va voir Ho Ching, qui tient le Belching Bouddha à Woodhill.
+[2036]Voilà l'argent. Puisse Oncle Fu me protéger d'autres attentats "surprises".
+[2037]Très bien. File au Drooping Lotus de Aye Valley et demande à parler à Lei Ming.
+[2038]Prends cet argent, et puisse Bouddha te protéger d'un coup de couteau dans une allée sombre.
+[2039]Il n'en reste qu'un. Va voir Chu Wing Dung au Cockerel Rampant de Woodside. Il doit te payer.
+[2040]Voilà, la somme. Puisses-tu griller en enfer jusqu'à la fin des temps, sale racketteur.
+[2041]Excellent travail. Ramène l'argent à Chinatown le plus vite possible.
+[2043]Abruti! Les morts ne paient pas leurs dettes! Tu es lamentable!
+[2044]Oncle Fu ne va pas apprécier. Je te conseille de réfléchir à ce lamentable échec.
+[2045]Fu Ming possède une laverie. Il refuse notre offre de rachat. Tu dois faire un exemple de cette tête de mule!
+[2046]Aaah! Laisse-moi, sale monstre aux yeux débridés! Au secours!
+[2047]Fu Ming est désormais au paradis des imbéciles entêtés. Bravo et merci.
+[2048]Tu nous as trahi. Que Dieu te protège, car Oncle Fu a juré ta perte.
+[2049]J'ai une mission confidentielle pour toi. Je te contacterai bientôt à Woodside.
+[2050]Les hommes de No Chin, le neveu d'Oncle Fu, ont fait un scandale à Aye Valley. Ils se sont moqués de nous. Tue-les!
+[2051]Hé, occupe-toi de tes affaires!
+[2052]Tuez-le et faites-le souffrir!
+[2053]C'était du bon travail. Nous veillerons à ce que No Chin ne recommence pas son erreur.
+[2054]Ton incompétence est pitoyable! Estime-toi heureux d'être encore en vie!
+[2055]No Chin continue ses provocations! Ses sbires ont placé plusieurs bombes dans la ville. Nous essayons de les localiser.
+[2056]La première bombe est dans l'appartement de Jimmy the Shovel, à Richman. Désarme-la au plus vite!
+[2057]Tu as 60 secondes montre en main pour la ramener au garage de Hang yu, il pourra la désamorcer. Fais vite, sinon...
+[2070]Retourne à la voiture, sinon ton existence va se terminer rapidement!
+[2058]J'ai neutralisé la bombe. Ramène la voiture avant que quelqu'un ne le remarque.
+[2071]On t'a dit de ramener la voiture! Obéis immédiatement, sinon tu le regretteras!
+[2059]No Chin a avoué où se trouve la deuxième bombe: dans la voiture d'El Burro!
+[2060]On a réussi à retarder El Burro, mais tu n'as que 90 secondes avant l'explosion de la bombe!
+[2072]Qu'est-ce que tu fais? Tu dois te dépêcher! Retourne au boulot!
+[2061]La bombe est neutralisée. File avec la camionnette et ne fais pas d'erreur!
+[2073]Ne laisse pas cette camionnette ici! Tu dois la ramener en état.
+[2062]Les hommes de No Chin comptent tuer Hung Well quand il sortira du restaurant! Vas-y!
+[2063]C'est bien. Mais tu dois faire vite, cette voiture sera détruite dans une minute.
+[2074]Froussard! Retourne à la voiture et désamorce la bombe!
+[2064]OK, ramène la voiture, maintenant. Et vite, Hung Well n'aime pas marcher.
+[2075]Si tu ne ramènes pas la voiture d'Hung Well, il va te noyer dans de la sauce au soja et te dévorer!
+[2065]La torture de la goutte a fonctionné. La dernière bombe se trouve dans la limousine des Yakuzas à Sunview.
+[2066]Bravo! C'est une chance que personne ne surveillait cette limousine. Neutralise la bombe.
+[2076]Cette limousine vaut plus que toi! Retourne là-bas et fais ton boulot!
+[2067]Belle limousine! Ramène-la vite avant que les Yakuzas ne la recherchent.
+[2077]Ce n'est pas fini! On ne doit pas s'apercevoir que cette voiture a disparu!
+[2069]Mais qu'est-ce que tu as fait? S'il y a une guerre des gangs, tu subiras le même sort que No Chin!
+[2068]Bien joué. Puisse le Grand Esprit te mener au temple des 10 000 vierges.
+[2078]No Chin s'est échappé! Il va essayer de quitter la ville. Retrouve son gang et découvre où il se cache!
+[2079]Tu ne me fais pas peur, minable! Si tu t'approches, je vais t'éclater!
+[2080]Pitié! No Chin est à Sunview. Il doit prendre un bateau pour la Chine. Ne me frappe pas!
+[2081]Tu es une brute! On ne retrouvera jamais No Chin, maintenant! Tu dois apprendre à te maîtriser!
+[2082]Intercepte le bateau de No Chin et envoie-le vers le fond.
+[2083]L'honneur d'Oncle Fu est sain et sauf. Puisse l'Impératrice exaucer tous tes souhaits.
+[2084]Oncle Fu a été humilié par cette affaire. Tu es le pire des incapables!
+[2085]J'ai un problème à résoudre. Va à la Marina.
+[2086]Yu Pong est mort. Récupère sa voiture et la marchandise. Vole une voiture de police!
+[2087]Utilise cette voiture pour aller à la fourrière et récupérer la voiture de Yu Pong.
+[2088]Quelle chance! Ramène la voiture et son contenu ici. Sans l'abîmer, OK?
+[2090]Retourne à la voiture! Elle ne contient pas que des crevettes! Ramène-la!
+[2091]Aaah! Qu'est-ce que tu as fait? Par les 12 dragons syphilitiques, je n'ai jamais vu un tel incapable!
+[2092]Où vas-tu? Cette mission est de la plus haute importance! Dépêche-toi!
+[2093]Tu n'es qu'un vandale! Trouve une autre voiture de police et ne l'abîme pas!
+[2089]Tu as fait honneur à notre famille. Tu ne manqueras pas de riz cet hiver...
+[2094]Nous avons trouvé l'homme qui a dénoncé Yu Pong. C'est Wun Tun Chun, suis-le.
+[2095]Quel ignoble traître! C'est une cachette de Jimmy the Shovel. Ramène sa voiture!
+[2096]J'ai installé une bombe. Vite, ramène la voiture là où elle était.
+[2097]Parfait. Sors de la voiture et mets-toi à l'abri pour voir le feu d'artifice.
+[2098]Quelle action remarquable. Wun Tun se trouve désormais là où on écorche les gens avant de les plonger dans du jus de citron!
+[2099]Tu es trop emporté! Comment savoir si c'était lui le traître, maintenant? Ton impatience va nous coûter cher.
+[2100]Imbécile! Oncle Fu ne voulait pas laisser de traces! Apprends à obéir si tu veux continuer à travailler pour nous!
+[2101]Tu n'es pas là pour faire du tourisme! Retourne à la voiture et accomplis ta mission!
+[2102]La tombe de Wun Tun est déjà creusée. Liquide-le, sinon cette tombe sera la tienne!
+[2103]Tu as démoli la voiture? Imbécile! Disparais au plus vite!
+[2104]Pourquoi as-tu fait ça? Wun Tun s'est échappé!
+[2105]L'empire d'Oncle Fu s'agrandit. Il y a beaucoup à faire. Va près des téléphones de Sunview, si tu cherches du travail.
+[2106]Il y a trop de monde autour de toi. Trouve un téléphone plus isolé.
+[2107]La police nous met des bâtons dans les roues. Vole une voiture de flics pour leur donner une leçon.
+[2108]Ho Hung t'attend dans son garage. Amène la voiture là-bas, il y installera une bombe.
+[2109]La voiture est piégée. Gare-la devant le Café de Aye Valley et fais-nous une belle bouillie humaine.
+[2111]Qu'est-ce que tu fabriques? Cette mission demande une concentration totale!
+[2110]Tu ne peux pas abandonner la voiture comme ça! Sois sérieux!
+[2112]Tu détruis vraiment tout ce que tu touches! Trouve une autre voiture de police!
+[2113]Cette odeur de porc grillé enchante Oncle Fu! Beau travail.
+[2114]TU AS CRAME MES BEIGNETS!
+[2115]Bonjour. Je m'appelle Bryson. J'ai une proposition à te faire et il y a une valise pleine d'argent qui t'attend à Glenwood.
+[2116]En fait, la valise est pleine d'explosifs. Mais elle se déclenche seulement si on lâche la poignée.
+[2117]Je te conseille de rejoindre la Marina au plus vite. Ne lâche pas ta valise. Si tu t'en sors vivant, j'ai un client qui voudrait te voir.
+[2118]OK. Maintenant, va à Woodside avec la voiture que j'ai laissée. Tu sais conduire d'une seule main?
+[2119]Je t'ai dit de prendre ma voiture! Si tu n'obéis pas, ça va mal finir!
+[2120]Pas mal. Un peu de sport, maintenant. Va au Nord de Woodside... à pied! On va voir si tu sais marcher.
+[2121]J'ai dit à pied, mon gars! C'est de ta faute tout ça!
+[2122]OK, tu peux souffler un peu. Prends le 4x4 que je t'ai laissé et va au téléphone de Aye Valley. Allez, bouge!
+[2123]J'ai dit de prendre le 4x4! Game over, mon pote!
+[2124]Parfait. La bombe est désamorcée. Des types vont venir te chercher. Le dernier en vie garde l'argent pour lui. C'est clair?
+[2125]C'est nul... Reviens me voir quand tu seras à la hauteur.
+[2126]Hé, tu ne peux pas descendre mes clients comme ça! Ils m'ont payé pour ça! Je te réglerai ton compte plus tard.
+[2127]Ça t'apprendra à faire le malin, pauvre débile!
+[2128]Tu ne m'échapperas pas, mon lapin!
+[2129]Ne bouge pas! Tu vas mourir sans rien sentir!
+[2130]Viens là! J'ai payé gros pour t'assassiner!
+[2131]Reviens! J'en n'ai pas eu pour mon argent, tocard!
+[2132]Il y a trop de bruit là où tu es. Je te rappellerai sur un des téléphones du Market.
+[2138]Laisse-moi tranquille, pauvre malade! Je suis contre les armes!
+[2145]J'aurais dû confier cette mission à quelqu'un de fiable. Le procureur va se méfier, maintenant!
+[2146]Oncle Fu a besoin de toi. Va au téléphone de Market. Là, je te donnerai ta mission.
+[2155]C'est très satisfaisant. Le maire va sûrement comprendre l'intérêt de notre protection, maintenant. Oncle Fu te remercie.
+[2161]Quel gâchis! Il va falloir utiliser une méthode bien plus coûteuse, maintenant.
+[2162]Nous avons besoin de tes services. Rends-toi au téléphone de la Marina pour connaître les détails.
+[2133]Un traître qui travaillait pour nous s'est vendu au procureur. Vole un taxi et attends les ordres.
+[2134]Notre ex-employé attend tranquillement un taxi à la Marina. Passe le prendre.
+[2135]Quelle lenteur! Allez, fais bouger ce taxi, chiffe molle!
+[2136]Amène-le à la cachette de Woodside. Long Wang ne va pas tarder à te rejoindre.
+[2137]Débarrasse-nous de cette vermine. Long Wang s'occupera du corps quand il arrivera.
+[2139]Bien, tu as suivi les indications à la lettre. File avant que quelqu'un ne te repère!
+[2140]Imbécile! Il fallait te débarrasser proprement de cette ordure. Si on retrouve un indice, tu le regretteras!
+[2141]Hé, abruti! Reviens ici immédiatement ou je te fracasse le crâne!
+[2142]Le procureur a des preuves contre nous. Tu dois le descendre quand il fera son jogging. Mais il est protégé.
+[2143]Attention! Il est armé!
+[2144]Bien joué! Oncle Fu te remercie grandement pour cette opération rondement menée.
+[2147]Cet entêté de maire refuse de payer pour notre protection. Il faut lui donner une leçon qu'il n'oubliera pas.
+[2148]Un camion se dirige vers le dépôt de munitions de San Andréas. Intercepte-le avant qu'il n'y arrive.
+[2149]Utilise ce véhicule pour entrer dans le dépôt et empare-toi du camion qui s'y trouve.
+[2150]Le maire va comprendre qu'il risque très gros. Amène le camion sur le pont de Sunview.
+[2152]C'était le seul moyen de pénétrer dans le dépôt. Abruti! Oncle Fu ne va pas du tout apprécier cet échec!
+[2151]Retourne t'emparer de ce camion. Tu ne peux pas entrer dans le dépôt sans lui.
+[2153]Tu as abandonné le camion dans la rue? Retourne là-bas immédiatement, fils de guenon lobotomisée!
+[2154]Tu as perdu tous ces explosifs?! Nous attendions cette occasion depuis des mois! C'est Dieu qui t'envoie pour me punir?!
+[2156]Un mafioso du nom de Don Traegeri est en ville. Oncle Fu à un compte à régler avec cet abruti. Tue-le!
+[2157]Traegeri est accompagné de ses gardes du corps, Timio et Colini. Chow Yun Thin va te rejoindre et s'occuper d'eux.
+[2158]C'est un honneur de travailler avec toi. Et je suis aussi heureux de débarrasser l'univers de cette vermine!
+[2159]Il a un flingue! Pourquoi veut-il me tuer? Je ne pige pas, là!
+[2160]Tu as rendu un grand service à l'humanité. Puisses-tu finir ta vie au milieu de 10000 Amazones nymphomanes.
+[2163]Notre cabinet d'avocats: 'Kivlane, Watsane, Johnsane & Watersane' vient d'être racheté par un rival. Ils en savent trop.
+[2164]Ta première cible est Kivlane. C'est lui qui est derrière ce coup foireux. Trouve-le et liquide-le!
+[2165]Qu'est-ce que vous faites? Je suis quelqu'un, moi!
+[2166]Bon débarras. La prochaine victime est Watersane. Trouve sa voiture et liquide-le dedans!
+[2167]NOOOOON, PAS ÇA! PITIE...
+[2168]On a un problème. Un des coursiers du cabinet d'avocats est parti remettre des documents à la police. Tue-le!
+[2169]Tu ne m'auras pas, ordure! Tuez-le! Tuez-le!
+[2170]L'enfer attend impatiemment ce traître de Watsane. Attention: il peut être très violent!
+[2171]Fumier! Je vais tous vous tuer! Crève, ordure!
+[2172]Johnsane s'est emparé de documents secrets. Rattrape-le et liquide-le avant qu'il essaie de les revendre!
+[2173]Les documents sont cachés là. C'était une erreur. Je ne voulais pas les vendre. Je le jure. Laissez-moi par pitié!
+[2175]Imbécile! Je t'ai dit de récupérer les documents avant de le descendre! Maintenant, on ne saura jamais où ils sont.
+[2176]Excellent. Prends les documents et rapporte-les immédiatement.
+[2177]Tes méthodes laissent à désirer! Fais attention, dorénavant!
+[2174]Bien joué! Un jour, nous donnerons ton nom à un restaurant.
+[2178]Un de nos lieutenants, Keith Ham Yel Tun, nous a trahi. Il va falloir le suicider, mais tu dois l'interroger avant!
+[2179]La honte me submerge! Pour gagner mon pardon, je vais te révéler où j'ai caché les éléments manquants de GTA.
+[2180]L'Humour est caché à l'ouest de Téléphone Hill, le Gameplay au nord-est de Woodhill. Le Plaisir est au sud-ouest de Woodside, et les Jurons sont à Sailor Wharf.
+[2181]Retrouve ces éléments essentiels! Tu as peut-être le temps de rattraper cette terrible erreur!
+[2182]Bien joué! Nous allons pouvoir redresser cette regrettable situation. Merci à toi.
+[2183]La police a récupéré la voiture de Yu Pong en t'arrêtant! Oncle Fu est furieux!
+[2184]Chu Ying est en prison à cause de toi! Quel lamentable échec! Puisse ton âme pourrir en enfer jusqu'à la fin des temps!
+[2185]Tu as perdu trop de temps! Wun Tun s'est échappé! Oncle Fu est vert de rage!
+[2186]Tu es irrécupérable! Trouve un autre taxi!
+[2187]Parfait! Fais exploser le camion, maintenant.
+[2188]Trop tard! Keith s'est suicidé! Tu paieras pour les malheurs que va entraîner sa mort!
+[2189]Pourquoi l'avoir tué? Il a volé des documents importants que nous ne retrouverons plus!
+[2190]Vite! Les valises sont à l'ouest de Téléphone Hill, au nord-est de Woodhill, au sud-ouest de Woodside et au centre de Sailor Wharf!
+[2191]DOCUMENTS RECUPERES
+[2192]Le temps est écoulé!
+[2193]Je t'appelle de la part du vénérable Oncle Fu. Il paraît que tu es disponible et que ton C.V est très impressionnant. Va au téléphone de Central Market, nous parlerons plus en détail.
+[2194]Je te contacterai aux téléphones de Sunview quand tu seras prêt.
+[2195]Quel honneur! Le vénérable Oncle Fu souhaite te rencontrer en personne... au Dragon Rampant, à Chinatown. Passe par la porte de service...
+[2196]Ici Pu Ling. J'arrive, attends-moi.
+[2197]ADIEU!
+[2198]Tu es un danger public! Trouve une autre voiture de police et ne l'abîme pas!
+[2390]Salut, amigo! Va aux téléphones de Téléphone Hill si tu cherches du boulot. J'ai toujours des trucs à faire.
+[2350]J'ai un boulot pour toi, l'ami. Je t'appellerai à Eagleside bientôt.
+[2201]Quelqu'un utilise des bus pour faire passer illégalement des immigrants. Caramba! C'est pas bon pour mes affaires, ça!
+[2202]J'ai une arme qui te permettra de mettre ces bus hors service. Elle est à Woodside.
+[2203]Bien vu, amigo. Mais il en reste deux. Trouve-les et détruis-les!
+[2204]Bon travail, muchacho. Je suis content de toi et je ne t'oublierai pas.
+[2249]Les hommes qui m'ont refilé le tuyau pour les bus ont bien mérité leur argent! Il est dans une valise à Potato. Va le chercher.
+[2398]OK, amigo. Apporte son fric à Julio. Il t'attend à la Marina.
+[2250]Muchas gracias, amigo. Je vais faire la fête ce soir!
+[2251]Manolito est à Glenwood. Dépêche-toi, il n'aime pas attendre!
+[2252]Ah, quand même! Tu crois que je n'ai rien d'autre à faire que t'attendre?
+[2253]Ce Manolito est cinglé. Il faudra que je le fasse liquider un de ces jours. OK, Paulo t'attend à Atlantic Heights.
+[2254]Gracias, gracias. Maintenant, j'ai de quoi payer l'opération honteuse de ma mère.
+[2255]Bon, c'est la dernière livraison. A Sunview, Ricardo t'attend...
+[2259]Gracias, amigo. Mais on a un problème. Un des flics du coin est à nos trousses. El Burro veut que tu descendes ce gringo!
+[2362]Crève, ordure!
+[2393]Beau travail, amigo. C'est un vrai plaisir de te voir en action! Je te recontacterai bientôt!
+[2361]Hé, je ne t'ai pas demandé de tuer mes hommes! Attention, ne te moques pas de moi!
+[2404]Tu as tout fait foirer, gringo! Tu as perdu l'argent et mes hommes n'ont rien. Jefe a dû faire le boulot et il n'est pas content!
+[2351]J'ai une mission importante pour toi. Va au téléphone de Richman, je vais t'expliquer.
+[2206]Alve, mon lieutenant, en prend un peu trop à son aise. Va voir Paco et ses hommes à Sunview.
+[2207]Amigo! Alve et ses hommes sont de l'autre côté du pont. Ramène-les ici, on va leur préparer un comité d'accueil, OK?
+[2208]Madre de dios! Je vais te tuer pour ça! Attrapez-le!
+[2209]Paco ne me posera plus de problèmes. Tu veux peut-être prendre sa place pour être près de moi, hein, mon mignon?
+[2354]Tu es trop gentil, gringo! Fais attention la prochaine fois. Mort, tu ne me sers à rien... Quoique...
+[2355]Imbécile! Comment oses-tu descendre quelqu'un avant que je t'en donne l'ordre?! Tu dois m'obéir, maricon!
+[2356]Pourriture de gringo! Tuez-le, muchachos!
+[2357]Maintenant, je vais te dire un secret. C'est Paco qui m'a trahi. Je te dirai quand il faudra le descendre, pendant la fusillade.
+[2358]Tu me tapes sur les nerfs, cabron! Tu es là pour m'obéir! Si je voulais que tu les liquide, je te l'aurais demandé!
+[2359]Stupide gringo! Il y a des flics partout maintenant! Ne recommence jamais ce genre d'âneries!
+[2360]Vas-y amigo, tue Paco! On croira qu'il a été touché par une balle perdue!
+[2277]Mauvaise nouvelle. Jefe a entendu qu'une équipe de télévision a filmé tes exploits de tueur. Je te dirai où elle est.
+[2278]Il y a QUATRE camionnettes de la télé en ville! On ne sait pas dans laquelle est le film, alors détruis-les toutes. La première est à Richman.
+[2279]C'est bien, mais j'ai localisé une autre camionnette de reportage à Woodside. Vas-y, fonce!
+[2280]Jefe m'a dit qu'une des camionnettes était à Sunview. Dépêche-toi d'aller la détruire!
+[2281]La dernière camionnette télé est dans le coin. Après, on sera tranquille.
+[2282]Tu es un sacré bonhomme, toi! Je suis content de t'avoir dans mon équipe. Et tu es plutôt mignon, en plus...
+[2363]Trop tard! Ils sont en train de diffuser la vidéo! Tu as intérêt à te planquer pendant un moment!
+[2313]Amigo, tu es tellement bon que Jefe est jaloux. Il dit que tu ne mérites pas ta réputation. Alors on va vérifier ça.
+[2314]J'ai parié avec lui que tu peux tuer 8 flics ennemis en moins de 8 minutes. Alors vas-y, mon joli!
+[2315]Bien joué, hombre. Le prochain est à Chinatown.
+[2316]Hé hé hé! Ça roule, petit! Il y en a un autre à Glenwood!
+[2317]Well done mon gars! Ta prochaine victime est à Sailor Wharf.
+[2318]Caramba! C'était vicieux, ça! Ta prochaine cible se trouve à la Marina.
+[2319]Joli coup, beau gosse! File à Aye Valley pour chasser ta prochaine proie.
+[2320]Hé, les flics vont commencer à te détester! Fonce à Sunview!
+[2405]OK, muchacho, plus qu'un! Va vite à Woodside et fais-moi gagner mon pari!
+[2321]Caramba! Jefe avait raison! Cette lamentable performance va me coûter un max de tequila! C'est nul!
+[2322]Tu es bien trop lent! Jefe avait vu juste! Tu n'es qu'un maricon d'américain!
+[2323]Allonge le fric, Jefe! Le beau gosse a fait son boulot! Bien joué, petit. Tu viendras boire la tequila de Jefe avec moi, hein?
+[2324]Les flics t'ont identifié et ils te recherchent! Fais gaffe, amigo!
+[2325]Je crois que Jefe avait raison. Tu n'es pas aussi bon que je pensais. Dommage, tu aurais pu avoir un bonus...
+[2269]Les flics recherchent plusieurs de nos vieilles bagnoles. Il faut les faire disparaître. Tu me donnes un coup de main?
+[2395]On ne doit laisser aucune trace. Balance-les là où c'est profond, au large des quais de Woodside
+[2270]Génial! Si je n'étais pas aussi loin de toi, je te ferais un gros bisou!
+[2271]Stupido, qu'est-ce que tu as fait? Si les flics découvrent ces voitures, c'est TOI qui ira rejoindre les poissons!
+[2378]Tu es un incapable, cabron! Si les flics trouvent le moyen de m'inculper avec ça, tes intestins finiront en tacos!
+[2353]J'ai une mission urgente et secrète pour toi. Je t'appelle à Wood Hill.
+[2233]Un camion plein de produits chimiques bizarres est en ville. Je veux savoir ce que c'est. Empare-toi du camion.
+[2234]Excellent, muchacho. Change les plaques d'immatriculation pour ne pas te faire repérer.
+[2235]Bien. Maintenant, ramène-le dans mon entrepôt de Woodside. Mes hommes inspecteront sa cargaison.
+[2364]Gringo! Ce n'est pas fini! Va changer ces plaques d'immatriculation avant que je m'énerve.
+[2365]Retourne au camion et ramène-le à l'entrepôt! Bouge tes fesses!
+[2366]Touche pas à mon camion, sale cafard!
+[2368]Mais tu es vraiment nul! Je vais rouler ta cervelle dans un burrito et l'avaler toute crue!
+[2367]Ah, bravo! Maintenant, on ne saura jamais ce qu'il y avait dedans! La prochaine fois, j'enverrai Jefe! Minable!
+[2238]On a un problème, compadre. Je vais t'appeler à Woodhill. C'est trop risqué d'en parler là où tu es.
+[2406]Je ne sais pas ce qu'il y avait dans ce camion, mais les hommes qui l'ont déchargé ont tous été infectés.
+[2407]Jefe a réussi à voler un camion, mais les hommes qui l'ont déchargé ont tous chopé une horrible maladie.
+[2240]Pepe se ballade dans Eagleside. Fais-le disparaître avant que les flics ne lui mettent la main dessus!
+[2371]Non, laissez-moi!
+[2241]Pauvre Pepe, j'aimais bien sa coiffure. Jorge délire, il tourne en rond avec sa voiture dans Potato. Achève-le.
+[2372]Tire-toi! Tu ne sais pas que les rongeurs arrivent? Il faut fuir... FUIR!
+[2242]Quelle tristesse! José vient de sortir d'un bar à Woodside. Les flics commencent à se poser des questions. Fonce, amigo!
+[2373]Non, pitié! Je n'ai rien fait!
+[2243]Pedro essaie de quitter la ville. Intercepte-le avant qu'on ne le remarque!
+[2374]Tu ne m'auras pas vivant, maricon!
+[2244]Alfonso se dirige vers le Red Clam. C'est mon bar préféré, je ne veux pas qu'il y fasse un scandale! Tue-le!
+[2375]Casse-toi ou tu vas le regretter, gringo!
+[2245]Rodrigo est mon plus vieux compadre! Ah, qu'est-ce qu'on a pu rigoler! Mais tu dois le tuer. Il est en route pour le Market.
+[2376]Tu ne m'auras pas, sale gringo!
+[2246]Plus qu'un: Chico. Je ne sais pas ce qu'il y avait dans ce camion, mais quelqu'un paiera pour ce carnage!
+[2377]N'essaie même pas, cabron! C'est toi qui va mourir!
+[2247]Quelle terrible journée! Enfin... tu as bien fait ton boulot, c'est déjà ça. Tu veux partager une bouteille de tequila?
+[2260]Mike Tallon veut me rencontrer et me proposer une affaire. Mais je n'ai pas confiance. Vas-y, toi.
+[2408]On doit se retrouver dans sa villa de Sunview. Prends ma voiture et va voir ce qu'il veut. Fais gaffe, ce gringo n'est pas net!
+[2261]C'est la voiture d'El Burro! TUEZ-LE!
+[2409]Caramba! C'était ma voiture! Tallon n'en laissera entrer aucune autre! Madre Dios, j'ai envie de te tuer!
+[2262]J'en étais sûr! Le fumier! Je vais lui apprendre à tirer sur mon tueur préféré!
+[2379]Ça va, cabron? Je pensais que tu étais à la hauteur. Il ne faut pas envoyer un gosse faire le travail d'un homme!
+[2263]OK, petit, on va se venger du señor Tallon quand il finira son service. Va au commissariat et attends mon signal.
+[2264]OK, mon mignon... à mon signal, transforme ce bâtard en chili con carne! Il ne doit pas rentrer chez lui vivant!
+[2265]Bon voyage en enfer, Tallon. Beau travail, amigo. Viens me voir à l'hacienda pour que je te remercie dignement.
+[2266]Qu'est-ce que tu fous, cabron? Tu dois apprendre à te contrôler! A l'avenir, fais ce que je te dis, compris?
+[2267]C'est raté! Et maintenant, ça va être plus compliqué. Jefe va s'en occuper, lui au moins il est fiable!
+[2380]OK, amigo! Tue-le maintenant!
+[2381]Tu as envie de mourir, pauvre tocard?
+[2272]Amigo, j'ai une mission pour toi. Mais je dois faire attention... va à Richman, je t'appellerai là-bas.
+[2273]J'ai un ami très mignon qui m'attend à Woodside. Va me le chercher, je suis pressé de le... voir.
+[2384]Madre Dios! Ils ont tué mon mec! Ça ne se passera pas comme ça!
+[2385]Un témoin a vu une voiture avant l'explosion. Trouve-la et fais parler son conducteur, ne le tue pas!
+[2383]Abruti, c'est quoi ton problème avec les voitures? Tu bousilles tout. Je ne saurai jamais qui est le responsable!
+[2386]OK, muchacho. Fais mettre une bombe dans une voiture et gare-la près de leur cachette. On ne se moque pas impunément d'El Burro!
+[2387]Gare-la devant la porte et enclenche la bombe. Ils vont voir la mort en face!
+[2388]Parfait. Mes ennemis ne vont pas refaire les mêmes erreurs avant longtemps, hein?
+[2389]Non! C'est fichu! Complètement raté! Imbécile! Quel lamentable gringo! Je ne veux plus jamais te revoir!
+[2300]Les Yakuzas dépassent les bornes! Ils ont volé une de mes cargaisons!
+[2410]Je veux que tu ailles détruire plusieurs de leurs voitures tape-à-l'oeil. Ça paiera pour ce qu'ils m'ont volé.
+[2301]Excellent, muchacho. Mais ce n'est pas suffisant. Encore une!
+[2302]C'était catastrophique! Retourne là-bas et recommence!
+[2303]Génial! C'est amusant, hein? Détruis-en encore une pour qu'ils comprennent bien.
+[2304]Tu n'y arrives pas, ou quoi? Recommence et fais ça bien, cette fois!
+[2305]C'est bien. Mais je veux autre chose. Un type comme moi serait très bien dans une de ces limousines. J'en veux une!
+[2306]Tu es lamentable! Retourne là-bas et recommence!
+[2307]Tu es une sale brute, gringo! Il faut faire attention! Si tu bousilles tout ce que je veux, ça va mal se passer!
+[2308]Tu veux me provoquer? Si tu continues comme ça, je vais te faire souffrir! Tu m'entends, cabron?
+[2309]Liquide-moi tous les Yakuzas! Je veux la peau de ces fumiers!
+[2310]Au moins, tu as réussi ta mission! Je te pardonne tes erreurs, mais je ne serai pas toujours aussi sympa!
+[2311]Allez, bouge toi! Détruis ces bagnoles! Je n'ai pas que ça à faire!
+[2312]Quelle belle caisse! J'aime la sensation du cuir sur ma peau. Et si on faisait un petit voyage ensemble?
+[2339]Jefe a découvert qu'un de mes hommes fait du business dans mon dos! Liquide-le, lui et ses clients, et rapporte-moi la marchandise.
+[2340]Ils nous ont repérés! Tuez ce gringo!
+[2341]Il ne doit pas s'échapper!
+[2342]Bon travail! Garde l'argent comme prime! Achète-toi un joli pull, ou quelque chose comme ça.
+[2343]Tu es désespérant, cabron! Tu ne sais rien faire! Le yankee classique, quoi.
+[2344]Un gang rival a installé un labo au sous-sol d'un vieil entrepôt. Jefe t'a laissé le matériel pour le faire sauter.
+[2345]Tu es un incapable, sale Yankee! Tu vas me mettre sur la paille si tu continues à tout bousiller comme ça! Du large, abruti!
+[2346]La base est bien gardée, mais tu devrais pouvoir y faire entrer un de ces joujoux, non? Attention: tu en as cinq, pas plus!
+[2348]Incroyable! Tu as tout utilisé, sans le moindre résultat! Jefe aurait fait un bien meilleur boulot!
+[2349]C'était chouette, hein? Bien joué, tu as mérité une récompense intime du grand El Burro. A plus tard, mon lapin...
+[2326]Un de mes amis réalise un film. Il m'a promis un rôle si je lui fournis le matériel nécessaire. Trouve-moi une ambulance.
+[2411]Parfait, amigo! Maintenant, amène-la à notre garage de Glenwood.
+[2327]Tu es fou ou quoi? Trouve une autre ambulance! Et plus vite que ça!
+[2328]Ne la laisse pas comme ça, cabron! Ramène-la au garage!
+[2329]Bon... C'est un film catastrophe, on a aussi besoin d'un camion de pompiers. Trouves-en un quelque part.
+[2330]Cinglé de gringo! Trouve un autre camion de pompiers et ramène-le.
+[2331]Retourne là-bas et prends le camion. Ma carrière de star en dépend!
+[2332]Maintenant, il veut un poids lourd! Je ne sais pas pourquoi. Vole un méga-camion, et en vitesse.
+[2333]Tu bousilles tout à un rythme incroyable! Trouve autre chose! Vite!
+[2334]Ramène ce camion au garage, et vite! Je déteste attendre!
+[2335]Génial, beau gosse! Maintenant, il ne nous manque plus qu'une voiture de police. Tu en trouveras bien une quelque part...
+[2336]Tu fais preuve d'une stupidité remarquable! Trouve une autre voiture!
+[2337]Retourne à la voiture de police et ramène-la au garage. Mon ami s'impatiente!
+[2338]Félicitations. Je ne t'oublierai pas quand je serai une star. J'aurai même un rôle pour toi. Une scène d'amour, ça te plairait?
+[2299]Pouah! C'est une véritable infection! Je ne sais pas ce que c'est, mais je n'en veux pas chez moi. Bien joué, amigo.
+[2370]Pendant que tu foirais lamentablement, Jefe a dû faire le sale boulot pour toi. Il en a marre de réparer tes conneries, amigo!
+[2369]J'espère que tu n'as rien dit aux flics, mon joli! Jefe s'est débarrassé des autres. Ferme-la, c'est compris?
+[2391]Voilà ce qui arrive quand on n'obéit pas aux ordres! Si tu veux rester en vie, tu ferais mieux d'écouter mes conseils!
+[2352]Je dois te parler d'une mission très importante. Je te contacterai à Excalibur.
+[2400]OK, beau gosse, viens à Potato pour que je te donne du boulot.
+[2401]J'ai une petite mission pour toi. Va au téléphone de Sailor Wharf, je te donnerai des détails.
+[2402]Tu cherches du travail, amigo? Va à Sunview, j'ai quelque chose pour toi.
+[2403]Si tu te dépêches d'aller à Potato, j'ai peut-être une mission dans tes cordes.
+[2450]Salut, amigo. On m'appelle El Burro. Peut-être qu'un jour, tu sauras pourquoi... En attendant, j'ai une mission pour toi. Je te rappelle à Téléphone Hill.
+[2451]Hé, hombre, si veux un job, va aux téléphones de Sailor Wharf. Je te donnerai des indications, OK?
+[2452]OK, beau gosse, tu as prouvé ta loyauté. Je veux te rencontrer. Viens me rejoindre au bar du Red Clam.
+[2453]Amigo, tu sais que j'ai un faible pour toi, mais si tu ne ramène pas cette voiture immédiatement, tu vas le regretter!
+[2210]J'ai reçu un message anonyme signalant un chargement intéressant dans une voiture à Sunview. Va voir ce que c'est.
+[2211]Salut, c'est Bryson. Je t'avais dit qu'on se reverrait. Cette bagnole sera ton cercueil si tu ne suis pas mes ordres!
+[2212]Amène cette voiture à Soviet Hill et vite! Sinon, tu vas avoir très chaud aux fesses dans 2 minutes!
+[2213]J'ai de très bons clients qui veulent te dire un petit bonjour. Affronte-les ou change de voiture.
+[2214]Bien joué. Tu as 2 minutes pour rejoindre Sailor Wharf avant d'être carbonisé.
+[2454]Mes clients sont sur tes talons. J'ai laissé une autre voiture. Je te conseille de la prendre.
+[2215]La partie continue. Tu connais les règles. Atlantic Heights en 2 minutes. Allez!
+[2455]Impressionnant... Monte dans cette bagnole et écoute ma proposition... Sinon ta carrière s'arrête ici!
+[2216]Ecoute, je t'attends à Sailor Wharf. Si tu me rejoins avant que la bombe explose, on pourra faire un petit duel!
+[2217]Le détonateur est à Sunview. Si tu me descends avant que j'y arrive, tu seras un homme libre! Compris? Allez, fonce!
+[2218]BOMBE DESACTIVEE
+[2394]Quand on est nul, c'est pour la vie, hein? C'est fini de rigoler, mon vieux. Adieu...
+[2456]Mes clients ne sont pas loin. Je te conseille de prendre la voiture que j'ai laissée.
+[2457]J'en ai marre de courir! Viens me chercher, maricon!
+[2458]C'est un des hommes d'El Burro! Abattez-le!
+[2459]C'est ma voiture! Sinon, Tallon ne tombera pas dans le panneau. Si tu l'abandonnes comme ça, je te tue!
+[2460]Ok, amigo, attends que Tallon arrive. Il ne va pas tarder.
+[2461]Non! Tu es bien trop lent pour ce job! Jefe a raison: tu n'es qu'un pauvre raté de Yankee!
+[2462]Tu l'as tué, imbécile de gringo?! Les morts ne parlent pas, idiot! Maintenant, on ne saura jamais qui tirait les ficelles!
+[2463]Rattrape-le, mais ne lui fait pas de mal! On a besoin de lui vivant!
+[2464]Ne me frappe pas! C'est Jimmy the Shovel qui m'envoie. Les autres sont planqués dans la cachette à la Marina. Laisse-moi!
+[2465]Il t'a échappé? Madre de Dios! A cause de toi, il va falloir être vigilant en permanence!
+[2466]Il est cinglé! Sauvez-vous!
+[2467]C'est tout ce que tu sais faire? C'est pitoyable!
+[2468]C'est ta grand-mère qui t'a appris à te battre?
+[2469]Ah! Ce débile essaie de m'attaquer de front!
+[2470]Aïe! J'ai mal! Non, vraiment. Très mal! Ha ha ha!
+[2471]Arrête de perdre du temps. No Chin court toujours! Fais ce qu'on t'a demandé!
+[2472]Comment ça, tu les as perdus? Ça veut dire que No Chin nous échappe! Tu es nul!
+[2473]Ah, El Burro... nous t'attendions. Entre...
+[2474]Que Bouddha m'accueille avec bienveillance!
+[2475]Oncle Fu n'a plus de job pour toi. Mais si tu veux gagner son respect, sème le chaos et la destruction!
+[2476]Je n'ai rien à te proposer, mais si tu veux me prouver ta valeur, fais couler le sang à flots. On va voir ce que tu sais faire!
+[2477]Oncle Fu veut que tu affrontes un de ses meilleurs hommes. Va à Woodside et attends les instructions.
+[2478]Tu n'aurais pas dû venir! Je vais t'écraser comme un cafard!
+[2479]Ça suffit! Montre nous tes talents. Nous avons libéré un prisonnier. Celui qui le tuera gagnera la partie.
+[2489]Vous ne pouvez pas vous attaquer, ni utiliser de véhicule. C'est un combat honorable. Allez!
+[2480]Tu as prouvé ta valeur. Je te contacterai bientôt pour ta nouvelle mission.
+[2481]Tu as prouvé ton incompétence. Il va falloir que je te surveille de près.
+[2482]Par les cornes des 7 crevettes putrides! Tu es déloyal! C'est une honte! Que je ne te revoie plus!
+[2483]Misérable empoté! Nos missions sont trop importantes pour te les confier! Trouve un autre job!
+[2484]Pauvre minable! Si tu ne sais pas gagner sans tricher, tu es parfaitement inutile!
+[2485]Je vois que vous êtes aussi nuls l'un que l'autre! Quel lamentable duo!
+[2486]Laissez-moi!
+[2487]Touche pas à mon camion, minable!
+[2488]+ Accélère, beau gosse. Si tu ne te dépêches pas, mon pote va s'adresser ailleurs et ma carrière de star est fichue!
+[2490]Stupide gringo! Mon pote en a ras le bol d'attendre! Je peux dire adieu à ma carrière de star à cause de toi! Je suis furieux!
+[3001]Il y a un nouveau flic qui en sait trop et qui veut me dénoncer au procureur. Liquide-le quand il sortira de sa voiture pour aller téléphoner.
+[3002]Mon Dieu! C'est Deever qui t'envoie? Je ne dirai rien. J'ai une femme et des gosses, pitié!
+[3003]Merde! Sa femme est allée voir le procureur! Va au téléphone! Vite!
+[3004]Salut, chéri. Je vais téléphoner au commissariat de Vice Shores comme convenu. OK?
+[3005]Enfoiré! Sa femme est au courant. Liquide-la avant qu'elle téléphone à tout le monde!
+[3006]Magne-toi de rappliquer à Banana Grove. Mais si les flics te chopent, je ne te connais pas.
+[3007]Le flic a parlé au procureur! Si tu me plantes encore une fois, tu finiras ta vie au trou!
+[3008]Tu as foiré la mission, minable! N'oublie pas que j'ai assez de preuves pour t'envoyer en taule!
+[3009]Pauvre abruti! Maintenant, je ne saurai jamais à qui le flic a parlé!
+[3010]Tu devais tuer ce flic, tête de noeud! Pas lui piquer sa bagnole! T'es vraiment trop nul!
+[3011]J'ai un autre job pour toi, minus. Va au téléphone public. Je t'appellerai.
+[3012]Hé, arrête de me suivre, sale pervers! Je vais te casser en deux, moi!
+[3013]Espèce d'abruti! Je t'ai dit de le suivre, pas de lui défoncer sa caisse, minable!
+[3014]Tu es nul! Pendant que tu passais des heures à le liquider, sa femme a téléphoné au procureur!
+[3015]Aargh! J'ai rien fait! C'est mon mari! C'était son idée, pas la mienne! Tuez-le, pas moi!
+[3016]Les Hell's Angels de Felicity me doivent du fric. Rapporte-moi la moto de leur chef comme paiement.
+[3017]Bouge tes fesses et ramène la bécane au garage de Greek Heights.
+[3018]Merde! Cette bécane ne vaut pas 3000 dollars! Tiens, voilà un peu de fric. Casse-toi.
+[3019]J'ai buté un des rastas de Coral City hier soir. Va me chercher sa bagnole!
+[3020]Bon sang! C'est un traquenard! Cette voiture est piégée et télécommandée! Merde!
+[3021]Quoi? Tu est toujours en vie? J'ai perdu 50 dollars, alors!
+[3022]Cette bagnole est inutilisable. Je vais la refiler au commissariat.
+[3023]T'as peur des gros motards poilus? Remonte sur cette moto, minable!
+[3024]Ramène cette bagnole ici, fumier, ou je t'explose au fusil à pompe!
+[3025]J'ai besoin de toi pour un boulot difficile. Ramène-toi au téléphone.
+[3026]Hé, qui c'est, celui là? Liquidez-le!
+[3027]Qu'est-ce que tu as fait à la bécane, enfoiré? Tu es vraiment lamentable!
+[3028]Un fumier veut faire un casse sans m'en parler. Va chercher sa bagnole à Banana Grove.
+[3029]Hé! Tu en mets du temps! Magne-toi de rejoindre la banque de Richman Heights!
+[3030]Sème les flics et ramène-moi cette raclure à Banana Grove.
+[3031]J'ai tout, mec! J'ai le fric! On se tire! Hé, t'es pas Richie, toi!
+[3032]Qu'est-ce que tu fous? T'as la trouille ou quoi? Remonte dans la bagnole immédiatement!
+[3033]Bien joué! Ce minable va finir à l'hôpital.
+[3034]Bon sang, cette bagnole est importante! N'oublie pas que tu dois servir de chauffeur au voleur!
+[3035]Tu l'as tué! Je voulais savoir pour qui il travaillait! Sale minable!
+[3036]Hé, reviens ici, mec! Ne me laisse pas comme ça! Allez, sois cool!
+[3037]Tu sais ce que tu dois faire. Va au téléphone, j'ai un job pour toi.
+[3038]Merde! Le voleur s'est fait coffrer. Maintenant, je vais devoir payer un mec en prison pour le buter.
+[3039]Tu as tué le voleur, perdu le fric et atterri à l'hôpital. Plus nul que toi, tu meurs!
+[3040]Je dois arroser certains flics de la ville. Le premier ripou est à Little Dominica.
+[3041]Merci pour tout, mec. Dis à Deever que j'ai des flingues à vendre.
+[3042]Au suivant, sergent Roberts à Vice Beach. N'oublie pas d'être sympa avec lui.
+[3043]Dis à Deever que je veux plus la prochaine fois. Ma femme a besoin d'un lifting.
+[3044]Bon, le dernier est à Richman Heights. C'est un fumier de première, celui là. Fais gaffe!
+[3045]Tu plaisantes ou quoi? Où est le reste du fric, fumier?
+[3046]Ces fumiers de flics ne sont jamais contents! Si je n'étais pas un flic moi-même...
+[3047]Pauvre minable! A quoi il me sert, maintenant qu'il est mort?
+[3048]Alors là, bravo! Un informateur mort, c'est super utile! Merci, bouffon!
+[3049]Casse-toi de ma voiture et dis à Deever que je ne veux plus bosser pour lui.
+[3050]Je t'ai dit de le payer, pas de lui piquer sa caisse, pauvre mongolien!
+[3051]Hé, à quoi tu joues, à la fin? Dis à Deever que je ne bosserai plus pour lui!
+[3052]Ce sale fumier! Je le paie une fortune! Débarrasse-moi de lui! Ça lui fera les pieds!
+[3053]Va faire un tour près des téléphones. J'ai besoin de quelqu'un de fiable.
+[3054]Pauvre minable! Je te dis de buter ce fumier et c'est toi qui te fais tirer comme un lapin!
+[3055]Mon ex-femme s'est barrée avec les gosses à Felicity! Je veux qu'ils reviennent.
+[3056]Ramène les gosses à Banana Grove. Pauly t'attend là-bas. Fais gaffe, elle appellera sûrement les flics.
+[3057]Ramène ces sales gosses à l'hôtel de Vice Beach. Fais gaffe!
+[3058]Merci pour tout, petit! Et tu sais quoi? C'est toi qui va faire le baby-sitter ce soir!
+[3059]Une journaliste me colle aux basques depuis deux jours. Pique-lui sa bagnole.
+[3060]Ramène sa voiture à Banana Grove. Je veux savoir ce qu'elle sait sur moi.
+[3061]Rien du tout. Elle devait juste fouiner. Ramène la voiture à Greek Heights.
+[3062]Merci, mec. Je vais repeindre cette épave et la revendre. Elle ne la retrouvera jamais.
+[3063]Le bon à rien qui sort avec ma fille a piqué la voiture que j'avais volée pour elle! Retrouve-la!
+[3064]Ramène la bagnole à Banana Grove! Mais attention, ne l'abîme pas, hein?
+[3065]OK! Rapporte-moi ça au bar du Wildcat à Felicity.
+[3066]Tu travailles pour mon père? Tu es mignon... Appelle-moi quand tu n'auras plus de boutons...
+[3067]Ma sorcière de femme est à Greek Heights. Va la chercher!
+[3068]Reviens ici tout de suite! Mais attention à ne pas te faire suivre!
+[3069]Emmène-la au hardware store de Greek Heights. Deever vous attend là-bas.
+[3070]Bonjour, chérie. Dis, petit... tu pourrais brancher cette tronçonneuse avant de partir?
+[3071]Ce n'est pas la bonne maison, crétin! Ramène la bagnole à Banana Grove. Et vite!
+[3072]Mais qu'est-ce que tu fais, pauvre minable! Ramène mes gosses à Vice Beach.
+[3073]Bon sang, tu vas ramener cette voiture à Greek Heights, oui ou non? Je vais te descendre, moi!
+[3074]J'ai dit à Felicity, minable! Je vais te laver les oreilles avec du plomb, moi!
+[3075]Où est ma femme, abruti?! Si elle est encore en vie, je vais te trucider!
+[3076]Je n'en ai pas encore fini avec toi. Grouille-toi de revenir aux téléphones!
+[3077]Si Pauly meurt, je vais t'éclater à coup de crosses et tu vas finir à l'hôpital.
+[3078]Je t'avais dit de ne pas le refroidir, tête de lard! La prochaine fois, c'est moi qui vais te tuer!
+[3079]Ça ne me sert à rien si elle est bousillée! Pauvre débile!
+[3080]Va piquer une limousine à Vice Shores. Et liquide son proprio!
+[3081]Amène la limousine dans une Bomb Shop pour la faire piéger! Attention, je veux qu'elle soit impeccable!
+[3082]OK, va chercher une strip-teaseuse chez Dellboy à Miramire.
+[3083]Cette poule deale pour les Rastas. Apprends-lui à vivre!
+[3084]Pas mal! Je vais te garder en vie encore quelque temps... N'oublie pas de vérifier ton pager.
+[3085]Merde! La fille sait que tu n'es pas le chauffeur habituel! Casse-toi, pauvre minable!
+[3086]Elle ne montera jamais dans une limousine aussi naze! C'est foiré, maintenant!
+[3087]Pourquoi tu n'as pas pensé à piéger la bagnole, abruti?
+[3088]Tu as tellement mis de temps à arriver qu'elle est partie dans sa limousine habituelle!
+[3089]Je t'avais dit d'utiliser des explosifs pour qu'il n'y ait pas de preuves!
+[3090]Reviens immédiatement dans cette bagnole et trouve-moi des explosifs, bon sang!
+[3091]Retourne tout de suite à la voiture! Je veux la peau de cette fille!
+[3092]Vérifie les téléphones publics. Si j'ai un autre job à faire foirer, je t'appellerai.
+[3093]La fille s'est planquée pendant que tu étais en train de faire le clown à l'hôpital! Bravo!
+[3094]Pendant que tu te faisais fouiller par les flics, la fille en a profité pour mettre les bouts!
+[3095]Ne touche pas à cette limousine, sale clodo! Sinon je vais t'éclater!
+[3096]OK, truand à la manque. Il y a une voiture garée à Felicity. Vole-la!
+[3097]Les Rastas ont installé une fumerie de crack sur mon territoire! Amène la bagnole chez Crazy Bob.
+[3098]La fumerie est à Richman Heights. Débarrasse-moi de tous ces drogués dégénérés.
+[3099]Liquide-les tous, mec! Branche le détonateur et tire-toi!
+[3100]Maintenant, pique le fric de leurs dealers! Il y en a un à Little Bogota.
+[3101]On sait ce que ton boss a fait, mec. Prends le fric. Mais tu peux être sûr que la vengeance viendra bientôt!
+[3102]Ils sont trop défoncés ces mecs... Bon, il y en a un autre à Little Dominica. Pique-lui simplement son fric.
+[3103]Dis à Deever qu'il risque gros en faisant ça. Prends le fric et tire-toi, minable.
+[3104]Ça m'étonne que ces fumiers n'aient pas essayé de te buter.
+[3105]Tiens, voilà le fric. Tu travailles pour Babylone, mec. La colère de Jah va s'abattre sur toi.
+[3106]Les expressions de ces types sont à mourir de rire! Le dernier Rasta est à Vice Shores.
+[3107]Ce n'était pas une fumerie de crack que tu as fait péter. Voilà l'argent! Tire-toi!
+[3108]Oh, ça me brise le cÂœur! J'enverrai des fleurs à l'enterrement... Enfin, s'il reste de quoi enterrer.
+[3109]Où tu vas comme ça? Je t'ai demandé de ramener cette bagnole dans une Bomb Shop! Vite!
+[3110]Remonte dans la bagnole et fais moi exploser ces fils de chien!
+[3111]Tu comprends ce que je te dis? Fais-moi exploser ces fumiers!
+[3112]Je t'avais dit de prendre leur argent, pas de les trucider! Pauvre débile!
+[3113]Si j'ai encore besoin de toi, je t'appellerai sur un téléphone public.
+[3114]Quelqu'un fait un gros trafic à Little Bogota. Vas-y, et fais sauter le camion.
+[3115]Qui est ce fumier? Liquidez-moi cette tête de mort!
+[3116]Les imbéciles! Quand comprendront-ils enfin que c'est MOI, le roi de cette ville?
+[3117]Ah, bravo, tête de noeud! Maintenant, quelqu'un vend la drogue à ma place!
+[3118]Ramène-toi en vitesse aux téléphones. J'ai encore du boulot pour toi!
+[3119]Un de mes indics dit que quelqu'un deale dans mon dos à Vice Beach. Va voir ça...
+[3120]Dis à Deever que les Rastas attendent une cargaison de drogue aux docks de Richman Heights.
+[3121]Va là-bas et liquide-les tous. Fais gaffe à toi, et n'abîme pas les limousines!
+[3122]Ne fais pas l'idiot. Commence par l'autre limousine. Il y a plus de drogue dedans.
+[3123]Ramène-la au garage de Banana Grove. Fais gaffe à la marchandise.
+[3124]Pas mal, petit... Maintenant, file prendre l'autre limousine, avant que je m'énerve.
+[3125]Des hommes à moi attendent cette fichue limousine dans leur garage de Felicity. Accélère!
+[3126]Il faut revendre la came aux dealers, maintenant. Tu as une voiture pleine à Banana Grove.
+[3127]J'ai un acheteur de came à Greek Heights. Mais ne te laisse pas embobiner, hein?
+[3128]Bon sang, c'est quoi ce truc? C'est coupé avec de la farine ou quoi? Prends le fric et fous le camp, minable.
+[3129]Il y a un autre dealer à Vice Beach. Il s'appelle Jimmy The Shovel.
+[3130]Tiens, voilà le livreur de came de Deever. Voilà ton fric, petit coursier. Tire-toi!
+[3131]Plus qu'une seule livraison à faire. Il s'agit d'un certain Begbie à Banana Grove.
+[3132]C'est quoi ce truc? C'est coupé avec du sel? Ça a l'air dégueulasse!
+[3133]Il y a une autre bagnole à Felicity avec le reste de la came. Va la chercher.
+[3134]Va à Vice Beach. Le type est complètement accro, il peut attendre.
+[3135]Bon sang, je t'attends depuis des plombes! Donne-moi la came et vite!
+[3136]Le prochain est au centre ville, à Greek Heights. Il t'attend.
+[3137]Dis à Deever que j'ai déjà vendu sa came. Il m'en faut encore.
+[3138]La dernière livraison est à Felicity. Pas d'entourloupette, hein?
+[3139]Super, mec! La soirée va être géniale avec ça. Dis à Deever qu'il est invité.
+[3140]Pas mal, vu comment tu as été nul jusqu'à présent. A plus tard.
+[3141]C'était un de mes meilleurs indics, pauvre idiot! Je vais te laminer!
+[3142]Tu sais pour combien il y en avait dans cette bagnole? Tu m'as fait une perdre une fortune!
+[3143]Il y a au moins pour 2 millions de came dans cette bagnole! Ramène-la immédiatement!
+[3144]Pendant que tu étais à l'hôpital, les Rastas ont disparu avec la came! Pauvre minable!
+[3145]C'est ça, liquide mes dealers! Et comment je vais revendre ma came, maintenant?
+[3146]Pendant que tu te faisais cogner en taule, les Rastas se sont tirés avec ma drogue!
+[3147]Je n'en ai pas fini avec toi, minus! Je t'appellerai.
+[3148]Un docteur de Banana Grove a besoin d'un bon chauffeur. Vas-y.
+[3149]Je vais à la clinique d'avortement de Little Dominica. Faites attention.
+[3150]Seigneur! Des militants anti-avortement! C'est un traquenard! Sortez-nous de là!
+[3151]Mais bon sang, ramenez-moi à Banana Grove! Allez!
+[3152]Vous m'avez sauvé la vie! Je ne l'oublierai pas. Si vous avez besoin de moi...
+[3153]Il est mort à cause de toi! Je n'entrerai jamais au club de golf, maintenant! Tu es pitoyable!
+[3154]Maintenant qu'il est mort, je peux dire adieu à ma carte de membre du club de golf! Tu es nul!
+[3155]Vite! Je dois arriver à temps. C'est important.
+[3156]Ne m'abandonnez pas, jeune homme. J'ai besoin de vous!
+[3157]J'ai un job qui nécessite un tocard dans ton genre. Va aux téléphones.
+[3158]Bon sang! Il est mort! Je n'entrerai jamais au club de golf, maintenant!
+[3159]Le vendeur de bagnoles de Vice Shores travaille pour les Rastas. Pique la tire de ce minable!
+[3160]Voyons si on peut mettre le souk... File à Little Dominica.
+[3161]Provoque une bagarre et liquide-moi tous ces fumier! Ne laisse aucun témoin, compris?
+[3162]Bon sang! Babylone attaque!
+[3163]Joli tir, petit! Maintenant qu'on a lancé la machine, voyons s'ils se vengent...
+[3164]Quelle bande de mollassons! Provoque-les encore en volant la bagnole devant la maison des Rastas.
+[3165]Va faire exploser toutes les bagnoles dans le magasin de Vice Shores pour énerver ces sales Rastas.
+[3166]Ah! Rien ne vaut une petite guerre des gangs! Bousille tout et reste à l'écart des immeubles, ils sont bourrés de fûts d'essence.
+[3167]Génial! Maintenant, ils vont s'entre-tuer. C'est fini, le temps de la coopération.
+[3168]Tu dois aller mettre le souk chez l'autre débile qui vend des voitures. Tu as oublié?
+[3169]On essaie de provoquer une guerre, minus! Tu dois piquer une voiture aux Rastas!
+[3170]Tu es accro à la bouffe de l'hôpital, ou quoi? Chauffeur à la manque!
+[3171]Tu as besoin de cette caisse pour déclencher la guerre des gangs, minable!
+[3172]Cette bagnole est nécessaire si on veut provoquer une guerre des gangs, minable!
+[3173]Pendant que tu papotais avec les keufs, le plan a foiré lamentablement. C'est ta faute!
+[3174]File aux téléphones! Il y a un max de boulot pour toi!
+[3175]Tu devais te pointer avec la voiture, mec! Tu parles d'un piège!
+[3176]Un coursier se dirige vers l'usine de crack des Rastas. Rattrape-le, et fonce... parce que c'est un rapide.
+[3177]C'est là que ces fumiers se cachent, hein? Pique un camion à Little Bogota, mais fais gaffe.
+[3178]OK, retourne à l'usine de crack et liquide-moi tous ces fumiers!
+[3179]Tu en as mis du temps! Fais sauter le camion et envoie tous ces fumiers en enfer!
+[3180]Ça apprendra à ces minables à ne pas empiéter sur mon territoire!
+[3181]Comment je vais découvrir où se trouve leur usine, maintenant, hein?
+[3182]On ne trouvera jamais l'emplacement de leur usine, pauvre débile!
+[3183]Ecoute, mec: tu m'appartiens! Alors remonte dans ce camion et arrête de déconner!
+[3184]Je t'ai dit de suivre ce fumier! Pas de voler sa bagnole, bon sang!
+[3185]Tu l'as perdu, pauvre nul! Ça, tu vas le regretter!
+[3186]J'en ai marre de tes conneries, tête d'anchois! Retourne au téléphone, sinon je te bute!
+[3187]Tu es un vrai psycho-killer, toi! Je t'ai dit de le suivre, pas de le descendre!
+[3188]Retourne dans ton quartier, mec...sinon Jah va te tomber dessus.
+[3189]Triple idiot! Je t'ai dit de suivre le coursier, pas de défoncer sa caisse!
+[3190]Les flics me filent le train. Fais disparaître une camionnette à Felicity.
+[3191]Ramène la camionnette au parking de Little Bogota. Les Rastas vont morfler...
+[3192]Laisse cette camionnette. J'ai une camionnette blanche à Felicity, il faut s'en débarrasser.
+[3193]Amène-la au parking de Bogota. Voyons comment les Rastas expliqueront les 8 cadavres qu'il y a dedans.
+[3194]Laisse cette camionnette. Il y en a une autre à Vice Beach. Refais le même coup, mais plus vite!
+[3195]Ça pue, hein? C'est le cadavre de l'ex de ma femme... Va au parking avec.
+[3196]Abandonne ce van et fais disparaître une autre camionnette compromettante garée à Felicity.
+[3197]Encore une victime de ces fumiers de Rastas! Bon sang, ces mecs sont horribles!
+[3198]Il faut s'assurer qu'il ne reste aucune preuve. Fais-les tous sauter. Tous!
+[3199]Ça sent la chair grillée, hein? Bon, je vais te laisser vivre encore un peu...
+[3200]Magne-toi de retourner dans la voiture avant que je te découpe en rondelles!
+[3201]Tu devais ramener cette caisse au parking, pauvre minable!
+[3202]N'oublie pas qui est ton maître, petit... File aux téléphones.
+[3203]La femme du président visite les hôpitaux aujourd'hui. Je ne l'aime pas. Trouve dans quel hôpital elle est et pique lui sa limousine.
+[3204]Tu as la bagnole? Cool! Ramène-la à la cachette de Felicity.
+[3205]Je veux que la femme du président y passe. Piège sa bagnole et ramène-la à l'hôpital.
+[3206]Qu'est-ce que tu attends, imbécile? Fais tout sauter!
+[3207]Voilà ma contribution à la santé publique! Ça lui apprendra à ne pas répondre à mes lettres!
+[3208]Pourquoi tu as mis aussi longtemps? Elle s'est cassée! Je n'aurai plus jamais l'occasion de la buter, maintenant!
+[3209]Je t'ai demandé de ramener la limousine. Je veux impressionner les francs-maçons.
+[3210]Tu l'as bousillée, triple idiot! Je voulais la montrer aux francs-maçons!
+[3211]OK, fais-la piéger maintenant!
+[3212]Parfait. Ramène-la à l'hôpital et fais tout péter!
+[3213]Ce n'est pas fini, mon pote. Va répondre au téléphone.
+[3214]Ne reste pas planté là ! Monte dans une bagnole, et vite!
+[3215]Reviens faire sauter l'hôpital maintenant, avec la bagnole. Allez, magne-toi!
+[3216]Cette tantouze de Burro est en ville. On va lui faire une surprise. Vole un camion à Little Bogota.
+[3217]Burro va rencontrer les Rastas à Vice Shores. Je veux la peau de Burro.
+[3218]Quel carnage! Tu aurais dû être boucher!
+[3219]Mais où t'étais, mec? Ils ont signé le contrat! Burro est pote avec les Rastas, maintenant.
+[3220]Tu as de la chance, on a payé ta caution. Mais la réunion est terminée, et tu as encore tout foiré!
+[3221]J'ai du boulot à ne plus savoir qu'en faire! Va au téléphone!
+[3222]Viens ici et balance un coup de bazooka dans la tronche de ce débile!
+[3223]Reviens ici avec le camion et fais du grabuge, chiffe molle!
+[3224]J'ai passé une demi-journée à trouver ce camion et tu me le bousilles comme ça?
+[3225]Dell, du Bureau d'Investigation, doit aller au commissariat aujourd'hui. Bute-le.
+[3226]Mais qu'est-ce que tu as foutu, bon sang? S'il a témoigné contre moi, tu es un homme mort!
+[3227]Il y a une limousine à Banana Grove. Vole-la, mais je ne veux pas voir une éraflure dessus!
+[3228]Viens me prendre au tribunal. Je vais quitter la ville jusqu'à ce que ça se calme.
+[3229]Merde! Les douanes! On se casse, et vite!
+[3230]Tu as eu de la chance, crâne d'Âœuf! J'aurais pu être tué. Si ça arrive, tu y passeras aussi!
+[3231]Il a réussi à rejoindre le commissariat! Je crois que je n'ai jamais vu quelqu'un d'aussi nul que toi!
+[3232]Reviens immédiatement dans la limousine et passe me prendre, pauvre minable!
+[3233]Hé! Mais où tu vas comme ça? Sale trouillard, je vais te buter, moi!
+[3234]Je me suis fait choper par les flics! Dès que je sortirai de taule, je défoncerai ton crâne de piaf!
+[3235]Dès que je sortirai de cet hôpital, je viendrai te laminer, pauvre débile!
+[3236]Allez, arrête de glander! Va au téléphone. Il y a du taf pour toi!
+[3237]Je suis à l'hôpital parce que tu as bousillé la limousine. Mais tu vas me le payer, sale fumier!
+[3238]A cause de toi, je suis aux urgences! Mais c'est toi qui vas y finir dès que je sortirai!
+[3239]Hé! Dégage, pauvre type!
+[3240]Ce minable est arrivé au commissariat! Tu t'es encore planté, bougre d'incapable!
+[3241]Pauvre minable! Cette bagnole valait beaucoup plus que toi! Je veux plus jamais te revoir!
+[3245]Yiiihaaaaaaa!
+[3270]Je m'appelle Deever. Je dirige la brigade des stups, et cette ville de paumés m'appartient. J'ai assez de preuves pour t'envoyer en taule pour le restant de tes jours! Alors tu as intérêt à m'obéir!
+[3271]C'est terminé pour toi, tête d'anchois! Personne ne me dénonce! Personne!
+[3272]C'est une propriété privée, ici! Dégage!
+[3296]DEMARREZ VOS MOTEURS!
+[3392]
+[...................]
+[3456]PARTEZ!
+[3501]Tu as 100 secondes pour faire 5000 $ de dégâts. Allez!
+[3502]
+[...................]
+[3503]Tu as 70 secondes pour venir chercher ta prime devant le commissariat de South West Greek Heights!
+[3504]Tu as 80 secondes pour faire 25000 $ de dégâts. Bouge toi!
+[3505]Tu as 100 secondes pour venir chercher ta prime sur un des ponts entre Vice Shores et Vice Beach!
+[3506]Tu as 80 secondes pour faire 3000 $ de dégâts avec une bombe télécommandée!
+[3507]Tu as 100 secondes pour venir chercher ta prime devant le commissariat de South West Richman Heights!
+[3508]Tu as 80 secondes pour faire 9000 $ de dégâts avec une bombe télécommandée!
+[3509]Tu as 80 secondes pour venir chercher ta prime devant le commissariat de North Vice Beach!
+[3510]Tu as 80 secondes pour faire 15000 $ de dégâts avec une bombe télécommandée!
+[3511]Tu as 100 secondes pour venir chercher ta prime sur l'île militaire près de Vice Shores!
+[3512]Tu as 80 secondes pour faire 5000 $ de dégâts!
+[3513]Tu as 70 secondes pour venir chercher ta prime aux docks de South Vice Beach!
+[3514]Tu as 80 secondes pour faire 15000 $ de dégâts!
+[3515]Tu as 70 secondes pour venir chercher ta prime à la gare de West Greek Heights!
+[3516]Tu as 80 secondes pour faire 25000 $ de dégâts!
+[3517]Tu as 70 secondes pour venir chercher ta prime chez le vendeur de voitures de Vice Shores!
+[3518]Tu as 100 secondes pour faire 30000 $ de dégâts! Vite!
+[3519]Tu as 80 secondes pour venir chercher ta prime au cimetière de South West Little Dominica!
+[3520]Tu as 100 secondes pour faire 90000 $ de dégâts! Bouge-toi!
+[3521]Tu as 85 secondes pour venir chercher ta prime au parc de South Vice Shores!
+[3522]Tu as 100 secondes pour faire 150000 $ de dégâts! Vite!
+[3523]Tu as 130 secondes pour venir chercher ta prime sur le toit de l'hôpital de Little Dominica!
+[3524]Tu as 80 secondes pour faire 35000 $ de dégâts!
+[3525]Tu as 70 secondes pour venir chercher ta prime à la chaîne de télévision de Felicity!
+[3526]Tu as 100 secondes pour faire 210000 $ de dégâts! Magne-toi!
+[3527]Tu as 70 secondes pour venir chercher ta prime sur le pont entre Banana Grove et Vice Beach!
+[3528]Tu as 100 secondes pour faire 10000 $ de dégâts! Vite!
+[3529]Tu as 70 secondes pour venir chercher ta prime à l'hôpital de Greek Heights!
+[3530]Tu as 100 secondes pour faire 30000 $ de dégâts! Vas-y!
+[3531]Tu as 70 secondes pour venir chercher ta prime à la chaîne de télévision de Vice Shores!
+[3532]Tu as 100 secondes pour faire 50000 $ de dégâts!
+[3533]Tu as 80 secondes pour venir chercher ta prime sur le route entre Vice Shores et Vice Beach!
+[3534]Tu as 100 secondes pour faire 70000 $ de dégâts!
+[3535]Tu as 80 secondes pour venir chercher ta prime près d'une piscine de South Banana Grove!
+[3536]Félicitations! Tu es notre GRAND gagnant du jour! Ta prime t'attend à Little Dominica!
+[3537]On va apprendre à vivre à ces sales Rastas. Va piquer une de leurs bagnoles à Richman Heights.
+[3538]C'est la bonne. Va à la Bomb Shop la plus proche et fais piéger cette bagnole. On va leur faire une surprise.
+[3539]Elle est prête à exploser. Va la garer avant qu'ils remarquent sa disparition.
+[3540]Laisse la bagnole, mais reste sur place. Je veux que tu assistes au feu d'artifice.
+[3541]Bien joué, tête de mort! Ces Rastas vont bientôt demander grâce.
+[3542]Je t'avais dit de la faire piéger, espèce de débile! Tu es trop nul!
+[3543]Je t'ai demandé de rester et de vérifier qu'elle explose! Tu n'es qu'une chiffe molle!
+[3544]Tu as bousillé la caisse sans tuer personne? Mais c'est quoi, ton problème?
+[3545]Tu es bien trop lent! Ils ont découvert notre arnaque. Tu vas le regretter, pauvre type!
+[3546]Pourquoi tu ne laisses pas ton nom et ton adresse, tant que tu y es? Je t'avais demandé d'utiliser une bombe, non?
+[3547]Je dois te parler. Va au téléphone de Greek Heights, je t'appellerai là-bas.
+[3548]Je crois qu'on te suit. Tire-toi vite. Je t'appellerai à Miramire.
+[3549]Je crois que ces fumiers de Rastas veulent nous rencontrer pour faire la paix. File au téléphone de Vice Beach!
+[3550]Bon, tocard... écoute bien ce qu'ils ont à dire, et reviens me le répéter.
+[3551]Ecoute, mec. Tu ne devrais pas continuer à travailler pour Babylone. Rejoins le camp de Jah, tu ne le regretteras pas.
+[3552]Si tu veux rester avec Babylone, sors à gauche. Si tu veux servir Jah, sors à droite, mon frère.
+[3553]Jah aimera ton choix. On te contactera bientôt.
+[3554]Tu n'es qu'un esclave de Babylone! Mais un jour, tu changeras d'avis et Jah sera là pour t'accueillir.
+[3555]Il y a une cargaison venant de Cuba à Banana Grove. Détruis-la avant qu'elle arrive aux dealers!
+[3556]Tu as vraiment bousillé cette limousine, mec! Mais ce n'était pas la bonne. Tu viens de liquider la femme de ton Boss. A mon avis, il ne va pas apprécier...
+[3557]Mais ne t'inquiète pas, mon frère. Nous ne protégerons si tu te joins à nous. Sois cool et tout ira bien, Jah veille sur toi.
+[3558]Retourne à la caisse et fais la piéger, sinon je vais t'exploser la tête!
+[3559]Où tu vas comme ça? Ramène la bagnole à sa place, pauvre minable!
+[3560]Ah, bravo! Génial! Abruti! Tu ferais bien de filer en vitesse, je vais te lapider!
+[3561]Je ne t'ai pas demandé de bousiller la bagnole, tête de noeud!
+[3562]Minable, il t'a repéré! C'est fichu, maintenant! Fais gaffe la prochaine fois!
+[3563]Mon frère, si tu es à Greek Heights, Vice Shores ou Vice Beach, réponds à un des téléphones qui sonnent.
+[3564]Un des chiens de Babylone a tué notre frère Aérol. Jah veut le venger. Le tueur se dirige vers sa cachette. Empare-toi de son véhicule!
+[3565]Jah est content de toi. Ramène le bus aux docks de Felicity. Mes frères t'attendent là-bas.
+[3566]Eloigne-toi du bus. Nous allons administrer la vengeance de Zion à ce payaka!
+[3567]Souris, mon frère. Jah est fier de toi et mes compagnons apprécient ton aide.
+[3568]Mais où tu crois aller comme ça? Arrête de tourner en rond et achève ta mission.
+[3569]Par l'herbe divine! Qu'as-tu fait, homme de peu de foi? Tu es censé travailler pour nous!
+[3570]Que fais-tu, pauvre fou? Le chien s'est enfui! Tu dois agir plus rapidement la prochaine fois!
+[3571]Attention, frère! Tes actes sont insensés. Jah a dit qu'il voulait la vengeance. Obéis-nous, dorénavant!
+[3572]Laisse ce bus tranquille ou tu vas le regretter, mon frère!
+[3573]Tu sais où nous trouver si tu cherches un job. Nous t'attendons, frère.
+[3753]Comment as-tu pu faire une chose pareille? Mes frères vont penser que tu es responsable de la mort des autres.
+[3574]Un tueur de Babylone veut assassiner notre frère Maelcum, qui essaie d'échapper à ce démon!
+[3575]Aide-moi! Débarrasse-moi de ce maudit payaka!
+[3576]C'était la chose à faire, mec. Dis à frère Marcus que Babylone veut sa mort. Fais attention à toi.
+[3577]Tu es un vrai dur, mon frère. Jah veillera sur toi. Va dépenser ce que tu as dignement gagné.
+[3578]Pauvre fou! Tu as agi trop vite! Maelcum a disparu et il ne réapparaîtra pas avant des semaines. Tu es exaspérant, mec!
+[3579]Imbécile! Babylone a tué le meilleur de mes compagnons! On ne connaîtra jamais son message. Tu n'es qu'un minable!
+[3580]Tu es une star, mon frère! Va chercher Maelcum et demande-lui ce qui se passe!
+[3581]Soldat insolent! Tu as agi trop vite! Maintenant, Maelcum a disparu et on ne le reverra pas avant des semaines! Tu me pousses à bout!
+[3582]J'ai une autre mission pour toi. Tu sais quoi faire si ça t'intéresse...
+[3583]Tu as tué Maelcum, sale traître! Pourquoi? Mes frères vont vouloir le venger, je peux te l'assurer!
+[3584]Babylone prépare un mauvais coup. Ils veulent créer un problème à Richman Heights. Va voir ce qui se passe.
+[3585]Babylone veut détruire la Ganja qui est cachée dans les véhicules de mes frères. Protège notre herbe sacrée.
+[3586]Jah veut réduire ces impies en cendres. Mort à Babylone!
+[3587]Donne à Babylone le sort qu'elle mérite!
+[3588]Excellent travail, tu es un dur! Jah t'adore! Fonce sans te retourner!
+[3589]Excellent, mon frère! Tu es le bras vengeur de Zion!
+[3590]Tu les as vraiment écrasés, mon frère! Tu es un bon rasta. Je parlerai de ta réussite à mes frères.
+[3591]Tiens, prends ça!
+[3592]Je vais t'étriper! Pauvre minable!
+[3593]Je vais t'arracher la tête!
+[3594]Viens prendre ta raclée!
+[3595]Pauvre imbécile, qu'as-tu fait? Nous ne pourrons plus fumer avant une éternité, maintenant! Tu n'as vraiment aucune classe!
+[3596]Si tu passes près des téléphones, je te donnerai sans doute un job.
+[3597]Ces démons de Babylone se servent de nos catacombes pour se débarrasser de leurs victimes. Va au cimetière et empêche ce sacrilège!
+[3598]Quel infamie! J'enrage, mon frère! Lave cet affront avec le sang des impies! Je ne veux voir aucun survivant!
+[3599]Attention! Ce cinglé a un flingue! Liquidez-moi ce fumier!
+[3600]Tu es puissant, mon frère! Le plus puissant de tous! La main de Jah veille sur toi!
+[3601]Ta tête est creuse, pauvre type! On ne peut pas te confier une mission. Je vais envoyer un frère pour faire ton job.
+[3602]Mais qu'est-ce que tu faisais? Pendant ton absence, ils ont enterré les corps! Jah te tient pour responsable de ce sacrilège!
+[3603]Il reste beaucoup à faire pour servir Jah. Va où tu sais, quand tu le voudras.
+[3604]File à Miramire! Jimi et d'autres frères ont été arrêtés par des chiens de Babylone.
+[3605]Mes frères sont impuissants. Liquide tous ces impies!
+[3606]Merci, frère. Je dirai à Marcus que tu as fait le bien. Jah love!
+[3607]Jimi m'a dit que tu avais fait du bon boulot. Que Jah veille sur toi, frère.
+[3608]Qu'est-ce que tu as fait, fils de Babylone? Tes erreurs ont causé la mort de nombreux compagnons! Tu es le seul responsable!
+[3609]OK, fumier, à ton tour!
+[3610]Tes erreurs ont causé la mort de nombreux frères, tête creuse! Que Jah ait pitié de toi!
+[3611]L'Âœuvre de Jah est infinie. Si tu veux travailler, nous t'attendons.
+[3612]Le grand prêtre de Babylone est en ville pour apporter la mauvaise parole. Débarrasse-nous en avant qu'il ne nous empoisonne l'esprit.
+[3613]Joli coup, frère. Je crois que la bataille finale contre ces démons sera bientôt gagnée. Jah veille sur toi.
+[3614]CODE ROUGE! CODE ROUGE! PROTEGEZ LE PRESIDENT!
+[3615]Aaaaaaaaaaaaarrrrggghh..h..h..!!
+[3616]Tu as laissé le faux prophète prêcher ses mensonges au peuple crédule! Jah est furieux contre toi, tête creuse!
+[3617]Le faux prophète a répandu son poison sur la terre pendant que tu échouais misérablement. Mes frères sont furieux.
+[3618]Babylone triomphe. Ses mensonges écrasent les justes et le faux prophète répand son poison. Mes compagnons enragent!
+[3619]L'apocalypse est proche, frère. Jah compte sur toi. Nous t'attendons.
+[3620]Frère Leroy doit te remettre de l'argent. Va chercher cette somme et rapporte-la moi. Il t'attend à Miramire.
+[3621]OK, tête creuse. J'ai une bombe dans mon sac. Conduis et n'essaie surtout pas de t'échapper.
+[3622]Je vais semer la mort à Babylone. Amène-moi à l'hôtel de Richman Heights. Vite! Ma bombe et moi nous n'avons aucune patience!
+[3623]OK, mec. Conduis-moi près des portes et regarde Babylone sombrer dans le chaos!
+[3624]C'est bien, frère. Ceux de Zion ne t'oublieront pas. Maintenant, file avant que ma bombe ne te réduise en miettes!
+[3625]Lâche! Tu vas voir comment meurent les infidèles!
+[3626]Ma bombe va exploser! Jah, accueille-moi!
+[3627]Calme-toi. Ce n'est pas de ta faute. Leroy a toujours été une tête brûlée. Il est avec Jah désormais. A plus tard, mon frère.
+[3628]L'oeuvre de Zion est sans répit, mon frère. Répond au téléphone si tu veux nous aider.
+[3629]MORT A BABYLONE!
+[3630]Par ta faute, nous avons perdu une semaine de revente de Ganja, et Leroy est mort! Utilise ton petit cerveau, mécréant!
+[3631]Tu dois faire vite! Les chiens de Babylone vont tuer frère Zachary. Fonce à l'hôtel de Greek Heights!
+[3632]Les bâtards de Babylone sont cachés par là! Mais seul Jah sait où! Va et trouve ces impies!
+[3633]Lamentable imbécile! Tu as laissé Babylone assassiner frère Zachary. Tous mes compagnons le regretteront.
+[3634]Tout baigne. Zachary a échappé aux griffes de Babylone. Jah est fier de toi.
+[3635]Butez-moi cette ordure! Ne ratez pas votre coup, les gars!
+[3636]Tu es increvable, toi! Liquidez-le!
+[3637]Mais qu'est-ce que tu fichais au centre ville? Les infidèles ont assassiné frère Zachary! Ne recommence jamais ça!
+[3638]Quoi? Tu as bousillé la voiture de Zachary? Comme si les païens ne nous posaient pas assez de problèmes comme ça!
+[3639]Quand les choses se seront calmées, retourne au téléphone public, mon frère.
+[3640]Spindly Jim fait tourner ses petits mecs sur notre territoire. Laisse la voiture et suis-le à pieds. On veut savoir où il place ses prostitués.
+[3641]C'est très intéressant. Suis encore ce pervers pour savoir où sont tous ses mecs.
+[3642]Jah est satisfait. Quelle bonne journée, hein? Nous te remercions, mon frère.
+[3643]Tu les as manqués, tête creuse. Tu as intérêt à être un peu plus rapide la prochaine fois, sinon je trouverais un autre soldat de Jah.
+[3644]Tu les as tous repérés. Maintenant, occupe-toi de ce sale maquereau avant qu'il rentre chez lui.
+[3645]Tu as agi trop rapidement! Je ne t'avais pas dit de l'abattre! Quelle erreur regrettable!
+[3646]Je t'avais dit de ne pas le laisser atteindre sa maison. J'ai dû me tromper sur ton compte, tu ne vaux pas plus qu'un Babylonien.
+[3647]Quel désastre! Tu devais le suivre jusqu'à ses prostitués! Tu es vraiment idiot!
+[3648]Pourquoi as-tu fait une chose pareille? Quel débile! Ça va nous coûter cher!
+[3651]Je t'avais dit de marcher! Le maquereau a eu peur et il a fichu le camp à cause de toi!
+[3652]Bien joué! Maintenant, va dire à ces petits gars qui est leur nouvel employeur.
+[3655]Si tu t'ennuies, on a toujours du travail pour toi, mon frère. Réponds au téléphone si tu veux une mission.
+[3656]Nous partageons Vice Beach avec ces impies depuis trop longtemps. Il faut que ça change! Viens nous rejoindre.
+[3657]Bien, mon frère. Répands le feu vengeur de Jah. Brûle les voitures des infidèles et liquide tous ces bâtards!
+[3658]Au secours! Aidez-moi!
+[3659]Quelle rage! Je suis content de t'avoir à nos côtés. Jah apprécie ta mission purificatrice, mon frère.
+[3660]Tu arrives trop tard, pauvre idiot. Les journalistes sont déjà là. Disparais avant qu'ils ne te repèrent.
+[3661]Le combat continue. Reste en éveil. Tu sais où nous joindre pour te battre à nos côtés.
+[3662]Le massacre doit cesser avant l'arrivée des journalistes. Nous ne voulons pas être la proie des médias. Disparais!
+[3663]Le combat continue aux portes de Babylone. Nous avons isolé un des grands prêtres des infidèles! Va et tue-le, mon frère.
+[3664]Plusieurs de nos frères sont dans ce secteur. Ils s'occuperont des impies pendant que tu attaqueras la limousine.
+[3665]Nous allons t'aider à détruire les oppresseurs! Allez, en avant, mon frère!
+[3666]A ton tour, minable!
+[3667]Tout baigne, mec! Nous devons partir. Tu peux terminer le boulot pour nous, mon frère?
+[3668]Maudite soit Babylone! La colère de Jah ne les a pas épargnés! Nous apprécions ton aide. Va en paix, mon frère.
+[3669]Pauvre minable! Tu as trois compagnons pour t'aider et tu es quand même blessé? Le prêtre de Babylone est parti!
+[3670]Misérable tête creuse! Le prêtre de Babylone a disparu depuis longtemps! Qu'est-ce que tu as fait?
+[3671]Babylone nous nargue toujours. Le combat continue... Réponds au téléphone si tu veux nous aider.
+[3672]Extermine ces infidèles! Pas de pitié!
+[3673]Babylone s'agite! Ses chiens patrouillent dans la ville et harcèlent mes frères!
+[3674]Bravo! Les hordes de Babylone fulminent devant ton acte exemplaire! Mes compagnons continuent la guerre contre ces impies.
+[3675]Bravo! Un chien de Babylonien est mort. Il t'en reste deux autres à éliminer.
+[3676]Dans le mille. C'est bien, mon frère. Plus qu'un seul...
+[3679]En voilà un! Liquide-le, mec!
+[3680]Mes compagnons se sont fait tuer par les infidèles pendant que tu te reposais à l'hôpital! C'est un terrible échec et c'est ta faute, tête creuse!
+[3681]Les impies ont capturé de nombreux frères pendant que tu perdais ton temps en prison! Ressaisis-toi, fils de Babylone!
+[3682]L'heure n'est pas au repos, mon frère. Le combat continue. Réponds au téléphone si tu veux de l'action.
+[3683]J'ai besoin de toi. Les infidèles veulent assassiner ma mère! Tu n'es pas très loin d'elle. Trouve un taxi et va la chercher.
+[3684]Où étais-tu, pauvre minable?! J'attends depuis des siècles! Ramène-moi chez moi et n'essaie pas de me voler, hein?
+[3685]Tiens, garde la monnaie. C'est bien assez, vu comment tu conduis! Tu es le pire chauffeur que je connaisse!
+[3686]Bien joué, mon frère! Tu m'as rendu un fier service! Excuse le langage de ma mère, elle a un sacré caractère.
+[3687]Ecoute-moi! Monte dans un taxi et va chercher ma mère! Ne m'énerve pas, tête creuse!
+[3688]Hé, qu'est-ce que tu fabriques? Tu veux une bonne raclée, ou quoi? Ramène-moi chez moi en vitesse!
+[3689]Ma mère est morte, ignoble fils de Babylone! Qu'est-ce que tu as fait? Je ne veux plus jamais te revoir!
+[3690]Tu as tué ma mère, ignoble imbécile! Je te réglerai ton compte plus tard!
+[3691]Allez, frère! Dépêche-toi un peu!
+[3692]Viens au téléphone dès que possible. Jah a besoin de toi!
+[3693]Jah veut que les infidèles cessent leurs mensonges et leur propagande! Détruis la camionnette qui se dirige vers la chaîne de télé de Felicity.
+[3694]Parfait! Il y a une camionnette comme celle que tu viens de détruire à Little Bogota. Va la voler.
+[3695]Ramène ce véhicule à la chaîne de télé de Felicity, ils ne verront pas la différence. Ensuite, pille les richesses de Babylone.
+[3696]Parfait, mec! Tu as tout ce qu'il faut!
+[3697]Tout baigne, mon frère. Va au garage de Miramire pour que mes compagnons déchargent la marchandise.
+[3698]Beau matos, mec. Tu es un bon soldat de Jah. On va s'occuper de tout ça.
+[3699]Bon, on doit remercier les infidèles pour tous ces cadeaux, maintenant. Va chercher une autre camionnette à Little Bogota.
+[3700]Va faire piéger cette camionnette, frère. Nous allons brûler Babylone!
+[3701]Maintenant, rend à Babylone ce qui lui appartient. Ils attendent sûrement cette camionnette.
+[3702]C'est le moment! Active la bombe et fous le camp!
+[3703]La bouche de Babylone a été purifiée par le feu. La justice de Jah a été faite. Nous sommes fiers de toi, ex-Babylonien.
+[3704]La camionnette a pu arriver à la chaîne de télé! Mais qu'est-ce que tu faisais, pauvre débile?
+[3705]C'est incroyable! Tu nous a fait perdre une fortune! Tu n'es d'aucune utilité si tu gaspilles notre argent de cette façon.
+[3706]Comment vas-tu faire avaler la bombe à Babylone, maintenant? Tu nous fait perdre notre temps, maudit mécréant!
+[3707]Retourne à la camionnette et fais-la piéger. Seul Jah décidera quand tu devras cesser ton travail.
+[3708]Retourne à ton véhicule et ramène-le à la chaîne de télé avant que Jah ne s'énerve!
+[3709]N'abandonne pas cette camionnette. Son contenu vaut une véritable fortune. Achève ta mission!
+[3710]Tu ne peux pas abandonner maintenant! Retourne à la camionnette et apporte la colère de Zion aux Babyloniens.
+[3711]Quand tu voudras travailler, retourne au téléphone pour une autre mission.
+[3712]Jah va répandre son feu vengeur au coeur de Babylone! Je t'appellerai au téléphone de Little Bogota.
+[3713]Nous préparons une action exemplaire. Je t'appellerai au téléphone de Greek Heights.
+[3714]Jah veut châtier un des prêtres de Babylone. Le juge Alberts a voté des lois humiliantes contre nos frères. Passe prendre un véhicule garé à Miramire.
+[3715]C'est la voiture pour aller chercher le juge. Le chauffeur habituel a eu un petit accident. Fais piéger ce véhicule.
+[3716]Le juge est en train de sortir du cimetière de Little Bogota. Passe le prendre avec cette voiture.
+[3717]Chauffeur, à la maison.
+[3718]Prenez votre temps, mon garçon. Je dois étudier mes notes.
+[3719]C'est le moment! Va au commissariat de Vice Beach et fais exploser ce chien aux portes de Babylone!
+[3720]OK, mon frère! A toi de jouer!
+[3721]Tu as bien agi, frère. Désormais, le prêtre de Babylone brûle en enfer! Tu es un fidèle serviteur de Zion.
+[3722]Que fais-tu, fils de Babylone? Suis le plan convenu et fais piéger le véhicule! Vite!
+[3723]Repars chercher le juge, frère! Sinon, Jah sera furieux contre toi.
+[3724]Chauffeur! Qu'est-ce qui vous prend? Revenez ici, et rentrons!
+[3725]Pourquoi as-tu esquinté cette bagnole? Ce juge n'est pas idiot, il ne montera pas dans n'importe quelle voiture! C'est désespérant.
+[3726]Pauvre incapable! Je t'ai demandé de l'éliminer au beau milieu de Babylone! Obéis quand je te donne un ordre.
+[3727]Pauvre imbécile! Je t'avais dit de le tuer devant tous les Babyloniens! A l'avenir, obéis aux ordres.
+[3728]File au téléphone! Nous devons encore agir au nom de Jah!
+[3729]Hé, mon frère! Je t'attends toujours. Retrouve-moi à la House of Guns de Crazy Bob pour toucher ta prime.
+[3730]Hé, mon frère, Jah est fier de toi. On se retrouve à la House of Guns de Crazy Bob pour que je te remette ta prime.
+[3731]J'ai fait un prisonnier. Ne bouge pas, mon pote, j'ai une surprise pour toi!
+[3732]Hé, regarde! J'en ai chopé un! Je peux lui exploser la tête, dis?
+[3733]Cible en vue! Interception en cours! Ça va PETER!
+[3734]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3735]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3736]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3737]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3738]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3739]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3740]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3741]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3742]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3743]+++ INTRUS DETECTE +++ CE VEHICULE VA S'AUTO-DETRUIRE +++ BONNE JOURNEE! +++
+[3744]TOUTES LES EQUIPES EN ETAT D'ALERTE. LA BASE EST ENVAHIE. RIPOSTE MAXIMUM!
+[3746]Casse-toi de notre territoire, pauvre minable!
+[3748]Tu vas mourir, sale pourriture dégénérée et nauséabonde!
+[3749]Babylone est toujours forte, mais la croisade de Jah se poursuit. Ne commets plus d'erreur à l'avenir.
+[3754]Tu as 90 secondes pour venir chercher ta prime aux docks de South Felicity!
+[3755]Tu as 110 secondes pour chercher ta prime sur le quai de la station de Vice Beach vers Vice Shores!
+[3756]Tu as 95 secondes pour chercher ta prime sur un des ponts entre Vice Shores et Vice Beach!
+[3757]Tu as 125 secondes pour venir chercher ta prime à la gare de Vice Shores!
+[3758]Tu as 125 secondes pour venir chercher ta prime au tribunal de Little Dominica!
+[3759]Tu as 105 secondes pour venir chercher ta prime sur le toit du commissariat de Coral City!
+[3760]Tu as 70 secondes pour venir chercher ta prime sur un des ponts entre Vice Shores et Vice Beach!
+[3761]Tu as 80 secondes pour venir chercher ta prime devant le commissariat de South Miramire!
+[3762]Tu as 100 secondes pour venir chercher ta prime à la gare de North Banana Grove!
+[3763]Tu as 100 secondes pour venir chercher ta prime sur le toit de l'hôpital de Banana Grove!
+[3764]Tu as 100 secondes pour venir chercher ta prime près d'une piscine de South Banana Grove!
+[3765]Tu as 90 secondes pour venir chercher ta prime au parking de Little Bogota!
+[3766]Tu as 90 secondes pour venir chercher ta prime aux docks de Vice Shores!
+[3767]Tu as 90 secondes pour venir chercher ta prime près d'une piscine de South Banana Grove!
+[3768]Tu as 80 secondes pour venir chercher ta prime à l'hôpital de Banana Grove!
+[3769]Arrête tes conneries! Je t'attends au commissariat de Banana Grove!
+[3770]Il faut qu'on parle, pauvre imbécile. Viens au commissariat de Banana Grove!
+[3771]Hé, fumier! Tu as piqué ma bagnole, je vais te refaire le portrait!
+[3772]Tu veux piquer ma tire, mon gars? Je vais te faire passer cette envie!
+[3773]Attention! Ceci est un message de la CIA. Cette voiture va être attaquée. Restez calme.
+[3774]Merci d'avoir choisi le système antivol FUBAR. Cette voiture va bientôt exploser.
+[3775]Merci d'avoir choisi le système antivol Fukumup. Cette voiture va exploser.
+[3776]Personne ne vole ma voiture, pauvre taré! Tu es un homme mort!
+[3777]Tu ne voleras point. Les détraqués comme toi finissent en enfer, alors... crève!
+[3778]Cette caisse va exploser. Bonne journée quand même!
+[3779]Le Seigneur a dit: 'Laissez venir à moi les voleurs que je leur éclate la tête...'. Alors crève, ordure!
+[3780]Cette voiture va exploser. Faites une dernière prière au Dieu auquel vous croyez.
+[3781]Cette voiture volée est bourrée d'explosifs. Préparez-vous à partir en fumée!
+[3782]Veuillez sortir de ce véhicule, sinon je vais devoir vous pulvériser.
+[3783]Cette voiture appartient à Crazy Bob. Vous allez exploser. Bonne journée à vous!
+[3794]Espèce de truand à la manque! Grouille-toi d'aller au téléphone public!
+[3798]Tu as foiré ta dernière mission, mon pote. Je suis à l'hôpital! Pour le boulot, débrouille-toi jusqu'à ce que je sorte. Après, je te buterai.
+[3799]Trop tard! Jah ne pourra pas accomplir sa vengeance! Tu n'es pas fait pour ce type de boulot, tête creuse!
+[3800]Tu es un vrai caïd, toi, hein? Tiens, avale ça!
+[3802]Casse-toi, sale minable! Dégage sinon je te troue les fesses!
+[3803]Tu as causé de graves ennuis à mes frères. Si tu ne fais pas mieux, tu vas être mis en retraite anticipée.
+[3804]Voilà Maelcum! Tue le suppôt de Babylone, maintenant!
+[3814]Pourquoi avoir privé Leroy de son heure de gloire pour le tuer? Jah ne va pas apprécier ce lamentable échec.
+[3815]BONUS PSYCHO-KILLER!
+[3816]Tu crois que tu me fais peur avec ton gros flingue?
+[3817]Tu es très persuasif, toi! OK, je vais travailler pour toi, mon joli.
+[3818]Tu t'es vu avec ton pantalon moulant, pauvre mec? Moi, tu ne m'auras pas!
+[3819]Oh, comme tu es méchant! Je devrais te donner une fessée... mais ça va sûrement t'énerver!
+[3820]Je vais te griffer si tu t'approches de moi!
+[3821]D'accord, je me rends! Mais tu dois apprendre à parler aux garçons, toi!
+[3822]Oui, vas-y! Cours-moi après!
+[3823]Oh, tu as été génial! Je suis d'accord. Voilà mon numéro, si tu as besoin de quelque chose... beau gosse.
+[3824]Allez! Tu peux faire mieux que ça! Un grand costaud comme toi!
+[3825]Tu es vraiment pitoyable! Dégage jusqu'à ce que je te trouve un truc facile à faire!
+[3826]Zachary est presque arrivé! Dépêche-toi, mon frère!
+[3827]Le bâtard de Babylone ne doit pas être loin. Fais attention, mon frère.
+[3828]CASTAGNE CES TYPES!
+[3829]BONUS DE CASTAGNE!
+[3830]BONUS BASTON: 50000
+[3831]BONUS BASTON: 40000
+[3832]BONUS BASTON: 30000
+[3833]BONUS BASTON: 25000
+[3834]BONUS BASTON: 20000
+[3835]BONUS BASTON: 15000
+[3836]BONUS BASTON: 10000
+[3838]Le chien de Babylone est réveillé! File avant qu'il ne soit trop tard!
+[3839]Trouve le flic et suis-le jusqu'à Maelcum. Ne tue pas ce bâtard avant de retrouver Maelcum. Sauve notre frère!
+[3840]C'est bien, mon frère. Continue à le suivre.
+[3841]Mais combien de garçons a-t-il? Ne le perds pas de vue!
+[3842]Ce payaka mérite une bonne leçon. Ne perds pas sa trace!
+[3843]Laissez-moi tranquille! Ça va pas, non?
+[3844]Il a un flingue! Au secours!
+[3845]Trouve leurs camionnettes. Je t'appellerai quand tu en auras une. Vas-y et détruis tout!
+[3846]BONUS MILITAIRE!
+[3847]Pauvre idiot! Le type est sorti, et paf! Pas de bagnole! Tu étais où, ordure?
+[3848]Pauvre minable! Tu devais piéger les Rastas. S'ils découvrent que je suis derrière tout ça, tu vas finir à l'hôpital! Je te le promets!
+[3849]Ramène ta tronche d'abruti aux téléphones de Vice Beach, de Vice Shores ou de Greek Heights. Et pas dans trois plombes!
+[ENDS]
+[colour]Votre couleur: %s
+[red]Rouge
+[yellow]Jaune
+[green]Vert
+[blue]Bleu
+[paused]Pause
+[lives]Vies :
+[target_score]Score à atteindre:
+[target_miss]Missions à réussir:
+[secrets_found]Secrets découverts:
+[2500]MISSION ACCOMPLIE!
+[2501]MISSION ECHOUEE!
+[2503]CARNAGE!
+[2504]CARNAGE ECHOUE!
+[2505]BONUS POINTS DE VIE!
+[8787]GOURANGA!
+[
+
+[4000]GENIAL!
+[4001]CARNAGE REUSSI!
+[4002]BONUS PERDU!
+[4003]ARRESTATION!
+[4004]REFROIDI!
+[4005]GO! GO! GO!
+[kill]Tuer!
+[frenzy]Carnage!
+[pistol]Pistolet
+[machine-gun]Mitraillette
+[rocket]Lance-roquettes
+[flame]Lance-flammes
+[petrol]Bombe à essence
+[speed+]Accélère
+[car-speed+]Accélération
+[bribe]Corruption Police
+[armour]Blindage
+[multiplier+]Multiplicateur!
+[jail-free]Carte Sortie de prison
+[life+]Vie supplémentaire
+[lives_left]Vies restantes: %d
+[life_left]Plus qu'une seule vie!
+[no_life]Plus de vies!
+[you-kill]Tu as descendu %s
+[kill-by]Tu t'es fait buter par %s !
+[speed-limit-on]Limiteur d'images activé.
+[speed-limit-off]Limiteur d'images désactivé.
+[1st_over_checkpoint]Tu mènes! Allez, fonce!
+[second_checkpoint]Vas-y, gros nul! Accélère!
+[win_race]VICTOIRE!
+[lost_race]PERDU! Pas de chance, minable!
+[bomb_bus]Dummy
+[lucky_son]Dummy
+[bomb_blows]Dummy
+[car0]Beast GTS
+[car1]Buggie
+[car2]Counthash
+[car3]Moto
+[car4]Patrouille
+[car5]Ambulance
+[car6]Dépanneuse
+[car7]Méga-camion
+[car8]Méga-camion
+[car9]Car
+[car10]Dépanneuse
+[car11]Train
+[car12]Tramway
+[car13]Bateau
+[car14]Penetrator
+[car17]Itali
+[car18]Mundano
+[car19]4 X 4
+[car21]Etalon
+[car22]Taxi
+[car25]Empaleur
+[car26]Jugular
+[car27]Pickup
+[car28]Porka Turbo
+[car29]Cossie
+[car31]Bulldog
+[car33]Méga-camion
+[car34]Challenger
+[car35]Limousine
+[car36]APC
+[car37]Tank
+[car41]Super-moto
+[car42]Camion pompier
+[car43]Bus
+[car44]Citerne
+[car45]Camion TV
+[car46]Van Transit
+[car47]Voiture télécommandée
+[car54]Mundano
+[car50]Roadster
+[car51]Camion hippie
+[car53]Beast GTS
+[car55]Mamba
+[car58]Portsmouth
+[car61]Speeder
+[car62]Porka
+[car63]Flamer
+[car64]Vautour
+[car65]Camionnette
+[car66]Itali GTO
+[car70]Regal
+[car71]Monster Bug
+[car72]Thunderhead
+[car73]Panthère
+[car74]Pénétrateur
+[car75]LeBonham
+[car76]Stinger
+[car77]F-19
+[car78]Brigham
+[car79]Stinger Z29
+[car80]Collection
+[car81]29 Special
+[car82]Itali GTB
+[car83]Hotrod
+[car86]Limousine
+[car87]Empaleur
+[quit1]Tu en as a marre?
+[quit2]Appuyez sur ENTREE pour confirmer
+[quit3]ou sur Echap pour annuler
+[on_foot]Dummy
+[bytrain]Dummy
+[bycar]Dummy
+[kidgets]Dummy
+[yousorry]Dummy
+[buttto]Dummy
+[assto]Dummy
+[getto]Dummy
+[in]Dummy
+[secs]Dummy
+[mins]Dummy
+[minsecs]Dummy
+[vfew]Dummy
+[bomb_added]La voiture est piégée!
+[bomb_cost]Prix à payer: %s
+[no_respray]Reviens quand tu auras le fric!
+[no_emerg_respray]Je fais pas ce genre de trucs, dégage!
+[no_modelcar_respray]Vire-moi ça d'ici!
+[no_tank_respray]Tu me prends pour un militaire ou quoi? Tire-toi!
+[resray_done]Voilà! Comme neuf!
+[clean_done]Les nouvelles plaques sont OK.
+[all_your]Ça va te coûter tout ton fric!
+[bomb_on]Bombe armée!
+[bomb_off]Bombe désarmée!
+[bomb_set]Explosion dans...
+[reload]Chargement
+[entry]Entry Screen - do not translate
+[space]Barre Espace pour continuer
+[pol_act]Dummy
+[pol_inact]Dummy
+[stanmode]Résolution standard
+[hi34mode]Haute résolution 3/4
+[himode]Haute résolution plein écran
+[320mode32]Mode 32 Bits, 320 x 200
+[640mode32]Mode 32 Bits, 640 x 400
+[800mode32]Mode 32 Bits, 800 x 600
+[640480mode32]Mode 32 Bits, 640 x 480
+[lozoom]Zoom réduit
+[hizoom]Zoom actif
+[vhizoom]Zoom rapproché
+[discon]%s a été déconnecté
+[connlost]Echec de connection avec %s
+[sync-error]Connection annulée - Echec de synchronisation avec %s
+[n]North
+[s]South
+[e]East
+[w]West
+[c]Central
+[se]South East
+[sw]South West
+[ne]North East
+[nw]North West
+[001area000]Nixon Island
+[001area001]Liberty City
+[001area002]Hackenslash
+[001area003]Eaglewood
+[001area004]Guernsey City
+[001area005]Fort Law
+[001area006]Schlechberg
+[001area007]New Guernsey
+[001area008]Nolaw
+[001area009]Brix
+[001area010]Island View
+[001area011]Law Island
+[001area012]Estoria
+[001area013]Kings
+[001area014]Ardler
+[001area015]Brocklyn
+[001area016]Tellberg
+[001area017]Brocklyn Docks
+[001area018]Island City
+[001area019]Island Heights
+[001area020]Park
+[002area001]Telephone Hill
+[002area002]Wood Hill
+[002area003]Soviet Hill
+[002area004]Sunrise
+[002area005]Richman
+[002area006]Atlantic Heights
+[002area007]Aye Valley
+[002area008]Chinatown
+[002area009]Eagleside
+[002area010]Woodside
+[002area011]Potato
+[002area012]Excalibur
+[002area013]Glen Wood
+[002area014]Market
+[002area015]Marina
+[002area016]Sailor Wharf
+[002area017]Sunview
+[003area001]Vice Beach
+[003area002]Banana Grove
+[003area003]Felicity
+[003area004]Richman Heights
+[003area005]Little Bogota
+[003area006]Greek Heights
+[003area007]Little Dominica
+[003area008]Coral City
+[003area009]Miramire
+[003area010]Vice Shores
+[003area011]Vice City
+[ipxnotinstalled]IPX non installé
+[uartnotresponding]UART ne répond pas sur COM,%d
+[warning]Attention
+[networkoff]Jeu en réseau impossible
+[duplicate_model]J'en ai marre de tes épaves, petit! J'en veux pas!
+[duplicate_models]Je ne sais plus quoi faire de tes poubelles roulantes! Tire-toi!
+[crane_nobomb]Tu crois que je vais toucher à cette bombe roulante? Dégage, minus!
+[crane_long]Je n'ai pas de place pour cette horreur! Dégage!
+[crane_screwed]C'est cassé! Essaie une autre grue!
+[crane_wreck]Je ne suis pas la fourrière! Vire-moi ça d'ici!
+[crane0]Pousse-toi de là! Je l'embarque!
+[crane1]Je n'ai plus de place! Va voir ailleurs!
+[crane2]Tu es pressé ou quoi? Attends un peu, mec!
+[crane3]Ça brûle bien, mais j'en veux pas de ta poubelle fumante!
+[crane4]Pas question! C'est trop risqué!
+[crane5]Personne ne veut de ces trucs-là, mais je vais faire un effort!
+[crane_nopolice]J'en veux pas! Tu essaies de m'arnaquer, petit?
+[crane-excellent]Etat parfait. Je t'en donne %d dollars.
+[cranecar0]Bon état. Je t'en donne %d dollars.
+[cranecar1]Pas trop mal. Je t'en donne %d dollars.
+[cranecar2]Quelle poubelle! Je t'en donne %d dollars maximum.
+[cranecar3]C'est une épave! Je ne t'en donne pas plus de %d dollars!
+[m22dead]Mort & enterré!
+[m22failed]Dummy
+[m22arrest]Dummy
+[m22success]Quel mec! Ta mère serait fière de toi!
+[m22incomplete]Tu fais dans ton froc, mec? Achète-toi des couches, gros bébé!
+[m22timeout]Dummy
+[m22timeover]C'est fini! Victoire de %s qui gagne %d $. %s touche %d $ pour la seconde place!
+[m22score]En plein dans le mille pour %s. Le score est de %d.
+[m22cannon]%s gagne la course!
+[Nodes]Noeuds
+[City]Ville
+[Mission]Mission
+[Control]Commandes
+[Keyboard]Clavier
+[Joystick]Joystick
+[Sound]Son
+[Music]Musique
+[Rating]Classement
+[Score]Score
+[Cancel]Annuler
+[Reset]Reset
+[rename]Renommer
+[menu]Menu
+[Play]Jouer
+[GatherNetwork]Recherche Joueurs
+[JoinNetwork]Rejoindre Réseau
+[Options]Options
+[Loading]Chargement en cours...
+[LoadingDemo]Chargement de la démo...
+[loading-replay]Chargement du ralenti...
+[crimes]Casier judiciaire
+[crimeRTA]Carambolage
+[crimeHAR]Road-killer
+[crimeHIJ]Détournement
+[crimeCAR]Emprunt de véhicule
+[crimeGTA]GTA
+[crimeSHO]Attaques armées
+[crimeMUR]Assassinats
+[crimeBAN]Hold-ups
+[Text]Texte
+[Off]Oui
+[On]Non
+[Slow]Lent
+[Normal]Normal
+[Fast]Rapide
+[status]Etat
+[connecting]Connexion en cours
+[idle]Inactif
+[dialling]Appel de %s
+[redialling]Rappel de %s
+[redialagain]Nouveau rappel de %s
+[waitcall]En attente d'appel
+[disconnecting]Déconnexion
+[unknownspeed]Vitesse inconnue
+[baud]Baud
+[failed]Echec
+[connectat]Connection à %s
+[join]Joindre
+[gather]Rechercher
+[ipx]IPX
+[serial]Liaison série
+[modem]Modem
+[version-checking]Vérification de la version
+[initialising]Initialisation en cours
+[joining]Joueurs intéressés
+[gathering]Joueurs trouvés
+[spc-key]Barre espace
+[story]Séquences
+[esc-key]Echap
+[rtn-key]Entrée
+[del-key]Suppr
+[r-key]R
+[Quit]Quitter
+[foundgather]Connexion établie
+[found1join]1 joueur trouvé
+[foundnjoin]%d joueurs trouvés
+[startgame]C'est parti, mon kiki...
+[commsfail]Zut alors... Echec de communication
+[svgaerror]Mon Dieu! Le mode SuperVGA ne fonctionne pas
+[3dfxerror]Hein? Quelle carte 3DFx?
+[commsversionerror]Malédiction! Versions de GTA incompatibles!
+[mission1]Gangster Bang
+[mission2]Fric-frac
+[mission102]Mandarine
+[mission103]Tequila
+[mission202]Keuf Blues
+[mission203]Rasta Blasta
+[mission1001]Deathmatch
+[mission1002]Cannonball I
+[mission1003]Cannonball II
+[mission1004]Cannonball III
+[mission1101]Deathmatch
+[mission1102]Cannonball I
+[mission1103]Cannonball II
+[mission1104]Cannonball III
+[mission1201]Deathmatch
+[mission1202]Cannonball I
+[mission1203]Cannonball II
+[mission1204]Cannonball III
+[city0]Liberty City
+[city1]San Andreas
+[city2]Vice City
+[chapter:]%s Chapitre %d :
+[dscolon]%d: %s
+[sdcolon]%s: %d
+[sscolon]%s: %s
+[trans-effects]Transparence
+[music-mode]Musique
+[constant]Continue
+[radio]Radio
+[high-scores]Ennemis publics
+[scores]Scores
+[crimes]Crimes
+[shighest]Record battu: %s
+[police]Police
+[end-game]Partie terminée
+[end-score]Score final
+[end-kills]Total des meurtres
+[kills]Meurtres
+[multi-options]Options multijoueurs
+[save]Sauvegarder
+[win-score]Pour gagner: gagner %d$
+[win-kills]Pour gagner: %d victimes!
+[win-race]Pour gagner: Arrive premier!
+[did-not-finish]Inachevée
+[finish]Terminée
+[missions-comp]Missions réussies
+[race-results]Résultats
+[winner]Gagnant
+[loser]Mauvais perdant!
+[no-win]Egalité!
+[abandon]Partie abandonnée!
+[final-scores]Scores de fin
+[9000]Encore un véhicule et c'est bon!
+[9001]Excellent travail!
+[cd-warning]Dummy
+[cut00]Sonetti le chauve te dit de faire gaffe!
+[cut01]Si tu lui poses encore un problème, je vais...
+[cut02]...t'exploser ton crâne de piaf!
+[cut10]Beau travail, mais on a de gros ennuis...
+[cut11]Les flics me collent au train pour te mettre la main dessus.
+[cut12]Je t'ai pris un billet pour San Andreas.
+[cut20]Nous bâtissons un fabuleux empire criminel.
+[cut21]Nous extorquons de l'argent comme nos ancêtres.
+[cut22]Tu nous fais honneur.
+[cut23]Nous te remercions.
+[cut30]Tu m'as été très utile.
+[cut31]Tu vas savoir pourquoi on m'appelle le cheval!
+[cut32]Je vais te payer en nature, mon loulou!
+[cut40]Ecoute-moi bien, pauvre débile!
+[cut41]Tu essaies de me doubler, c'est ça?
+[cut42]Si c'est le cas, je te défonce le crâne!
+[cut43]Casse-toi!
+[cut50]Je crois que tu as été brillant.
+[cut51]Bien joué!
+[cut52]Il y a un paquet de blé dans la malette!
+[cut53]Toi, tu ne vas pas faire long feu, mec!
+[linear-modes]Utiliser uniquement les modes DirectDraw pour les écrans
+[cd-title]Pas de CD!
+[cd-text]Le C.D de GTA n'est pas dans le lecteur.@@Vous pouvez uniquement vous joindre à une partie sur réseau. Pour une partie normale, relancez le jeu avec le C.D de GTA dans votre lecteur.
+[cd-message]Version Réseau uniquement.
+[demo-message]Version Démo
+[fix1]Choix de la connection
+[fix2]Pas de connexion possible
+[fix3]Choisir une partie
+[fix4]Pas de partie disponible
+[fix5]Créer une nouvelle partie
+[]
+[]
