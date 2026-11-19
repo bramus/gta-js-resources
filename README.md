@@ -99,9 +99,9 @@ Open-source GTA 1 engines and map renderers useful as cross-references:
 ### Classic / Closed Source
 
 - [**FXT2TXT**](https://gta.mendelsohn.de/gman/fxt2txt/) — Decrypts and converts `.FXT` language files.
-- **Cops** — Edits police patrol routes and cop map data.
-- **GTACars** — Classic vehicle handling and stats editor.
-- **Junction 25** & **M1** — Classic GTA 1 map editors.
+- [**Cops**](https://libertycity.net/files/gta-1/145066-cops-editing-police-paths.html) — Edits police patrol routes and cop map data.
+- [**GTACars**](https://libertycity.net/files/gta-1/137805-gtacars-v.3.1.0s-and-v.3.2.3.html) — Classic vehicle handling and stats editor.
+- [**Junction 25**](https://libertycity.ru/files/gta-1/138342-junction25-v.-1.6-i-v.-2.0beta.html) & [**M1**](https://libertycity.net/files/gta-1/138824-m1win-v0.95b.html) — Classic GTA 1 map editors.
 
 ---
 
